@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Delete Your Account – AI Wellness Pal</title>
+  <meta name="description" content="How to delete your AI Wellness Pal account and data, in the app or by request on the web.">
+  <link rel="canonical" href="https://aiwelnesspal.com/delete-account.html">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    form { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 20px; margin: 16px 0; }
+    label { display: block; font-weight: 600; font-size: .95rem; margin: 0 0 6px; }
+    .hint { font-weight: 400; color: var(--muted); }
+    input[type=text], input[type=email], select, textarea {
+      width: 100%; padding: 10px 12px; margin-bottom: 14px; border-radius: 10px;
+      border: 1px solid var(--border); background: var(--bg); color: var(--text); font: inherit;
+    }
+    textarea { min-height: 80px; resize: vertical; }
+    .check { display: flex; gap: 10px; align-items: flex-start; font-weight: 400; font-size: .92rem; }
+    .check input { margin-top: 5px; }
+    button { margin-top: 14px; width: 100%; padding: 12px; border: 0; border-radius: 10px; background: #c0392b; color: #fff; font: inherit; font-weight: 600; cursor: pointer; }
+    button:disabled { opacity: .7; cursor: progress; }
+    .status { margin: 12px 0 0; font-size: .95rem; }
+    .status.ok { color: var(--accent); }
+    .status.err { color: #c0392b; }
+    .hp { position: absolute; left: -9999px; }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <a class="home" href="./">AI Wellness Pal</a>
+    <h1>Delete your account</h1>
+    <p class="meta">AI Wellness Pal, by Viraj Dhanushka</p>
+  </header>
+
+  <p>You can permanently delete your AI Wellness Pal account and its data at any time, either in the app or, if you no longer have the app installed, by sending a request below.</p>
+
+  <h2>Option 1: Delete in the app (instant)</h2>
+  <ol>
+    <li>Open AI Wellness Pal and sign in.</li>
+    <li>Go to <strong>Settings → Delete Account</strong>.</li>
+    <li>Confirm. Your account and data are deleted straight away.</li>
+  </ol>
+
+  <h2>Option 2: Request deletion on the web</h2>
+  <p>Use this if you can't open the app. Enter the email address of the account you want deleted. We'll confirm by email and complete the deletion within 30 days. To protect your account, we may ask you to confirm the request from that email address.</p>
+
+  <form id="delete-form" action="https://formsubmit.co/ajax/6ad89fb7ab809f3e90c16356b3cf53af" method="POST" novalidate>
+    <input type="hidden" name="_subject" value="AI Wellness Pal – ACCOUNT DELETION REQUEST">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="request_type" value="Account deletion">
+    <input class="hp" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+    <label for="d-email">Account email address</label>
+    <input id="d-email" name="email" type="email" autocomplete="email" required>
+
+    <label for="d-method">How do you sign in?</label>
+    <select id="d-method" name="sign_in_method" required>
+      <option value="">Choose one</option>
+      <option>Email and password</option>
+      <option>Sign in with Google</option>
+      <option>Sign in with Apple</option>
+      <option>Not sure</option>
+    </select>
+
+    <label for="d-note">Anything else? <span class="hint">(optional)</span></label>
+    <textarea id="d-note" name="message"></textarea>
+
+    <label class="check"><input type="checkbox" name="confirm" value="yes" required>I understand that deleting my account permanently removes my data and can't be undone.</label>
+
+    <button type="submit">Request account deletion</button>
+    <p class="status" role="status" aria-live="polite"></p>
+  </form>
+
+  <h2>What gets deleted</h2>
+  <ul>
+    <li>Your account and profile (email address, name and profile photo).</li>
+    <li>All wellness content you entered: check-ins, plans, journal entries and reflections, habits, hydration, meal, nutrition, sleep, period and weight records.</li>
+    <li>Your conversations with the Wellness Pal and any photos you uploaded.</li>
+    <li>If you signed in with Apple, the app's access to your Apple ID is revoked.</li>
+  </ul>
+
+  <h2>What may be kept, and for how long</h2>
+  <ul>
+    <li>Copies in backups or held by our service providers may remain for a short period before they are removed under those providers' standard retention schedules.</li>
+    <li>Purchase records are kept by Apple, Google and our subscription provider as required for billing, tax and legal purposes.</li>
+    <li>Deleting your account does <strong>not</strong> cancel a Premium subscription. Cancel it in your App Store or Google Play subscriptions first.</li>
+  </ul>
+
+  <p>See our <a href="privacy.html">Privacy Policy</a> for full details, or <a href="./#support">contact support</a> with any questions.</p>
+
+  <footer><a href="./">Home</a> · <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Use</a></footer>
+</main>
+<script>
+  var form = document.getElementById('delete-form');
+  var statusEl = form.querySelector('.status');
+  var btn = form.querySelector('button');
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    statusEl.className = 'status';
+    if (!form.checkValidity()) {
+      statusEl.textContent = 'Please enter your account email, choose how you sign in, and tick the confirmation box.';
+      statusEl.classList.add('err');
+      return;
+    }
+    btn.disabled = true; btn.textContent = 'Sending…';
+    fetch(form.action, { method: 'POST', body: new FormData(form), headers: { Accept: 'application/json' } })
+      .then(function (r) { return r.json().catch(function () { return {}; }).then(function (d) { return { ok: r.ok, d: d }; }); })
+      .then(function (res) {
+        if (!res.ok || String(res.d.success) !== 'true') throw new Error();
+        form.reset();
+        statusEl.textContent = 'Request received. We’ll confirm by email and complete the deletion within 30 days.';
+        statusEl.classList.add('ok');
+      })
+      .catch(function () {
+        statusEl.textContent = 'Sorry, we couldn’t send your request. Please try again, or contact support.';
+        statusEl.classList.add('err');
+      })
+      .finally(function () { btn.disabled = false; btn.textContent = 'Request account deletion'; });
+  });
+</script>
+</body>
+</html>
