@@ -54,7 +54,7 @@
         "screenshot": [
           "https://aiwelnesspal.com/assets/screens/01_02_home.jpg",
           "https://aiwelnesspal.com/assets/screens/03_05_pal_chat.jpg",
-          "https://aiwelnesspal.com/assets/screens/04_06_nutrition.jpg"
+          "https://aiwelnesspal.com/assets/screens/10_life_toolkit.jpg"
         ],
         "operatingSystem": "iOS 15.0 or later",
         "applicationCategory": "HealthApplication",
@@ -122,8 +122,8 @@
         </div>
       </div>
       <div class="phones" aria-hidden="true">
-        <div class="phone back"><img src="assets/screens/03_05_pal_chat.jpg" alt="" width="598" height="1300"></div>
-        <div class="phone front"><img src="assets/screens/01_02_home.jpg" alt="" width="598" height="1300" fetchpriority="high"></div>
+        <div class="phone back"><img src="assets/screens/03_05_pal_chat.jpg" alt="" width="600" height="1300"></div>
+        <div class="phone front"><img src="assets/screens/01_02_home.jpg" alt="" width="600" height="1300" fetchpriority="high"></div>
       </div>
     </div>
   </section>
@@ -188,14 +188,40 @@
   </section>
 
   <!-- Screenshots -->
-  <section aria-label="App screenshots" style="padding-top:0">
-    <div class="shots reveal">
-      <img src="assets/screens/01_02_home.jpg" alt="Home screen with today's wellness focus and energy score" width="598" height="1300" loading="lazy">
-      <img src="assets/screens/02_03_home_plan.jpg" alt="Personalised daily plan" width="598" height="1300" loading="lazy">
-      <img src="assets/screens/03_05_pal_chat.jpg" alt="Chatting with the Wellness Pal" width="598" height="1300" loading="lazy">
-      <img src="assets/screens/04_06_nutrition.jpg" alt="Nutrition coach meal analysis" width="598" height="1300" loading="lazy">
-      <img src="assets/screens/05_10_reflection.jpg" alt="Guided reflection journal" width="598" height="1300" loading="lazy">
-      <img src="assets/screens/06_11_settings.jpg" alt="Settings and themes" width="598" height="1300" loading="lazy">
+  <section id="screens" aria-labelledby="screens-title" style="padding-top:0">
+    <div class="wrap">
+      <div class="shots-head reveal">
+        <div>
+          <span class="eyebrow">Take a look inside</span>
+          <h2 id="screens-title">Made for <span class="grad-text">real days</span></h2>
+        </div>
+        <div class="shots-nav">
+          <button class="btn btn-icon" type="button" data-dir="-1" aria-label="Previous screenshots"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M15 5l-7 7 7 7"/></svg></button>
+          <button class="btn btn-icon" type="button" data-dir="1" aria-label="Next screenshots"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg></button>
+        </div>
+      </div>
+    </div>
+    <div class="shots reveal" tabindex="0" aria-label="App screenshots, scroll sideways">
+      <img src="assets/screens/01_00_onboard.jpg" alt="Onboarding: less overthinking, focus on what matters most today" width="600" height="1300" loading="lazy">
+      <img src="assets/screens/01_01_onboard.jpg" alt="Onboarding: know your energy with quick daily check-ins" width="600" height="1300" loading="lazy">
+      <img src="assets/screens/01_03_checkin.jpg" alt="Daily check-in asking how your energy is today" width="600" height="1300" loading="lazy">
+      <img src="assets/screens/05_reminder.jpg" alt="Setting a reminder time for a wellness action" width="600" height="1300" loading="lazy">
+      <img src="assets/screens/06_profile.jpg" alt="Profile with personal details and preferred wellness methods" width="600" height="1300" loading="lazy">
+      <img src="assets/screens/07_action_detail.jpg" alt="Plank and core challenge action details with a how-to guide" width="600" height="1300" loading="lazy">
+      <img src="assets/screens/08_add_habit.jpg" alt="Adding a custom habit with frequency and target" width="600" height="1300" loading="lazy">
+      <img src="assets/screens/09_habit_formed.jpg" alt="Achievement unlocked celebration for forming a habit" width="600" height="1300" loading="lazy">
+      <img src="assets/screens/10_life_toolkit.jpg" alt="Life toolkit with period tracker, body weight, hydration, calorie and meal planning tools" width="600" height="1300" loading="lazy">
+      <img src="assets/screens/11_period_tracker.jpg" alt="Period tracker with cycle day, predictions and phase tips" width="600" height="1300" loading="lazy">
+      <img src="assets/screens/12_body_weight.jpg" alt="Body weight tracker with trend chart and BMI" width="600" height="1300" loading="lazy">
+      <img src="assets/screens/13_hydration_coach.jpg" alt="Hydration coach with daily water goal and quick add" width="600" height="1300" loading="lazy">
+      <img src="assets/screens/14_wellness_studio.jpg" alt="Wellness studio with short breathing exercises" width="600" height="1300" loading="lazy">
+      <img src="assets/screens/15_wellness_reads.jpg" alt="Wellness reads on sleep, movement, nutrition and mental health" width="600" height="1300" loading="lazy">
+      <img src="assets/screens/16_wellness_intention.jpg" alt="Setting a new wellness intention" width="600" height="1300" loading="lazy">
+      <img src="assets/screens/17_habit_builder.jpg" alt="Habit builder with popular challenges and quick tools" width="600" height="1300" loading="lazy">
+      <img src="assets/screens/18_habit_list.jpg" alt="Habit builder list of active habits" width="600" height="1300" loading="lazy">
+      <img src="assets/screens/19_challenges.jpg" alt="Wellness challenges for hydration, walking, meditation and sleep" width="600" height="1300" loading="lazy">
+      <img src="assets/screens/21_reflections.jpg" alt="Guided wellness reflections and pinned conversations in light mode" width="600" height="1300" loading="lazy">
+      <img src="assets/screens/22_home_light.jpg" alt="Home screen in light mode with AI insight and nutrition progress" width="600" height="1300" loading="lazy">
     </div>
   </section>
 
@@ -327,6 +353,24 @@
   } else {
     document.querySelectorAll('.reveal').forEach(function (el) { el.classList.add('in'); });
   }
+
+  // Screenshot gallery arrows: scroll by roughly one screen's worth of images.
+  (function () {
+    var strip = document.querySelector('.shots');
+    var btns = document.querySelectorAll('.shots-nav button');
+    function update() {
+      btns[0].disabled = strip.scrollLeft <= 4;
+      btns[1].disabled = strip.scrollLeft + strip.clientWidth >= strip.scrollWidth - 4;
+    }
+    btns.forEach(function (b) {
+      b.addEventListener('click', function () {
+        strip.scrollBy({ left: Number(b.dataset.dir) * strip.clientWidth * 0.8, behavior: 'smooth' });
+      });
+    });
+    strip.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+    update();
+  })();
 
   // Android tester request form (FormSubmit emails each request to aiwellnesspal@gmail.com via its private alias).
   var form = document.getElementById('beta-form');
