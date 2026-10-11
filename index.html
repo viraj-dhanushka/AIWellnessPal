@@ -213,9 +213,12 @@
             <li><strong>Install from Google Play</strong>Open the tester link on your phone, tap “Become a tester”, then install.</li>
           </ol>
         </div>
-        <form class="request" id="beta-form" action="https://formspree.io/f/REPLACE_WITH_FORM_ID" method="POST" novalidate>
+        <div class="request-wrap">
+        <form class="request" id="beta-form" action="https://formsubmit.co/ajax/aiwellnesspal@gmail.com" method="POST" novalidate>
           <input type="hidden" name="_subject" value="AI Wellness Pal – Android tester request">
-          <input class="hp" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_captcha" value="false">
+          <input class="hp" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
           <div class="field">
             <label for="f-name">Name</label>
             <input id="f-name" name="name" type="text" autocomplete="name" required>
@@ -233,9 +236,16 @@
             <textarea id="f-note" name="message"></textarea>
           </div>
           <label class="consent"><input type="checkbox" name="consent" value="yes" required>I agree to my email being used only to add me to the Android test and contact me about it.</label>
-          <button class="btn btn-grad" type="submit">Request tester access</button>
-          <p class="form-status" role="status" aria-live="polite"></p>
+          <div class="form-alert" role="alert" hidden></div>
+          <button class="btn btn-grad" type="submit"><span class="spinner" aria-hidden="true"></span><span class="btn-label">Request tester access</span></button>
         </form>
+        <div class="request-done" id="beta-done" tabindex="-1" hidden>
+          <div class="done-icon"><svg viewBox="0 0 24 24"><use href="#i-check"/></svg></div>
+          <h3>You’re on the list!</h3>
+          <p>Thanks<span id="done-name"></span>. Your request has been sent. We’ll add <strong id="done-email"></strong> to the Android test and email you when it’s ready to download.</p>
+          <button class="btn" type="button" id="beta-again">Send another request</button>
+        </div>
+        </div>
       </div>
     </div>
   </section>
@@ -318,36 +328,60 @@
     document.querySelectorAll('.reveal').forEach(function (el) { el.classList.add('in'); });
   }
 
-  // Android tester request form (Formspree emails each request to you).
+  // Android tester request form (FormSubmit emails each request to aiwellnesspal@gmail.com).
   var form = document.getElementById('beta-form');
-  var status = form.querySelector('.form-status');
+  var done = document.getElementById('beta-done');
+  var alertBox = form.querySelector('.form-alert');
+  var btn = form.querySelector('button[type=submit]');
+  var btnLabel = btn.querySelector('.btn-label');
+
+  function showAlert(msg) { alertBox.textContent = msg; alertBox.hidden = false; }
+  function setSending(on) {
+    btn.disabled = on; btn.classList.toggle('sending', on);
+    btnLabel.textContent = on ? 'Sending…' : 'Request tester access';
+  }
+
+  form.addEventListener('input', function (e) {
+    if (e.target.validity && e.target.validity.valid) e.target.removeAttribute('aria-invalid');
+  });
+
   form.addEventListener('submit', function (e) {
     e.preventDefault();
-    status.className = 'form-status';
-    if (!form.checkValidity()) {
-      status.textContent = 'Please add your name, a valid email and tick the consent box.';
-      status.classList.add('err');
+    alertBox.hidden = true;
+    var invalid = Array.prototype.filter.call(form.querySelectorAll('[required]'), function (el) {
+      var bad = !el.checkValidity();
+      if (bad) el.setAttribute('aria-invalid', 'true'); else el.removeAttribute('aria-invalid');
+      return bad;
+    });
+    if (invalid.length) {
+      showAlert('Please add your name, a valid email address and tick the consent box.');
+      invalid[0].focus();
       return;
     }
-    if (form.action.indexOf('REPLACE_WITH_FORM_ID') !== -1) {
-      status.textContent = 'Tester requests open very soon — please check back shortly.';
-      status.classList.add('err');
-      return;
-    }
-    var btn = form.querySelector('button[type=submit]');
-    btn.disabled = true; btn.textContent = 'Sending…';
+    var name = form.elements.namedItem('name').value.trim();
+    var email = form.elements.namedItem('email').value.trim();
+    setSending(true);
     fetch(form.action, { method: 'POST', body: new FormData(form), headers: { Accept: 'application/json' } })
-      .then(function (r) {
-        if (!r.ok) throw new Error();
+      .then(function (r) { return r.json().catch(function () { return {}; }).then(function (d) { return { ok: r.ok, d: d }; }); })
+      .then(function (res) {
+        if (!res.ok || String(res.d.success) !== 'true') throw new Error(res.d.message || 'Request failed');
         form.reset();
-        status.textContent = 'Thanks! You’re on the list. We’ll email you once you’ve been added as a tester.';
-        status.classList.add('ok');
+        document.getElementById('done-name').textContent = name ? ', ' + name.split(' ')[0] : '';
+        document.getElementById('done-email').textContent = email;
+        form.hidden = true;
+        done.hidden = false;
+        done.focus();
       })
       .catch(function () {
-        status.textContent = 'Something went wrong. Please try again, or contact support.';
-        status.classList.add('err');
+        showAlert('Sorry, we couldn’t send your request. Please check your connection and try again.');
       })
-      .finally(function () { btn.disabled = false; btn.textContent = 'Request tester access'; });
+      .finally(function () { setSending(false); });
+  });
+
+  document.getElementById('beta-again').addEventListener('click', function () {
+    done.hidden = true;
+    form.hidden = false;
+    form.querySelector('input:not([type=hidden]):not(.hp)').focus();
   });
 </script>
 </body>
