@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AI Wellness Pal – AI Wellness Coach for Mood, Sleep &amp; Habits</title>
-  <meta name="description" content="AI Wellness Pal turns a 30-second daily check-in into a personalised plan for mood, sleep, nutrition and habits — with an AI Wellness Pal to talk things through. Free on the App Store.">
+  <meta name="description" content="AI Wellness Pal turns a 30-second daily check-in into a personalised plan for mood, sleep, nutrition and habits — with an AI Wellness Pal to talk things through. Free on the App Store and Google Play.">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <meta name="author" content="Viraj Dhanushka">
   <meta name="theme-color" content="#0d0f1c">
@@ -17,7 +17,7 @@
   <meta property="og:site_name" content="AI Wellness Pal">
   <meta property="og:locale" content="en_US">
   <meta property="og:title" content="AI Wellness Pal – Your personal AI wellness coach">
-  <meta property="og:description" content="Daily check-ins, personalised plans, guided reflections and an AI Wellness Pal to talk things through. Free on the App Store.">
+  <meta property="og:description" content="Daily check-ins, personalised plans, guided reflections and an AI Wellness Pal to talk things through. Free on the App Store and Google Play.">
   <meta property="og:url" content="https://aiwelnesspal.com/">
   <meta property="og:image" content="https://aiwelnesspal.com/assets/og-image.png">
   <meta property="og:image:width" content="1200">
@@ -56,12 +56,12 @@
           "https://aiwelnesspal.com/assets/screens/03_05_pal_chat.jpg",
           "https://aiwelnesspal.com/assets/screens/10_life_toolkit.jpg"
         ],
-        "operatingSystem": "iOS 15.0 or later",
+        "operatingSystem": "iOS 15.0 or later, Android 8.0 or later",
         "applicationCategory": "HealthApplication",
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-        "installUrl": "https://apps.apple.com/us/app/ai-wellness-pal/id6816496839",
-        "downloadUrl": "https://apps.apple.com/us/app/ai-wellness-pal/id6816496839",
-        "sameAs": ["https://apps.apple.com/us/app/ai-wellness-pal/id6816496839"],
+        "installUrl": ["https://apps.apple.com/us/app/ai-wellness-pal/id6816496839", "https://play.google.com/store/apps/details?id=com.aiwellnesspal.app"],
+        "downloadUrl": ["https://apps.apple.com/us/app/ai-wellness-pal/id6816496839", "https://play.google.com/store/apps/details?id=com.aiwellnesspal.app"],
+        "sameAs": ["https://apps.apple.com/us/app/ai-wellness-pal/id6816496839", "https://play.google.com/store/apps/details?id=com.aiwellnesspal.app"],
         "author": { "@type": "Person", "name": "Viraj Dhanushka" }
       },
       {
@@ -93,10 +93,10 @@
     <nav class="nav-links" aria-label="Sections">
       <a href="#demo">Demo</a>
       <a href="#features">Features</a>
-      <a href="#android">Android beta</a>
+      <a href="#feedback">Feedback</a>
       <a href="#support">Support</a>
     </nav>
-    <a class="btn btn-sm btn-grad" href="https://apps.apple.com/us/app/ai-wellness-pal/id6816496839">Get the app</a>
+    <a class="btn btn-sm btn-grad" id="get-app" href="https://apps.apple.com/us/app/ai-wellness-pal/id6816496839">Get the app</a>
   </div>
 </header>
 
@@ -105,7 +105,7 @@
   <section class="hero">
     <div class="wrap">
       <div>
-        <span class="pill"><span class="dot"></span>Now on the App Store · Android beta open</span>
+        <span class="pill"><span class="dot"></span>Now on the App Store and Google Play</span>
         <h1>Feel better,<br><span class="grad-text">one day at a time.</span></h1>
         <p class="lead">AI Wellness Pal turns a quick daily check-in into a personalised plan for mood, sleep, nutrition and habits — with an AI Wellness Pal to talk things through whenever you need it.</p>
         <div class="cta">
@@ -113,7 +113,10 @@
             <svg><use href="#i-apple"/></svg>
             <span class="lbl"><small>Download on the</small><strong>App Store</strong></span>
           </a>
-          <a class="btn" href="#android"><svg><use href="#i-play"/></svg>Join the Android beta</a>
+          <a class="btn btn-store" href="https://play.google.com/store/apps/details?id=com.aiwellnesspal.app" aria-label="Get it on Google Play">
+            <svg><use href="#i-play"/></svg>
+            <span class="lbl"><small>Get it on</small><strong>Google Play</strong></span>
+          </a>
         </div>
         <div class="hero-meta">
           <span><svg><use href="#i-check"/></svg>Free to download</span>
@@ -263,51 +266,64 @@
     </div>
   </section>
 
-  <!-- Android beta (replace this section with a Google Play button once the app is live on Play) -->
-  <section id="android">
+  <!-- Feedback -->
+  <section id="feedback">
     <div class="wrap">
-      <div class="beta reveal">
+      <div class="feedback-card reveal">
         <div>
-          <span class="eyebrow">Android · Early access</span>
-          <h2>Be one of the first on <span class="grad-text">Android</span></h2>
-          <p>AI Wellness Pal for Android is in testing on Google Play. Request access and you'll be added as a tester so you can download it before the public launch.</p>
+          <span class="eyebrow">Feedback</span>
+          <h2>Help shape <span class="grad-text">what's next</span></h2>
+          <p>Love something, missing something, or found a bug? Tell us. Every message is read, and your ideas shape the next update.</p>
           <ol class="steps">
-            <li><strong>Send a request</strong>Use the Google account email you use on your Android phone.</li>
-            <li><strong>Get added as a tester</strong>We'll add your email to the testing programme and let you know.</li>
-            <li><strong>Install from Google Play</strong>Open the tester link on your phone, tap “Become a tester”, then install.</li>
+            <li><strong>Share your thoughts</strong>Ideas, bugs, praise: all of it helps.</li>
+            <li><strong>Leave your email if you'd like a reply</strong>It's optional, and only used to answer you.</li>
+            <li><strong>Enjoying the app?</strong>A quick review helps others find it: <a href="https://apps.apple.com/us/app/ai-wellness-pal/id6816496839?action=write-review">App Store</a> · <a href="https://play.google.com/store/apps/details?id=com.aiwellnesspal.app&amp;showAllReviews=true">Google Play</a></li>
           </ol>
         </div>
         <div class="request-wrap">
-        <form class="request" id="beta-form" action="https://formsubmit.co/ajax/6ad89fb7ab809f3e90c16356b3cf53af" method="POST" novalidate>
-          <input type="hidden" name="_subject" value="AI Wellness Pal – Android tester request">
+        <form class="request" id="feedback-form" action="https://formsubmit.co/ajax/6ad89fb7ab809f3e90c16356b3cf53af" method="POST" novalidate>
+          <input type="hidden" name="_subject" value="AI Wellness Pal – Feedback">
           <input type="hidden" name="_template" value="table">
           <input type="hidden" name="_captcha" value="false">
           <input class="hp" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
           <div class="field">
-            <label for="f-name">Name</label>
-            <input id="f-name" name="name" type="text" autocomplete="name" required>
+            <label for="f-type">What kind of feedback?</label>
+            <select id="f-type" name="type" required>
+              <option value="">Choose one</option>
+              <option>Idea or feature request</option>
+              <option>Something isn't working</option>
+              <option>Something I love</option>
+              <option>Other</option>
+            </select>
           </div>
           <div class="field">
-            <label for="f-email">Google account email <span class="hint">(the one on your Play Store)</span></label>
-            <input id="f-email" name="email" type="email" autocomplete="email" placeholder="you@gmail.com" required>
+            <label for="f-platform">Which device? <span class="hint">(optional)</span></label>
+            <select id="f-platform" name="platform">
+              <option value="">Choose one</option>
+              <option>iPhone</option>
+              <option>Android</option>
+            </select>
           </div>
           <div class="field">
-            <label for="f-device">Phone model <span class="hint">(optional)</span></label>
-            <input id="f-device" name="device" type="text" placeholder="e.g. Pixel 8, Galaxy S24">
+            <label for="f-note">Your feedback</label>
+            <textarea id="f-note" name="message" required></textarea>
           </div>
           <div class="field">
-            <label for="f-note">Anything else? <span class="hint">(optional)</span></label>
-            <textarea id="f-note" name="message"></textarea>
+            <label for="f-name">Name <span class="hint">(optional)</span></label>
+            <input id="f-name" name="name" type="text" autocomplete="name">
           </div>
-          <label class="consent"><input type="checkbox" name="consent" value="yes" required>I agree to my email being used only to add me to the Android test and contact me about it.</label>
+          <div class="field">
+            <label for="f-email">Email <span class="hint">(optional, if you'd like a reply)</span></label>
+            <input id="f-email" name="email" type="email" autocomplete="email" placeholder="you@example.com">
+          </div>
           <div class="form-alert" role="alert" hidden></div>
-          <button class="btn btn-grad" type="submit"><span class="spinner" aria-hidden="true"></span><span class="btn-label">Request tester access</span></button>
+          <button class="btn btn-grad" type="submit"><span class="spinner" aria-hidden="true"></span><span class="btn-label">Send feedback</span></button>
         </form>
-        <div class="request-done" id="beta-done" tabindex="-1" hidden>
+        <div class="request-done" id="feedback-done" tabindex="-1" hidden>
           <div class="done-icon"><svg viewBox="0 0 24 24"><use href="#i-check"/></svg></div>
-          <h3>You’re on the list!</h3>
-          <p>Thanks<span id="done-name"></span>. Your request has been sent. We’ll add <strong id="done-email"></strong> to the Android test and email you when it’s ready to download.</p>
-          <button class="btn" type="button" id="beta-again">Send another request</button>
+          <h3>Thank you!</h3>
+          <p>Thanks<span id="done-name"></span>. Your feedback has been sent<span id="done-reply"></span>.</p>
+          <button class="btn" type="button" id="feedback-again">Send more feedback</button>
         </div>
         </div>
       </div>
@@ -348,13 +364,16 @@
   <div class="final reveal">
     <img src="assets/icon.png" alt="AI Wellness Pal app icon" width="88" height="88" loading="lazy">
     <h2>Start feeling better <span class="grad-text">today</span></h2>
-    <p>Free on iPhone. Android coming soon.</p>
+    <p>Free on iPhone and Android.</p>
     <div class="cta">
       <a class="btn btn-store" href="https://apps.apple.com/us/app/ai-wellness-pal/id6816496839" aria-label="Download on the App Store">
         <svg><use href="#i-apple"/></svg>
         <span class="lbl"><small>Download on the</small><strong>App Store</strong></span>
       </a>
-      <a class="btn" href="#android"><svg><use href="#i-play"/></svg>Join the Android beta</a>
+      <a class="btn btn-store" href="https://play.google.com/store/apps/details?id=com.aiwellnesspal.app" aria-label="Get it on Google Play">
+          <svg><use href="#i-play"/></svg>
+          <span class="lbl"><small>Get it on</small><strong>Google Play</strong></span>
+        </a>
     </div>
   </div>
 </main>
@@ -410,9 +429,14 @@
     update();
   })();
 
-  // Android tester request form (FormSubmit emails each request to aiwellnesspal@gmail.com via its private alias).
-  var form = document.getElementById('beta-form');
-  var done = document.getElementById('beta-done');
+  // "Get the app" goes to Google Play on Android, the App Store elsewhere.
+  if (/android/i.test(navigator.userAgent)) {
+    document.getElementById('get-app').href = 'https://play.google.com/store/apps/details?id=com.aiwellnesspal.app';
+  }
+
+  // Feedback form (FormSubmit emails each message to aiwellnesspal@gmail.com via its private alias).
+  var form = document.getElementById('feedback-form');
+  var done = document.getElementById('feedback-done');
   var alertBox = form.querySelector('.form-alert');
   var btn = form.querySelector('button[type=submit]');
   var btnLabel = btn.querySelector('.btn-label');
@@ -420,7 +444,7 @@
   function showAlert(msg) { alertBox.textContent = msg; alertBox.hidden = false; }
   function setSending(on) {
     btn.disabled = on; btn.classList.toggle('sending', on);
-    btnLabel.textContent = on ? 'Sending…' : 'Request tester access';
+    btnLabel.textContent = on ? 'Sending…' : 'Send feedback';
   }
 
   form.addEventListener('input', function (e) {
@@ -430,13 +454,14 @@
   form.addEventListener('submit', function (e) {
     e.preventDefault();
     alertBox.hidden = true;
-    var invalid = Array.prototype.filter.call(form.querySelectorAll('[required]'), function (el) {
+    // Required fields, plus the optional email when one was typed.
+    var invalid = Array.prototype.filter.call(form.querySelectorAll('[required], input[type=email]'), function (el) {
       var bad = !el.checkValidity();
       if (bad) el.setAttribute('aria-invalid', 'true'); else el.removeAttribute('aria-invalid');
       return bad;
     });
     if (invalid.length) {
-      showAlert('Please add your name, a valid email address and tick the consent box.');
+      showAlert('Please choose a feedback type and write your message. If you add an email, check it\u2019s valid.');
       invalid[0].focus();
       return;
     }
@@ -449,21 +474,21 @@
         if (!res.ok || String(res.d.success) !== 'true') throw new Error(res.d.message || 'Request failed');
         form.reset();
         document.getElementById('done-name').textContent = name ? ', ' + name.split(' ')[0] : '';
-        document.getElementById('done-email').textContent = email;
+        document.getElementById('done-reply').textContent = email ? ' and we\u2019ll reply to ' + email : '';
         form.hidden = true;
         done.hidden = false;
         done.focus();
       })
       .catch(function () {
-        showAlert('Sorry, we couldn’t send your request. Please check your connection and try again.');
+        showAlert('Sorry, we couldn’t send your feedback. Please check your connection and try again.');
       })
       .finally(function () { setSending(false); });
   });
 
-  document.getElementById('beta-again').addEventListener('click', function () {
+  document.getElementById('feedback-again').addEventListener('click', function () {
     done.hidden = true;
     form.hidden = false;
-    form.querySelector('input:not([type=hidden]):not(.hp)').focus();
+    form.querySelector('select').focus();
   });
 </script>
 </body>
