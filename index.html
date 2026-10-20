@@ -475,9 +475,10 @@
     var email = form.elements.namedItem('email').value.trim();
     setSending(true);
     fetch(form.action, { method: 'POST', body: new FormData(form), headers: { Accept: 'application/json' } })
-      .then(function (r) { return r.json().catch(function () { return {}; }).then(function (d) { return { ok: r.ok, d: d }; }); })
+      .then(function (r) { return r.json().catch(function () { return {}; }).then(function (d) { return { ok: r.ok, status: r.status, d: d }; }); })
       .then(function (res) {
-        if (!res.ok || String(res.d.success) !== 'true') throw new Error(res.d.message || 'Request failed');
+        // TEMP diagnostics: carry the Worker's status + reason into the error box.
+        if (!res.ok || String(res.d.success) !== 'true') throw new Error('[' + res.status + '] ' + (res.d.message || '(no reason given)'));
         form.reset();
         document.getElementById('done-name').textContent = name ? ', ' + name.split(' ')[0] : '';
         document.getElementById('done-reply').textContent = email ? ' and we\u2019ll reply to ' + email : '';
@@ -488,7 +489,7 @@
       .catch(function (err) {
         showAlert(/verification/i.test(err && err.message)
           ? err.message
-          : 'Sorry, we couldn’t send your feedback. Please check your connection and try again.');
+          : 'Sorry, we couldn’t send your feedback. Please check your connection and try again. (' + (err && err.message) + ')');
       })
       .finally(function () {
         setSending(false);
