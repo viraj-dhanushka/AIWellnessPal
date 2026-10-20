@@ -8,6 +8,8 @@
   <link rel="canonical" href="https://aiwelnesspal.com/delete-account.html">
   <link rel="icon" type="image/png" href="assets/favicon.png">
   <link rel="stylesheet" href="style.css">
+  <!-- Cloudflare Turnstile: bot check for the forms (verified by the Worker in cloudflare/forms-worker). -->
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
   <style>
     form { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 20px; margin: 16px 0; }
     label { display: block; font-weight: 600; font-size: .95rem; margin: 0 0 6px; }
@@ -47,10 +49,7 @@
   <h2>Option 2: Request deletion on the web</h2>
   <p>Use this if you can't open the app. Enter the email address of the account you want deleted. We'll confirm by email and complete the deletion within 30 days. To protect your account, we may ask you to confirm the request from that email address.</p>
 
-  <form id="delete-form" action="https://formsubmit.co/ajax/6ad89fb7ab809f3e90c16356b3cf53af" method="POST" novalidate>
-    <input type="hidden" name="_subject" value="AI Wellness Pal – ACCOUNT DELETION REQUEST">
-    <input type="hidden" name="_template" value="table">
-    <input type="hidden" name="_captcha" value="false">
+  <form id="delete-form" action="https://api.aiwelnesspal.com/submit?form=delete" method="POST" novalidate>
     <input type="hidden" name="request_type" value="Account deletion">
     <input class="hp" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
 
@@ -71,6 +70,7 @@
 
     <label class="check"><input type="checkbox" name="confirm" value="yes" required>I understand that deleting my account permanently removes my data and can't be undone.</label>
 
+    <div class="cf-turnstile" data-sitekey="0x4AAAAAAFeATWxgyA2X7qGo" data-theme="auto" data-size="flexible" style="margin-top:14px"></div>
     <button type="submit">Request account deletion</button>
     <p class="status" role="status" aria-live="polite"></p>
   </form>
@@ -106,20 +106,33 @@
       statusEl.classList.add('err');
       return;
     }
+    // Turnstile adds this hidden field once the visitor passes the check.
+    var tsField = form.querySelector('[name="cf-turnstile-response"]');
+    if (!tsField || !tsField.value) {
+      statusEl.textContent = 'Please complete the verification check above the button.';
+      statusEl.classList.add('err');
+      return;
+    }
     btn.disabled = true; btn.textContent = 'Sending…';
     fetch(form.action, { method: 'POST', body: new FormData(form), headers: { Accept: 'application/json' } })
       .then(function (r) { return r.json().catch(function () { return {}; }).then(function (d) { return { ok: r.ok, d: d }; }); })
       .then(function (res) {
-        if (!res.ok || String(res.d.success) !== 'true') throw new Error();
+        if (!res.ok || String(res.d.success) !== 'true') throw new Error(res.d.message || '');
         form.reset();
         statusEl.textContent = 'Request received. We’ll confirm by email and complete the deletion within 30 days.';
         statusEl.classList.add('ok');
       })
-      .catch(function () {
-        statusEl.textContent = 'Sorry, we couldn’t send your request. Please try again, or contact support.';
+      .catch(function (err) {
+        statusEl.textContent = /verification/i.test(err && err.message)
+          ? err.message
+          : 'Sorry, we couldn’t send your request. Please try again, or contact support.';
         statusEl.classList.add('err');
       })
-      .finally(function () { btn.disabled = false; btn.textContent = 'Request account deletion'; });
+      .finally(function () {
+        btn.disabled = false; btn.textContent = 'Request account deletion';
+        // Tokens are single-use: get a fresh one for the next attempt.
+        if (window.turnstile) turnstile.reset(form.querySelector('.cf-turnstile'));
+      });
   });
 </script>
 </body>

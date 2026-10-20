@@ -1,0 +1,11 @@
+# Cloudflare Worker that verifies Turnstile and relays the website's forms.
+# Deploy:  npx wrangler deploy   (from this folder, after `npx wrangler login`)
+name = "aiwellnesspal-forms"
+main = "worker.js"
+compatibility_date = "2024-09-23"
+
+# Serves the Worker at https://api.aiwelnesspal.com (Cloudflare creates the
+# DNS record). The GitHub Pages records for the main site are untouched.
+routes = [
+  { pattern = "api.aiwelnesspal.com", custom_domain = true }
+]
