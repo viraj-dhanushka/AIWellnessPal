@@ -9,3 +9,9 @@ compatibility_date = "2024-09-23"
 routes = [
   { pattern = "api.aiwelnesspal.com", custom_domain = true }
 ]
+
+# Cloudflare Email Routing "Send email" binding. Email Routing must be enabled
+# on aiwelnesspal.com with this address verified as a destination.
+send_email = [
+  { name = "SEB", destination_address = "aiwellnesspal@gmail.com" }
+]
