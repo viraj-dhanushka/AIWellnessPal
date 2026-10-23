@@ -1,0 +1,46 @@
+# AI Wellness Pal
+
+> AI Wellness Pal is a free AI wellness coach app for iPhone and Android. Each day a 30-second check-in (energy, mood, how your body feels and how much time you have) becomes Today’s Plan: two to four small, doable actions for mood, sleep, movement and nutrition. An AI companion, the Wellness Pal, helps you follow through, alongside a journal, habit tracking and nine everyday wellness tools.
+
+Key facts:
+- Platforms: iPhone (iOS 15.0 or later) and Android (8.0 or later). App Store and Google Play.
+- Price: free to download and use, no ads. Optional Premium subscription (US App Store: $14.99/month or $89.99/year, 7-day free trial). Free: daily check-ins and plans, AI journal, habits and challenges, hydration/sleep/period/weight tracking, meditation and breathing, widgets, and 3 Wellness Pal chat messages per day. Premium: unlimited chat, Live Chat Pal real-time voice, AI food analysis (photo/description/barcode), AI meal plans, AI sleep/hydration/calorie insights, the full Wellness Studio and more.
+- Launched: App Store on 5 October 2026; Google Play in October 2026.
+- Developer: Viraj Dhanushka (independent developer). Support: aiwellnesspal@gmail.com.
+- AI: Google Gemini models via Firebase AI Logic. The app asks for permission before any personal information is sent to the AI.
+- Privacy: no advertising, no selling of data, no cross-app tracking; accounts and data can be deleted at any time.
+- Health data: reads sleep (only) from Apple Health on iPhone or Health Connect on Android, with permission; never writes health data.
+- Not a medical device and not medical advice.
+- Language: English.
+
+## Key pages
+- [Home](https://aiwelnesspal.com/): overview, demo video, pricing, FAQ
+- [All features](https://aiwelnesspal.com/features/)
+- [FAQ](https://aiwelnesspal.com/faq/): answers about features, pricing, privacy and devices
+- [About](https://aiwelnesspal.com/about/): key facts (developer, launch dates, platforms, pricing, AI provider)
+- [Privacy Policy](https://aiwelnesspal.com/privacy.html)
+- [Terms of Use](https://aiwelnesspal.com/terms.html)
+- [Delete your account](https://aiwelnesspal.com/delete-account.html)
+
+## Features
+- [Daily check-in & plan](https://aiwelnesspal.com/features/ai-wellness-coach/): A 30-second check-in becomes Today’s Plan: two to four small actions that fit your energy and time.
+- [Wellness Pal AI chat](https://aiwelnesspal.com/features/ai-wellness-chat/): Chat or talk with an AI companion that knows your check-ins, and can log, plan and remind for you.
+- [AI journal & reflections](https://aiwelnesspal.com/features/ai-journal/): Guided prompts based on your real week, and supportive, specific responses from your Pal.
+- [AI nutrition coach](https://aiwelnesspal.com/features/ai-nutrition-coach/): Snap, describe or scan a meal for an AI estimate of calories, macros, fiber and a food quality score.
+- [AI meal planner](https://aiwelnesspal.com/features/ai-meal-planner/): A day, a week or a month of meals built around your goal, diet and calorie target, with a grocery list.
+- [Calorie budget](https://aiwelnesspal.com/features/calorie-tracker/): Food and exercise in one place: your daily budget, what you’ve eaten, what you’ve burned and what’s left.
+- [Water tracker](https://aiwelnesspal.com/features/water-tracker/): A daily water target that fits you, one-tap logging, a hydration score and streaks.
+- [Sleep coach](https://aiwelnesspal.com/features/sleep-tracker/): A sleep score, sleep stages and the habits behind them, from Apple Health or Health Connect.
+- [Meditation & breathing](https://aiwelnesspal.com/features/meditation-breathing/): Box breathing, 4-7-8, body scans and stress relief in 1 to 15 minutes, all free in Meditation Pal.
+- [Period tracker](https://aiwelnesspal.com/features/period-tracker/): Log your cycle, see your next period and fertile window, and get tips for each phase.
+- [Weight & BMI tracker](https://aiwelnesspal.com/features/weight-tracker/): Log weigh-ins in kg or lb and see your trend, change over time and BMI.
+- [Habits & challenges](https://aiwelnesspal.com/features/habit-tracker/): Build habits on your schedule with reminders, streaks and multi-day challenges.
+- [Home-screen widgets](https://aiwelnesspal.com/features/home-screen-widgets/): Today’s plan, habits and every tool on your home screen, on iPhone and Android.
+
+## Download
+- [App Store (iPhone)](https://apps.apple.com/us/app/ai-wellness-pal/id6816496839)
+- [Google Play (Android)](https://play.google.com/store/apps/details?id=com.aiwellnesspal.app)
+
+## Optional
+- [Full text for AI assistants](https://aiwelnesspal.com/llms-full.txt)
+- [Demo video](https://www.youtube.com/watch?v=PYkPL-Q_1uw)

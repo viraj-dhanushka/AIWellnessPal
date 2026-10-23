@@ -1,0 +1,719 @@
+# AI Wellness Pal — full reference
+
+AI Wellness Pal is a free AI wellness coach app for iPhone and Android. Each day a 30-second check-in (energy, mood, how your body feels and how much time you have) becomes Today’s Plan: two to four small, doable actions for mood, sleep, movement and nutrition. An AI companion, the Wellness Pal, helps you follow through, alongside a journal, habit tracking and nine everyday wellness tools.
+
+Website: https://aiwelnesspal.com/
+
+## Key facts
+- What it is: An AI wellness coach app: a daily check-in becomes a personalized plan, supported by an AI companion, a journal, habits and nine wellness tools.
+- Platforms: iPhone (iOS 15.0 or later) on the App Store; Android (8.0 or later) on Google Play
+- Launched: App Store: 5 October 2026. Google Play: October 2026.
+- Category: Health & Fitness
+- Price: Free, with no ads. Optional Premium subscription: $14.99/month or $89.99/year on the US App Store, with a 7-day free trial (prices vary by country).
+- Free plan: Daily check-ins and Today’s Plan, AI journal, habits and challenges, hydration, sleep, period and weight tracking, meditation and breathing, widgets, and 3 Wellness Pal messages a day
+- Premium: Unlimited Wellness Pal chat, Live Chat Pal real-time voice, AI food analysis (photo, description or barcode), AI meal plans, AI sleep, hydration and calorie insights, “Discuss” and weekly reflections, AI steps for intentions, and the full Wellness Studio
+- AI: Google Gemini models via Firebase AI Logic, with permission asked before personal information is sent
+- Health data: Reads sleep only, from Apple Health (iPhone) or Health Connect (Android), with permission. Never writes health data.
+- Privacy: No ads, no data selling, no cross-app tracking. Delete your account and data anytime.
+- Language: English
+- Age: For adults 18 and over
+- Developer: Viraj Dhanushka, independent developer
+- Contact: aiwellnesspal@gmail.com
+- Website: aiwelnesspal.com
+
+## Daily check-in & plan
+Page: https://aiwelnesspal.com/features/ai-wellness-coach/
+
+AI Wellness Pal starts every day with a 30-second check-in, then turns your answers into Today’s Plan: two to four small, doable actions for mood, sleep, movement and nutrition. Free on iPhone and Android.
+
+Why a check-in first
+ Most wellness apps hand you the same plan as everyone else. AI Wellness Pal asks how you’re actually doing
+ first, because the right next step depends on it. Exhausted with fifteen minutes free? You get a very different
+ day than when you’re rested with an hour.
+
+ How the daily check-in works
+ 
+ 
+- Energy: pick a level from 1 to 5, from “Completely Drained” to “Fully Energized”.
+ 
+- Mood: how you feel emotionally right now.
+ 
+- Body and time: how your body feels (your recovery) and how much time you have today.
+ 
+ You can skip any step and the plan uses what you gave it. Prefer to talk? Ask your Wellness Pal to “start my
+ check-in”. Once you’ve checked in, Today’s Plan is ready within a few seconds.
+
+ What’s in Today’s Plan
+ Two to four actions, each with a time estimate and a checkbox: think a short Pilates session, a few minutes
+ of recovery stretches or a breathing exercise. Open any action for a friendly step-by-step guide, and set a
+ one-time reminder if you want a nudge to do your plan later today. Tick actions off as you go; finish them all
+ and you get a small celebration.
+
+Days change. If you’re more tired than you thought, tell your Wellness Pal and it rebuilds the plan around how
+ you actually feel.
+
+ Plans that follow your bigger goals
+ Wellness Intentions are longer-term directions like “sleep better”, “move more” or “feel calmer”. Your daily
+ plans are shaped by them, and each intention tracks its own progress. With Premium, an intention can be broken
+ into gentle daily steps automatically.
+
+ Progress you can see
+ Your streak counts the days you check in, with celebrations at 1, 3, 7, 14, 30, 50 and 100 days. Missing a
+ day costs you a day rather than wiping the streak out. Achievements mark milestones from your first check-in
+ (“First Sunrise”) to 100 days (“Zen Master”), and the Today’s Plan widget lets you tick actions straight from
+ your home screen.
+
+Q: How long does the daily check-in take?
+A: About 30 seconds: three quick steps for energy, mood, and how your body feels plus the time you have. You can skip any step.
+
+Q: Is the daily check-in and plan free?
+A: Yes. Daily check-ins and Today’s Plan are part of the free app on iPhone and Android. Premium adds extras like unlimited Wellness Pal chat, real-time voice and AI steps for your intentions.
+
+Q: What if my day changes after I get my plan?
+A: Ask your Wellness Pal to update it, for example “I’m more tired than I thought”, and it rebuilds Today’s Plan around how you actually feel.
+
+Q: Can I get a reminder to do my plan?
+A: Yes. Set a one-time reminder for later today from Today’s Plan and AI Wellness Pal will nudge you at that time. You choose which notifications you get in Settings → Notifications.
+
+## Wellness Pal AI chat
+Page: https://aiwelnesspal.com/features/ai-wellness-chat/
+
+Your Wellness Pal is the AI inside AI Wellness Pal. Chat or talk about stress, motivation, energy or habits. It learns from your check-ins and journal, so its guidance is personal, and it can do things in the app for you.
+
+Chat or talk, whichever suits you
+ Tap the glowing orb button to open your Pal and start talking. To type instead, tap the smaller “Chat” orb
+ beside it. Your chats are saved alongside your spoken conversations, and tapping a saved chat picks it back up
+ where you left it. Free members get three messages a day; Premium is unlimited.
+
+ Live Chat Pal: real-time voice (Premium)
+ Live Chat Pal is a real-time voice conversation: you talk naturally and your Pal responds as you speak,
+ rather than waiting for you to finish. Turn it on in Settings → AI Voice. With it on, you can
+ also enable “Always listen for Pal” and just say “Hey Pal” while the app is open. Choose the
+ voice you like, and turn on “Always speak English” if you want replies in English whatever language you
+ speak.
+
+ It does things, not just talks
+ Ask in your own words and your Pal can:
+ 
+ 
+- log water, meals, exercise, weight, a meditation session or a period start;
+ 
+- create habits, set reminders and join challenges;
+ 
+- run your check-in or rebuild Today’s Plan when your day changes;
+ 
+- add or remove cards on your Home screen, or change your theme or text size;
+ 
+- open any screen in the app.
+ 
+
+ Conversations that turn into insight
+ Your three most recent conversations are kept as cards: long-press the orb button to see them. They aren’t
+ saved as journal entries automatically; if one was worth keeping, tap “Generate Reflection” to turn it into a
+ reflection you can revisit.
+
+ Personal, private and honest about its limits
+ The Wellness Pal is powered by Google’s Gemini models. Before any of your information is shared with the
+ AI, the app shows you what will be sent and asks your permission. Your Pal offers general wellness support, not
+ therapy or medical advice. If you’re in crisis, contact your local emergency number; in the US you can call or
+ text 988.
+
+Q: Is the Wellness Pal chat free?
+A: Yes: free members get three Wellness Pal messages a day. Premium makes chat unlimited and adds Live Chat Pal, the real-time voice conversation.
+
+Q: Can the Wellness Pal replace a therapist?
+A: No. It’s a supportive AI companion for everyday wellbeing, not a therapist or a medical service. For mental-health concerns, talk to a qualified professional; in a crisis, contact your local emergency number.
+
+Q: Does my Wellness Pal remember me?
+A: It learns from your check-ins and journal to make its guidance relevant, and keeps your three most recent conversations so you can pick them up again.
+
+Q: What does “Hey Pal” do?
+A: With Live Chat Pal (Premium) and “Always listen for Pal” turned on, saying “Hey Pal” while the app is open starts a voice conversation hands-free.
+
+## AI journal & reflections
+Page: https://aiwelnesspal.com/features/ai-journal/
+
+Guided reflections in AI Wellness Pal give you prompts based on how your week has actually gone. Write in your own words and your Wellness Pal responds with something supportive and specific.
+
+Prompts from your real week
+ A blank page is hard. Start a reflection and you get prompts drawn from your recent check-ins, energy and
+ sleep, like:
+ 
+ 
+- “What’s weighing on my mind today?”
+ 
+- “How have my sleep and energy been lately?”
+ 
+- “What would help me feel more balanced right now?”
+ 
+
+ Responses that are specific, not generic
+ Write your entry and your Wellness Pal responds with something supportive and specific to what you wrote,
+ not a stock affirmation. Over time your reflections help you spot patterns and see what actually helps you
+ feel better.
+
+ Go deeper with Premium
+ Open any reflection and tap Discuss to talk it through properly with your Pal, then save
+ anything useful that comes out of it as an Insight you can come back to. Write three or more
+ reflections in a week and Premium also gives you a Weekly Reflection summary.
+
+ Turn conversations into reflections
+ Had a good conversation with your Pal? Tap “Generate Reflection” and it becomes a journal entry, so the
+ thinking you did isn’t lost.
+
+ Private by design
+ Your journal is stored in your own private area of your account and isn’t shared with other users. AI
+ Wellness Pal has no ads and doesn’t sell your data. When a reflection is sent to the AI for a response, the app
+ asks your permission first.
+
+Q: Is the AI journal free?
+A: Yes. Guided reflections and AI responses are part of the free app. Premium adds “Discuss”, a full conversation about any reflection, and a Weekly Reflection summary.
+
+Q: Is my journal private?
+A: Yes. Entries are stored in your own private area and never shared with other users, and the app has no ads and doesn’t sell data. See the Privacy Policy.
+
+Q: What is an Insight?
+A: Something useful you save while discussing a reflection with your Pal, so you can revisit it later.
+
+## AI nutrition coach
+Page: https://aiwelnesspal.com/features/ai-nutrition-coach/
+
+The AI Nutrition Coach in AI Wellness Pal estimates calories and macros from a photo, a quick description or a barcode, keeps a simple food diary, and nudges you toward your daily goals.
+
+Four ways to log a meal
+ 
+ 
+- Take a photo of your plate for instant analysis.
+ 
+- Choose a photo from your gallery.
+ 
+- Describe it in your own words, like “2 egg hoppers and milk tea”.
+ 
+- Scan a barcode on packaged food. Products are looked up in Open Food Facts, per serving
+ where available, otherwise per 100 g.
+ 
+ You can also ask your Wellness Pal to log a meal for you.
+
+ What you get for every meal
+ An estimate of calories, protein, carbs, fat and fiber (plus sugar and sodium), the foods it
+ detected and the portion size, a Food Quality Score from 0 to 100, and two to four short
+ insights about the meal.
+
+ A food diary organized by meal
+ Meals are grouped into Breakfast, Lunch, Dinner and Snacks, so you can see your day at a glance. Edit or
+ delete an entry any time, or send a meal from the Meal Planner straight to your diary.
+
+ Daily goals and coach insights
+ Set daily goals for calories, protein, carbs and fat (they start at 2,000 kcal, 90 g, 250 g and 65 g). Coach
+ insights point out what to adjust, like “You are below your protein goal today”, with simple food ideas.
+
+ Connected to the rest of your day
+ Logged meals count toward your Calorie Budget automatically, and the
+ Nutrition Coach widget can flip to show today’s calories and macros on your home screen.
+
+ What’s free and what’s Premium
+ AI food analysis (photo, description and barcode) is part of Premium, which starts with a 7-day free trial.
+ Your goals, food diary and coach insights are free.
+
+Calories and nutrients are AI estimates and may be inaccurate. Use them as guidance, not fact;
+ this isn’t medical or dietary advice. For health concerns, talk to a qualified professional.
+
+Q: Is the AI nutrition coach free?
+A: The food diary, daily goals and coach insights are free. Logging meals with AI analysis by photo, description or barcode is a Premium feature, with a 7-day free trial.
+
+Q: How accurate are the calorie estimates?
+A: They’re AI estimates from a photo or description, so they can be off, especially for mixed dishes and portion sizes. Barcode lookups use the product’s published values from Open Food Facts. Treat the numbers as a guide.
+
+Q: Can I log food without taking a photo?
+A: Yes. Describe the meal in a sentence, scan a barcode, or ask your Wellness Pal to log it.
+
+Q: Which foods can the barcode scanner find?
+A: Packaged foods listed in Open Food Facts, the open food database. If a product isn’t found, you can describe it instead.
+
+## AI meal planner
+Page: https://aiwelnesspal.com/features/ai-meal-planner/
+
+Tell the AI Meal Planner about yourself and how you like to eat, and it plans breakfast, lunch, dinner and a snack for a day, a week or a month, with macros for every meal and a grocery list to match.
+
+Start with you
+ Your plan is built from a short profile: age, height, current and goal weight, activity level, your country
+ or food culture, a daily calorie target (between 1,200 and 5,000 kcal), and your wellness goal, such as weight
+ loss, muscle building, better energy, better sleep or stress management.
+
+ Pick a diet style
+ Standard, Vegetarian, Vegan, Local Cuisine, Budget-Friendly, High Protein or Low Carb.
+
+ Choose how far ahead to plan
+ 
+ 
+- Daily: one day of meals.
+ 
+- Weekly: seven days of meals.
+ 
+- Monthly: 30 days built from a seven-day rotation.
+ 
+
+ Every meal, explained
+ Each day has breakfast, lunch, dinner and a snack. Every meal shows its calories, protein, carbs and fat,
+ with a one-line reason it fits your goal, and each plan comes with a few AI insights. Don’t like the plan?
+ Regenerate it.
+
+ A grocery list in one tap
+ Turn a plan into a combined shopping list, grouped into vegetables, fruits, proteins, dairy, grains and
+ pantry items, and tick things off as you shop.
+
+ From plan to plate
+ Log a planned meal to your food diary in one tap, save favorites,
+ and add the Meal Planner widget to browse today’s meals from your home screen.
+
+ Premium
+ Generating meal plans is part of AI Wellness Pal Premium, which starts with a 7-day free trial. Setting up
+ your profile is free.
+
+Calories and nutrients are AI estimates and may be inaccurate. This isn’t medical or dietary
+ advice; if you have a medical condition, allergies or specific dietary needs, check with a qualified
+ professional.
+
+Q: Is the AI meal planner free?
+A: Meal plan generation is a Premium feature, with a 7-day free trial. You can set up your profile for free.
+
+Q: Can it plan vegetarian or vegan meals?
+A: Yes. Choose Vegetarian or Vegan, or another style such as High Protein, Low Carb, Budget-Friendly or Local Cuisine.
+
+Q: Does it make a shopping list?
+A: Yes. It turns your plan into a grocery list grouped by type, which you can tick off as you shop.
+
+Q: Can it handle food allergies?
+A: There isn’t an allergy setting yet, so always check ingredients yourself. If you have allergies or a medical diet, talk to a qualified professional.
+
+## Calorie budget
+Page: https://aiwelnesspal.com/features/calorie-tracker/
+
+Calorie Budget in AI Wellness Pal puts what you eat next to what you burn, so you always know how much of today’s budget is left.
+
+A budget that matches your goal
+ Your daily budget starts from the calorie target in your Meal Planner profile (2,000 kcal by default) and
+ adjusts for your goal: Weight Loss (−500 kcal), Maintenance, Weight Gain (+400 kcal) or Muscle Building
+ (+300 kcal). Prefer your own number? Type it in; budgets stay between 1,200 and 5,000 kcal.
+
+ Eaten, burned and what’s left
+ A simple ring shows your budget, what you’ve eaten and what you’ve burned. What’s left is your budget minus
+ what you’ve eaten, plus what you’ve burned. Meals you log in the Nutrition
+ Coach are counted automatically.
+
+ Log exercise in seconds
+ Pick an activity (walking, running, cycling, yoga, Pilates, strength training or other) and the minutes.
+ Enter the calories yourself, or let the app estimate them from the activity and time. You can also just tell
+ your Wellness Pal “I walked for 30 minutes”.
+
+ See your week
+ Today’s timeline lists every meal and workout (and you can edit them), a goal streak counts the days you
+ stay within budget, and a seven-day chart shows how the week is going.
+
+ AI prediction (Premium)
+ With Premium, Calorie Budget predicts where today is heading, your chance of staying on goal, and gives a few
+ tailored insights.
+
+Calorie numbers are estimates. This isn’t medical or dietary advice.
+
+Q: Is the calorie budget tracker free?
+A: Yes. Your budget, goal modes, exercise logging, timeline, streak and seven-day chart are free. AI predictions and insights are Premium, and logging meals with AI food analysis uses the Premium Nutrition Coach.
+
+Q: How is my daily calorie budget set?
+A: From the daily calorie target in your Meal Planner profile, adjusted for your goal (for example −500 kcal for weight loss). You can also type your own budget, from 1,200 to 5,000 kcal.
+
+Q: Does it import workouts from Apple Health or Health Connect?
+A: Not at the moment. Log exercise in the app or ask your Wellness Pal to log it for you.
+
+## Water tracker
+Page: https://aiwelnesspal.com/features/water-tracker/
+
+The Hydration Coach in AI Wellness Pal sets a daily water target that fits you, makes logging a single tap, and shows how consistently you’re hitting it.
+
+A target that fits you
+ Your daily goal starts at about 35 ml of water per kilogram of body weight (from your profile), adjusted for
+ your profile and activity level, and kept between 1.8 and 4.5 liters. No weight set? It starts at 2.5 liters.
+ You can set your own target any time and switch back to automatic.
+
+ Weather-aware hydration (Premium)
+ Hot or humid day? Set your location and the Hydration Coach adds up to an extra liter to your goal, based on
+ the “feels like” temperature.
+
+ One-tap logging
+ Quick-add 100, 200, 250, 500 or 750 ml, or a full liter, or enter a custom amount. Or just tell your
+ Wellness Pal “log a glass of water”.
+
+ Score, streaks and your week
+ 
+ 
+- A hydration score from 0 to 100 that rewards drinking enough, drinking consistently and
+ spreading it through the day.
+ 
+- Streak milestones like Hydration Hero (7 days) and Hydration Champion
+ (30 days).
+ 
+- A timeline of today’s drinks and a seven-day view of how often you met your goal.
+ 
+
+ Reminders, challenges and widgets
+ Turn on hydration reminders in your notification preferences (they start off), join the 7-Day Hydration
+ Challenge, and add the Hydration Coach widget to see today’s progress on your home screen. With Premium you also
+ get AI insights about your drinking patterns.
+
+Q: Is the water tracker free?
+A: Yes. Logging, your automatic or custom goal, the hydration score, streaks and the weekly view are free. Weather-aware goals and AI insights are Premium.
+
+Q: How much water should I drink a day?
+A: The Hydration Coach starts at about 35 ml per kilogram of body weight, adjusted for your profile and activity, between 1.8 and 4.5 liters. Needs vary, so follow your doctor’s advice if you have a health condition.
+
+Q: Can I track water in ounces?
+A: Not yet. Amounts are in milliliters and liters.
+
+Q: Does it remind me to drink water?
+A: Yes, if you want it to. Turn on hydration reminders in Settings → Notifications → Notification Preferences; they’re off by default.
+
+## Sleep coach
+Page: https://aiwelnesspal.com/features/sleep-tracker/
+
+The Sleep Coach reads your sleep from Apple Health on iPhone or Health Connect on Android and turns it into a simple score, your sleep stages, and the everyday habits that affect them.
+
+Connect once, read-only
+ Tap Connect Apple Health (iPhone) or Connect Health Connect (Android) and allow
+ sleep access. The Sleep Coach reads sleep only (time asleep and awake, deep, REM, light and time in bed) and
+ never writes anything back. Until you connect, it shows clearly labelled sample data so you can see how it
+ works.
+
+ Your sleep score
+ Each night gets a score from 0 to 100, rated Great (85+), Good (70+) or Fair (50+). It weighs how long you
+ slept (seven to nine hours is ideal), how much was deep and REM sleep, how efficiently you slept, and how
+ consistent your schedule is.
+
+ Sleep stages
+ See how the night split between Awake, REM, Core and Deep sleep, with the share of each.
+
+ What affects your sleep
+ Sleep factors connect your night to your day, using what you’ve logged in the app: hydration, exercise,
+ dinner timing and caffeine. A food and sleep card and a seven-day history help you spot patterns.
+
+ AI Sleep Insight (Premium)
+ With Premium you get a personalized summary of your sleep and what’s contributing to it, plus a “Try this
+ tonight” suggestion you can add to your routine. Sleep summaries are sent to Google Gemini only after you give
+ permission, and are never used for advertising.
+
+ Build better sleep habits
+ Join the 14-Day Sleep Routine challenge (in bed before 11 pm), and wind down with a sleep body scan or
+ breathing session in Meditation Pal.
+
+The Sleep Coach offers general wellness information. If you have ongoing sleep problems, talk to a
+ doctor.
+
+Q: Is the sleep tracker free?
+A: Yes. Connecting Apple Health or Health Connect, your sleep score, stages, sleep factors and history are free. The AI Sleep Insight is Premium.
+
+Q: Do I need a smartwatch?
+A: The Sleep Coach uses the sleep data already in Apple Health or Health Connect, which can come from a watch, a sleep-tracking app or your phone. The more detailed that data, the more detailed your stages.
+
+Q: Does AI Wellness Pal write to Apple Health or Health Connect?
+A: No. It only reads your sleep data, with your permission, and you can disconnect at any time in your phone’s settings.
+
+Q: How is the sleep score calculated?
+A: From four things: duration (seven to nine hours is ideal), deep and REM sleep, sleep efficiency and schedule consistency, combined into a 0 to 100 score.
+
+## Meditation & breathing
+Page: https://aiwelnesspal.com/features/meditation-breathing/
+
+Meditation Pal in AI Wellness Pal gives you guided breathing, body scans, meditation sessions and step-by-step stress relief in 1 to 15 minutes, all free, plus a Wellness Studio of quick activities.
+
+Breathing you can follow
+ Choose Box, 4-7-8, Calm or Stress Relief
+ breathing for 1, 3, 5 or 10 minutes. An animated breathing orb and gentle haptic cues tell you when to breathe
+ in, hold and breathe out, so you can close your eyes.
+
+ Body scans and meditation sessions
+ Body scans in four lengths (Quick 5 minutes, Stress Release 8, Sleep 10 and Full 15) and ten meditation
+ sessions across nine themes, each 5 to 15 minutes, guided by a calming timer with breathing cues. There are
+ wind-down sessions for bedtime too.
+
+ Stress relief, step by step
+ Five short exercises that walk you through calming down when stress spikes, one step at a time.
+
+ Reminders, progress and badges
+ Set meditation reminders for the days and times that suit you (like a morning, afternoon or bedtime
+ session), track your sessions and minutes, earn meditation badges, and join the 14-Day Meditation Challenge.
+ Your Wellness Pal can log a session for you too.
+
+ Wellness Studio
+ Thirty quick activities of 3 to 12 minutes in six categories: Breathing Exercises, Recovery Challenges,
+ Mindfulness Sessions, Wellness Quizzes, Pilates Knowledge Cards and Stress Recovery. Three in every category are
+ free, like Box Breathing, a 5-Minute Stretch Reset, a Body Scan Meditation and the Stress Awareness Quiz.
+ Premium unlocks the rest, plus personalized picks.
+
+ Wellness Reads
+ Ten short articles on mindfulness, sleep, movement, nutrition, mental health, stress relief, Pilates and yoga,
+ all free. The app can read any of them aloud in your phone’s voice, and keeps reading in the background with
+ lock-screen controls.
+
+Q: Are the meditation and breathing exercises free?
+A: Yes. Every Meditation Pal session (breathing, body scans, meditations and stress relief) is free, and so are three activities in each Wellness Studio category. Premium unlocks the full Studio and personalized recommendations.
+
+Q: Are the sessions narrated?
+A: Meditation Pal sessions are guided by a timer, a breathing animation and haptic cues rather than recorded narration. Wellness Reads can be read aloud by your phone’s voice.
+
+Q: How long are the sessions?
+A: Breathing sessions run 1 to 10 minutes, body scans and meditations 5 to 15 minutes, and Studio activities 3 to 12 minutes.
+
+## Period tracker
+Page: https://aiwelnesspal.com/features/period-tracker/
+
+Log your period starts and AI Wellness Pal shows your cycle day, current phase, predicted next period and estimated fertile window, with tips for each phase and plans that adapt to it.
+
+Your cycle at a glance
+ Log the first day of each period and the tracker shows where you are: your cycle day, the
+ current phase (menstrual, follicular, ovulation or luteal), when your next period
+ is likely, and an estimated ovulation date and fertile window. If a period is late, it tells
+ you how many days.
+
+ Predictions that learn your rhythm
+ Set your usual cycle and period length to start. As you log more periods, predictions use the average of
+ your own logged cycles, so they reflect your rhythm rather than a textbook 28 days.
+
+ Tips for each phase, and a plan that adapts
+ Each phase comes with gentle tips, like resting and being kind to yourself, with light movement, warmth and
+ hydration during your period. Your daily plan adapts to the phase too.
+
+ Reminders and widgets
+ Turn on cycle reminders in your notification preferences (they appear once you’ve logged period data), and
+ add the Period Tracker widget to see your phase and cycle day on your home screen. You can also just tell your
+ Wellness Pal “my period started today”.
+
+Predictions are estimates and aren’t suitable for contraception or conception planning. Talk to
+ a healthcare provider about your cycle or any concerns.
+
+Q: Is the period tracker free?
+A: Yes. Logging periods, predictions, phases and tips are part of the free app on iPhone and Android.
+
+Q: How does AI Wellness Pal predict my next period?
+A: It adds your average cycle length to your last logged period start. With two or more logged periods, it uses the average gap between your own cycles; otherwise it uses the cycle length you set.
+
+Q: Can I use it for birth control or to get pregnant?
+A: No. Predictions are estimates and aren’t suitable for contraception or conception planning. Talk to a healthcare provider.
+
+## Weight & BMI tracker
+Page: https://aiwelnesspal.com/features/weight-tracker/
+
+Body Weight in AI Wellness Pal keeps a simple record of your weigh-ins with a trend chart, your overall change and your BMI, so you see the direction, not just the daily wobble.
+
+Simple weigh-ins
+ Log a weigh-in in a couple of taps, in kilograms or pounds. Or just tell your Wellness Pal
+ your weight and it logs it for you.
+
+ See the trend, not the noise
+ Weight moves day to day. The trend chart shows the direction over time, alongside your current weight, the
+ change since your first entry, your lowest and highest weigh-ins and how many entries you’ve logged. Your full
+ history is there to scroll back through.
+
+ Body Mass Index
+ Add your height once and your BMI is calculated from your latest weigh-in, shown with its category. BMI is
+ a rough screening number, not a measure of health on its own, so treat it as one signal among many.
+
+ Part of the bigger picture
+ Weight sits next to your nutrition, calorie budget and habits in the same app, and the Body Weight widget
+ can show your current weight and recent change on your home screen.
+
+Q: Is the weight tracker free?
+A: Yes. Logging weigh-ins, the trend chart and BMI are part of the free app.
+
+Q: Can I use pounds instead of kilograms?
+A: Yes, switch between kg and lb at any time.
+
+Q: How is BMI calculated?
+A: From your latest weigh-in and the height you add, using the standard BMI formula and adult categories. It’s a general screening measure, not a diagnosis.
+
+## Habits & challenges
+Page: https://aiwelnesspal.com/features/habit-tracker/
+
+The Habit Builder in AI Wellness Pal turns good intentions into a routine: habits on your own schedule, optional reminders, streaks, and multi-day challenges with achievements when you finish.
+
+Habits on your schedule
+ Create a habit from a suggestion or from scratch, link it to a tool like the Hydration Coach or Calorie
+ Budget, and set how often it happens: every day, weekdays, weekends or custom days. Add a target
+ and unit if it helps, such as steps, litres, minutes or calories.
+
+ Reminders that show up on time
+ Give any habit an optional reminder time. If you’ve already done it today, today’s reminder is skipped, and
+ it comes back tomorrow. You can also ask your Wellness Pal to “remind me to stretch at 7 pm”.
+
+ Challenges with an end point
+ A challenge is a multi-day commitment you join and log each day. Current challenges include:
+ 
+ 
+- 7-Day Hydration Challenge: drink your daily water target for seven days in a row;
+ 
+- 30-Day Walking Challenge: reach your daily step target;
+ 
+- 14-Day Meditation Challenge: meditate at least five minutes a day;
+ 
+- Cut Back on Sugar Challenge: reduce added sugar for seven days;
+ 
+- 14-Day Sleep Routine: be in bed before 11 pm for 14 nights.
+ 
+ Finishing a challenge earns points and unlocks an achievement.
+
+ Tick habits off from your home screen
+ The Today’s Habits widget shows what’s left today with checkboxes you can tap without opening the app, on
+ iPhone and Android.
+
+Q: Is the habit tracker free?
+A: Yes. Habits, reminders, streaks, challenges and the Today’s Habits widget are part of the free app.
+
+Q: Can a habit repeat only on some days?
+A: Yes: every day, weekdays, weekends, or custom days of the week.
+
+Q: What’s the difference between a habit and a challenge?
+A: A habit is part of your routine with its own schedule and optional reminder. A challenge is a multi-day commitment with an end point, like the 30-Day Walking Challenge, and finishing it unlocks an achievement.
+
+## Home-screen widgets
+Page: https://aiwelnesspal.com/features/home-screen-widgets/
+
+AI Wellness Pal’s widgets show today’s plan, habits and wellness tools at a glance, and let you tick things off without opening the app, on both iPhone and Android.
+
+Widget previews: Today’s Plan, Today’s Habits and a few of the tool widgets
+
+ Plan and habits widgets
+ 
+ 
+- Today’s Plan: today’s focus and actions, with checkboxes you can tick from the home
+ screen and progress for the day.
+ 
+- Today’s Habits: what’s left today, ready to tick off.
+ 
+- Wellness Intention: your current intention’s tasks and progress.
+ 
+
+ A widget for every tool
+ Small widgets for the Life Toolkit: Hydration Coach, Nutrition Coach, Meal Planner, Calorie Budget, Period
+ Tracker, Body Weight, Sleep Coach, Meditation Pal and Mindful Travel. Tap one to jump straight into that tool.
+
+Tool widgets with data have a flip button that turns the tile over to show today’s numbers:
+ water progress, calories and macros, kcal left, your cycle phase and day, your current weight, or today’s meals
+ (with arrows to browse them).
+
+ Made to match your home screen
+ Each widget has its own light and dark switch, so you can match it to your wallpaper. Widgets update as you
+ use the app.
+
+ How to add a widget
+ iPhone: long-press an empty area of your home screen, tap +, search for
+ “AI Wellness Pal”, choose a widget and size, and tap Add Widget.
+
+Android: long-press your home screen, tap Widgets, find AI Wellness Pal and
+ drag the widget you want onto your home screen.
+
+Q: Are the widgets free?
+A: Yes. All widgets are part of the free app on iPhone and Android.
+
+Q: Can I tick off actions from the widget?
+A: Yes. The Today’s Plan and Today’s Habits widgets have checkboxes that work without opening the app.
+
+Q: Why does my widget look out of date?
+A: Your phone decides how often widgets refresh, so they can lag a little. Opening the app syncs them immediately, including anything you ticked from the home screen.
+
+## Frequently asked questions
+Q: What is AI Wellness Pal?
+A: AI Wellness Pal is a free AI wellness coach app for iPhone and Android. It answers one question each day: what should I do for my wellbeing right now?
+
+You do a quick check-in, and the app builds Today’s Plan: two to four small, doable actions shaped around your energy, mood, body recovery and how much time you actually have. Everything else in the app supports that: tools to track the day, a Wellness Pal to talk it through, and progress you can see building up over time.
+
+Q: Is AI Wellness Pal available on iPhone and Android?
+A: Yes. Download it from the App Store (iPhone, iOS 15.0 or later) or Google Play (Android 8.0 or later). Sign in with the same account on both and your data syncs.
+
+Q: Is AI Wellness Pal medical advice?
+A: No. AI Wellness Pal offers general wellness information and encouragement. It isn’t a medical device and doesn’t diagnose, treat or replace a doctor, therapist or other qualified professional. AI responses, calorie estimates and cycle predictions can be wrong, so talk to a healthcare provider about any health concern.
+
+If you’re in crisis or thinking about harming yourself, contact your local emergency number right away. In the US, call or text 988. In the UK, call 111 or Samaritans on 116 123. Elsewhere, find a helpline at findahelpline.com.
+
+Q: Which AI does AI Wellness Pal use?
+A: The AI features (Wellness Pal chat and voice, journal insights, daily plans, sleep insights and nutrition analysis) are powered by Google’s Gemini models through Firebase AI Logic. Before any of your information is sent to the AI, the app shows you what will be shared and asks for your permission. AI responses can be inaccurate, so use them as guidance, not fact.
+
+Q: Who makes AI Wellness Pal?
+A: AI Wellness Pal is built by Viraj Dhanushka, an independent developer. It launched on the App Store in October 2026 and on Google Play the same month. More about the app.
+
+Q: What language is AI Wellness Pal in?
+A: The app is in English. With Live Chat Pal you can speak in other languages, and turn on “Always speak English” if you want replies in English whatever language you use.
+
+Q: Who is AI Wellness Pal for?
+A: Adults (18+) who want a simple daily routine for their wellbeing: people who feel scattered by too many apps, want small steps that fit their real energy and time, and like having someone to talk things through with. It’s general wellness support, not a treatment for any condition.
+
+Q: Is AI Wellness Pal free?
+A: Yes. AI Wellness Pal is free to download and use on iPhone and Android, with no ads. The free app includes daily check-ins and Today’s Plan, the AI journal, habits and challenges, hydration, sleep, period and weight tracking, meditation and breathing sessions, widgets and 3 Wellness Pal chat messages a day.
+
+An optional Premium subscription adds unlimited chat, real-time voice conversations, AI food analysis, AI meal plans and the other AI coaching inside the toolkit. Compare Free and Premium.
+
+Q: How much does AI Wellness Pal Premium cost?
+A: On the US App Store, Premium costs $14.99 a month or $89.99 a year, and both plans start with a 7-day free trial. Prices vary by country and currency; the App Store or Google Play shows the exact price before you confirm. The subscription renews automatically unless you cancel at least 24 hours before the end of the current period.
+
+Q: What do I get with Premium?
+A: Unlimited chat with your Wellness Pal, Live Chat Pal real-time voice conversations, “Discuss” on your reflections, AI plans for your intentions, and the AI coaching inside the toolkit: nutrition analysis, meal plans, and sleep, hydration and calorie insights. You also get the full Wellness Studio library and AI-picked activities refreshed daily. All themes are free for everyone.
+
+Q: How do I cancel or manage Premium?
+A: On iPhone, go to Settings → your name → Subscriptions → AI Wellness Pal. On Android, open Google Play → Payments & subscriptions → Subscriptions. Cancel at least 24 hours before the end of the current period to avoid the next renewal.
+
+Q: How do I restore a purchase on a new phone?
+A: In the app, go to Settings → Manage Subscription → Restore Purchases, signed in with the same Apple ID or Google account you subscribed with. Have a promo code? There’s a “Have a promo code?” option on the same screen.
+
+Q: What is the daily check-in?
+A: Three quick steps: your energy (1–5), your mood, and how your body feels plus the time you have today. You can skip any step and the plan uses what you gave it. Once you’ve checked in, Today’s Plan is generated within a few seconds. You can also ask your Wellness Pal to “start my check-in” if you’d rather talk than tap.
+
+Q: How does Today’s Plan work?
+A: Each action has a checkbox. Tick them off as you go, and when you finish them all you get a small celebration. If your day changes, ask your Wellness Pal to update the plan (“I’m more tired than I thought”) and it rebuilds around how you actually feel.
+
+Q: What are Wellness Intentions?
+A: Longer-term directions rather than daily tasks, like “sleep better”, “move more” or “feel calmer”. Your daily plans are shaped by them, and each one tracks its own progress. Premium members can have an intention broken into gentle daily steps automatically.
+
+Q: How do streaks and achievements work?
+A: Your streak counts consecutive days you’ve checked in, with celebrations at 1, 3, 7, 14, 30, 50 and 100 days. Missing a day costs you a day rather than wiping the streak out. Achievements are badges for streaks, points, intentions, actions, reflections, studio sessions, meditation and challenges, from “First Sunrise” for your first check-in to “Zen Master” at 100 days.
+
+Q: How do I talk to my Wellness Pal?
+A: Tap the glowing orb button to open your Pal and start talking. To type instead, open your Pal and tap the smaller “Chat” orb. Free members get three messages a day; Premium is unlimited. Your three most recent conversations are kept as cards, and you can turn a useful one into a reflection.
+
+Q: What can the Wellness Pal do?
+A: More than talk. It can log water, meals, exercise, weight, a meditation session or a period start; create habits and set reminders; join challenges; run your check-in; rebuild Today’s Plan; add or remove Home cards; change your theme or text size; and open any screen. Just ask in your own words.
+
+Q: What is Live Chat Pal?
+A: A real-time voice conversation: you talk naturally and your Pal responds as you speak, rather than waiting for you to finish. It’s a Premium feature, turned on in Settings → AI Voice. With it on, you can also enable “Always listen for Pal” and just say “Hey Pal” while the app is open.
+
+Q: How does AI journaling work?
+A: Start a reflection and you’ll get prompts based on how your week has actually gone. Write your entry and your Pal responds with something supportive and specific. With Premium, tap “Discuss” on any reflection to talk it through and save anything useful as an Insight.
+
+Q: What’s in the Life Toolkit?
+A: Nine tools, reached from the “More” tab: Nutrition Coach, Meal Planner, Calorie Budget, Hydration Coach, Sleep Coach, Meditation Pal, Period Tracker, Body Weight and Mindful Travel.
+
+Q: Does AI Wellness Pal work with Apple Health or Health Connect?
+A: Yes, for sleep. The Sleep Coach reads your sleep data from Apple Health on iPhone or Health Connect on Android, only after you allow it. The app reads sleep only and never writes health data. You can disconnect at any time in your phone’s settings.
+
+Q: What is the Wellness Studio?
+A: Short guided activities for right now, usually 3–12 minutes, in six categories: Breathing Exercises, Recovery Challenges, Mindfulness Sessions, Wellness Quizzes, Pilates Knowledge Cards and Stress Recovery. Think Box Breathing, the 4-7-8 Calm Breath, a 5-Minute Stretch Reset or a Body Scan. At least three activities in each category are free.
+
+Q: What are Wellness Reads?
+A: Ten short articles, roughly 3–5 minutes each, on mindfulness, sleep, movement, nutrition, mental health, stress relief, Pilates and yoga, all free. The app can read any of them aloud in your phone’s voice, and keeps going in the background with lock-screen controls.
+
+Q: Does AI Wellness Pal have home-screen widgets?
+A: Yes, on iPhone and Android: Today’s Plan (tick actions without opening the app), Today’s Habits, Wellness Intention, and one for each toolkit tool. Tool widgets flip to show today’s numbers, like your water progress or cycle day. See all widgets.
+
+Q: Which notifications will I get?
+A: Only what you ask for. Settings → Notifications → Notification Preferences has a switch for each category: daily check-in, Today’s Plan, meals, hydration, habits and challenges, meditation, achievements and streaks, and cycle reminders. Meals and hydration start off. A master switch mutes everything.
+
+Q: Can I change how the app looks?
+A: Yes. Settings → Appearance and Theme switches light and dark mode and offers six themes (Clear Sky, Serenity, Lavender, Soft Sand, Morning Glow and Pilates Studio), all free. You can also scale the text size.
+
+Q: Does my data sync across devices?
+A: Yes. Sign in with the same account and your check-ins, plans, reflections, habits, intentions and settings follow you, on iPhone and Android.
+
+Q: Is my data private? Do you sell it or show ads?
+A: AI Wellness Pal has no ads, doesn’t sell your data and doesn’t track you across other companies’ apps or websites. Your data is stored in your own private area and isn’t shared with other users. Data is shared only with the service providers that run the app (such as Firebase for storage and Google Gemini for AI responses). Read the Privacy Policy for details.
+
+Q: How do I delete my account and data?
+A: In the app, go to Settings → Delete Account. This permanently deletes your account and its data. If you no longer have the app, request deletion on the web. Deleting your account doesn’t cancel a subscription, so cancel Premium in your App Store or Google Play subscriptions first.
+
+Q: How do I contact support?
+A: Email aiwellnesspal@gmail.com, or use the feedback form. Bug reports and feature ideas are very welcome.

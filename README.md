@@ -1,78 +1,33 @@
-# AI Wellness Pal
+# AI Wellness Pal — website
 
-A personal wellness companion built with Flutter and Firebase. AI Wellness Pal helps users build sustainable wellness habits through daily check-ins, personalized plans, guided reflections, and interactive wellness activities.
+Source for **[aiwelnesspal.com](https://aiwelnesspal.com/)**, the website of **AI Wellness Pal**, a free AI wellness coach app for iPhone and Android.
 
-## Features
+AI Wellness Pal turns a 30-second daily check-in (energy, mood, how your body feels and how much time you have) into a personalized plan for mood, sleep, nutrition and habits, with an AI Wellness Pal to chat or talk with, a guided journal, habit tracking and nine everyday wellness tools.
 
-- **Daily Check-Ins** — Track energy, mood, and recovery each day. After 14+ check-ins, the app pre-fills values based on your patterns (Premium).
-- **Personalized Daily Plans** — AI-generated wellness actions tailored to your check-in data and intentions.
-- **Wellness Studio** — Short interactive challenges: breathing exercises, mindfulness sessions, wellness quizzes, pilates knowledge cards, and more.
-- **Wellness Library** — Content across recovery, stress management, sleep, pilates, and women's wellness in short reads, audio sessions, and guided reflections.
-- **AI Wellness Reflection (Journal)** — AI-guided journaling with personalized prompts and supportive responses.
-- **Wellness Journey Map** — Visual timeline of milestones, trends, and achievements rendered with Mapbox (Flutter CustomPainter fallback).
-- **Wellness Intentions** — Set and track long-term wellness goals with progress tracking.
-- **Home Screen Widget** — Native widget showing today's focus and actions with deep-link check-in.
-- **Themes** — 5 glassmorphism-inspired wellness themes (2 free, 3 Premium).
-- **Push Notifications** — Gentle daily reminder if you haven't checked in.
+- Download: [App Store](https://apps.apple.com/us/app/ai-wellness-pal/id6816496839) · [Google Play](https://play.google.com/store/apps/details?id=com.aiwellnesspal.app)
+- Learn more: [Features](https://aiwelnesspal.com/features/) · [FAQ](https://aiwelnesspal.com/faq/) · [About](https://aiwelnesspal.com/about/)
+- Support: aiwellnesspal@gmail.com
 
-## Tech Stack
+## How the site is built
 
-- **Frontend**: Flutter (Dart)
-- **Backend**: Firebase (Auth, Firestore, Cloud Functions, Storage)
-- **AI**: Cloud Functions with AI-powered plan generation and journal responses
-- **Payments**: RevenueCat for Premium subscription management
-- **Maps**: Mapbox Maps Flutter SDK
+Static HTML hosted on GitHub Pages. No framework.
 
-## Getting Started
+| Path | What it is |
+|---|---|
+| `index.html` | Home page (hand-written; blocks between `<!-- BUILD:X -->` markers are generated) |
+| `features/`, `faq/`, `about/` | **Generated** content pages — edit `tools/site_content.py`, not the HTML |
+| `privacy.html`, `terms.html`, `delete-account.html` | Legal pages (their URLs are used by the app and the stores — never move them) |
+| `landing.css` | Styles for the home and content pages (`style.css` is for the legal pages) |
+| `sitemap.xml`, `llms.txt`, `llms-full.txt` | **Generated** sitemap and AI-assistant summaries |
+| `robots.txt` | Crawler rules (search and AI-search crawlers are welcome) |
+| `cloudflare/forms-worker/` | Cloudflare Worker that checks Turnstile and emails the website's forms |
+| `tools/` | Build scripts (below) |
 
-### Prerequisites
+### Updating content
 
-- Flutter SDK (3.10.7+)
-- Firebase project with Firestore, Auth, Storage, and Cloud Functions enabled
-- RevenueCat account (for Premium features)
-- Mapbox access token (optional — falls back to Flutter painter)
-
-### Setup
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/viraj-dhanushka/ai-wellness-pal.git
-   cd ai-wellness-pal
-   ```
-
-2. Install dependencies:
-   ```bash
-   flutter pub get
-   ```
-
-3. Configure Firebase:
-   - Add your `google-services.json` (Android) and `GoogleService-Info.plist` (iOS)
-   - Deploy Cloud Functions:
-     ```bash
-     cd functions && npm run deploy
-     ```
-
-4. Run the app:
-   ```bash
-   flutter run
-   ```
-
-For local testing without the AI backend, the app uses fallback plans from `assets/data/fallback_plans.json` automatically when Cloud Functions are unavailable.
-
-## Project Structure
-
-```
-lib/
-├── data/           # Static data and templates
-├── models/         # Data models (check-ins, plans, journals, etc.)
-├── providers/      # State management (Provider)
-├── screens/        # All app screens
-├── services/       # Business logic and API services
-├── theme/          # App themes and styling
-├── utils/          # Utilities and helpers
-└── widgets/        # Reusable UI components
+```bash
+python3 tools/build_site.py        # rebuild generated pages, sitemap and llms files
+python3 tools/optimize_images.py   # after adding/replacing screenshots or the icon (needs Pillow)
 ```
 
-## License
-
-This project is private and not published to pub.dev.
+After deploying, `python3 tools/indexnow.py` tells Bing and other IndexNow search engines what changed.

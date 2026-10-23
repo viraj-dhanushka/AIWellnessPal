@@ -1,27 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://aiwelnesspal.com/</loc>
-    <lastmod>2026-10-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-10-24</lastmod>
+    <image:image><image:loc>https://aiwelnesspal.com/assets/screens/01_02_home.jpg</image:loc></image:image>
+    <image:image><image:loc>https://aiwelnesspal.com/assets/screens/01_03_checkin.jpg</image:loc></image:image>
+    <image:image><image:loc>https://aiwelnesspal.com/assets/screens/03_05_pal_chat.jpg</image:loc></image:image>
+    <image:image><image:loc>https://aiwelnesspal.com/assets/screens/10_life_toolkit.jpg</image:loc></image:image>
+    <image:image><image:loc>https://aiwelnesspal.com/assets/screens/13_hydration_coach.jpg</image:loc></image:image>
+    <image:image><image:loc>https://aiwelnesspal.com/assets/screens/11_period_tracker.jpg</image:loc></image:image>
+    <image:image><image:loc>https://aiwelnesspal.com/assets/screens/17_habit_builder.jpg</image:loc></image:image>
+    <image:image><image:loc>https://aiwelnesspal.com/assets/screens/21_reflections.jpg</image:loc></image:image>
+    <image:image><image:loc>https://aiwelnesspal.com/assets/og-image.png</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://aiwelnesspal.com/features/</loc>
+    <lastmod>2026-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://aiwelnesspal.com/faq/</loc>
+    <lastmod>2026-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://aiwelnesspal.com/about/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <image:image><image:loc>https://aiwelnesspal.com/assets/icon.png</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://aiwelnesspal.com/features/ai-wellness-coach/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <image:image><image:loc>https://aiwelnesspal.com/assets/screens/01_03_checkin.jpg</image:loc></image:image>
+    <image:image><image:loc>https://aiwelnesspal.com/assets/screens/01_02_home.jpg</image:loc></image:image>
+    <image:image><image:loc>https://aiwelnesspal.com/assets/screens/07_action_detail.jpg</image:loc></image:image>
+    <image:image><image:loc>https://aiwelnesspal.com/assets/screens/16_wellness_intention.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://aiwelnesspal.com/features/ai-wellness-chat/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <image:image><image:loc>https://aiwelnesspal.com/assets/screens/03_05_pal_chat.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://aiwelnesspal.com/features/ai-journal/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <image:image><image:loc>https://aiwelnesspal.com/assets/screens/21_reflections.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://aiwelnesspal.com/features/ai-nutrition-coach/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <image:image><image:loc>https://aiwelnesspal.com/assets/screens/22_home_light.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://aiwelnesspal.com/features/ai-meal-planner/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <image:image><image:loc>https://aiwelnesspal.com/assets/screens/10_life_toolkit.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://aiwelnesspal.com/features/calorie-tracker/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <image:image><image:loc>https://aiwelnesspal.com/assets/screens/10_life_toolkit.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://aiwelnesspal.com/features/water-tracker/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <image:image><image:loc>https://aiwelnesspal.com/assets/screens/13_hydration_coach.jpg</image:loc></image:image>
+    <image:image><image:loc>https://aiwelnesspal.com/assets/screens/19_challenges.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://aiwelnesspal.com/features/sleep-tracker/</loc>
+    <lastmod>2026-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://aiwelnesspal.com/features/meditation-breathing/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <image:image><image:loc>https://aiwelnesspal.com/assets/screens/14_wellness_studio.jpg</image:loc></image:image>
+    <image:image><image:loc>https://aiwelnesspal.com/assets/screens/15_wellness_reads.jpg</image:loc></image:image>
+    <image:image><image:loc>https://aiwelnesspal.com/assets/screens/19_challenges.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://aiwelnesspal.com/features/period-tracker/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <image:image><image:loc>https://aiwelnesspal.com/assets/screens/11_period_tracker.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://aiwelnesspal.com/features/weight-tracker/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <image:image><image:loc>https://aiwelnesspal.com/assets/screens/12_body_weight.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://aiwelnesspal.com/features/habit-tracker/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <image:image><image:loc>https://aiwelnesspal.com/assets/screens/17_habit_builder.jpg</image:loc></image:image>
+    <image:image><image:loc>https://aiwelnesspal.com/assets/screens/08_add_habit.jpg</image:loc></image:image>
+    <image:image><image:loc>https://aiwelnesspal.com/assets/screens/19_challenges.jpg</image:loc></image:image>
+    <image:image><image:loc>https://aiwelnesspal.com/assets/screens/09_habit_formed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://aiwelnesspal.com/features/home-screen-widgets/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <image:image><image:loc>https://aiwelnesspal.com/assets/widgets.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://aiwelnesspal.com/privacy.html</loc>
-    <lastmod>2026-10-11</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://aiwelnesspal.com/delete-account.html</loc>
-    <lastmod>2026-10-11</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
+    <lastmod>2026-10-24</lastmod>
   </url>
   <url>
     <loc>https://aiwelnesspal.com/terms.html</loc>
-    <lastmod>2026-10-11</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
+    <lastmod>2026-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://aiwelnesspal.com/delete-account.html</loc>
+    <lastmod>2026-10-20</lastmod>
   </url>
 </urlset>
