@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Pre-publish checks for aiwelnesspal.com. Run from the repo root:
+"""Pre-publish checks for aiwellnesspal.com. Run from the repo root:
     python3 tools/check_site.py
 Exits non-zero if anything needs fixing.
 """
@@ -10,7 +10,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-SITE = 'https://aiwelnesspal.com'
+SITE = 'https://aiwellnesspal.com'
 SKIP_DIRS = {'.git', '.firebase', 'node_modules', 'cloudflare', 'tools', '.wrangler'}
 
 

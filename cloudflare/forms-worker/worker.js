@@ -1,5 +1,6 @@
 /**
- * AI Wellness Pal form relay (Cloudflare Worker, served at api.aiwelnesspal.com).
+ * AI Wellness Pal form relay (Cloudflare Worker, served at api.aiwellnesspal.com;
+ * api.aiwelnesspal.com is kept for the old domain).
  *
  * The website's feedback and account-deletion forms post here. This Worker:
  *   1. only accepts requests from the site's own origins,
@@ -18,6 +19,8 @@ const FROM_ADDRESS = 'forms@aiwelnesspal.com';
 const TO_ADDRESS = 'aiwellnesspal@gmail.com';
 
 const ALLOWED_ORIGINS = [
+  'https://aiwellnesspal.com',
+  'https://www.aiwellnesspal.com',
   'https://aiwelnesspal.com',
   'https://www.aiwelnesspal.com',
   'https://ai-wellness-pal-8f537.web.app',

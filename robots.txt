@@ -1,4 +1,4 @@
-# aiwelnesspal.com — AI Wellness Pal
+# aiwellnesspal.com — AI Wellness Pal
 # Search engines and AI search/assistant crawlers are welcome to read and cite this site.
 User-agent: *
 User-agent: Googlebot
@@ -21,4 +21,4 @@ Allow: /
 Disallow: /tools/
 Disallow: /cloudflare/
 
-Sitemap: https://aiwelnesspal.com/sitemap.xml
+Sitemap: https://aiwellnesspal.com/sitemap.xml

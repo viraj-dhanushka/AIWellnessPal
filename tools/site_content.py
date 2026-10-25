@@ -1,4 +1,4 @@
-"""Content for aiwelnesspal.com's generated pages (see build_site.py).
+"""Content for aiwellnesspal.com's generated pages (see build_site.py).
 
 Everything here is public marketing copy, so keep it accurate to the app:
 sources are the app's in-app FAQ (lib/screens/faq_screen.dart), the App Store /
@@ -6,7 +6,7 @@ Google Play listings, and the privacy policy. American English.
 Answers and bodies are HTML fragments.
 """
 
-SITE = 'https://aiwelnesspal.com'
+SITE = 'https://aiwellnesspal.com'
 APPLE_ID = '6816496839'
 APPLE = 'https://apps.apple.com/us/app/ai-wellness-pal/id6816496839'
 PLAY = 'https://play.google.com/store/apps/details?id=com.aiwellnesspal.app'
@@ -270,7 +270,7 @@ FACTS = [
     ('Age', 'For adults 18 and over'),
     ('Developer', 'Viraj Dhanushka, independent developer'),
     ('Contact', f'<a href="mailto:{EMAIL}">{EMAIL}</a>'),
-    ('Website', '<a href="https://aiwelnesspal.com/">aiwelnesspal.com</a>'),
+    ('Website', '<a href="https://aiwellnesspal.com/">aiwellnesspal.com</a>'),
 ]
 
 ABOUT_BODY = f'''      <h2>Why AI Wellness Pal exists</h2>

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Builds aiwelnesspal.com's content pages, sitemap and AI-crawler files.
+"""Builds aiwellnesspal.com's content pages, sitemap and AI-crawler files.
 
 Run from the repo root after editing tools/site_content.py:
     python3 tools/build_site.py
@@ -461,7 +461,7 @@ def home_ld():
     }
     return {'@context': 'https://schema.org', '@graph': [
         {'@type': 'WebSite', '@id': SITE + '/#website', 'url': SITE + '/', 'name': 'AI Wellness Pal',
-         'alternateName': ['AI Wellness Pal app', 'aiwelnesspal.com'], 'inLanguage': 'en',
+         'alternateName': ['AI Wellness Pal app', 'aiwellnesspal.com', 'aiwelnesspal.com'], 'inLanguage': 'en',
          'publisher': {'@id': SITE + '/#organization'}},
         {'@type': 'Organization', '@id': SITE + '/#organization', 'name': 'AI Wellness Pal', 'url': SITE + '/',
          'logo': {'@type': 'ImageObject', 'url': SITE + '/assets/icon.png', 'width': 512, 'height': 512},

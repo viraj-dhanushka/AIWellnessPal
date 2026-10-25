@@ -13,7 +13,7 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-HOST = 'aiwelnesspal.com'
+HOST = 'aiwellnesspal.com'
 key_files = [p for p in ROOT.glob('*.txt') if re.fullmatch(r'[0-9a-f]{32}\.txt', p.name)]
 assert len(key_files) == 1, 'expected exactly one IndexNow key file in the repo root'
 KEY = key_files[0].stem

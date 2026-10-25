@@ -1,11 +1,11 @@
 # AI Wellness Pal — website
 
-Source for **[aiwelnesspal.com](https://aiwelnesspal.com/)**, the website of **AI Wellness Pal**, a free AI wellness coach app for iPhone and Android.
+Source for **[aiwellnesspal.com](https://aiwellnesspal.com/)**, the website of **AI Wellness Pal**, a free AI wellness coach app for iPhone and Android.
 
 AI Wellness Pal turns a 30-second daily check-in (energy, mood, how your body feels and how much time you have) into a personalized plan for mood, sleep, nutrition and habits, with an AI Wellness Pal to chat or talk with, a guided journal, habit tracking and nine everyday wellness tools.
 
 - Download: [App Store](https://apps.apple.com/us/app/ai-wellness-pal/id6816496839) · [Google Play](https://play.google.com/store/apps/details?id=com.aiwellnesspal.app)
-- Learn more: [Features](https://aiwelnesspal.com/features/) · [FAQ](https://aiwelnesspal.com/faq/) · [About](https://aiwelnesspal.com/about/)
+- Learn more: [Features](https://aiwellnesspal.com/features/) · [FAQ](https://aiwellnesspal.com/faq/) · [About](https://aiwellnesspal.com/about/)
 - Support: aiwellnesspal@gmail.com
 
 ## How the site is built
