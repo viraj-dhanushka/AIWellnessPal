@@ -509,7 +509,7 @@ F_MEDITATE = dict(
           'step-by-step stress relief in 1 to 15 minutes, all free, plus a Wellness Studio of quick activities.'),
     hero=('14_wellness_studio', 'Breathing exercises in the AI Wellness Pal Wellness Studio'),
     shots=[('15_wellness_reads', 'Wellness Reads, ready to read aloud'),
-           ('19_challenges', 'Join a 14-day meditation challenge')],
+           ('19_challenges', 'Multi-day challenges like the 14-Day Sleep Routine')],
     body="""      <h2>Breathing you can follow</h2>
       <p>Choose <strong>Box</strong>, <strong>4-7-8</strong>, <strong>Calm</strong> or <strong>Stress Relief</strong>
       breathing for 1, 3, 5 or 10 minutes. An animated breathing orb and gentle haptic cues tell you when to breathe
@@ -648,7 +648,7 @@ F_HABIT = dict(
     h1='Build habits that stick, <span class="grad-text">one small win at a time</span>',
     lead=('The Habit Builder in AI Wellness Pal turns good intentions into a routine: habits on your own schedule, '
           'optional reminders, streaks, and multi-day challenges with achievements when you finish.'),
-    hero=('17_habit_builder', 'Habit Builder with popular challenges in AI Wellness Pal'),
+    hero=('17_habit_builder', 'Habit Builder with starter habits and challenges in AI Wellness Pal'),
     shots=[('08_add_habit', 'Create a habit with a target'),
            ('19_challenges', 'Multi-day challenges'),
            ('09_habit_formed', 'Celebrate each habit formed')],
@@ -923,7 +923,7 @@ F_WATER = dict(
     lead=('The Hydration Coach in AI Wellness Pal sets a daily water target that fits you, makes logging a single tap, '
           'and shows how consistently you’re hitting it.'),
     hero=('13_hydration_coach', 'Hydration Coach with daily water goal and quick add in AI Wellness Pal'),
-    shots=[('19_challenges', 'The 7-Day Hydration Challenge')],
+    shots=[('19_challenges', 'A recommended challenge for hydration consistency')],
     body="""      <h2>A target that fits you</h2>
       <p>Your daily goal starts at about 35 ml of water per kilogram of body weight (from your profile), adjusted for
       your profile and activity level, and kept between 1.8 and 4.5 liters. No weight set? It starts at 2.5 liters.

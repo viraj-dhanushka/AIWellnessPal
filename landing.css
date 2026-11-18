@@ -389,3 +389,19 @@ ol.how { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; paddin
 .music-toggle.on { color: #17142a; background: var(--grad); border-color: transparent; }
 .music-toggle:not(.on)::after { content: ""; position: absolute; width: 26px; height: 2px; background: currentColor; transform: rotate(-45deg); border-radius: 2px; }
 @media (prefers-reduced-motion: reduce) { .music-toggle { transition: none; } }
+
+/* Wellness Garden */
+.garden-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+.garden-shot { margin: 0; }
+.garden-main { grid-column: 1 / -1; }
+.garden-shot img { width: 100%; height: auto; display: block; border-radius: 22px; border: 1px solid var(--border); box-shadow: 0 30px 60px -25px rgba(0, 0, 0, .8); }
+.garden-points { list-style: none; padding: 0; margin: 36px 0 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
+.garden-points li { background: var(--card, rgba(255, 255, 255, .04)); border: 1px solid var(--border); border-radius: 18px; padding: 20px; }
+.garden-points h3 { margin: 0 0 8px; font-size: 1.05rem; }
+.garden-points p { margin: 0; color: var(--muted); font-size: .95rem; line-height: 1.55; }
+@media (max-width: 960px) { .garden-points { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 720px) {
+  .garden-grid { grid-template-columns: 1fr; gap: 12px; }
+  .garden-shot img { border-radius: 14px; }
+  .garden-points { grid-template-columns: 1fr; }
+}
