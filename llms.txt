@@ -43,4 +43,4 @@ Key facts:
 
 ## Optional
 - [Full text for AI assistants](https://aiwellnesspal.com/llms-full.txt)
-- [Demo video](https://www.youtube.com/watch?v=PYkPL-Q_1uw)
+- [Demo video](https://www.youtube.com/watch?v=iAscMm_XUPk)

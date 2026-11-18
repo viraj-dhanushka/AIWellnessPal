@@ -473,11 +473,11 @@ def home_ld():
          'worksFor': {'@id': SITE + '/#organization'}},
         webpage_ld('/', C.HOME_TITLE, C.HOME_DESC, extra={'@type': 'WebPage', 'mainEntity': {'@id': SITE + '/#app'}}),
         app,
-        {'@type': 'VideoObject', '@id': SITE + '/#demo-video', 'name': 'AI Wellness Pal – App demo',
-         'description': 'A quick tour of AI Wellness Pal: daily check-ins, personalized plans, the Wellness Pal chat and more.',
-         'thumbnailUrl': f'https://i.ytimg.com/vi/{C.YOUTUBE_ID}/maxresdefault.jpg',
+        {'@type': 'VideoObject', '@id': SITE + '/#demo-video', 'name': 'AI Wellness Pal – Complete Walkthrough',
+         'description': 'A complete walkthrough of AI Wellness Pal: daily check-ins, personalized plans, the Wellness Pal chat, the Life Toolkit and more.',
+         'thumbnailUrl': f'https://i.ytimg.com/vi/{C.YOUTUBE_ID}/hqdefault.jpg',
          'embedUrl': f'https://www.youtube-nocookie.com/embed/{C.YOUTUBE_ID}',
-         'contentUrl': C.YOUTUBE_VIDEO, 'uploadDate': '2026-10-01T07:05:01-07:00'},
+         'contentUrl': C.YOUTUBE_VIDEO, 'uploadDate': '2026-11-18T07:46:21-08:00'},
         faq_ld(C.HOME_FAQS, SITE + '/'),
     ]}
 
