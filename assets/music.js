@@ -1,8 +1,10 @@
 /* Gentle background music for aiwellnesspal.com.
  *
- * Browsers block sound until the visitor interacts, so the track starts (softly,
- * with a fade-in) on the first click, tap or key press, unless the visitor has
- * turned it off with the ♪ button (remembered in localStorage). Playing the
+ * Music is on by default: the ♪ button shows as active and playback is tried as
+ * soon as the page loads. Most browsers block sound until the visitor interacts,
+ * so if that attempt is refused the track starts (softly, with a fade-in) on the
+ * first click, tap or key press. Turning it off with the ♪ button is remembered
+ * in localStorage. Playing the
  * YouTube demo fades the music out and keeps it paused. The position carries
  * across pages via sessionStorage. Nothing is downloaded until playback starts.
  */
@@ -16,7 +18,7 @@
   function set(store, k, v) { try { window[store].setItem(k, v); } catch (e) {} }
   function del(store, k) { try { window[store].removeItem(k); } catch (e) {} }
 
-  var audio = null, fadeTimer = null, heldForVideo = false;
+  var audio = null, fadeTimer = null, heldForVideo = false, started = false;
   var btn = document.createElement('button');
   btn.type = 'button';
   btn.className = 'music-toggle';
@@ -24,8 +26,10 @@
   document.body.appendChild(btn);
 
   function playing() { return audio && !audio.paused; }
+  // "On" = playing, or enabled and waiting for the browser to allow sound.
+  function enabled() { return get('localStorage', OFF_KEY) !== '1' && !heldForVideo; }
   function render() {
-    var on = playing();
+    var on = playing() || (enabled() && !audio) || (enabled() && audio && audio.paused && !started);
     btn.classList.toggle('on', on);
     btn.setAttribute('aria-pressed', on ? 'true' : 'false');
     btn.setAttribute('aria-label', on ? 'Pause background music' : 'Play background music');
@@ -54,8 +58,10 @@
     }
     audio.volume = 0;
     var p = audio.play();
-    if (p && p.catch) p.catch(render);
-    fadeTo(VOLUME, 2000);
+    if (p && p.then) {
+      p.then(function () { started = true; removeFirst(); fadeTo(VOLUME, 2000); render(); })
+       .catch(function () { render(); });   // blocked: wait for the first gesture
+    } else { started = true; fadeTo(VOLUME, 2000); }
   }
 
   function stop(fadeMs) {
@@ -77,7 +83,7 @@
   // The ♪ button: play / pause, remembered for next visits.
   btn.addEventListener('click', function () {
     removeFirst();
-    if (playing()) { stop(400); set('localStorage', OFF_KEY, '1'); }
+    if (playing() || enabled()) { stop(400); set('localStorage', OFF_KEY, '1'); render(); }
     else { heldForVideo = false; del('localStorage', OFF_KEY); start(); }
   });
 
@@ -87,6 +93,7 @@
       heldForVideo = true;
       removeFirst();
       stop(600);
+      render();
     }
   }, true);
 
@@ -96,4 +103,6 @@
   });
 
   render();
+  // Try to start right away (allowed in some browsers, e.g. sites the visitor engages with).
+  if (enabled()) start();
 })();
