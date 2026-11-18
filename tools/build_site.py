@@ -262,6 +262,7 @@ def page(title, desc, path, ld_graph, main, active=''):
 {footer()}
 
 {GET_APP_SCRIPT}
+<script src="/assets/music.js" defer></script>
 </body>
 </html>
 '''
