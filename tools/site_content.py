@@ -68,7 +68,7 @@ LLMS_SUMMARY = '''Key facts:
 - Privacy: no advertising, no selling of data, no cross-app tracking; accounts and data can be deleted at any time.
 - Health data: reads sleep (only) from Apple Health on iPhone or Health Connect on Android, with permission; never writes health data.
 - Not a medical device and not medical advice.
-- Language: English.'''
+- Languages: 23 (English, Arabic, Bengali, Dutch, French, German, Hindi, Indonesian, Italian, Japanese, Korean, Marathi, Polish, Portuguese, Romanian, Russian, Spanish, Tamil, Telugu, Thai, Turkish, Ukrainian, Vietnamese), chosen in Settings → Language.'''
 
 # ------------------------------------------------------------------ FAQ
 
@@ -142,8 +142,10 @@ FAQ_GROUPS = [
          '<p>AI Wellness Pal is built by Viraj Dhanushka, an independent developer. It launched on the App Store in '
          'October 2026 and on Google Play the same month. <a href="/about/">More about the app</a>.</p>'),
         ('What language is AI Wellness Pal in?',
-         '<p>The app is in English. With Live Chat Pal you can speak in other languages, and turn on “Always speak '
-         'English” if you want replies in English whatever language you use.</p>'),
+         '<p>AI Wellness Pal is available in 23 languages, including English, Spanish, French, German, Portuguese, '
+         'Arabic, Hindi, Japanese and Korean. Choose yours in <strong>Settings → Language</strong>; the app, AI '
+         'replies and Live Chat Pal all switch to it. With Live Chat Pal you can also turn on “Always speak English” '
+         'if you want replies in English whatever language you speak.</p>'),
         ('Who is AI Wellness Pal for?',
          '<p>Adults (18+) who want a simple daily routine for their wellbeing: people who feel scattered by '
          'too many apps, want small steps that fit their real energy and time, and like having someone to talk '
@@ -266,7 +268,7 @@ FACTS = [
     ('Health data', 'Reads sleep only, from Apple Health (iPhone) or Health Connect (Android), with permission. '
                     'Never writes health data.'),
     ('Privacy', 'No ads, no data selling, no cross-app tracking. Delete your account and data anytime.'),
-    ('Language', 'English'),
+    ('Languages', '23 languages, chosen in Settings → Language'),
     ('Age', 'For adults 18 and over'),
     ('Developer', 'Viraj Dhanushka, independent developer'),
     ('Contact', f'<a href="mailto:{EMAIL}">{EMAIL}</a>'),

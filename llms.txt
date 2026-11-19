@@ -11,7 +11,7 @@ Key facts:
 - Privacy: no advertising, no selling of data, no cross-app tracking; accounts and data can be deleted at any time.
 - Health data: reads sleep (only) from Apple Health on iPhone or Health Connect on Android, with permission; never writes health data.
 - Not a medical device and not medical advice.
-- Language: English.
+- Languages: 23 (English, Arabic, Bengali, Dutch, French, German, Hindi, Indonesian, Italian, Japanese, Korean, Marathi, Polish, Portuguese, Romanian, Russian, Spanish, Tamil, Telugu, Thai, Turkish, Ukrainian, Vietnamese), chosen in Settings → Language.
 
 ## Key pages
 - [Home](https://aiwellnesspal.com/): overview, demo video, pricing, FAQ
@@ -40,6 +40,31 @@ Key facts:
 ## Download
 - [App Store (iPhone)](https://apps.apple.com/us/app/ai-wellness-pal/id6816496839)
 - [Google Play (Android)](https://play.google.com/store/apps/details?id=com.aiwellnesspal.app)
+
+## Other languages
+This site is also available in 22 other languages, with the same pages under /<language code>/ (for example https://aiwellnesspal.com/es/faq/). The Privacy Policy and Terms of Use are English only.
+- [العربية](https://aiwellnesspal.com/ar/)
+- [বাংলা](https://aiwellnesspal.com/bn/)
+- [Deutsch](https://aiwellnesspal.com/de/)
+- [Español](https://aiwellnesspal.com/es/)
+- [Français](https://aiwellnesspal.com/fr/)
+- [हिन्दी](https://aiwellnesspal.com/hi/)
+- [Bahasa Indonesia](https://aiwellnesspal.com/id/)
+- [Italiano](https://aiwellnesspal.com/it/)
+- [日本語](https://aiwellnesspal.com/ja/)
+- [한국어](https://aiwellnesspal.com/ko/)
+- [मराठी](https://aiwellnesspal.com/mr/)
+- [Nederlands](https://aiwellnesspal.com/nl/)
+- [Polski](https://aiwellnesspal.com/pl/)
+- [Português](https://aiwellnesspal.com/pt/)
+- [Română](https://aiwellnesspal.com/ro/)
+- [Русский](https://aiwellnesspal.com/ru/)
+- [தமிழ்](https://aiwellnesspal.com/ta/)
+- [తెలుగు](https://aiwellnesspal.com/te/)
+- [ไทย](https://aiwellnesspal.com/th/)
+- [Türkçe](https://aiwellnesspal.com/tr/)
+- [Українська](https://aiwellnesspal.com/uk/)
+- [Tiếng Việt](https://aiwellnesspal.com/vi/)
 
 ## Optional
 - [Full text for AI assistants](https://aiwellnesspal.com/llms-full.txt)

@@ -1,0 +1,992 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Wellness Pal: แอปโค้ชสุขภาวะ AI สำหรับ iPhone และ Android</title>
+  <meta name="description" content="AI Wellness Pal เป็นแอปโค้ชสุขภาวะ AI ที่ใช้ฟรีบน iPhone และ Android เช็กอินประจำวันเพียง 30 วินาทีก็ได้แผนเฉพาะตัวสำหรับอารมณ์ การนอน โภชนาการ และนิสัย">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+  <meta name="author" content="Viraj Dhanushka">
+  <meta name="theme-color" content="#0d0f1c">
+  <link rel="canonical" href="https://aiwellnesspal.com/th/">
+  <link rel="alternate" hreflang="en" href="https://aiwellnesspal.com/">
+  <link rel="alternate" hreflang="ar" href="https://aiwellnesspal.com/ar/">
+  <link rel="alternate" hreflang="bn" href="https://aiwellnesspal.com/bn/">
+  <link rel="alternate" hreflang="de" href="https://aiwellnesspal.com/de/">
+  <link rel="alternate" hreflang="es" href="https://aiwellnesspal.com/es/">
+  <link rel="alternate" hreflang="fr" href="https://aiwellnesspal.com/fr/">
+  <link rel="alternate" hreflang="hi" href="https://aiwellnesspal.com/hi/">
+  <link rel="alternate" hreflang="id" href="https://aiwellnesspal.com/id/">
+  <link rel="alternate" hreflang="it" href="https://aiwellnesspal.com/it/">
+  <link rel="alternate" hreflang="ja" href="https://aiwellnesspal.com/ja/">
+  <link rel="alternate" hreflang="ko" href="https://aiwellnesspal.com/ko/">
+  <link rel="alternate" hreflang="mr" href="https://aiwellnesspal.com/mr/">
+  <link rel="alternate" hreflang="nl" href="https://aiwellnesspal.com/nl/">
+  <link rel="alternate" hreflang="pl" href="https://aiwellnesspal.com/pl/">
+  <link rel="alternate" hreflang="pt" href="https://aiwellnesspal.com/pt/">
+  <link rel="alternate" hreflang="ro" href="https://aiwellnesspal.com/ro/">
+  <link rel="alternate" hreflang="ru" href="https://aiwellnesspal.com/ru/">
+  <link rel="alternate" hreflang="ta" href="https://aiwellnesspal.com/ta/">
+  <link rel="alternate" hreflang="te" href="https://aiwellnesspal.com/te/">
+  <link rel="alternate" hreflang="th" href="https://aiwellnesspal.com/th/">
+  <link rel="alternate" hreflang="tr" href="https://aiwellnesspal.com/tr/">
+  <link rel="alternate" hreflang="uk" href="https://aiwellnesspal.com/uk/">
+  <link rel="alternate" hreflang="vi" href="https://aiwellnesspal.com/vi/">
+  <link rel="alternate" hreflang="x-default" href="https://aiwellnesspal.com/">
+  <link rel="icon" type="image/png" href="/assets/favicon.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="apple-itunes-app" content="app-id=6816496839">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="AI Wellness Pal">
+  <meta property="og:locale" content="th_TH">
+  <meta property="og:title" content="AI Wellness Pal: โค้ชสุขภาวะ AI ส่วนตัวของคุณ">
+  <meta property="og:description" content="เช็กอินประจำวัน แผนเฉพาะตัว การทบทวนตนเองแบบมีผู้นำทาง และ AI Wellness Pal ไว้พูดคุยเรื่องต่าง ๆ ดาวน์โหลดฟรีบน App Store และ Google Play">
+  <meta property="og:url" content="https://aiwellnesspal.com/th/">
+  <meta property="og:image" content="https://aiwellnesspal.com/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="แอป AI Wellness Pal: รู้สึกดีขึ้นทีละวัน">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AI Wellness Pal: โค้ชสุขภาวะ AI ส่วนตัวของคุณ">
+  <meta name="twitter:description" content="เช็กอินประจำวัน แผนเฉพาะตัว การทบทวนตนเองแบบมีผู้นำทาง และ AI Wellness Pal ไว้พูดคุยเรื่องต่าง ๆ">
+  <meta name="twitter:image" content="https://aiwellnesspal.com/assets/og-image.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400..800&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400..800&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400..800&display=swap"></noscript>
+  <link rel="preload" as="image" type="image/webp" href="/assets/screens/w/01_02_home-600.webp" imagesrcset="/assets/screens/w/01_02_home-300.webp 300w, /assets/screens/w/01_02_home-600.webp 600w" imagesizes="(max-width: 720px) 200px, (max-width: 960px) 230px, 270px">
+  <noscript><style>.reveal { opacity: 1; transform: none; }</style></noscript>
+  <link rel="stylesheet" href="/landing.css">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://aiwellnesspal.com/#website",
+      "url": "https://aiwellnesspal.com/",
+      "name": "AI Wellness Pal",
+      "alternateName": [
+        "AI Wellness Pal app",
+        "aiwellnesspal.com",
+        "aiwelnesspal.com"
+      ],
+      "inLanguage": [
+        "en",
+        "ar",
+        "bn",
+        "de",
+        "es",
+        "fr",
+        "hi",
+        "id",
+        "it",
+        "ja",
+        "ko",
+        "mr",
+        "nl",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "ta",
+        "te",
+        "th",
+        "tr",
+        "uk",
+        "vi"
+      ],
+      "publisher": {
+        "@id": "https://aiwellnesspal.com/#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://aiwellnesspal.com/#organization",
+      "name": "AI Wellness Pal",
+      "url": "https://aiwellnesspal.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://aiwellnesspal.com/assets/icon.png",
+        "width": 512,
+        "height": 512
+      },
+      "email": "aiwellnesspal@gmail.com",
+      "founder": {
+        "@id": "https://aiwellnesspal.com/#founder"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "email": "aiwellnesspal@gmail.com",
+        "availableLanguage": "en"
+      },
+      "sameAs": [
+        "https://apps.apple.com/us/app/ai-wellness-pal/id6816496839",
+        "https://play.google.com/store/apps/details?id=com.aiwellnesspal.app"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://aiwellnesspal.com/#founder",
+      "name": "Viraj Dhanushka",
+      "jobTitle": "Founder and developer",
+      "worksFor": {
+        "@id": "https://aiwellnesspal.com/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://aiwellnesspal.com/th/#webpage",
+      "url": "https://aiwellnesspal.com/th/",
+      "name": "AI Wellness Pal: แอปโค้ชสุขภาวะ AI สำหรับ iPhone และ Android",
+      "description": "AI Wellness Pal เป็นแอปโค้ชสุขภาวะ AI ที่ใช้ฟรีบน iPhone และ Android เช็กอินประจำวันเพียง 30 วินาทีก็ได้แผนเฉพาะตัวสำหรับอารมณ์ การนอน โภชนาการ และนิสัย",
+      "inLanguage": "th",
+      "isPartOf": {
+        "@id": "https://aiwellnesspal.com/#website"
+      },
+      "about": {
+        "@id": "https://aiwellnesspal.com/#app"
+      },
+      "publisher": {
+        "@id": "https://aiwellnesspal.com/#organization"
+      },
+      "dateModified": "2026-11-19",
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://aiwellnesspal.com/assets/og-image.png"
+      },
+      "translationOfWork": {
+        "@id": "https://aiwellnesspal.com/#webpage"
+      },
+      "mainEntity": {
+        "@id": "https://aiwellnesspal.com/#app"
+      }
+    },
+    {
+      "@type": "MobileApplication",
+      "@id": "https://aiwellnesspal.com/#app",
+      "name": "AI Wellness Pal",
+      "url": "https://aiwellnesspal.com/",
+      "description": "AI Wellness Pal เป็นโค้ชสุขภาวะ AI สำหรับ iPhone และ Android เช็กอินประจำวันเพียง 30 วินาทีก็ได้แผนเฉพาะตัวสำหรับอารมณ์ การนอน โภชนาการ และนิสัย พร้อม AI Wellness Pal ไว้แชตหรือพูดคุย บันทึกแบบมีผู้นำทาง การติดตามนิสัย และเครื่องมือสุขภาวะ 9 อย่าง (โค้ชโภชนาการ ตัวช่วยวางแผนมื้ออาหาร งบแคลอรี่ โค้ชการดื่มน้ำ โค้ชการนอนหลับ การทำสมาธิ การติดตามประจำเดือน น้ำหนักตัว และเดินทางอย่างมีสติ)",
+      "abstract": "เพื่อนคู่ใจด้านสุขภาวะ AI — แผนประจำวันที่สร้างจากความรู้สึกจริงของคุณ",
+      "image": "https://aiwellnesspal.com/assets/icon.png",
+      "screenshot": [
+        "https://aiwellnesspal.com/assets/screens/01_02_home.jpg",
+        "https://aiwellnesspal.com/assets/screens/01_03_checkin.jpg",
+        "https://aiwellnesspal.com/assets/screens/03_05_pal_chat.jpg",
+        "https://aiwellnesspal.com/assets/screens/10_life_toolkit.jpg",
+        "https://aiwellnesspal.com/assets/screens/13_hydration_coach.jpg",
+        "https://aiwellnesspal.com/assets/screens/11_period_tracker.jpg",
+        "https://aiwellnesspal.com/assets/screens/17_habit_builder.jpg",
+        "https://aiwellnesspal.com/assets/screens/21_reflections.jpg"
+      ],
+      "operatingSystem": "iOS 15.0 or later, Android 8.0 or later",
+      "applicationCategory": "HealthApplication",
+      "applicationSubCategory": "Wellness",
+      "featureList": [
+        "เช็กอินประจำวันและแผนวันนี้เฉพาะตัว",
+        "แชตกับ AI Wellness Pal และสนทนาด้วยเสียงแบบเรียลไทม์ (Live Chat Pal)",
+        "บันทึกและการทบทวนตนเองที่มี AI นำทาง",
+        "โค้ชโภชนาการ AI: บันทึกมื้ออาหารด้วยรูปถ่าย คำอธิบาย หรือบาร์โค้ด",
+        "ตัวช่วยวางแผนมื้ออาหาร AI",
+        "งบแคลอรี่ (อาหารและการออกกำลังกาย)",
+        "โค้ชการดื่มน้ำพร้อมเป้าหมายน้ำดื่มรายวัน",
+        "โค้ชการนอนหลับที่ใช้ข้อมูลจาก Apple Health หรือ Health Connect",
+        "Meditation Pal: แบบฝึกหายใจ สแกนร่างกาย และคลายเครียด",
+        "ติดตามประจำเดือนพร้อมการคาดการณ์รอบเดือน",
+        "ติดตามน้ำหนักตัวและ BMI",
+        "ตัวช่วยสร้างนิสัย ชาเลนจ์ สถิติต่อเนื่อง และการเตือน",
+        "วิดเจ็ตหน้าจอหลักสำหรับ iPhone และ Android"
+      ],
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Free",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        {
+          "@type": "Offer",
+          "name": "Premium Monthly (US App Store)",
+          "price": "14.99",
+          "priceCurrency": "USD",
+          "description": "Auto-renewing subscription with a 7-day free trial."
+        },
+        {
+          "@type": "Offer",
+          "name": "Premium Yearly (US App Store)",
+          "price": "89.99",
+          "priceCurrency": "USD",
+          "description": "Auto-renewing subscription with a 7-day free trial."
+        }
+      ],
+      "isAccessibleForFree": true,
+      "inLanguage": [
+        "en",
+        "ar",
+        "bn",
+        "de",
+        "es",
+        "fr",
+        "hi",
+        "id",
+        "it",
+        "ja",
+        "ko",
+        "mr",
+        "nl",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "ta",
+        "te",
+        "th",
+        "tr",
+        "uk",
+        "vi"
+      ],
+      "datePublished": "2026-10-05",
+      "installUrl": [
+        "https://apps.apple.com/us/app/ai-wellness-pal/id6816496839",
+        "https://play.google.com/store/apps/details?id=com.aiwellnesspal.app"
+      ],
+      "downloadUrl": [
+        "https://apps.apple.com/us/app/ai-wellness-pal/id6816496839",
+        "https://play.google.com/store/apps/details?id=com.aiwellnesspal.app"
+      ],
+      "sameAs": [
+        "https://apps.apple.com/us/app/ai-wellness-pal/id6816496839",
+        "https://play.google.com/store/apps/details?id=com.aiwellnesspal.app"
+      ],
+      "author": {
+        "@id": "https://aiwellnesspal.com/#founder"
+      },
+      "publisher": {
+        "@id": "https://aiwellnesspal.com/#organization"
+      },
+      "softwareHelp": {
+        "@type": "WebPage",
+        "url": "https://aiwellnesspal.com/th/faq/"
+      },
+      "video": {
+        "@id": "https://aiwellnesspal.com/#demo-video"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://aiwellnesspal.com/#demo-video",
+      "name": "AI Wellness Pal – Complete Walkthrough",
+      "description": "A complete walkthrough of AI Wellness Pal: daily check-ins, personalized plans, the Wellness Pal chat, the Life Toolkit and more.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iAscMm_XUPk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/iAscMm_XUPk",
+      "contentUrl": "https://www.youtube.com/watch?v=iAscMm_XUPk",
+      "uploadDate": "2026-11-18T07:46:21-08:00",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://aiwellnesspal.com/th/#faq",
+      "inLanguage": "th",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "AI Wellness Pal คืออะไร",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI Wellness Pal เป็นแอปโค้ชสุขภาวะ AI ที่ใช้ฟรีบน iPhone และ Android ตอบคำถามเดียวในแต่ละวัน: ตอนนี้ฉันควรทำอะไรเพื่อสุขภาวะของตัวเองดี\n\nคุณเพียงเช็กอินสั้น ๆ แล้วแอปจะสร้างแผนวันนี้ให้ เป็นสิ่งเล็ก ๆ ที่ทำได้จริง 2-4 อย่าง ปรับตามพลังงาน อารมณ์ การฟื้นฟูของร่างกาย และเวลาที่คุณมีจริง ๆ ส่วนอื่น ๆ ในแอปล้วนช่วยสนับสนุนสิ่งนี้ ทั้งเครื่องมือติดตามแต่ละวัน Wellness Pal ไว้พูดคุยทบทวน และความก้าวหน้าที่คุณเห็นได้ว่าค่อย ๆ สะสมขึ้นเรื่อย ๆ"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI Wellness Pal ใช้ฟรีหรือไม่",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ใช่ ดาวน์โหลดและใช้ AI Wellness Pal ได้ฟรีบน iPhone และ Android โดยไม่มีโฆษณา แอปเวอร์ชันฟรีมีเช็กอินประจำวันและแผนวันนี้ บันทึก AI นิสัยและชาเลนจ์ การติดตามการดื่มน้ำ การนอน ประจำเดือน และน้ำหนัก เซสชันทำสมาธิและฝึกหายใจ วิดเจ็ต และแชตกับ Wellness Pal วันละ 3 ข้อความ\n\nการสมัครสมาชิก Premium (ไม่บังคับ) เพิ่มการแชตแบบไม่จำกัด การสนทนาด้วยเสียงแบบเรียลไทม์ การวิเคราะห์อาหารด้วย AI แผนมื้ออาหารจาก AI และโค้ช AI อื่น ๆ ในชุดเครื่องมือ เปรียบเทียบฟรีและ Premium"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI Wellness Pal Premium ราคาเท่าไร",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "บน App Store ของสหรัฐอเมริกา Premium ราคา $14.99 ต่อเดือนหรือ $89.99 ต่อปี และทั้งสองแผนเริ่มต้นด้วยช่วงทดลองใช้ฟรี 7 วัน ราคาต่างกันไปตามประเทศและสกุลเงิน App Store หรือ Google Play จะแสดงราคาที่แน่นอนก่อนที่คุณจะยืนยัน การสมัครสมาชิกจะต่ออายุอัตโนมัติ เว้นแต่คุณจะยกเลิกอย่างน้อย 24 ชั่วโมงก่อนสิ้นสุดรอบปัจจุบัน"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI Wellness Pal มีบน iPhone และ Android หรือไม่",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "มี ดาวน์โหลดได้จาก App Store (iPhone, iOS 15.0 ขึ้นไป) หรือ Google Play (Android 8.0 ขึ้นไป) ลงชื่อเข้าใช้ด้วยบัญชีเดียวกันบนทั้งสองระบบ ข้อมูลของคุณก็จะซิงค์กัน"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "เช็กอินประจำวันคืออะไร",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ง่าย ๆ 3 ขั้นตอน: พลังงานของคุณ (1–5) อารมณ์ของคุณ และความรู้สึกของร่างกายพร้อมเวลาที่คุณมีในวันนี้ ข้ามขั้นตอนไหนก็ได้ แผนจะใช้ข้อมูลที่คุณให้ไว้ เมื่อเช็กอินแล้ว แผนวันนี้จะถูกสร้างภายในไม่กี่วินาที หรือจะบอก Wellness Pal ว่า “เริ่มเช็กอินของฉัน” ก็ได้ ถ้าคุณอยากพูดมากกว่าแตะ"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI Wellness Pal เป็นคำแนะนำทางการแพทย์หรือไม่",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ไม่ใช่ AI Wellness Pal ให้ข้อมูลสุขภาวะทั่วไปและกำลังใจ ไม่ใช่อุปกรณ์ทางการแพทย์ และไม่วินิจฉัย รักษา หรือแทนที่แพทย์ นักบำบัด หรือผู้เชี่ยวชาญที่มีคุณสมบัติ คำตอบของ AI การประมาณแคลอรี่ และการคาดการณ์รอบเดือนอาจคลาดเคลื่อนได้ หากกังวลเรื่องสุขภาพ โปรดปรึกษาผู้ให้บริการด้านสุขภาพ\n\nหากคุณอยู่ในภาวะวิกฤตหรือคิดจะทำร้ายตัวเอง โปรดติดต่อหมายเลขฉุกเฉินในพื้นที่ของคุณทันที ในสหรัฐอเมริกา โทรหรือส่งข้อความถึง 988 ในสหราชอาณาจักร โทร 111 หรือ Samaritans ที่ 116 123 ในที่อื่น ๆ ค้นหาสายด่วนได้ที่ findahelpline.com"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI Wellness Pal ใช้ AI ตัวไหน",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ฟีเจอร์ AI (แชตและเสียงของ Wellness Pal ข้อมูลเชิงลึกจากบันทึก แผนประจำวัน ข้อมูลเชิงลึกด้านการนอน และการวิเคราะห์โภชนาการ) ขับเคลื่อนด้วยโมเดล Gemini ของ Google ผ่าน Firebase AI Logic ก่อนที่ข้อมูลใด ๆ ของคุณจะถูกส่งไปยัง AI แอปจะแสดงให้คุณเห็นว่าจะแชร์อะไรบ้างและขออนุญาตจากคุณก่อน คำตอบของ AI อาจไม่ถูกต้อง ดังนั้นควรใช้เป็นแนวทาง ไม่ใช่ข้อเท็จจริง"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ข้อมูลของฉันเป็นส่วนตัวหรือไม่ คุณขายข้อมูลหรือแสดงโฆษณาหรือเปล่า",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI Wellness Pal ไม่มีโฆษณา ไม่ขายข้อมูลของคุณ และไม่ติดตามคุณข้ามแอปหรือเว็บไซต์ของบริษัทอื่น ข้อมูลของคุณเก็บไว้ในพื้นที่ส่วนตัวของคุณเองและไม่แชร์กับผู้ใช้อื่น ข้อมูลจะถูกแชร์เฉพาะกับผู้ให้บริการที่ดำเนินการแอปเท่านั้น (เช่น Firebase สำหรับการจัดเก็บ และ Google Gemini สำหรับคำตอบของ AI) อ่านรายละเอียดได้ในนโยบายความเป็นส่วนตัว"
+          }
+        }
+      ]
+    }
+  ]
+}
+  </script>
+</head>
+<body data-music-play="เล่นเพลง" data-music-pause="หยุดเพลงชั่วคราว" data-music-play-label="เล่นเพลงประกอบ" data-music-pause-label="หยุดเพลงประกอบชั่วคราว">
+<div class="glow" aria-hidden="true"><span></span><span></span><span></span></div>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-apple" viewBox="0 0 24 24"><path fill="currentColor" d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><path fill="currentColor" d="M22.018 13.298l-3.919 2.218-3.515-3.493 3.543-3.521 3.891 2.202a1.49 1.49 0 0 1 0 2.594zM1.337.924a1.486 1.486 0 0 0-.112.568v21.017c0 .217.045.419.124.6l11.155-11.087L1.337.924zm12.207 10.065l3.258-3.238L3.45.195a1.466 1.466 0 0 0-.946-.179l11.04 10.973zm0 2.067l-11 10.933c.298.036.612-.016.906-.183l13.324-7.54-3.23-3.21z"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></g></symbol>
+</svg>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="/th/"><picture><source type="image/webp" srcset="/assets/icon-96.webp 1x, /assets/icon-192.webp 2x"><img src="/assets/icon-96.png" alt="" width="34" height="34"></picture>AI Wellness Pal</a>
+    <nav class="nav-links" aria-label="หลัก">
+      <a href="/th/features/">ฟีเจอร์</a>
+      <a href="/th/#demo">เดโม</a>
+      <a href="/th/faq/">คำถามที่พบบ่อย</a>
+      <a href="/th/about/">เกี่ยวกับ</a>
+      <a href="/th/#support">ช่วยเหลือ</a>
+    </nav>
+    <details class="lang-pick">
+      <summary aria-label="ภาษา: ไทย"><svg aria-hidden="true"><use href="#i-globe"/></svg><span>TH</span></summary>
+      <ul class="lang-menu"><li><a href="/" hreflang="en" lang="en" data-lang="en">English</a></li><li><a href="/ar/" hreflang="ar" lang="ar" data-lang="ar">العربية</a></li><li><a href="/bn/" hreflang="bn" lang="bn" data-lang="bn">বাংলা</a></li><li><a href="/de/" hreflang="de" lang="de" data-lang="de">Deutsch</a></li><li><a href="/es/" hreflang="es" lang="es" data-lang="es">Español</a></li><li><a href="/fr/" hreflang="fr" lang="fr" data-lang="fr">Français</a></li><li><a href="/hi/" hreflang="hi" lang="hi" data-lang="hi">हिन्दी</a></li><li><a href="/id/" hreflang="id" lang="id" data-lang="id">Bahasa Indonesia</a></li><li><a href="/it/" hreflang="it" lang="it" data-lang="it">Italiano</a></li><li><a href="/ja/" hreflang="ja" lang="ja" data-lang="ja">日本語</a></li><li><a href="/ko/" hreflang="ko" lang="ko" data-lang="ko">한국어</a></li><li><a href="/mr/" hreflang="mr" lang="mr" data-lang="mr">मराठी</a></li><li><a href="/nl/" hreflang="nl" lang="nl" data-lang="nl">Nederlands</a></li><li><a href="/pl/" hreflang="pl" lang="pl" data-lang="pl">Polski</a></li><li><a href="/pt/" hreflang="pt" lang="pt" data-lang="pt">Português</a></li><li><a href="/ro/" hreflang="ro" lang="ro" data-lang="ro">Română</a></li><li><a href="/ru/" hreflang="ru" lang="ru" data-lang="ru">Русский</a></li><li><a href="/ta/" hreflang="ta" lang="ta" data-lang="ta">தமிழ்</a></li><li><a href="/te/" hreflang="te" lang="te" data-lang="te">తెలుగు</a></li><li><a href="/th/" hreflang="th" lang="th" data-lang="th" aria-current="true">ไทย</a></li><li><a href="/tr/" hreflang="tr" lang="tr" data-lang="tr">Türkçe</a></li><li><a href="/uk/" hreflang="uk" lang="uk" data-lang="uk">Українська</a></li><li><a href="/vi/" hreflang="vi" lang="vi" data-lang="vi">Tiếng Việt</a></li></ul>
+    </details>
+    <a class="btn btn-sm btn-grad" id="get-app" href="https://apps.apple.com/us/app/ai-wellness-pal/id6816496839">รับแอป</a>
+  </div>
+</header>
+
+<main id="top">
+  <!-- Hero -->
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <span class="pill"><span class="dot"></span>ตอนนี้มีบน App Store และ Google Play แล้ว</span>
+        <h1><span class="h1-kicker">AI Wellness Pal · แอปโค้ชสุขภาวะ AI</span>รู้สึกดีขึ้น<br><span class="grad-text">ทีละวัน</span></h1>
+        <p class="lead"><strong>AI Wellness Pal</strong> เป็นโค้ชสุขภาวะ AI ที่ใช้ฟรีบน iPhone และ Android เช็กอินประจำวันเพียง 30 วินาทีก็ได้แผนเฉพาะตัวสำหรับอารมณ์ การนอน โภชนาการ และนิสัย — พร้อม AI Wellness Pal ไว้พูดคุยทุกเมื่อที่คุณต้องการ</p>
+        <div class="cta">
+          <a class="btn btn-store" href="https://apps.apple.com/us/app/ai-wellness-pal/id6816496839">
+            <svg aria-hidden="true"><use href="#i-apple"/></svg>
+            <span class="lbl"><small>ดาวน์โหลดได้ที่</small><strong>App Store</strong></span>
+          </a>
+          <a class="btn btn-store" href="https://play.google.com/store/apps/details?id=com.aiwellnesspal.app">
+            <svg aria-hidden="true"><use href="#i-play"/></svg>
+            <span class="lbl"><small>ดาวน์โหลดได้ที่</small><strong>Google Play</strong></span>
+          </a>
+        </div>
+        <div class="hero-meta">
+          <span><svg><use href="#i-check"/></svg>ดาวน์โหลดฟรี</span>
+          <span><svg><use href="#i-check"/></svg>ไม่มีโฆษณา ไม่ขายข้อมูล</span>
+          <span><svg><use href="#i-check"/></svg>ลบข้อมูลของคุณได้ทุกเมื่อ</span>
+        </div>
+      </div>
+      <div class="phones" aria-hidden="true">
+        <div class="phone back"><picture><source type="image/webp" srcset="/assets/screens/w/03_05_pal_chat-300.webp 300w, /assets/screens/w/03_05_pal_chat-600.webp 600w" sizes="(max-width: 720px) 200px, (max-width: 960px) 230px, 270px"><img src="/assets/screens/03_05_pal_chat.jpg" alt="" width="600" height="1300" decoding="async"></picture></div>
+        <div class="phone front"><picture><source type="image/webp" srcset="/assets/screens/w/01_02_home-300.webp 300w, /assets/screens/w/01_02_home-600.webp 600w" sizes="(max-width: 720px) 200px, (max-width: 960px) 230px, 270px"><img src="/assets/screens/01_02_home.jpg" alt="" width="600" height="1300" fetchpriority="high"></picture></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section id="how" style="padding-top:40px">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">ทำงานอย่างไร</span>
+        <h2>เช็กอินครั้งเดียว <span class="grad-text">ได้แผนที่เหมาะกับวันนี้</span></h2>
+        <p>แอปสุขภาวะส่วนใหญ่ให้แผนเดียวกับทุกคน แต่ AI Wellness Pal ถามก่อนว่าตอนนี้คุณเป็นอย่างไรจริง ๆ</p>
+      </div>
+      <ol class="how reveal">
+        <li><h3>เช็กอิน (30 วินาที)</h3><p>ให้คะแนนพลังงาน เลือกอารมณ์ และบอกว่าร่างกายรู้สึกอย่างไรและคุณมีเวลาเท่าไร ข้ามข้อไหนก็ได้</p></li>
+        <li><h3>รับแผนวันนี้</h3><p>สิ่งเล็ก ๆ ที่ทำได้จริง 2-4 อย่างตามคำตอบของคุณ เหนื่อยล้าแต่มีเวลาว่างสิบห้านาที? คุณจะได้วันที่ต่างจากตอนที่พักผ่อนเต็มที่และมีเวลาหนึ่งชั่วโมงมาก</p></li>
+        <li><h3>ทำตามแผนไปกับ Pal ของคุณ</h3><p>ติ๊กกิจกรรมที่ทำเสร็จ ติดตามการดื่มน้ำ มื้ออาหาร การนอน และนิสัย และพูดคุยกับ AI Wellness Pal ของคุณเมื่อต้องการ</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Demo video -->
+  <section id="demo">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">ดูการใช้งานจริง</span>
+        <h2>ชม<span class="grad-text">เดโม</span></h2>
+        <p>แนะนำการใช้งานแอปแบบครบถ้วน: เช็กอิน แผนประจำวัน แชตกับ Wellness Pal ชุดเครื่องมือ และอื่น ๆ</p>
+      </div>
+      <div class="video reveal" id="video">
+        <button type="button" aria-label="เล่นวิดีโอแนะนำการใช้งาน AI Wellness Pal">
+          <img src="https://i.ytimg.com/vi/iAscMm_XUPk/hqdefault.jpg" alt="" width="480" height="360" loading="lazy" decoding="async">
+          <span class="play"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M7 4.5v15l12.5-7.5z"/></svg></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">ครบในที่เดียว</span>
+        <h2>ดูแลสุขภาวะทั้งหมดของคุณ <span class="grad-text">อย่างอ่อนโยน</span></h2>
+        <p>สิ่งเล็ก ๆ ที่ทำได้จริง เหมาะกับพลังงาน เวลา และวันของคุณ</p>
+      </div>
+      <div class="grid">
+        <a class="card reveal" href="/th/features/ai-wellness-coach/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></div>
+          <h3>เช็กอินประจำวัน</h3>
+          <p>บันทึกพลังงาน อารมณ์ และการฟื้นฟูได้ในไม่กี่วินาที คำตอบของคุณจะกำหนดแผนเฉพาะตัวสำหรับวันนั้น</p>
+          <span class="more">ดูเพิ่มเติม →</span>
+        </a>
+        <a class="card reveal" href="/th/features/ai-wellness-chat/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg></div>
+          <h3>Wellness Pal ของคุณ</h3>
+          <p>คุยเรื่องความเครียด แรงจูงใจ หรือนิสัย Pal ของคุณเรียนรู้จากเช็กอินและบันทึกของคุณเพื่อให้คำแนะนำที่เกี่ยวข้อง</p>
+          <span class="more">ดูเพิ่มเติม →</span>
+        </a>
+        <a class="card reveal" href="/th/features/ai-journal/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5V5a2 2 0 0 1 2-2h12v18H6a2 2 0 0 1-2-1.5z"/><path d="M8 7h6M8 11h6"/></svg></div>
+          <h3>การทบทวนตนเองแบบมีผู้นำทาง</h3>
+          <p>บันทึกส่วนตัวพร้อมคำถามชวนคิด มองเห็นรูปแบบและสิ่งที่ช่วยให้คุณรู้สึกดีขึ้นจริง ๆ</p>
+          <span class="more">ดูเพิ่มเติม →</span>
+        </a>
+      </div>
+
+      <div class="toolkit-head reveal">
+        <span class="eyebrow">ชุดเครื่องมือชีวิต</span>
+        <h3>เครื่องมือ 9 อย่างสำหรับ<span class="grad-text">ทุกด้านของชีวิต</span></h3>
+        <p>ตั้งแต่มื้ออาหารและน้ำดื่มไปจนถึงการนอน รอบเดือน และการเดินทาง เปิดเครื่องมือใดก็ได้จากแท็บเพิ่มเติม และปักหมุดอันที่ชอบไว้บนหน้าหลัก <a href="/th/features/" style="color:var(--lavender)">ดูทุกฟีเจอร์ →</a></p>
+      </div>
+      <div class="grid toolkit">
+        <a class="card reveal" href="/th/features/ai-nutrition-coach/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9a2 2 0 0 1 2-2h2l1.5-2h7L17 7h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><circle cx="12" cy="13" r="3.5"/></svg></div>
+          <h3>โค้ชโภชนาการ AI</h3>
+          <p>บันทึกมื้ออาหารด้วยรูปถ่าย คำอธิบาย หรือบาร์โค้ด แล้วรับการประมาณแคลอรี่และสารอาหารหลักจาก AI ทันที</p>
+          <span class="more">ดูเพิ่มเติม →</span>
+        </a>
+        <a class="card reveal" href="/th/features/ai-meal-planner/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3v8a3 3 0 0 0 6 0V3M7 3v18M17 21V3c-2.5 1-4 3.5-4 7v3h4"/></svg></div>
+          <h3>ตัวช่วยวางแผนมื้ออาหาร AI</h3>
+          <p>มื้ออาหารหนึ่งวัน หนึ่งสัปดาห์ หรือหนึ่งเดือนที่จัดตามเป้าหมายและสไตล์การกินของคุณ พร้อมรายการซื้อของที่ตรงกัน</p>
+          <span class="more">ดูเพิ่มเติม →</span>
+        </a>
+        <a class="card reveal" href="/th/features/calorie-tracker/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c1 3 4 4.5 4 9a4 4 0 0 1-8 0c0-2 1-3 2-4 0 2 1 3 2 3 0-3-1-5 0-8z"/><path d="M6 15a6 6 0 0 0 12 0"/></svg></div>
+          <h3>งบแคลอรี่ AI</h3>
+          <p>ดูปริมาณที่กินและการออกกำลังกายไปพร้อมกัน เพื่อให้รู้สมดุลพลังงานของแต่ละวันเสมอ</p>
+          <span class="more">ดูเพิ่มเติม →</span>
+        </a>
+        <a class="card reveal" href="/th/features/water-tracker/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/></svg></div>
+          <h3>โค้ชการดื่มน้ำ AI</h3>
+          <p>ติดตามการดื่มน้ำเทียบกับเป้าหมายรายวันอัจฉริยะ พร้อมเพิ่มด่วนและสถิติต่อเนื่องการดื่มน้ำเพื่อให้คุณทำต่อไปได้</p>
+          <span class="more">ดูเพิ่มเติม →</span>
+        </a>
+        <a class="card reveal" href="/th/features/sleep-tracker/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5z"/></svg></div>
+          <h3>โค้ชการนอนหลับ</h3>
+          <p>เข้าใจการนอนของคุณ: เชื่อมต่อ Apple Health หรือ Health Connect (อ่านอย่างเดียว) เพื่อดูคะแนนการนอน ช่วงการนอน และข้อมูลเชิงลึกด้านการฟื้นฟู</p>
+          <span class="more">ดูเพิ่มเติม →</span>
+        </a>
+        <a class="card reveal" href="/th/features/meditation-breathing/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5" r="2"/><path d="M12 8v5M6 20l3-4h6l3 4M5 12l7 1 7-1"/></svg></div>
+          <h3>Meditation Pal</h3>
+          <p>หายใจ ทำสมาธิ และค้นพบความสงบด้วยการฝึกหายใจแบบมีผู้นำทาง สแกนร่างกาย และการคลายเครียดทีละขั้น</p>
+          <span class="more">ดูเพิ่มเติม →</span>
+        </a>
+        <a class="card reveal" href="/th/features/period-tracker/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 5.5-7 10-7 10z"/></svg></div>
+          <h3>ติดตามประจำเดือน</h3>
+          <p>บันทึกรอบเดือน ดูการคาดการณ์ประจำเดือนครั้งถัดไปและช่วงเจริญพันธุ์ และรับเคล็ดลับตามแต่ละช่วง</p>
+          <span class="more">ดูเพิ่มเติม →</span>
+        </a>
+        <a class="card reveal" href="/th/features/weight-tracker/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 10a4 4 0 0 1 8 0M12 10l1.5-2"/></svg></div>
+          <h3>น้ำหนักตัว</h3>
+          <p>ติดตามน้ำหนักและ BMI ตลอดเวลาด้วยกราฟแนวโน้มที่อ่านง่ายและประวัติการชั่งน้ำหนักครบถ้วน</p>
+          <span class="more">ดูเพิ่มเติม →</span>
+        </a>
+        <article class="card reveal">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 16l20-6-2.5-2.5L13 9 8 4 6 5l3 6-4 1.5L3 11l-1 1z"/><path d="M3 20h18"/></svg></div>
+          <h3>เดินทางอย่างมีสติ</h3>
+          <p>คำแนะนำด้านสุขภาวะจาก AI สำหรับทุกการเดินทาง เพื่อให้คุณรู้สึกดีต่อไปได้แม้อยู่ห่างบ้าน</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Screenshots -->
+  <section id="screens" aria-labelledby="screens-title" style="padding-top:0">
+    <div class="wrap">
+      <div class="shots-head reveal">
+        <div>
+          <span class="eyebrow">ลองดูภายในแอป</span>
+          <h2 id="screens-title">ออกแบบมาเพื่อ<span class="grad-text">วันจริงของคุณ</span></h2>
+        </div>
+        <div class="shots-nav">
+          <button class="btn btn-icon" type="button" data-dir="-1" aria-label="ภาพหน้าจอก่อนหน้า"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M15 5l-7 7 7 7"/></svg></button>
+          <button class="btn btn-icon" type="button" data-dir="1" aria-label="ภาพหน้าจอถัดไป"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg></button>
+        </div>
+      </div>
+    </div>
+    <div class="shots reveal" tabindex="0" aria-label="ภาพหน้าจอแอป เลื่อนไปทางด้านข้าง">
+      <picture><source type="image/webp" srcset="/assets/screens/w/01_00_onboard-300.webp 300w, /assets/screens/w/01_00_onboard-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/01_00_onboard.jpg" alt="การเริ่มต้นใช้งาน: คิดมากน้อยลง โฟกัสสิ่งที่สำคัญที่สุดในวันนี้" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/01_01_onboard-300.webp 300w, /assets/screens/w/01_01_onboard-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/01_01_onboard.jpg" alt="การเริ่มต้นใช้งาน: รู้จักพลังงานของคุณด้วยเช็กอินประจำวันแบบเร็ว" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/01_03_checkin-300.webp 300w, /assets/screens/w/01_03_checkin-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/01_03_checkin.jpg" alt="เช็กอินประจำวันที่ถามว่าวันนี้คุณมีพลังงานแค่ไหน" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/05_reminder-300.webp 300w, /assets/screens/w/05_reminder-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/05_reminder.jpg" alt="ตั้งเวลาเตือนสำหรับกิจกรรมด้านสุขภาวะ" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/06_profile-300.webp 300w, /assets/screens/w/06_profile-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/06_profile.jpg" alt="โปรไฟล์ที่มีข้อมูลส่วนตัวและวิธีดูแลสุขภาวะที่ชอบ" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/07_action_detail-300.webp 300w, /assets/screens/w/07_action_detail-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/07_action_detail.jpg" alt="รายละเอียดกิจกรรมชาเลนจ์แพลงก์และกล้ามเนื้อแกนกลางพร้อมคู่มือวิธีทำ" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/08_add_habit-300.webp 300w, /assets/screens/w/08_add_habit-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/08_add_habit.jpg" alt="เพิ่มนิสัยที่กำหนดเองพร้อมความถี่และเป้าหมาย" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/09_habit_formed-300.webp 300w, /assets/screens/w/09_habit_formed-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/09_habit_formed.jpg" alt="ฉลองปลดล็อกความสำเร็จจากการสร้างนิสัย" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/10_life_toolkit-300.webp 300w, /assets/screens/w/10_life_toolkit-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/10_life_toolkit.jpg" alt="ชุดเครื่องมือชีวิตที่มีติดตามประจำเดือน น้ำหนักตัว การดื่มน้ำ แคลอรี่ และเครื่องมือวางแผนมื้ออาหาร" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/11_period_tracker-300.webp 300w, /assets/screens/w/11_period_tracker-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/11_period_tracker.jpg" alt="ติดตามประจำเดือนพร้อมวันที่ของรอบ การคาดการณ์ และเคล็ดลับตามช่วง" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/12_body_weight-300.webp 300w, /assets/screens/w/12_body_weight-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/12_body_weight.jpg" alt="ติดตามน้ำหนักตัวพร้อมกราฟแนวโน้มและ BMI" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/13_hydration_coach-300.webp 300w, /assets/screens/w/13_hydration_coach-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/13_hydration_coach.jpg" alt="โค้ชการดื่มน้ำพร้อมเป้าหมายน้ำดื่มรายวันและเพิ่มด่วน" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/14_wellness_studio-300.webp 300w, /assets/screens/w/14_wellness_studio-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/14_wellness_studio.jpg" alt="Wellness Studio พร้อมแบบฝึกหายใจสั้น ๆ" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/15_wellness_reads-300.webp 300w, /assets/screens/w/15_wellness_reads-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/15_wellness_reads.jpg" alt="บทความสุขภาวะเรื่องการนอน การเคลื่อนไหว โภชนาการ และสุขภาพจิต" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/16_wellness_intention-300.webp 300w, /assets/screens/w/16_wellness_intention-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/16_wellness_intention.jpg" alt="ตั้งความตั้งใจด้านสุขภาวะใหม่" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/17_habit_builder-300.webp 300w, /assets/screens/w/17_habit_builder-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/17_habit_builder.jpg" alt="ตัวช่วยสร้างนิสัยพร้อมนิสัยเริ่มต้นและชาเลนจ์" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/18_habit_list-300.webp 300w, /assets/screens/w/18_habit_list-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/18_habit_list.jpg" alt="ตัวช่วยสร้างนิสัยแสดงรายการนิสัยที่กำลังทำอยู่" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/19_challenges-300.webp 300w, /assets/screens/w/19_challenges-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/19_challenges.jpg" alt="ชาเลนจ์สุขภาวะที่กำลังทำอยู่ เช่น กิจวัตรการนอน 14 วัน" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/21_reflections-300.webp 300w, /assets/screens/w/21_reflections-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/21_reflections.jpg" alt="การทบทวนตนเองด้านสุขภาวะแบบมีผู้นำทางและบทสนทนาที่ปักหมุดไว้ในโหมดสว่าง" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/22_home_light-300.webp 300w, /assets/screens/w/22_home_light-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/22_home_light.jpg" alt="หน้าหลักในโหมดสว่างพร้อมข้อมูลเชิงลึกจาก AI และความก้าวหน้าด้านโภชนาการ" width="600" height="1300" loading="lazy" decoding="async"></picture>
+    </div>
+  </section>
+
+  <!-- Wellness Garden -->
+  <section id="garden" aria-labelledby="garden-title">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">สวนสุขภาวะ</span>
+        <h2 id="garden-title">นิสัยของคุณเติบโตเป็น<span class="grad-text">สวน</span></h2>
+        <p>ทุกก้าวจริงที่คุณทำเพื่อตัวเองช่วยให้บางสิ่งเติบโต ทำให้การสร้างนิสัยเป็นสิ่งที่คุณตั้งตารอที่จะเปิดแอป และไม่เคยลงโทษคุณเมื่อพลาดไปสักวัน</p>
+      </div>
+      <div class="garden-grid reveal">
+        <figure class="garden-shot garden-main"><picture><source type="image/webp" srcset="/assets/screens/w/23_garden-640.webp 640w, /assets/screens/w/23_garden-1280.webp 1280w" sizes="(max-width: 720px) 92vw, 1100px"><img src="/assets/screens/23_garden.jpg" alt="สวนสุขภาวะใน AI Wellness Pal พร้อมกระถางดอกไม้ คนสวนบนทางเดิน เหรียญ และตัวนับ 10 วัน" width="1280" height="590" loading="lazy" decoding="async"></picture></figure>
+        <figure class="garden-shot"><picture><source type="image/webp" srcset="/assets/screens/w/24_garden_gifts-640.webp 640w, /assets/screens/w/24_garden_gifts-1280.webp 1280w" sizes="(max-width: 720px) 92vw, 540px"><img src="/assets/screens/24_garden_gifts.jpg" alt="ของขวัญจากสวน: ของขวัญหนึ่งชิ้นสำหรับทุกวันที่คุณมา พร้อมหีบสมบัติท้ายรอบ" width="1280" height="590" loading="lazy" decoding="async"></picture></figure>
+        <figure class="garden-shot"><picture><source type="image/webp" srcset="/assets/screens/w/25_garden_map-640.webp 640w, /assets/screens/w/25_garden_map-1280.webp 1280w" sizes="(max-width: 720px) 92vw, 540px"><img src="/assets/screens/25_garden_map.jpg" alt="แผนที่สวนพร้อมทุ่งหญ้า สวนเซน เรือนกระจก และชายทะเลที่เปิดให้เมื่อคุณเลเวลอัป" width="1280" height="590" loading="lazy" decoding="async"></picture></figure>
+      </div>
+      <ul class="garden-points reveal">
+        <li><h3>เติบโตเมื่อคุณมา</h3><p>สวนของคุณเติบโตขึ้นเล็กน้อยในแต่ละวันที่คุณมา และเก็บทุกอย่างที่เติบโตไว้ นิสัยกลายเป็นเมล็ดที่คุณปลูก และนิสัยที่ทำจนสำเร็จจะออกผลให้เก็บเกี่ยว</p></li>
+        <li><h3>สถิติต่อเนื่องแบบไม่เครียด</h3><p>พลาดไปหนึ่งวัน? ไม่มีอะไรหายไป เลเวลของคุณมีแต่เพิ่มขึ้น และเมื่อคุณกลับมา ทุกอย่างก็รออยู่ ในวันที่เหนื่อยล้า นิสัยฉบับย่อก็นับเท่ากัน</p></li>
+        <li><h3>เหตุผลให้กลับมาทุกวัน</h3><p>เปิดของขวัญจากสวนสำหรับทุกวันที่คุณมา รับเหรียญจากเช็กอิน นิสัย และการดื่มน้ำ แล้วนำไปซื้อต้นไม้และของตกแต่ง</p></li>
+        <li><h3>มีสิ่งใหม่ให้ค้นพบ</h3><p>แต่งตัวให้เพื่อนร่วมทาง พบกับแขกที่มาเยือนสวน ปลูกดอกไม้อารมณ์ส่วนตัวทุกครั้งที่เช็กอิน และปลดล็อกสถานที่ใหม่ เช่น เรือนกระจกและชายทะเล เมื่อคุณเลเวลอัป</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Free vs Premium -->
+  <section id="pricing">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">ราคา</span>
+        <h2>ใช้ฟรี <span class="grad-text">Premium เมื่อคุณต้องการมากขึ้น</span></h2>
+        <p>แอปหลักใช้ฟรีบน iPhone และ Android โดยไม่มีโฆษณา Premium เพิ่ม AI และเสียงแบบไม่จำกัด</p>
+      </div>
+      <div class="pricing reveal">
+        <div class="plan">
+          <h3>ฟรี</h3>
+          <p class="price">$0 ไม่มีโฆษณา</p>
+          <ul>
+            <li><strong>เช็กอินประจำวัน</strong>และแผนวันนี้เฉพาะตัว</li>
+            <li><strong>บันทึก AI</strong>พร้อมการทบทวนตนเองแบบมีผู้นำทาง</li>
+            <li><strong>3 ข้อความ</strong>กับ Wellness Pal ต่อวัน</li>
+            <li>นิสัย ชาเลนจ์ การเตือน และสถิติต่อเนื่อง</li>
+            <li>ติดตามการดื่มน้ำ การนอน ประจำเดือน และน้ำหนัก รวมถึงงบแคลอรี่</li>
+            <li>การทำสมาธิ การหายใจ และสแกนร่างกาย และทุกธีม</li>
+            <li>วิดเจ็ตหน้าจอหลัก</li>
+          </ul>
+        </div>
+        <div class="plan premium">
+          <h3>Premium</h3>
+          <p class="price">ทดลองใช้ฟรี 7 วัน จากนั้นรายเดือนหรือรายปี</p>
+          <ul>
+            <li>แชตกับ Wellness Pal <strong>แบบไม่จำกัด</strong></li>
+            <li><strong>Live Chat Pal</strong>: สนทนาด้วยเสียงแบบเรียลไทม์</li>
+            <li><strong>วิเคราะห์อาหารด้วย AI</strong>จากรูปถ่าย คำอธิบาย หรือบาร์โค้ด และ<strong>แผนมื้ออาหารจาก AI</strong></li>
+            <li>ข้อมูลเชิงลึกด้านการนอน การดื่มน้ำ และแคลอรี่จาก AI และเป้าหมายน้ำดื่มที่คำนึงถึงสภาพอากาศ</li>
+            <li>“พูดคุย” เรื่องการทบทวนตนเองของคุณ และขั้นตอนจาก AI สำหรับความตั้งใจของคุณ</li>
+            <li>คลัง Wellness Studio ครบทั้งหมด</li>
+          </ul>
+        </div>
+      </div>
+      <p class="fine">บน App Store ของสหรัฐอเมริกา Premium ราคา $14.99 ต่อเดือนหรือ $89.99 ต่อปี ราคาต่างกันไปตามประเทศและจะแสดงใน App Store หรือ Google Play ก่อนที่คุณจะสมัคร ยกเลิกได้ทุกเมื่อในการสมัครสมาชิกของร้านค้า</p>
+    </div>
+  </section>
+
+  <!-- FAQ (from tools/site_content.py) -->
+  <section id="faq">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">คำถามที่พบบ่อย</span>
+        <h2>คำถามที่พบบ่อย <span class="grad-text">พร้อมคำตอบ</span></h2>
+      </div>
+      <div class="faq">
+      <details>
+        <summary>AI Wellness Pal คืออะไร</summary>
+        <div class="a"><p>AI Wellness Pal เป็นแอปโค้ชสุขภาวะ AI ที่ใช้ฟรีบน iPhone และ Android ตอบคำถามเดียวในแต่ละวัน: ตอนนี้ฉันควรทำอะไรเพื่อสุขภาวะของตัวเองดี</p><p>คุณเพียงเช็กอินสั้น ๆ แล้วแอปจะสร้างแผนวันนี้ให้ เป็นสิ่งเล็ก ๆ ที่ทำได้จริง 2-4 อย่าง ปรับตามพลังงาน อารมณ์ การฟื้นฟูของร่างกาย และเวลาที่คุณมีจริง ๆ ส่วนอื่น ๆ ในแอปล้วนช่วยสนับสนุนสิ่งนี้ ทั้งเครื่องมือติดตามแต่ละวัน Wellness Pal ไว้พูดคุยทบทวน และความก้าวหน้าที่คุณเห็นได้ว่าค่อย ๆ สะสมขึ้นเรื่อย ๆ</p></div>
+      </details>
+      <details>
+        <summary>AI Wellness Pal ใช้ฟรีหรือไม่</summary>
+        <div class="a"><p>ใช่ ดาวน์โหลดและใช้ AI Wellness Pal ได้ฟรีบน iPhone และ Android โดยไม่มีโฆษณา แอปเวอร์ชันฟรีมีเช็กอินประจำวันและแผนวันนี้ บันทึก AI นิสัยและชาเลนจ์ การติดตามการดื่มน้ำ การนอน ประจำเดือน และน้ำหนัก เซสชันทำสมาธิและฝึกหายใจ วิดเจ็ต และแชตกับ Wellness Pal วันละ 3 ข้อความ</p><p>การสมัครสมาชิก Premium (ไม่บังคับ) เพิ่มการแชตแบบไม่จำกัด การสนทนาด้วยเสียงแบบเรียลไทม์ การวิเคราะห์อาหารด้วย AI แผนมื้ออาหารจาก AI และโค้ช AI อื่น ๆ ในชุดเครื่องมือ <a href="/th/#pricing">เปรียบเทียบฟรีและ Premium</a></p></div>
+      </details>
+      <details>
+        <summary>AI Wellness Pal Premium ราคาเท่าไร</summary>
+        <div class="a"><p>บน App Store ของสหรัฐอเมริกา Premium ราคา $14.99 ต่อเดือนหรือ $89.99 ต่อปี และทั้งสองแผนเริ่มต้นด้วยช่วงทดลองใช้ฟรี 7 วัน ราคาต่างกันไปตามประเทศและสกุลเงิน App Store หรือ Google Play จะแสดงราคาที่แน่นอนก่อนที่คุณจะยืนยัน การสมัครสมาชิกจะต่ออายุอัตโนมัติ เว้นแต่คุณจะยกเลิกอย่างน้อย 24 ชั่วโมงก่อนสิ้นสุดรอบปัจจุบัน</p></div>
+      </details>
+      <details>
+        <summary>AI Wellness Pal มีบน iPhone และ Android หรือไม่</summary>
+        <div class="a"><p>มี ดาวน์โหลดได้จาก <a href="https://apps.apple.com/us/app/ai-wellness-pal/id6816496839">App Store</a> (iPhone, iOS 15.0 ขึ้นไป) หรือ <a href="https://play.google.com/store/apps/details?id=com.aiwellnesspal.app">Google Play</a> (Android 8.0 ขึ้นไป) ลงชื่อเข้าใช้ด้วยบัญชีเดียวกันบนทั้งสองระบบ ข้อมูลของคุณก็จะซิงค์กัน</p></div>
+      </details>
+      <details>
+        <summary>เช็กอินประจำวันคืออะไร</summary>
+        <div class="a"><p>ง่าย ๆ 3 ขั้นตอน: พลังงานของคุณ (1–5) อารมณ์ของคุณ และความรู้สึกของร่างกายพร้อมเวลาที่คุณมีในวันนี้ ข้ามขั้นตอนไหนก็ได้ แผนจะใช้ข้อมูลที่คุณให้ไว้ เมื่อเช็กอินแล้ว แผนวันนี้จะถูกสร้างภายในไม่กี่วินาที หรือจะบอก Wellness Pal ว่า “เริ่มเช็กอินของฉัน” ก็ได้ ถ้าคุณอยากพูดมากกว่าแตะ</p></div>
+      </details>
+      <details>
+        <summary>AI Wellness Pal เป็นคำแนะนำทางการแพทย์หรือไม่</summary>
+        <div class="a"><p>ไม่ใช่ AI Wellness Pal ให้ข้อมูลสุขภาวะทั่วไปและกำลังใจ ไม่ใช่อุปกรณ์ทางการแพทย์ และไม่วินิจฉัย รักษา หรือแทนที่แพทย์ นักบำบัด หรือผู้เชี่ยวชาญที่มีคุณสมบัติ คำตอบของ AI การประมาณแคลอรี่ และการคาดการณ์รอบเดือนอาจคลาดเคลื่อนได้ หากกังวลเรื่องสุขภาพ โปรดปรึกษาผู้ให้บริการด้านสุขภาพ</p><p>หากคุณอยู่ในภาวะวิกฤตหรือคิดจะทำร้ายตัวเอง โปรดติดต่อหมายเลขฉุกเฉินในพื้นที่ของคุณทันที ในสหรัฐอเมริกา โทรหรือส่งข้อความถึง 988 ในสหราชอาณาจักร โทร 111 หรือ Samaritans ที่ 116 123 ในที่อื่น ๆ ค้นหาสายด่วนได้ที่ findahelpline.com</p></div>
+      </details>
+      <details>
+        <summary>AI Wellness Pal ใช้ AI ตัวไหน</summary>
+        <div class="a"><p>ฟีเจอร์ AI (แชตและเสียงของ Wellness Pal ข้อมูลเชิงลึกจากบันทึก แผนประจำวัน ข้อมูลเชิงลึกด้านการนอน และการวิเคราะห์โภชนาการ) ขับเคลื่อนด้วยโมเดล Gemini ของ Google ผ่าน Firebase AI Logic ก่อนที่ข้อมูลใด ๆ ของคุณจะถูกส่งไปยัง AI แอปจะแสดงให้คุณเห็นว่าจะแชร์อะไรบ้างและขออนุญาตจากคุณก่อน คำตอบของ AI อาจไม่ถูกต้อง ดังนั้นควรใช้เป็นแนวทาง ไม่ใช่ข้อเท็จจริง</p></div>
+      </details>
+      <details>
+        <summary>ข้อมูลของฉันเป็นส่วนตัวหรือไม่ คุณขายข้อมูลหรือแสดงโฆษณาหรือเปล่า</summary>
+        <div class="a"><p>AI Wellness Pal ไม่มีโฆษณา ไม่ขายข้อมูลของคุณ และไม่ติดตามคุณข้ามแอปหรือเว็บไซต์ของบริษัทอื่น ข้อมูลของคุณเก็บไว้ในพื้นที่ส่วนตัวของคุณเองและไม่แชร์กับผู้ใช้อื่น ข้อมูลจะถูกแชร์เฉพาะกับผู้ให้บริการที่ดำเนินการแอปเท่านั้น (เช่น Firebase สำหรับการจัดเก็บ และ Google Gemini สำหรับคำตอบของ AI) อ่านรายละเอียดได้ใน<a href="/privacy.html">นโยบายความเป็นส่วนตัว</a></p></div>
+      </details>
+      </div>
+      <p class="fine"><a href="/th/faq/" style="color:var(--lavender)">ดูคำถามทั้งหมด →</a></p>
+    </div>
+  </section>
+
+  <!-- Feedback -->
+  <section id="feedback">
+    <div class="wrap">
+      <div class="feedback-card reveal">
+        <div>
+          <span class="eyebrow">ความคิดเห็น</span>
+          <h2>ช่วยกำหนด<span class="grad-text">สิ่งที่จะมาถัดไป</span></h2>
+          <p>ชอบอะไรบางอย่าง ขาดอะไรไป หรือพบข้อบกพร่อง? บอกเรา ทุกข้อความมีคนอ่าน และไอเดียของคุณช่วยกำหนดการอัปเดตครั้งต่อไป</p>
+          <ol class="steps">
+            <li><strong>แบ่งปันความคิดของคุณ</strong>ไอเดีย ข้อบกพร่อง คำชม: ช่วยเราได้ทั้งหมด</li>
+            <li><strong>ใส่อีเมลของคุณหากต้องการให้ตอบกลับ</strong>ไม่บังคับ และใช้เพื่อตอบคุณเท่านั้น</li>
+            <li><strong>ชอบแอปไหม</strong>รีวิวสั้น ๆ ช่วยให้คนอื่นพบแอปได้: <a href="https://apps.apple.com/us/app/ai-wellness-pal/id6816496839?action=write-review">App Store</a> · <a href="https://play.google.com/store/apps/details?id=com.aiwellnesspal.app&amp;showAllReviews=true">Google Play</a></li>
+          </ol>
+        </div>
+        <div class="request-wrap">
+        <form class="request" id="feedback-form" action="https://api.aiwellnesspal.com/submit?form=feedback" method="POST" novalidate>
+          <input class="hp" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <div class="field">
+            <label for="f-type">ความคิดเห็นประเภทไหน</label>
+            <select id="f-type" name="type" required>
+              <option value="">เลือกหนึ่งอย่าง</option>
+              <option value="Idea or feature request">ไอเดียหรือคำขอฟีเจอร์</option>
+              <option value="Something isn&#x27;t working">มีบางอย่างใช้งานไม่ได้</option>
+              <option value="Something I love">สิ่งที่ฉันชอบ</option>
+              <option value="Other">อื่น ๆ</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="f-platform">อุปกรณ์ไหน <span class="hint">(ไม่บังคับ)</span></label>
+            <select id="f-platform" name="platform">
+              <option value="">เลือกหนึ่งอย่าง</option>
+              <option>iPhone</option>
+              <option>Android</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="f-note">ความคิดเห็นของคุณ</label>
+            <textarea id="f-note" name="message" required></textarea>
+          </div>
+          <div class="field">
+            <label for="f-name">ชื่อ <span class="hint">(ไม่บังคับ)</span></label>
+            <input id="f-name" name="name" type="text" autocomplete="name">
+          </div>
+          <div class="field">
+            <label for="f-email">อีเมล <span class="hint">(ไม่บังคับ หากต้องการให้ตอบกลับ)</span></label>
+            <input id="f-email" name="email" type="email" autocomplete="email" placeholder="you@example.com">
+          </div>
+          <div class="cf-turnstile" data-sitekey="0x4AAAAAAFeATWxgyA2X7qGo" data-theme="dark" data-size="flexible"></div>
+          <div class="form-alert" role="alert" hidden></div>
+          <button class="btn btn-grad" type="submit"><span class="spinner" aria-hidden="true"></span><span class="btn-label">ส่งความคิดเห็น</span></button>
+        </form>
+        <div class="request-done" id="feedback-done" tabindex="-1" hidden>
+          <div class="done-icon"><svg viewBox="0 0 24 24"><use href="#i-check"/></svg></div>
+          <h3>ขอบคุณ</h3>
+          <p id="done-msg">ขอบคุณ ส่งความคิดเห็นของคุณแล้ว</p>
+          <button class="btn" type="button" id="feedback-again">ส่งความคิดเห็นเพิ่มเติม</button>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Support (App Store Connect support URL points to this page) -->
+  <section id="support">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">ช่วยเหลือ</span>
+        <h2>พร้อม<span class="grad-text">ช่วยเหลือ</span></h2>
+        <p>ต้องการความช่วยเหลือ พบข้อบกพร่อง หรือมีคำถาม? ส่งอีเมลถึง <a class="grad-text" href="mailto:aiwellnesspal@gmail.com?subject=AI%20Wellness%20Pal%20support">aiwellnesspal@gmail.com</a> แล้วเราจะติดต่อกลับ หรือจะ<a class="grad-text" href="https://github.com/viraj-dhanushka/AIWellnessPal/issues">รายงานข้อบกพร่องบน GitHub</a>ก็ได้</p>
+      </div>
+      <div class="support-grid">
+        <article class="card reveal">
+          <h3>ลบบัญชีของคุณ</h3>
+          <p>ในแอป ไปที่ <strong>การตั้งค่า → ลบบัญชี</strong> การทำเช่นนี้จะลบบัญชีและข้อมูลทั้งหมดของคุณอย่างถาวร ไม่มีแอปแล้ว? <a href="/delete-account.html">ขอลบบัญชีผ่านเว็บ</a></p>
+        </article>
+        <article class="card reveal">
+          <h3>จัดการหรือยกเลิก Premium</h3>
+          <p>บน iPhone ไปที่ <strong>การตั้งค่า → ชื่อของคุณ → การสมัครสมาชิก → AI Wellness Pal</strong> บน Android ให้เปิด Google Play → <strong>การชำระเงินและการสมัครใช้บริการ → การสมัครใช้บริการ</strong> หากต้องการกู้คืน Premium บนอุปกรณ์เครื่องใหม่ ให้ใช้ <strong>กู้คืนการซื้อ</strong> ในแอป</p>
+        </article>
+        <article class="card reveal">
+          <h3>เชื่อมต่อหรือยกเลิกการเชื่อมต่อข้อมูลการนอน</h3>
+          <p>บน iPhone ไปที่ <strong>การตั้งค่า → สุขภาพ → การเข้าถึงข้อมูลและอุปกรณ์ → AI Wellness Pal</strong> บน Android ให้เปิด <strong>Health Connect → สิทธิ์ของแอป → AI Wellness Pal</strong></p>
+        </article>
+        <article class="card reveal">
+          <h3>ไม่ใช่คำแนะนำทางการแพทย์</h3>
+          <p>AI Wellness Pal ให้ข้อมูลสุขภาวะทั่วไปและไม่สามารถใช้แทนคำแนะนำทางการแพทย์จากผู้เชี่ยวชาญได้ หากคุณอยู่ในภาวะวิกฤตหรือเหตุฉุกเฉินทางการแพทย์ โปรดโทรหมายเลขฉุกเฉินในพื้นที่ของคุณทันที</p>
+        </article>
+      </div>
+      <p class="notice">อ่าน<a href="/privacy.html">นโยบายความเป็นส่วนตัว</a>และ<a href="/terms.html">ข้อกำหนดการใช้งาน</a>ของเรา นโยบายความเป็นส่วนตัวและข้อกำหนดการใช้งานของเรามีให้เป็นภาษาอังกฤษ</p>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <div class="final reveal">
+    <picture><source type="image/webp" srcset="/assets/icon-192.webp"><img src="/assets/icon-192.png" alt="ไอคอนแอป AI Wellness Pal" width="88" height="88" loading="lazy"></picture>
+    <h2>เริ่มรู้สึกดีขึ้น<span class="grad-text">วันนี้</span></h2>
+    <p>ใช้ฟรีบน iPhone และ Android</p>
+    <div class="cta">
+      <a class="btn btn-store" href="https://apps.apple.com/us/app/ai-wellness-pal/id6816496839">
+        <svg aria-hidden="true"><use href="#i-apple"/></svg>
+        <span class="lbl"><small>ดาวน์โหลดได้ที่</small><strong>App Store</strong></span>
+      </a>
+      <a class="btn btn-store" href="https://play.google.com/store/apps/details?id=com.aiwellnesspal.app">
+        <svg aria-hidden="true"><use href="#i-play"/></svg>
+        <span class="lbl"><small>ดาวน์โหลดได้ที่</small><strong>Google Play</strong></span>
+      </a>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap foot-grid">
+    <div>
+      <a class="brand" href="/th/"><picture><source type="image/webp" srcset="/assets/icon-96.webp 1x, /assets/icon-192.webp 2x"><img src="/assets/icon-96.png" alt="" width="34" height="34"></picture>AI Wellness Pal</a>
+      <p>เพื่อนคู่ใจด้านสุขภาวะ AI — แผนประจำวันที่สร้างจากความรู้สึกจริงของคุณ. ใช้ฟรีบน iPhone และ Android</p>
+      <p class="foot-stores"><a href="https://apps.apple.com/us/app/ai-wellness-pal/id6816496839">App Store</a> · <a href="https://play.google.com/store/apps/details?id=com.aiwellnesspal.app">Google Play</a></p>
+    </div>
+    <nav aria-label="ฟีเจอร์">
+      <p class="foot-h">ฟีเจอร์</p>
+        <a href="/th/features/ai-wellness-coach/">เช็กอินประจำวันและแผน</a>
+        <a href="/th/features/ai-wellness-chat/">แชต AI กับ Wellness Pal</a>
+        <a href="/th/features/ai-journal/">บันทึก AI และการทบทวนตนเอง</a>
+        <a href="/th/features/ai-nutrition-coach/">โค้ชโภชนาการ AI</a>
+        <a href="/th/features/ai-meal-planner/">ตัวช่วยวางแผนมื้ออาหาร AI</a>
+        <a href="/th/features/calorie-tracker/">งบแคลอรี่</a>
+        <a href="/th/features/water-tracker/">ติดตามการดื่มน้ำ</a>
+        <a href="/th/features/sleep-tracker/">โค้ชการนอนหลับ</a>
+        <a href="/th/features/meditation-breathing/">สมาธิและการหายใจ</a>
+        <a href="/th/features/period-tracker/">ติดตามประจำเดือน</a>
+        <a href="/th/features/weight-tracker/">ติดตามน้ำหนักและ BMI</a>
+        <a href="/th/features/habit-tracker/">นิสัยและชาเลนจ์</a>
+        <a href="/th/features/home-screen-widgets/">วิดเจ็ตหน้าจอหลัก</a>
+    </nav>
+    <nav aria-label="แหล่งข้อมูล">
+      <p class="foot-h">แหล่งข้อมูล</p>
+      <a href="/th/features/">ฟีเจอร์ทั้งหมด</a>
+      <a href="/th/faq/">คำถามที่พบบ่อย</a>
+      <a href="/th/about/">เกี่ยวกับ</a>
+      <a href="/th/#demo">วิดีโอเดโม</a>
+      <a href="/th/#support">ช่วยเหลือ</a>
+      <a href="/th/#feedback">ส่งความคิดเห็น</a>
+    </nav>
+    <nav aria-label="ข้อมูลทางกฎหมาย">
+      <p class="foot-h">ข้อมูลทางกฎหมาย</p>
+      <a href="/privacy.html" hreflang="en">นโยบายความเป็นส่วนตัว</a>
+      <a href="/terms.html" hreflang="en">ข้อกำหนดการใช้งาน</a>
+      <a href="/delete-account.html" hreflang="en">ลบบัญชีของคุณ</a>
+      <p class="foot-note">นโยบายความเป็นส่วนตัวและข้อกำหนดการใช้งานของเรามีให้เป็นภาษาอังกฤษ</p>
+    </nav>
+  </div>
+  <nav class="wrap foot-langs" aria-label="ภาษา">
+    <p class="foot-h">ภาษา</p>
+    <ul><li><a href="/" hreflang="en" lang="en" data-lang="en">English</a></li><li><a href="/ar/" hreflang="ar" lang="ar" data-lang="ar">العربية</a></li><li><a href="/bn/" hreflang="bn" lang="bn" data-lang="bn">বাংলা</a></li><li><a href="/de/" hreflang="de" lang="de" data-lang="de">Deutsch</a></li><li><a href="/es/" hreflang="es" lang="es" data-lang="es">Español</a></li><li><a href="/fr/" hreflang="fr" lang="fr" data-lang="fr">Français</a></li><li><a href="/hi/" hreflang="hi" lang="hi" data-lang="hi">हिन्दी</a></li><li><a href="/id/" hreflang="id" lang="id" data-lang="id">Bahasa Indonesia</a></li><li><a href="/it/" hreflang="it" lang="it" data-lang="it">Italiano</a></li><li><a href="/ja/" hreflang="ja" lang="ja" data-lang="ja">日本語</a></li><li><a href="/ko/" hreflang="ko" lang="ko" data-lang="ko">한국어</a></li><li><a href="/mr/" hreflang="mr" lang="mr" data-lang="mr">मराठी</a></li><li><a href="/nl/" hreflang="nl" lang="nl" data-lang="nl">Nederlands</a></li><li><a href="/pl/" hreflang="pl" lang="pl" data-lang="pl">Polski</a></li><li><a href="/pt/" hreflang="pt" lang="pt" data-lang="pt">Português</a></li><li><a href="/ro/" hreflang="ro" lang="ro" data-lang="ro">Română</a></li><li><a href="/ru/" hreflang="ru" lang="ru" data-lang="ru">Русский</a></li><li><a href="/ta/" hreflang="ta" lang="ta" data-lang="ta">தமிழ்</a></li><li><a href="/te/" hreflang="te" lang="te" data-lang="te">తెలుగు</a></li><li><a href="/th/" hreflang="th" lang="th" data-lang="th" aria-current="true">ไทย</a></li><li><a href="/tr/" hreflang="tr" lang="tr" data-lang="tr">Türkçe</a></li><li><a href="/uk/" hreflang="uk" lang="uk" data-lang="uk">Українська</a></li><li><a href="/vi/" hreflang="vi" lang="vi" data-lang="vi">Tiếng Việt</a></li></ul>
+  </nav>
+  <div class="wrap foot-bottom">
+    <span>© 2026 Viraj Dhanushka</span>
+    <span>ไม่ใช่คำแนะนำทางการแพทย์ AI Wellness Pal ให้ข้อมูลสุขภาวะทั่วไป</span>
+  </div>
+</footer>
+
+<script>
+  var M = {"sending": "กำลังส่ง…", "send": "ส่งความคิดเห็น", "invalid": "กรุณาเลือกประเภทความคิดเห็นและเขียนข้อความของคุณ หากกรอกอีเมล โปรดตรวจสอบว่าถูกต้อง", "turnstile": "กรุณาทำการตรวจสอบยืนยันเหนือปุ่มให้เสร็จก่อน", "failed": "ขออภัย เราส่งความคิดเห็นของคุณไม่สำเร็จ กรุณาตรวจสอบการเชื่อมต่อแล้วลองอีกครั้ง", "thanks": "ขอบคุณ ส่งความคิดเห็นของคุณแล้ว", "thanksName": "ขอบคุณ {name} ส่งความคิดเห็นของคุณแล้ว", "reply": "เราจะตอบกลับไปที่ {email}", "video": "AI Wellness Pal แนะนำการใช้งานฉบับสมบูรณ์"};
+
+  // Load the YouTube player only when someone presses play (faster page, no tracking until then).
+  document.querySelector('#video button').addEventListener('click', function () {
+    var f = document.createElement('iframe');
+    f.src = 'https://www.youtube-nocookie.com/embed/iAscMm_XUPk?autoplay=1&rel=0&modestbranding=1&playsinline=1&hl=' + document.documentElement.lang;
+    f.title = M.video;
+    f.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+    f.allowFullscreen = true;
+    f.referrerPolicy = 'strict-origin-when-cross-origin';
+    this.replaceWith(f);
+  });
+
+  // Fade sections in as they scroll into view.
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach(function (el) { io.observe(el); });
+  } else {
+    document.querySelectorAll('.reveal').forEach(function (el) { el.classList.add('in'); });
+  }
+
+  // Screenshot gallery arrows: scroll by roughly one screen's worth of images (mirrored for right-to-left).
+  (function () {
+    var strip = document.querySelector('.shots');
+    var btns = document.querySelectorAll('.shots-nav button');
+    var rtl = document.documentElement.dir === 'rtl' ? -1 : 1;
+    function update() {
+      var pos = Math.abs(strip.scrollLeft);
+      btns[0].disabled = pos <= 4;
+      btns[1].disabled = pos + strip.clientWidth >= strip.scrollWidth - 4;
+    }
+    btns.forEach(function (b) {
+      b.addEventListener('click', function () {
+        strip.scrollBy({ left: rtl * Number(b.dataset.dir) * strip.clientWidth * 0.8, behavior: 'smooth' });
+      });
+    });
+    strip.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+    requestAnimationFrame(update);
+  })();
+
+  // "Get the app" goes to Google Play on Android, the App Store elsewhere.
+  if (/android/i.test(navigator.userAgent)) {
+    document.getElementById('get-app').href = 'https://play.google.com/store/apps/details?id=com.aiwellnesspal.app';
+  }
+
+  // Load Cloudflare Turnstile (the form's bot check) only when the form is about to be used.
+  (function () {
+    var loaded = false;
+    function load() {
+      if (loaded) return; loaded = true;
+      var sc = document.createElement('script');
+      sc.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js'; sc.async = true;
+      document.head.appendChild(sc);
+    }
+    var target = document.getElementById('feedback');
+    if ('IntersectionObserver' in window) {
+      var tio = new IntersectionObserver(function (es) { if (es.some(function (e) { return e.isIntersecting; })) { load(); tio.disconnect(); } }, { rootMargin: '600px 0px' });
+      tio.observe(target);
+    } else { load(); }
+    target.addEventListener('focusin', load);
+    if (location.hash === '#feedback') load();
+  })();
+
+  // Feedback form: posts to the Cloudflare Worker (cloudflare/forms-worker), which checks Turnstile and emails it.
+  var form = document.getElementById('feedback-form');
+  var done = document.getElementById('feedback-done');
+  var alertBox = form.querySelector('.form-alert');
+  var btn = form.querySelector('button[type=submit]');
+  var btnLabel = btn.querySelector('.btn-label');
+
+  function showAlert(msg) { alertBox.textContent = msg; alertBox.hidden = false; }
+  function setSending(on) {
+    btn.disabled = on; btn.classList.toggle('sending', on);
+    btnLabel.textContent = on ? M.sending : M.send;
+  }
+
+  form.addEventListener('input', function (e) {
+    if (e.target.validity && e.target.validity.valid) e.target.removeAttribute('aria-invalid');
+  });
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    alertBox.hidden = true;
+    // Required fields, plus the optional email when one was typed.
+    var invalid = Array.prototype.filter.call(form.querySelectorAll('[required], input[type=email]'), function (el) {
+      var bad = !el.checkValidity();
+      if (bad) el.setAttribute('aria-invalid', 'true'); else el.removeAttribute('aria-invalid');
+      return bad;
+    });
+    if (invalid.length) {
+      showAlert(M.invalid);
+      invalid[0].focus();
+      return;
+    }
+    // Turnstile adds this hidden field once the visitor passes the check.
+    var tsField = form.querySelector('[name="cf-turnstile-response"]');
+    if (!tsField || !tsField.value) {
+      showAlert(M.turnstile);
+      return;
+    }
+    var name = form.elements.namedItem('name').value.trim();
+    var email = form.elements.namedItem('email').value.trim();
+    setSending(true);
+    fetch(form.action, { method: 'POST', body: new FormData(form), headers: { Accept: 'application/json' } })
+      .then(function (r) { return r.json().catch(function () { return {}; }).then(function (d) { return { ok: r.ok, d: d }; }); })
+      .then(function (res) {
+        if (!res.ok || String(res.d.success) !== 'true') throw new Error(res.d.message || 'Request failed');
+        form.reset();
+        var msg = name ? M.thanksName.replace('{name}', name.split(' ')[0]) : M.thanks;
+        if (email) msg += ' ' + M.reply.replace('{email}', email);
+        document.getElementById('done-msg').textContent = msg;
+        form.hidden = true;
+        done.hidden = false;
+        done.focus();
+      })
+      .catch(function (err) {
+        // The Worker's own verification messages are English; show ours in the page's language.
+        var vmsg = /verification/i.test(err && err.message);
+        showAlert(vmsg ? (document.documentElement.lang === 'en' ? err.message : M.turnstile) : M.failed);
+      })
+      .finally(function () {
+        setSending(false);
+        // Tokens are single-use: get a fresh one for the next attempt.
+        if (window.turnstile) turnstile.reset(form.querySelector('.cf-turnstile'));
+      });
+  });
+
+  document.getElementById('feedback-again').addEventListener('click', function () {
+    done.hidden = true;
+    form.hidden = false;
+    form.querySelector('select').focus();
+  });
+</script>
+<script src="/assets/lang.js" defer></script>
+<script src="/assets/music.js" defer></script>
+</body>
+</html>

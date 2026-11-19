@@ -32,8 +32,10 @@
     var on = playing() || (enabled() && !audio) || (enabled() && audio && audio.paused && !started);
     btn.classList.toggle('on', on);
     btn.setAttribute('aria-pressed', on ? 'true' : 'false');
-    btn.setAttribute('aria-label', on ? 'Pause background music' : 'Play background music');
-    btn.title = on ? 'Pause music' : 'Play music';
+    // Labels come from the page's language (data-music-* on <body>), English otherwise.
+    var d = document.body.dataset;
+    btn.setAttribute('aria-label', on ? (d.musicPauseLabel || 'Pause background music') : (d.musicPlayLabel || 'Play background music'));
+    btn.title = on ? (d.musicPause || 'Pause music') : (d.musicPlay || 'Play music');
   }
 
   function fadeTo(target, ms, done) {

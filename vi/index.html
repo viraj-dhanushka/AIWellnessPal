@@ -1,0 +1,992 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Wellness Pal: ứng dụng huấn luyện sức khỏe AI cho iPhone &amp; Android</title>
+  <meta name="description" content="AI Wellness Pal là ứng dụng huấn luyện sức khỏe AI miễn phí cho iPhone và Android. Lần điểm danh 30 giây mỗi ngày sẽ trở thành kế hoạch cá nhân hóa cho tâm trạng, giấc ngủ, dinh dưỡng và thói quen.">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+  <meta name="author" content="Viraj Dhanushka">
+  <meta name="theme-color" content="#0d0f1c">
+  <link rel="canonical" href="https://aiwellnesspal.com/vi/">
+  <link rel="alternate" hreflang="en" href="https://aiwellnesspal.com/">
+  <link rel="alternate" hreflang="ar" href="https://aiwellnesspal.com/ar/">
+  <link rel="alternate" hreflang="bn" href="https://aiwellnesspal.com/bn/">
+  <link rel="alternate" hreflang="de" href="https://aiwellnesspal.com/de/">
+  <link rel="alternate" hreflang="es" href="https://aiwellnesspal.com/es/">
+  <link rel="alternate" hreflang="fr" href="https://aiwellnesspal.com/fr/">
+  <link rel="alternate" hreflang="hi" href="https://aiwellnesspal.com/hi/">
+  <link rel="alternate" hreflang="id" href="https://aiwellnesspal.com/id/">
+  <link rel="alternate" hreflang="it" href="https://aiwellnesspal.com/it/">
+  <link rel="alternate" hreflang="ja" href="https://aiwellnesspal.com/ja/">
+  <link rel="alternate" hreflang="ko" href="https://aiwellnesspal.com/ko/">
+  <link rel="alternate" hreflang="mr" href="https://aiwellnesspal.com/mr/">
+  <link rel="alternate" hreflang="nl" href="https://aiwellnesspal.com/nl/">
+  <link rel="alternate" hreflang="pl" href="https://aiwellnesspal.com/pl/">
+  <link rel="alternate" hreflang="pt" href="https://aiwellnesspal.com/pt/">
+  <link rel="alternate" hreflang="ro" href="https://aiwellnesspal.com/ro/">
+  <link rel="alternate" hreflang="ru" href="https://aiwellnesspal.com/ru/">
+  <link rel="alternate" hreflang="ta" href="https://aiwellnesspal.com/ta/">
+  <link rel="alternate" hreflang="te" href="https://aiwellnesspal.com/te/">
+  <link rel="alternate" hreflang="th" href="https://aiwellnesspal.com/th/">
+  <link rel="alternate" hreflang="tr" href="https://aiwellnesspal.com/tr/">
+  <link rel="alternate" hreflang="uk" href="https://aiwellnesspal.com/uk/">
+  <link rel="alternate" hreflang="vi" href="https://aiwellnesspal.com/vi/">
+  <link rel="alternate" hreflang="x-default" href="https://aiwellnesspal.com/">
+  <link rel="icon" type="image/png" href="/assets/favicon.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="apple-itunes-app" content="app-id=6816496839">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="AI Wellness Pal">
+  <meta property="og:locale" content="vi_VN">
+  <meta property="og:title" content="AI Wellness Pal: huấn luyện viên sức khỏe AI dành riêng cho bạn">
+  <meta property="og:description" content="Điểm danh hằng ngày, kế hoạch cá nhân hóa, suy ngẫm có hướng dẫn và một AI Wellness Pal để bạn trò chuyện, chia sẻ. Miễn phí trên App Store và Google Play.">
+  <meta property="og:url" content="https://aiwellnesspal.com/vi/">
+  <meta property="og:image" content="https://aiwellnesspal.com/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Ứng dụng AI Wellness Pal: Thấy khỏe hơn, từng ngày một.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AI Wellness Pal: huấn luyện viên sức khỏe AI dành riêng cho bạn">
+  <meta name="twitter:description" content="Điểm danh hằng ngày, kế hoạch cá nhân hóa, suy ngẫm có hướng dẫn và một AI Wellness Pal để bạn trò chuyện, chia sẻ.">
+  <meta name="twitter:image" content="https://aiwellnesspal.com/assets/og-image.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400..800&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400..800&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400..800&display=swap"></noscript>
+  <link rel="preload" as="image" type="image/webp" href="/assets/screens/w/01_02_home-600.webp" imagesrcset="/assets/screens/w/01_02_home-300.webp 300w, /assets/screens/w/01_02_home-600.webp 600w" imagesizes="(max-width: 720px) 200px, (max-width: 960px) 230px, 270px">
+  <noscript><style>.reveal { opacity: 1; transform: none; }</style></noscript>
+  <link rel="stylesheet" href="/landing.css">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://aiwellnesspal.com/#website",
+      "url": "https://aiwellnesspal.com/",
+      "name": "AI Wellness Pal",
+      "alternateName": [
+        "AI Wellness Pal app",
+        "aiwellnesspal.com",
+        "aiwelnesspal.com"
+      ],
+      "inLanguage": [
+        "en",
+        "ar",
+        "bn",
+        "de",
+        "es",
+        "fr",
+        "hi",
+        "id",
+        "it",
+        "ja",
+        "ko",
+        "mr",
+        "nl",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "ta",
+        "te",
+        "th",
+        "tr",
+        "uk",
+        "vi"
+      ],
+      "publisher": {
+        "@id": "https://aiwellnesspal.com/#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://aiwellnesspal.com/#organization",
+      "name": "AI Wellness Pal",
+      "url": "https://aiwellnesspal.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://aiwellnesspal.com/assets/icon.png",
+        "width": 512,
+        "height": 512
+      },
+      "email": "aiwellnesspal@gmail.com",
+      "founder": {
+        "@id": "https://aiwellnesspal.com/#founder"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "email": "aiwellnesspal@gmail.com",
+        "availableLanguage": "en"
+      },
+      "sameAs": [
+        "https://apps.apple.com/us/app/ai-wellness-pal/id6816496839",
+        "https://play.google.com/store/apps/details?id=com.aiwellnesspal.app"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://aiwellnesspal.com/#founder",
+      "name": "Viraj Dhanushka",
+      "jobTitle": "Founder and developer",
+      "worksFor": {
+        "@id": "https://aiwellnesspal.com/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://aiwellnesspal.com/vi/#webpage",
+      "url": "https://aiwellnesspal.com/vi/",
+      "name": "AI Wellness Pal: ứng dụng huấn luyện sức khỏe AI cho iPhone & Android",
+      "description": "AI Wellness Pal là ứng dụng huấn luyện sức khỏe AI miễn phí cho iPhone và Android. Lần điểm danh 30 giây mỗi ngày sẽ trở thành kế hoạch cá nhân hóa cho tâm trạng, giấc ngủ, dinh dưỡng và thói quen.",
+      "inLanguage": "vi",
+      "isPartOf": {
+        "@id": "https://aiwellnesspal.com/#website"
+      },
+      "about": {
+        "@id": "https://aiwellnesspal.com/#app"
+      },
+      "publisher": {
+        "@id": "https://aiwellnesspal.com/#organization"
+      },
+      "dateModified": "2026-11-19",
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://aiwellnesspal.com/assets/og-image.png"
+      },
+      "translationOfWork": {
+        "@id": "https://aiwellnesspal.com/#webpage"
+      },
+      "mainEntity": {
+        "@id": "https://aiwellnesspal.com/#app"
+      }
+    },
+    {
+      "@type": "MobileApplication",
+      "@id": "https://aiwellnesspal.com/#app",
+      "name": "AI Wellness Pal",
+      "url": "https://aiwellnesspal.com/",
+      "description": "AI Wellness Pal là huấn luyện viên sức khỏe AI cho iPhone và Android: lần điểm danh 30 giây mỗi ngày trở thành kế hoạch cá nhân hóa cho tâm trạng, giấc ngủ, dinh dưỡng và thói quen, cùng một AI Wellness Pal để nhắn tin hoặc trò chuyện, nhật ký có hướng dẫn, theo dõi thói quen và chín công cụ chăm sóc sức khỏe (huấn luyện viên dinh dưỡng, lập kế hoạch bữa ăn, ngân sách calo, huấn luyện viên uống nước, huấn luyện viên giấc ngủ, thiền, theo dõi kỳ kinh, cân nặng và du lịch chánh niệm).",
+      "abstract": "Người bạn đồng hành sức khỏe AI của bạn — kế hoạch mỗi ngày dựa trên cảm giác thật của bạn",
+      "image": "https://aiwellnesspal.com/assets/icon.png",
+      "screenshot": [
+        "https://aiwellnesspal.com/assets/screens/01_02_home.jpg",
+        "https://aiwellnesspal.com/assets/screens/01_03_checkin.jpg",
+        "https://aiwellnesspal.com/assets/screens/03_05_pal_chat.jpg",
+        "https://aiwellnesspal.com/assets/screens/10_life_toolkit.jpg",
+        "https://aiwellnesspal.com/assets/screens/13_hydration_coach.jpg",
+        "https://aiwellnesspal.com/assets/screens/11_period_tracker.jpg",
+        "https://aiwellnesspal.com/assets/screens/17_habit_builder.jpg",
+        "https://aiwellnesspal.com/assets/screens/21_reflections.jpg"
+      ],
+      "operatingSystem": "iOS 15.0 or later, Android 8.0 or later",
+      "applicationCategory": "HealthApplication",
+      "applicationSubCategory": "Wellness",
+      "featureList": [
+        "Điểm danh hằng ngày và Kế hoạch hôm nay cá nhân hóa",
+        "Trò chuyện với AI Wellness Pal và đàm thoại bằng giọng nói theo thời gian thực (Live Chat Pal)",
+        "Nhật ký và suy ngẫm có AI dẫn dắt",
+        "Huấn luyện viên dinh dưỡng AI: ghi bữa ăn bằng ảnh, mô tả hoặc mã vạch",
+        "Lập kế hoạch bữa ăn AI",
+        "Ngân sách calo (ăn uống và tập luyện)",
+        "Huấn luyện viên uống nước với mục tiêu nước mỗi ngày",
+        "Huấn luyện viên giấc ngủ dùng Apple Health hoặc Health Connect",
+        "Pal thiền: bài tập hít thở, quét cơ thể và giảm căng thẳng",
+        "Theo dõi kỳ kinh với dự đoán chu kỳ",
+        "Theo dõi cân nặng và BMI",
+        "Xây dựng thói quen, thử thách, chuỗi ngày và lời nhắc",
+        "Tiện ích màn hình chính cho iPhone và Android"
+      ],
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Free",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        {
+          "@type": "Offer",
+          "name": "Premium Monthly (US App Store)",
+          "price": "14.99",
+          "priceCurrency": "USD",
+          "description": "Auto-renewing subscription with a 7-day free trial."
+        },
+        {
+          "@type": "Offer",
+          "name": "Premium Yearly (US App Store)",
+          "price": "89.99",
+          "priceCurrency": "USD",
+          "description": "Auto-renewing subscription with a 7-day free trial."
+        }
+      ],
+      "isAccessibleForFree": true,
+      "inLanguage": [
+        "en",
+        "ar",
+        "bn",
+        "de",
+        "es",
+        "fr",
+        "hi",
+        "id",
+        "it",
+        "ja",
+        "ko",
+        "mr",
+        "nl",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "ta",
+        "te",
+        "th",
+        "tr",
+        "uk",
+        "vi"
+      ],
+      "datePublished": "2026-10-05",
+      "installUrl": [
+        "https://apps.apple.com/us/app/ai-wellness-pal/id6816496839",
+        "https://play.google.com/store/apps/details?id=com.aiwellnesspal.app"
+      ],
+      "downloadUrl": [
+        "https://apps.apple.com/us/app/ai-wellness-pal/id6816496839",
+        "https://play.google.com/store/apps/details?id=com.aiwellnesspal.app"
+      ],
+      "sameAs": [
+        "https://apps.apple.com/us/app/ai-wellness-pal/id6816496839",
+        "https://play.google.com/store/apps/details?id=com.aiwellnesspal.app"
+      ],
+      "author": {
+        "@id": "https://aiwellnesspal.com/#founder"
+      },
+      "publisher": {
+        "@id": "https://aiwellnesspal.com/#organization"
+      },
+      "softwareHelp": {
+        "@type": "WebPage",
+        "url": "https://aiwellnesspal.com/vi/faq/"
+      },
+      "video": {
+        "@id": "https://aiwellnesspal.com/#demo-video"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://aiwellnesspal.com/#demo-video",
+      "name": "AI Wellness Pal – Complete Walkthrough",
+      "description": "A complete walkthrough of AI Wellness Pal: daily check-ins, personalized plans, the Wellness Pal chat, the Life Toolkit and more.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iAscMm_XUPk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/iAscMm_XUPk",
+      "contentUrl": "https://www.youtube.com/watch?v=iAscMm_XUPk",
+      "uploadDate": "2026-11-18T07:46:21-08:00",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://aiwellnesspal.com/vi/#faq",
+      "inLanguage": "vi",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "AI Wellness Pal là gì?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI Wellness Pal là ứng dụng huấn luyện sức khỏe AI miễn phí cho iPhone và Android. Mỗi ngày, ứng dụng trả lời một câu hỏi: lúc này mình nên làm gì cho sức khỏe của bản thân?\n\nBạn điểm danh nhanh, và ứng dụng sẽ lập Kế hoạch hôm nay: hai đến bốn việc nhỏ, vừa sức, phù hợp với năng lượng, tâm trạng, mức hồi phục của cơ thể và thời gian thực sự bạn có. Mọi thứ còn lại trong ứng dụng đều hỗ trợ điều đó: công cụ theo dõi trong ngày, một Wellness Pal để bạn trò chuyện, và tiến bộ mà bạn thấy tích lũy dần theo thời gian."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI Wellness Pal có miễn phí không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Có. AI Wellness Pal miễn phí khi tải về và sử dụng trên iPhone và Android, không có quảng cáo. Ứng dụng miễn phí gồm điểm danh hằng ngày và Kế hoạch hôm nay, nhật ký AI, thói quen và thử thách, theo dõi uống nước, giấc ngủ, kỳ kinh và cân nặng, các buổi thiền và hít thở, tiện ích, cùng 3 tin nhắn Wellness Pal mỗi ngày.\n\nGói đăng ký Premium tùy chọn bổ sung trò chuyện không giới hạn, đàm thoại bằng giọng nói theo thời gian thực, phân tích thức ăn bằng AI, kế hoạch bữa ăn AI và các huấn luyện AI khác trong bộ công cụ. So sánh Free và Premium."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI Wellness Pal Premium giá bao nhiêu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Trên App Store Mỹ, Premium có giá $14.99 một tháng hoặc $89.99 một năm, và cả hai gói đều bắt đầu bằng 7 ngày dùng thử miễn phí. Giá thay đổi theo quốc gia và tiền tệ; App Store hoặc Google Play sẽ hiển thị giá chính xác trước khi bạn xác nhận. Gói đăng ký tự động gia hạn trừ khi bạn hủy ít nhất 24 giờ trước khi kết thúc kỳ hiện tại."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI Wellness Pal có trên iPhone và Android không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Có. Hãy tải từ App Store (iPhone, iOS 15.0 trở lên) hoặc Google Play (Android 8.0 trở lên). Đăng nhập cùng một tài khoản trên cả hai và dữ liệu của bạn sẽ được đồng bộ."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Điểm danh hằng ngày là gì?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ba bước nhanh: năng lượng của bạn (1–5), tâm trạng, và cảm giác của cơ thể cùng thời gian bạn có hôm nay. Bạn có thể bỏ qua bất kỳ bước nào và kế hoạch sẽ dùng những gì bạn đã cung cấp. Sau khi điểm danh, Kế hoạch hôm nay được tạo trong vài giây. Bạn cũng có thể nhờ Wellness Pal “bắt đầu điểm danh của tôi” nếu thích nói hơn là chạm."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI Wellness Pal có phải lời khuyên y tế không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. AI Wellness Pal cung cấp thông tin chung về sức khỏe và sự động viên. Ứng dụng không phải thiết bị y tế, không chẩn đoán, điều trị hay thay thế bác sĩ, nhà trị liệu hoặc chuyên gia có chuyên môn khác. Phản hồi của AI, ước tính calo và dự đoán chu kỳ có thể sai, vì vậy hãy trao đổi với nhân viên y tế về bất kỳ vấn đề sức khỏe nào.\n\nNếu bạn đang khủng hoảng hoặc nghĩ đến việc làm hại bản thân, hãy liên hệ ngay số khẩn cấp tại địa phương. Ở Mỹ, hãy gọi hoặc nhắn tin tới 988. Ở Anh, hãy gọi 111 hoặc Samaritans theo số 116 123. Ở nơi khác, hãy tìm đường dây hỗ trợ tại findahelpline.com."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI Wellness Pal dùng AI nào?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Các tính năng AI (trò chuyện và giọng nói của Wellness Pal, nhận định từ nhật ký, kế hoạch hằng ngày, nhận định về giấc ngủ và phân tích dinh dưỡng) chạy bằng các mô hình Gemini của Google thông qua Firebase AI Logic. Trước khi bất kỳ thông tin nào của bạn được gửi tới AI, ứng dụng sẽ cho bạn thấy những gì sẽ được chia sẻ và xin phép bạn. Phản hồi của AI có thể không chính xác, vì vậy hãy xem đó là gợi ý, không phải sự thật."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dữ liệu của tôi có riêng tư không? Các bạn có bán dữ liệu hoặc hiển thị quảng cáo không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI Wellness Pal không có quảng cáo, không bán dữ liệu của bạn và không theo dõi bạn qua ứng dụng hay trang web của các công ty khác. Dữ liệu của bạn được lưu trong khu vực riêng tư của bạn và không chia sẻ với người dùng khác. Dữ liệu chỉ được chia sẻ với các nhà cung cấp dịch vụ vận hành ứng dụng (như Firebase để lưu trữ và Google Gemini cho phản hồi AI). Xem Chính sách quyền riêng tư để biết chi tiết."
+          }
+        }
+      ]
+    }
+  ]
+}
+  </script>
+</head>
+<body data-music-play="Phát nhạc" data-music-pause="Tạm dừng nhạc" data-music-play-label="Phát nhạc nền" data-music-pause-label="Tạm dừng nhạc nền">
+<div class="glow" aria-hidden="true"><span></span><span></span><span></span></div>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-apple" viewBox="0 0 24 24"><path fill="currentColor" d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><path fill="currentColor" d="M22.018 13.298l-3.919 2.218-3.515-3.493 3.543-3.521 3.891 2.202a1.49 1.49 0 0 1 0 2.594zM1.337.924a1.486 1.486 0 0 0-.112.568v21.017c0 .217.045.419.124.6l11.155-11.087L1.337.924zm12.207 10.065l3.258-3.238L3.45.195a1.466 1.466 0 0 0-.946-.179l11.04 10.973zm0 2.067l-11 10.933c.298.036.612-.016.906-.183l13.324-7.54-3.23-3.21z"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></g></symbol>
+</svg>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="/vi/"><picture><source type="image/webp" srcset="/assets/icon-96.webp 1x, /assets/icon-192.webp 2x"><img src="/assets/icon-96.png" alt="" width="34" height="34"></picture>AI Wellness Pal</a>
+    <nav class="nav-links" aria-label="Chính">
+      <a href="/vi/features/">Tính năng</a>
+      <a href="/vi/#demo">Demo</a>
+      <a href="/vi/faq/">Câu hỏi thường gặp</a>
+      <a href="/vi/about/">Giới thiệu</a>
+      <a href="/vi/#support">Hỗ trợ</a>
+    </nav>
+    <details class="lang-pick">
+      <summary aria-label="Ngôn ngữ: Tiếng Việt"><svg aria-hidden="true"><use href="#i-globe"/></svg><span>VI</span></summary>
+      <ul class="lang-menu"><li><a href="/" hreflang="en" lang="en" data-lang="en">English</a></li><li><a href="/ar/" hreflang="ar" lang="ar" data-lang="ar">العربية</a></li><li><a href="/bn/" hreflang="bn" lang="bn" data-lang="bn">বাংলা</a></li><li><a href="/de/" hreflang="de" lang="de" data-lang="de">Deutsch</a></li><li><a href="/es/" hreflang="es" lang="es" data-lang="es">Español</a></li><li><a href="/fr/" hreflang="fr" lang="fr" data-lang="fr">Français</a></li><li><a href="/hi/" hreflang="hi" lang="hi" data-lang="hi">हिन्दी</a></li><li><a href="/id/" hreflang="id" lang="id" data-lang="id">Bahasa Indonesia</a></li><li><a href="/it/" hreflang="it" lang="it" data-lang="it">Italiano</a></li><li><a href="/ja/" hreflang="ja" lang="ja" data-lang="ja">日本語</a></li><li><a href="/ko/" hreflang="ko" lang="ko" data-lang="ko">한국어</a></li><li><a href="/mr/" hreflang="mr" lang="mr" data-lang="mr">मराठी</a></li><li><a href="/nl/" hreflang="nl" lang="nl" data-lang="nl">Nederlands</a></li><li><a href="/pl/" hreflang="pl" lang="pl" data-lang="pl">Polski</a></li><li><a href="/pt/" hreflang="pt" lang="pt" data-lang="pt">Português</a></li><li><a href="/ro/" hreflang="ro" lang="ro" data-lang="ro">Română</a></li><li><a href="/ru/" hreflang="ru" lang="ru" data-lang="ru">Русский</a></li><li><a href="/ta/" hreflang="ta" lang="ta" data-lang="ta">தமிழ்</a></li><li><a href="/te/" hreflang="te" lang="te" data-lang="te">తెలుగు</a></li><li><a href="/th/" hreflang="th" lang="th" data-lang="th">ไทย</a></li><li><a href="/tr/" hreflang="tr" lang="tr" data-lang="tr">Türkçe</a></li><li><a href="/uk/" hreflang="uk" lang="uk" data-lang="uk">Українська</a></li><li><a href="/vi/" hreflang="vi" lang="vi" data-lang="vi" aria-current="true">Tiếng Việt</a></li></ul>
+    </details>
+    <a class="btn btn-sm btn-grad" id="get-app" href="https://apps.apple.com/us/app/ai-wellness-pal/id6816496839">Tải ứng dụng</a>
+  </div>
+</header>
+
+<main id="top">
+  <!-- Hero -->
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <span class="pill"><span class="dot"></span>Đã có trên App Store và Google Play</span>
+        <h1><span class="h1-kicker">AI Wellness Pal · ứng dụng huấn luyện sức khỏe AI</span>Thấy khỏe hơn,<br><span class="grad-text">từng ngày một.</span></h1>
+        <p class="lead"><strong>AI Wellness Pal</strong> là huấn luyện viên sức khỏe AI miễn phí cho iPhone và Android. Lần điểm danh 30 giây mỗi ngày trở thành kế hoạch cá nhân hóa cho tâm trạng, giấc ngủ, dinh dưỡng và thói quen — cùng một AI Wellness Pal để bạn trò chuyện, chia sẻ bất cứ khi nào cần.</p>
+        <div class="cta">
+          <a class="btn btn-store" href="https://apps.apple.com/us/app/ai-wellness-pal/id6816496839">
+            <svg aria-hidden="true"><use href="#i-apple"/></svg>
+            <span class="lbl"><small>Tải về trên</small><strong>App Store</strong></span>
+          </a>
+          <a class="btn btn-store" href="https://play.google.com/store/apps/details?id=com.aiwellnesspal.app">
+            <svg aria-hidden="true"><use href="#i-play"/></svg>
+            <span class="lbl"><small>Tải về trên</small><strong>Google Play</strong></span>
+          </a>
+        </div>
+        <div class="hero-meta">
+          <span><svg><use href="#i-check"/></svg>Tải về miễn phí</span>
+          <span><svg><use href="#i-check"/></svg>Không quảng cáo, không bán dữ liệu</span>
+          <span><svg><use href="#i-check"/></svg>Xóa dữ liệu của bạn bất cứ lúc nào</span>
+        </div>
+      </div>
+      <div class="phones" aria-hidden="true">
+        <div class="phone back"><picture><source type="image/webp" srcset="/assets/screens/w/03_05_pal_chat-300.webp 300w, /assets/screens/w/03_05_pal_chat-600.webp 600w" sizes="(max-width: 720px) 200px, (max-width: 960px) 230px, 270px"><img src="/assets/screens/03_05_pal_chat.jpg" alt="" width="600" height="1300" decoding="async"></picture></div>
+        <div class="phone front"><picture><source type="image/webp" srcset="/assets/screens/w/01_02_home-300.webp 300w, /assets/screens/w/01_02_home-600.webp 600w" sizes="(max-width: 720px) 200px, (max-width: 960px) 230px, 270px"><img src="/assets/screens/01_02_home.jpg" alt="" width="600" height="1300" fetchpriority="high"></picture></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section id="how" style="padding-top:40px">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">Cách hoạt động</span>
+        <h2>Một lần điểm danh. <span class="grad-text">Một kế hoạch vừa với hôm nay.</span></h2>
+        <p>Hầu hết ứng dụng sức khỏe đưa cho bạn cùng một kế hoạch như mọi người. AI Wellness Pal hỏi trước xem bạn thực sự thế nào.</p>
+      </div>
+      <ol class="how reveal">
+        <li><h3>Điểm danh (30 giây)</h3><p>Chấm điểm năng lượng, chọn tâm trạng, và cho biết cơ thể bạn cảm thấy ra sao và bạn có bao nhiêu thời gian. Muốn bỏ qua gì cũng được.</p></li>
+        <li><h3>Nhận Kế hoạch hôm nay</h3><p>Hai đến bốn việc nhỏ, vừa sức, được tạo dựa trên câu trả lời của bạn. Kiệt sức và chỉ rảnh mười lăm phút? Ngày của bạn sẽ rất khác so với khi bạn khỏe và có một giờ.</p></li>
+        <li><h3>Hoàn thành cùng Pal của bạn</h3><p>Đánh dấu hoàn thành, theo dõi nước uống, bữa ăn, giấc ngủ và thói quen, và trò chuyện với AI Wellness Pal của bạn khi cần.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Demo video -->
+  <section id="demo">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">Xem ứng dụng hoạt động</span>
+        <h2>Xem <span class="grad-text">bản demo</span></h2>
+        <p>Hướng dẫn đầy đủ về ứng dụng: điểm danh, kế hoạch hằng ngày, trò chuyện với Wellness Pal, bộ công cụ và nhiều hơn nữa.</p>
+      </div>
+      <div class="video reveal" id="video">
+        <button type="button" aria-label="Phát video hướng dẫn AI Wellness Pal">
+          <img src="https://i.ytimg.com/vi/iAscMm_XUPk/hqdefault.jpg" alt="" width="480" height="360" loading="lazy" decoding="async">
+          <span class="play"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M7 4.5v15l12.5-7.5z"/></svg></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">Mọi thứ trong một nơi</span>
+        <h2>Toàn bộ sức khỏe của bạn, <span class="grad-text">được dẫn dắt nhẹ nhàng</span></h2>
+        <p>Những việc nhỏ, vừa sức, hợp với năng lượng, thời gian và ngày của bạn.</p>
+      </div>
+      <div class="grid">
+        <a class="card reveal" href="/vi/features/ai-wellness-coach/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></div>
+          <h3>Điểm danh hằng ngày</h3>
+          <p>Ghi lại năng lượng, tâm trạng và mức hồi phục chỉ trong vài giây. Câu trả lời của bạn tạo nên kế hoạch cá nhân hóa cho ngày hôm đó.</p>
+          <span class="more">Tìm hiểu thêm →</span>
+        </a>
+        <a class="card reveal" href="/vi/features/ai-wellness-chat/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg></div>
+          <h3>Wellness Pal của bạn</h3>
+          <p>Trò chuyện về căng thẳng, động lực hay thói quen. Pal của bạn học từ các lần điểm danh và nhật ký để đưa ra hướng dẫn phù hợp.</p>
+          <span class="more">Tìm hiểu thêm →</span>
+        </a>
+        <a class="card reveal" href="/vi/features/ai-journal/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5V5a2 2 0 0 1 2-2h12v18H6a2 2 0 0 1-2-1.5z"/><path d="M8 7h6M8 11h6"/></svg></div>
+          <h3>Suy ngẫm có hướng dẫn</h3>
+          <p>Một cuốn nhật ký riêng tư với những gợi ý chu đáo. Nhận ra các quy luật và thấy điều gì thực sự giúp bạn cảm thấy tốt hơn.</p>
+          <span class="more">Tìm hiểu thêm →</span>
+        </a>
+      </div>
+
+      <div class="toolkit-head reveal">
+        <span class="eyebrow">Bộ công cụ cuộc sống</span>
+        <h3>Chín công cụ cho <span class="grad-text">mọi mặt của cuộc sống</span></h3>
+        <p>Từ bữa ăn và nước uống đến giấc ngủ, chu kỳ và du lịch. Mở bất kỳ công cụ nào từ thẻ Thêm, và ghim công cụ yêu thích lên màn hình Trang chủ. <a href="/vi/features/" style="color:var(--lavender)">Xem mọi tính năng →</a></p>
+      </div>
+      <div class="grid toolkit">
+        <a class="card reveal" href="/vi/features/ai-nutrition-coach/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9a2 2 0 0 1 2-2h2l1.5-2h7L17 7h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><circle cx="12" cy="13" r="3.5"/></svg></div>
+          <h3>Huấn luyện viên dinh dưỡng AI</h3>
+          <p>Ghi bữa ăn bằng ảnh, mô tả hoặc mã vạch và nhận ngay ước tính calo và chất đa lượng từ AI.</p>
+          <span class="more">Tìm hiểu thêm →</span>
+        </a>
+        <a class="card reveal" href="/vi/features/ai-meal-planner/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3v8a3 3 0 0 0 6 0V3M7 3v18M17 21V3c-2.5 1-4 3.5-4 7v3h4"/></svg></div>
+          <h3>Lập kế hoạch bữa ăn AI</h3>
+          <p>Bữa ăn cho một ngày, một tuần hay một tháng, xây dựng theo mục tiêu và kiểu ăn uống của bạn, kèm danh sách đi chợ tương ứng.</p>
+          <span class="more">Tìm hiểu thêm →</span>
+        </a>
+        <a class="card reveal" href="/vi/features/calorie-tracker/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c1 3 4 4.5 4 9a4 4 0 0 1-8 0c0-2 1-3 2-4 0 2 1 3 2 3 0-3-1-5 0-8z"/><path d="M6 15a6 6 0 0 0 12 0"/></svg></div>
+          <h3>Ngân sách calo AI</h3>
+          <p>Xem lượng ăn vào và tập luyện cùng nhau để luôn biết cân bằng năng lượng mỗi ngày của mình.</p>
+          <span class="more">Tìm hiểu thêm →</span>
+        </a>
+        <a class="card reveal" href="/vi/features/water-tracker/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/></svg></div>
+          <h3>Huấn luyện viên uống nước AI</h3>
+          <p>Theo dõi lượng nước so với mục tiêu thông minh mỗi ngày, với thêm nhanh và chuỗi ngày uống nước giúp bạn duy trì.</p>
+          <span class="more">Tìm hiểu thêm →</span>
+        </a>
+        <a class="card reveal" href="/vi/features/sleep-tracker/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5z"/></svg></div>
+          <h3>Huấn luyện viên giấc ngủ</h3>
+          <p>Hiểu giấc ngủ của bạn: kết nối Apple Health hoặc Health Connect (chỉ đọc) để có điểm ngủ, các giai đoạn và nhận định về hồi phục.</p>
+          <span class="more">Tìm hiểu thêm →</span>
+        </a>
+        <a class="card reveal" href="/vi/features/meditation-breathing/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5" r="2"/><path d="M12 8v5M6 20l3-4h6l3 4M5 12l7 1 7-1"/></svg></div>
+          <h3>Pal thiền</h3>
+          <p>Hít thở, thiền và tìm lại sự bình tĩnh với hít thở có hướng dẫn, quét cơ thể và giảm căng thẳng từng bước.</p>
+          <span class="more">Tìm hiểu thêm →</span>
+        </a>
+        <a class="card reveal" href="/vi/features/period-tracker/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 5.5-7 10-7 10z"/></svg></div>
+          <h3>Theo dõi kỳ kinh</h3>
+          <p>Ghi lại chu kỳ, xem dự đoán kỳ kinh tiếp theo và khoảng thời gian dễ thụ thai, và nhận mẹo theo từng giai đoạn.</p>
+          <span class="more">Tìm hiểu thêm →</span>
+        </a>
+        <a class="card reveal" href="/vi/features/weight-tracker/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 10a4 4 0 0 1 8 0M12 10l1.5-2"/></svg></div>
+          <h3>Cân nặng</h3>
+          <p>Theo dõi cân nặng và BMI theo thời gian với biểu đồ xu hướng rõ ràng và toàn bộ lịch sử cân.</p>
+          <span class="more">Tìm hiểu thêm →</span>
+        </a>
+        <article class="card reveal">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 16l20-6-2.5-2.5L13 9 8 4 6 5l3 6-4 1.5L3 11l-1 1z"/><path d="M3 20h18"/></svg></div>
+          <h3>Du lịch chánh niệm</h3>
+          <p>Hướng dẫn sức khỏe bằng AI cho mọi chuyến đi, để bạn vẫn cảm thấy khỏe khi xa nhà.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Screenshots -->
+  <section id="screens" aria-labelledby="screens-title" style="padding-top:0">
+    <div class="wrap">
+      <div class="shots-head reveal">
+        <div>
+          <span class="eyebrow">Xem bên trong ứng dụng</span>
+          <h2 id="screens-title">Dành cho <span class="grad-text">những ngày thật</span></h2>
+        </div>
+        <div class="shots-nav">
+          <button class="btn btn-icon" type="button" data-dir="-1" aria-label="Ảnh chụp màn hình trước"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M15 5l-7 7 7 7"/></svg></button>
+          <button class="btn btn-icon" type="button" data-dir="1" aria-label="Ảnh chụp màn hình tiếp theo"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg></button>
+        </div>
+      </div>
+    </div>
+    <div class="shots reveal" tabindex="0" aria-label="Ảnh chụp màn hình ứng dụng, cuộn ngang">
+      <picture><source type="image/webp" srcset="/assets/screens/w/01_00_onboard-300.webp 300w, /assets/screens/w/01_00_onboard-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/01_00_onboard.jpg" alt="Bắt đầu: bớt suy nghĩ quá nhiều, tập trung vào điều quan trọng nhất hôm nay" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/01_01_onboard-300.webp 300w, /assets/screens/w/01_01_onboard-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/01_01_onboard.jpg" alt="Bắt đầu: hiểu năng lượng của bạn qua những lần điểm danh nhanh mỗi ngày" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/01_03_checkin-300.webp 300w, /assets/screens/w/01_03_checkin-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/01_03_checkin.jpg" alt="Điểm danh hằng ngày hỏi về năng lượng của bạn hôm nay" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/05_reminder-300.webp 300w, /assets/screens/w/05_reminder-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/05_reminder.jpg" alt="Đặt giờ nhắc cho một việc chăm sóc sức khỏe" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/06_profile-300.webp 300w, /assets/screens/w/06_profile-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/06_profile.jpg" alt="Hồ sơ với thông tin cá nhân và các phương pháp chăm sóc sức khỏe ưa thích" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/07_action_detail-300.webp 300w, /assets/screens/w/07_action_detail-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/07_action_detail.jpg" alt="Chi tiết việc trong thử thách plank và cơ lõi, kèm hướng dẫn thực hiện" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/08_add_habit-300.webp 300w, /assets/screens/w/08_add_habit-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/08_add_habit.jpg" alt="Thêm thói quen tùy chỉnh với tần suất và mục tiêu" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/09_habit_formed-300.webp 300w, /assets/screens/w/09_habit_formed-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/09_habit_formed.jpg" alt="Chúc mừng mở khóa thành tích khi hình thành một thói quen" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/10_life_toolkit-300.webp 300w, /assets/screens/w/10_life_toolkit-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/10_life_toolkit.jpg" alt="Bộ công cụ cuộc sống với theo dõi kỳ kinh, cân nặng, uống nước, calo và lập kế hoạch bữa ăn" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/11_period_tracker-300.webp 300w, /assets/screens/w/11_period_tracker-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/11_period_tracker.jpg" alt="Theo dõi kỳ kinh với ngày chu kỳ, dự đoán và mẹo theo từng giai đoạn" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/12_body_weight-300.webp 300w, /assets/screens/w/12_body_weight-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/12_body_weight.jpg" alt="Theo dõi cân nặng với biểu đồ xu hướng và BMI" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/13_hydration_coach-300.webp 300w, /assets/screens/w/13_hydration_coach-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/13_hydration_coach.jpg" alt="Huấn luyện viên uống nước với mục tiêu nước mỗi ngày và thêm nhanh" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/14_wellness_studio-300.webp 300w, /assets/screens/w/14_wellness_studio-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/14_wellness_studio.jpg" alt="Wellness Studio với các bài tập hít thở ngắn" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/15_wellness_reads-300.webp 300w, /assets/screens/w/15_wellness_reads-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/15_wellness_reads.jpg" alt="Bài đọc sức khỏe về giấc ngủ, vận động, dinh dưỡng và sức khỏe tinh thần" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/16_wellness_intention-300.webp 300w, /assets/screens/w/16_wellness_intention-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/16_wellness_intention.jpg" alt="Đặt một ý định chăm sóc sức khỏe mới" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/17_habit_builder-300.webp 300w, /assets/screens/w/17_habit_builder-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/17_habit_builder.jpg" alt="Xây dựng thói quen với các thói quen khởi đầu và thử thách" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/18_habit_list-300.webp 300w, /assets/screens/w/18_habit_list-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/18_habit_list.jpg" alt="Xây dựng thói quen: danh sách các thói quen đang thực hiện" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/19_challenges-300.webp 300w, /assets/screens/w/19_challenges-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/19_challenges.jpg" alt="Các thử thách sức khỏe đang diễn ra, như thói quen ngủ 14 ngày" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/21_reflections-300.webp 300w, /assets/screens/w/21_reflections-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/21_reflections.jpg" alt="Suy ngẫm có hướng dẫn và các cuộc trò chuyện được ghim ở chế độ sáng" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/22_home_light-300.webp 300w, /assets/screens/w/22_home_light-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/22_home_light.jpg" alt="Màn hình chính ở chế độ sáng với nhận định AI và tiến độ dinh dưỡng" width="600" height="1300" loading="lazy" decoding="async"></picture>
+    </div>
+  </section>
+
+  <!-- Wellness Garden -->
+  <section id="garden" aria-labelledby="garden-title">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">Khu vườn an lành</span>
+        <h2 id="garden-title">Thói quen của bạn nuôi dưỡng <span class="grad-text">một khu vườn</span></h2>
+        <p>Mỗi bước thật bạn làm cho bản thân đều giúp một điều gì đó lớn lên. Nhờ vậy, xây dựng thói quen trở thành việc bạn mong được mở ứng dụng, và không bao giờ trừng phạt bạn vì một ngày bỏ lỡ.</p>
+      </div>
+      <div class="garden-grid reveal">
+        <figure class="garden-shot garden-main"><picture><source type="image/webp" srcset="/assets/screens/w/23_garden-640.webp 640w, /assets/screens/w/23_garden-1280.webp 1280w" sizes="(max-width: 720px) 92vw, 1100px"><img src="/assets/screens/23_garden.jpg" alt="Khu vườn an lành trong AI Wellness Pal, với các chậu hoa, một người làm vườn trên lối đi, xu và bộ đếm 10 ngày" width="1280" height="590" loading="lazy" decoding="async"></picture></figure>
+        <figure class="garden-shot"><picture><source type="image/webp" srcset="/assets/screens/w/24_garden_gifts-640.webp 640w, /assets/screens/w/24_garden_gifts-1280.webp 1280w" sizes="(max-width: 720px) 92vw, 540px"><img src="/assets/screens/24_garden_gifts.jpg" alt="Quà khu vườn: một món quà cho mỗi ngày bạn ghé thăm, với một chiếc rương ở cuối mỗi vòng" width="1280" height="590" loading="lazy" decoding="async"></picture></figure>
+        <figure class="garden-shot"><picture><source type="image/webp" srcset="/assets/screens/w/25_garden_map-640.webp 640w, /assets/screens/w/25_garden_map-1280.webp 1280w" sizes="(max-width: 720px) 92vw, 540px"><img src="/assets/screens/25_garden_map.jpg" alt="Bản đồ khu vườn với Đồng cỏ, Vườn thiền, Nhà kính và Bờ biển, mở ra khi bạn lên cấp" width="1280" height="590" loading="lazy" decoding="async"></picture></figure>
+      </div>
+      <ul class="garden-points reveal">
+        <li><h3>Lớn lên khi bạn ghé thăm</h3><p>Khu vườn của bạn lớn thêm một chút mỗi ngày bạn ghé thăm và giữ lại mọi thứ đã lớn. Thói quen trở thành hạt giống bạn gieo, và thói quen hoàn thành sẽ cho quả để hái.</p></li>
+        <li><h3>Chuỗi ngày không áp lực</h3><p>Bỏ lỡ một ngày? Không mất gì cả. Cấp độ của bạn chỉ tăng, và khi bạn quay lại, mọi thứ vẫn đang đợi bạn. Vào ngày mệt, phiên bản thu nhỏ của thói quen vẫn được tính như thường.</p></li>
+        <li><h3>Mỗi ngày một lý do để quay lại</h3><p>Mở một món quà khu vườn cho mỗi ngày bạn ghé thăm, kiếm xu từ điểm danh, thói quen và uống nước, rồi dùng xu mua cây và đồ trang trí.</p></li>
+        <li><h3>Luôn có điều mới để khám phá</h3><p>Thay đồ cho những người bạn đồng hành, gặp gỡ khách ghé vườn, trồng một bông hoa tâm trạng riêng tư sau mỗi lần điểm danh và mở khóa những nơi mới như Nhà kính và Bờ biển khi bạn lên cấp.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Free vs Premium -->
+  <section id="pricing">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">Giá</span>
+        <h2>Dùng miễn phí. <span class="grad-text">Premium khi bạn muốn nhiều hơn.</span></h2>
+        <p>Ứng dụng cốt lõi miễn phí trên iPhone và Android, không có quảng cáo. Premium bổ sung AI và giọng nói không giới hạn.</p>
+      </div>
+      <div class="pricing reveal">
+        <div class="plan">
+          <h3>Free</h3>
+          <p class="price">$0, không quảng cáo</p>
+          <ul>
+            <li><strong>Điểm danh hằng ngày</strong> và Kế hoạch hôm nay cá nhân hóa</li>
+            <li><strong>Nhật ký AI</strong> với các suy ngẫm có hướng dẫn</li>
+            <li><strong>3 tin nhắn Wellness Pal</strong> mỗi ngày</li>
+            <li>Thói quen, thử thách, lời nhắc và chuỗi ngày</li>
+            <li>Theo dõi uống nước, giấc ngủ, kỳ kinh và cân nặng, cùng ngân sách calo</li>
+            <li>Thiền, hít thở và quét cơ thể, cùng mọi chủ đề giao diện</li>
+            <li>Tiện ích màn hình chính</li>
+          </ul>
+        </div>
+        <div class="plan premium">
+          <h3>Premium</h3>
+          <p class="price">Dùng thử miễn phí 7 ngày, sau đó trả theo tháng hoặc năm</p>
+          <ul>
+            <li>Trò chuyện với Wellness Pal <strong>không giới hạn</strong></li>
+            <li><strong>Live Chat Pal</strong>: đàm thoại bằng giọng nói theo thời gian thực</li>
+            <li><strong>Phân tích thức ăn bằng AI</strong> từ ảnh, mô tả hoặc mã vạch, và <strong>kế hoạch bữa ăn AI</strong></li>
+            <li>Nhận định AI về giấc ngủ, uống nước và calo, cùng mục tiêu nước theo thời tiết</li>
+            <li>“Thảo luận” về các suy ngẫm của bạn và các bước AI cho ý định của bạn</li>
+            <li>Toàn bộ thư viện Wellness Studio</li>
+          </ul>
+        </div>
+      </div>
+      <p class="fine">Trên App Store Mỹ, Premium có giá $14.99 một tháng hoặc $89.99 một năm. Giá thay đổi theo quốc gia và được hiển thị trên App Store hoặc Google Play trước khi bạn đăng ký. Hủy bất cứ lúc nào trong phần gói đăng ký của cửa hàng.</p>
+    </div>
+  </section>
+
+  <!-- FAQ (from tools/site_content.py) -->
+  <section id="faq">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">Câu hỏi thường gặp</span>
+        <h2>Câu hỏi, <span class="grad-text">có trả lời</span></h2>
+      </div>
+      <div class="faq">
+      <details>
+        <summary>AI Wellness Pal là gì?</summary>
+        <div class="a"><p>AI Wellness Pal là ứng dụng huấn luyện sức khỏe AI miễn phí cho iPhone và Android. Mỗi ngày, ứng dụng trả lời một câu hỏi: lúc này mình nên làm gì cho sức khỏe của bản thân?</p><p>Bạn điểm danh nhanh, và ứng dụng sẽ lập Kế hoạch hôm nay: hai đến bốn việc nhỏ, vừa sức, phù hợp với năng lượng, tâm trạng, mức hồi phục của cơ thể và thời gian thực sự bạn có. Mọi thứ còn lại trong ứng dụng đều hỗ trợ điều đó: công cụ theo dõi trong ngày, một Wellness Pal để bạn trò chuyện, và tiến bộ mà bạn thấy tích lũy dần theo thời gian.</p></div>
+      </details>
+      <details>
+        <summary>AI Wellness Pal có miễn phí không?</summary>
+        <div class="a"><p>Có. AI Wellness Pal miễn phí khi tải về và sử dụng trên iPhone và Android, không có quảng cáo. Ứng dụng miễn phí gồm điểm danh hằng ngày và Kế hoạch hôm nay, nhật ký AI, thói quen và thử thách, theo dõi uống nước, giấc ngủ, kỳ kinh và cân nặng, các buổi thiền và hít thở, tiện ích, cùng 3 tin nhắn Wellness Pal mỗi ngày.</p><p>Gói đăng ký Premium tùy chọn bổ sung trò chuyện không giới hạn, đàm thoại bằng giọng nói theo thời gian thực, phân tích thức ăn bằng AI, kế hoạch bữa ăn AI và các huấn luyện AI khác trong bộ công cụ. <a href="/vi/#pricing">So sánh Free và Premium</a>.</p></div>
+      </details>
+      <details>
+        <summary>AI Wellness Pal Premium giá bao nhiêu?</summary>
+        <div class="a"><p>Trên App Store Mỹ, Premium có giá $14.99 một tháng hoặc $89.99 một năm, và cả hai gói đều bắt đầu bằng 7 ngày dùng thử miễn phí. Giá thay đổi theo quốc gia và tiền tệ; App Store hoặc Google Play sẽ hiển thị giá chính xác trước khi bạn xác nhận. Gói đăng ký tự động gia hạn trừ khi bạn hủy ít nhất 24 giờ trước khi kết thúc kỳ hiện tại.</p></div>
+      </details>
+      <details>
+        <summary>AI Wellness Pal có trên iPhone và Android không?</summary>
+        <div class="a"><p>Có. Hãy tải từ <a href="https://apps.apple.com/us/app/ai-wellness-pal/id6816496839">App Store</a> (iPhone, iOS 15.0 trở lên) hoặc <a href="https://play.google.com/store/apps/details?id=com.aiwellnesspal.app">Google Play</a> (Android 8.0 trở lên). Đăng nhập cùng một tài khoản trên cả hai và dữ liệu của bạn sẽ được đồng bộ.</p></div>
+      </details>
+      <details>
+        <summary>Điểm danh hằng ngày là gì?</summary>
+        <div class="a"><p>Ba bước nhanh: năng lượng của bạn (1–5), tâm trạng, và cảm giác của cơ thể cùng thời gian bạn có hôm nay. Bạn có thể bỏ qua bất kỳ bước nào và kế hoạch sẽ dùng những gì bạn đã cung cấp. Sau khi điểm danh, Kế hoạch hôm nay được tạo trong vài giây. Bạn cũng có thể nhờ Wellness Pal “bắt đầu điểm danh của tôi” nếu thích nói hơn là chạm.</p></div>
+      </details>
+      <details>
+        <summary>AI Wellness Pal có phải lời khuyên y tế không?</summary>
+        <div class="a"><p>Không. AI Wellness Pal cung cấp thông tin chung về sức khỏe và sự động viên. Ứng dụng không phải thiết bị y tế, không chẩn đoán, điều trị hay thay thế bác sĩ, nhà trị liệu hoặc chuyên gia có chuyên môn khác. Phản hồi của AI, ước tính calo và dự đoán chu kỳ có thể sai, vì vậy hãy trao đổi với nhân viên y tế về bất kỳ vấn đề sức khỏe nào.</p><p>Nếu bạn đang khủng hoảng hoặc nghĩ đến việc làm hại bản thân, hãy liên hệ ngay số khẩn cấp tại địa phương. Ở Mỹ, hãy gọi hoặc nhắn tin tới 988. Ở Anh, hãy gọi 111 hoặc Samaritans theo số 116 123. Ở nơi khác, hãy tìm đường dây hỗ trợ tại findahelpline.com.</p></div>
+      </details>
+      <details>
+        <summary>AI Wellness Pal dùng AI nào?</summary>
+        <div class="a"><p>Các tính năng AI (trò chuyện và giọng nói của Wellness Pal, nhận định từ nhật ký, kế hoạch hằng ngày, nhận định về giấc ngủ và phân tích dinh dưỡng) chạy bằng các mô hình Gemini của Google thông qua Firebase AI Logic. Trước khi bất kỳ thông tin nào của bạn được gửi tới AI, ứng dụng sẽ cho bạn thấy những gì sẽ được chia sẻ và xin phép bạn. Phản hồi của AI có thể không chính xác, vì vậy hãy xem đó là gợi ý, không phải sự thật.</p></div>
+      </details>
+      <details>
+        <summary>Dữ liệu của tôi có riêng tư không? Các bạn có bán dữ liệu hoặc hiển thị quảng cáo không?</summary>
+        <div class="a"><p>AI Wellness Pal không có quảng cáo, không bán dữ liệu của bạn và không theo dõi bạn qua ứng dụng hay trang web của các công ty khác. Dữ liệu của bạn được lưu trong khu vực riêng tư của bạn và không chia sẻ với người dùng khác. Dữ liệu chỉ được chia sẻ với các nhà cung cấp dịch vụ vận hành ứng dụng (như Firebase để lưu trữ và Google Gemini cho phản hồi AI). Xem <a href="/privacy.html">Chính sách quyền riêng tư</a> để biết chi tiết.</p></div>
+      </details>
+      </div>
+      <p class="fine"><a href="/vi/faq/" style="color:var(--lavender)">Xem tất cả câu hỏi →</a></p>
+    </div>
+  </section>
+
+  <!-- Feedback -->
+  <section id="feedback">
+    <div class="wrap">
+      <div class="feedback-card reveal">
+        <div>
+          <span class="eyebrow">Phản hồi</span>
+          <h2>Giúp định hình <span class="grad-text">điều tiếp theo</span></h2>
+          <p>Thích một điều gì đó, còn thiếu điều gì đó, hay tìm thấy lỗi? Hãy cho chúng tôi biết. Mỗi tin nhắn đều được đọc, và ý tưởng của bạn định hình bản cập nhật tiếp theo.</p>
+          <ol class="steps">
+            <li><strong>Chia sẻ suy nghĩ của bạn</strong>Ý tưởng, lỗi, lời khen: tất cả đều có ích.</li>
+            <li><strong>Để lại email nếu bạn muốn nhận phản hồi</strong>Không bắt buộc, và chỉ dùng để trả lời bạn.</li>
+            <li><strong>Bạn thích ứng dụng chứ?</strong>Một đánh giá ngắn giúp người khác tìm thấy ứng dụng: <a href="https://apps.apple.com/us/app/ai-wellness-pal/id6816496839?action=write-review">App Store</a> · <a href="https://play.google.com/store/apps/details?id=com.aiwellnesspal.app&amp;showAllReviews=true">Google Play</a></li>
+          </ol>
+        </div>
+        <div class="request-wrap">
+        <form class="request" id="feedback-form" action="https://api.aiwellnesspal.com/submit?form=feedback" method="POST" novalidate>
+          <input class="hp" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <div class="field">
+            <label for="f-type">Loại phản hồi nào?</label>
+            <select id="f-type" name="type" required>
+              <option value="">Chọn một</option>
+              <option value="Idea or feature request">Ý tưởng hoặc đề xuất tính năng</option>
+              <option value="Something isn&#x27;t working">Có thứ không hoạt động</option>
+              <option value="Something I love">Điều tôi yêu thích</option>
+              <option value="Other">Khác</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="f-platform">Thiết bị nào? <span class="hint">(không bắt buộc)</span></label>
+            <select id="f-platform" name="platform">
+              <option value="">Chọn một</option>
+              <option>iPhone</option>
+              <option>Android</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="f-note">Phản hồi của bạn</label>
+            <textarea id="f-note" name="message" required></textarea>
+          </div>
+          <div class="field">
+            <label for="f-name">Tên <span class="hint">(không bắt buộc)</span></label>
+            <input id="f-name" name="name" type="text" autocomplete="name">
+          </div>
+          <div class="field">
+            <label for="f-email">Email <span class="hint">(không bắt buộc, nếu bạn muốn nhận phản hồi)</span></label>
+            <input id="f-email" name="email" type="email" autocomplete="email" placeholder="you@example.com">
+          </div>
+          <div class="cf-turnstile" data-sitekey="0x4AAAAAAFeATWxgyA2X7qGo" data-theme="dark" data-size="flexible"></div>
+          <div class="form-alert" role="alert" hidden></div>
+          <button class="btn btn-grad" type="submit"><span class="spinner" aria-hidden="true"></span><span class="btn-label">Gửi phản hồi</span></button>
+        </form>
+        <div class="request-done" id="feedback-done" tabindex="-1" hidden>
+          <div class="done-icon"><svg viewBox="0 0 24 24"><use href="#i-check"/></svg></div>
+          <h3>Cảm ơn bạn!</h3>
+          <p id="done-msg">Cảm ơn bạn. Phản hồi của bạn đã được gửi.</p>
+          <button class="btn" type="button" id="feedback-again">Gửi thêm phản hồi</button>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Support (App Store Connect support URL points to this page) -->
+  <section id="support">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">Hỗ trợ</span>
+        <h2>Luôn sẵn sàng <span class="grad-text">giúp đỡ</span></h2>
+        <p>Cần trợ giúp, tìm thấy lỗi hoặc có câu hỏi? Hãy gửi email tới <a class="grad-text" href="mailto:aiwellnesspal@gmail.com?subject=AI%20Wellness%20Pal%20support">aiwellnesspal@gmail.com</a> và chúng tôi sẽ phản hồi bạn. Bạn cũng có thể <a class="grad-text" href="https://github.com/viraj-dhanushka/AIWellnessPal/issues">báo lỗi trên GitHub</a>.</p>
+      </div>
+      <div class="support-grid">
+        <article class="card reveal">
+          <h3>Xóa tài khoản của bạn</h3>
+          <p>Trong ứng dụng, vào <strong>Cài đặt → Xóa tài khoản</strong>. Thao tác này xóa vĩnh viễn tài khoản và toàn bộ dữ liệu của bạn. Không còn ứng dụng nữa? <a href="/delete-account.html">Yêu cầu xóa trên web</a>.</p>
+        </article>
+        <article class="card reveal">
+          <h3>Quản lý hoặc hủy Premium</h3>
+          <p>Trên iPhone, vào <strong>Cài đặt → tên của bạn → Gói đăng ký → AI Wellness Pal</strong>. Trên Android, mở Google Play → <strong>Thanh toán và gói đăng ký → Gói đăng ký</strong>. Để khôi phục Premium trên thiết bị mới, hãy dùng <strong>Khôi phục giao dịch mua</strong> trong ứng dụng.</p>
+        </article>
+        <article class="card reveal">
+          <h3>Kết nối hoặc ngắt kết nối dữ liệu giấc ngủ</h3>
+          <p>Trên iPhone, vào <strong>Cài đặt → Sức khỏe → Truy cập dữ liệu &amp; thiết bị → AI Wellness Pal</strong>. Trên Android, mở <strong>Health Connect → Quyền của ứng dụng → AI Wellness Pal</strong>.</p>
+        </article>
+        <article class="card reveal">
+          <h3>Không phải lời khuyên y tế</h3>
+          <p>AI Wellness Pal cung cấp thông tin chung về sức khỏe và không thay thế lời khuyên y tế chuyên nghiệp. Nếu bạn đang khủng hoảng hoặc gặp tình huống y tế khẩn cấp, hãy gọi ngay số khẩn cấp tại địa phương.</p>
+        </article>
+      </div>
+      <p class="notice">Đọc <a href="/privacy.html">Chính sách quyền riêng tư</a> và <a href="/terms.html">Điều khoản sử dụng</a> của chúng tôi. Chính sách quyền riêng tư và Điều khoản sử dụng của chúng tôi có bằng tiếng Anh.</p>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <div class="final reveal">
+    <picture><source type="image/webp" srcset="/assets/icon-192.webp"><img src="/assets/icon-192.png" alt="Biểu tượng ứng dụng AI Wellness Pal" width="88" height="88" loading="lazy"></picture>
+    <h2>Bắt đầu thấy khỏe hơn <span class="grad-text">từ hôm nay</span></h2>
+    <p>Miễn phí trên iPhone và Android.</p>
+    <div class="cta">
+      <a class="btn btn-store" href="https://apps.apple.com/us/app/ai-wellness-pal/id6816496839">
+        <svg aria-hidden="true"><use href="#i-apple"/></svg>
+        <span class="lbl"><small>Tải về trên</small><strong>App Store</strong></span>
+      </a>
+      <a class="btn btn-store" href="https://play.google.com/store/apps/details?id=com.aiwellnesspal.app">
+        <svg aria-hidden="true"><use href="#i-play"/></svg>
+        <span class="lbl"><small>Tải về trên</small><strong>Google Play</strong></span>
+      </a>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap foot-grid">
+    <div>
+      <a class="brand" href="/vi/"><picture><source type="image/webp" srcset="/assets/icon-96.webp 1x, /assets/icon-192.webp 2x"><img src="/assets/icon-96.png" alt="" width="34" height="34"></picture>AI Wellness Pal</a>
+      <p>Người bạn đồng hành sức khỏe AI của bạn — kế hoạch mỗi ngày dựa trên cảm giác thật của bạn. Miễn phí trên iPhone và Android.</p>
+      <p class="foot-stores"><a href="https://apps.apple.com/us/app/ai-wellness-pal/id6816496839">App Store</a> · <a href="https://play.google.com/store/apps/details?id=com.aiwellnesspal.app">Google Play</a></p>
+    </div>
+    <nav aria-label="Tính năng">
+      <p class="foot-h">Tính năng</p>
+        <a href="/vi/features/ai-wellness-coach/">Điểm danh &amp; kế hoạch hằng ngày</a>
+        <a href="/vi/features/ai-wellness-chat/">Trò chuyện AI với Wellness Pal</a>
+        <a href="/vi/features/ai-journal/">Nhật ký AI &amp; suy ngẫm</a>
+        <a href="/vi/features/ai-nutrition-coach/">Huấn luyện viên dinh dưỡng AI</a>
+        <a href="/vi/features/ai-meal-planner/">Lập kế hoạch bữa ăn AI</a>
+        <a href="/vi/features/calorie-tracker/">Ngân sách calo</a>
+        <a href="/vi/features/water-tracker/">Theo dõi nước uống</a>
+        <a href="/vi/features/sleep-tracker/">Huấn luyện viên giấc ngủ</a>
+        <a href="/vi/features/meditation-breathing/">Thiền &amp; hít thở</a>
+        <a href="/vi/features/period-tracker/">Theo dõi kỳ kinh</a>
+        <a href="/vi/features/weight-tracker/">Theo dõi cân nặng &amp; BMI</a>
+        <a href="/vi/features/habit-tracker/">Thói quen &amp; thử thách</a>
+        <a href="/vi/features/home-screen-widgets/">Tiện ích màn hình chính</a>
+    </nav>
+    <nav aria-label="Tài nguyên">
+      <p class="foot-h">Tài nguyên</p>
+      <a href="/vi/features/">Tất cả tính năng</a>
+      <a href="/vi/faq/">Câu hỏi thường gặp</a>
+      <a href="/vi/about/">Giới thiệu</a>
+      <a href="/vi/#demo">Video demo</a>
+      <a href="/vi/#support">Hỗ trợ</a>
+      <a href="/vi/#feedback">Gửi phản hồi</a>
+    </nav>
+    <nav aria-label="Pháp lý">
+      <p class="foot-h">Pháp lý</p>
+      <a href="/privacy.html" hreflang="en">Chính sách quyền riêng tư</a>
+      <a href="/terms.html" hreflang="en">Điều khoản sử dụng</a>
+      <a href="/delete-account.html" hreflang="en">Xóa tài khoản của bạn</a>
+      <p class="foot-note">Chính sách quyền riêng tư và Điều khoản sử dụng của chúng tôi có bằng tiếng Anh.</p>
+    </nav>
+  </div>
+  <nav class="wrap foot-langs" aria-label="Ngôn ngữ">
+    <p class="foot-h">Ngôn ngữ</p>
+    <ul><li><a href="/" hreflang="en" lang="en" data-lang="en">English</a></li><li><a href="/ar/" hreflang="ar" lang="ar" data-lang="ar">العربية</a></li><li><a href="/bn/" hreflang="bn" lang="bn" data-lang="bn">বাংলা</a></li><li><a href="/de/" hreflang="de" lang="de" data-lang="de">Deutsch</a></li><li><a href="/es/" hreflang="es" lang="es" data-lang="es">Español</a></li><li><a href="/fr/" hreflang="fr" lang="fr" data-lang="fr">Français</a></li><li><a href="/hi/" hreflang="hi" lang="hi" data-lang="hi">हिन्दी</a></li><li><a href="/id/" hreflang="id" lang="id" data-lang="id">Bahasa Indonesia</a></li><li><a href="/it/" hreflang="it" lang="it" data-lang="it">Italiano</a></li><li><a href="/ja/" hreflang="ja" lang="ja" data-lang="ja">日本語</a></li><li><a href="/ko/" hreflang="ko" lang="ko" data-lang="ko">한국어</a></li><li><a href="/mr/" hreflang="mr" lang="mr" data-lang="mr">मराठी</a></li><li><a href="/nl/" hreflang="nl" lang="nl" data-lang="nl">Nederlands</a></li><li><a href="/pl/" hreflang="pl" lang="pl" data-lang="pl">Polski</a></li><li><a href="/pt/" hreflang="pt" lang="pt" data-lang="pt">Português</a></li><li><a href="/ro/" hreflang="ro" lang="ro" data-lang="ro">Română</a></li><li><a href="/ru/" hreflang="ru" lang="ru" data-lang="ru">Русский</a></li><li><a href="/ta/" hreflang="ta" lang="ta" data-lang="ta">தமிழ்</a></li><li><a href="/te/" hreflang="te" lang="te" data-lang="te">తెలుగు</a></li><li><a href="/th/" hreflang="th" lang="th" data-lang="th">ไทย</a></li><li><a href="/tr/" hreflang="tr" lang="tr" data-lang="tr">Türkçe</a></li><li><a href="/uk/" hreflang="uk" lang="uk" data-lang="uk">Українська</a></li><li><a href="/vi/" hreflang="vi" lang="vi" data-lang="vi" aria-current="true">Tiếng Việt</a></li></ul>
+  </nav>
+  <div class="wrap foot-bottom">
+    <span>© 2026 Viraj Dhanushka</span>
+    <span>Không phải lời khuyên y tế. AI Wellness Pal cung cấp thông tin chung về sức khỏe.</span>
+  </div>
+</footer>
+
+<script>
+  var M = {"sending": "Đang gửi…", "send": "Gửi phản hồi", "invalid": "Vui lòng chọn loại phản hồi và viết nội dung. Nếu bạn thêm email, hãy kiểm tra email có hợp lệ không.", "turnstile": "Vui lòng hoàn tất bước xác minh phía trên nút.", "failed": "Rất tiếc, chúng tôi không gửi được phản hồi của bạn. Hãy kiểm tra kết nối và thử lại.", "thanks": "Cảm ơn bạn. Phản hồi của bạn đã được gửi.", "thanksName": "Cảm ơn {name}. Phản hồi của bạn đã được gửi.", "reply": "Chúng tôi sẽ trả lời qua {email}.", "video": "AI Wellness Pal: hướng dẫn đầy đủ về ứng dụng"};
+
+  // Load the YouTube player only when someone presses play (faster page, no tracking until then).
+  document.querySelector('#video button').addEventListener('click', function () {
+    var f = document.createElement('iframe');
+    f.src = 'https://www.youtube-nocookie.com/embed/iAscMm_XUPk?autoplay=1&rel=0&modestbranding=1&playsinline=1&hl=' + document.documentElement.lang;
+    f.title = M.video;
+    f.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+    f.allowFullscreen = true;
+    f.referrerPolicy = 'strict-origin-when-cross-origin';
+    this.replaceWith(f);
+  });
+
+  // Fade sections in as they scroll into view.
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach(function (el) { io.observe(el); });
+  } else {
+    document.querySelectorAll('.reveal').forEach(function (el) { el.classList.add('in'); });
+  }
+
+  // Screenshot gallery arrows: scroll by roughly one screen's worth of images (mirrored for right-to-left).
+  (function () {
+    var strip = document.querySelector('.shots');
+    var btns = document.querySelectorAll('.shots-nav button');
+    var rtl = document.documentElement.dir === 'rtl' ? -1 : 1;
+    function update() {
+      var pos = Math.abs(strip.scrollLeft);
+      btns[0].disabled = pos <= 4;
+      btns[1].disabled = pos + strip.clientWidth >= strip.scrollWidth - 4;
+    }
+    btns.forEach(function (b) {
+      b.addEventListener('click', function () {
+        strip.scrollBy({ left: rtl * Number(b.dataset.dir) * strip.clientWidth * 0.8, behavior: 'smooth' });
+      });
+    });
+    strip.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+    requestAnimationFrame(update);
+  })();
+
+  // "Get the app" goes to Google Play on Android, the App Store elsewhere.
+  if (/android/i.test(navigator.userAgent)) {
+    document.getElementById('get-app').href = 'https://play.google.com/store/apps/details?id=com.aiwellnesspal.app';
+  }
+
+  // Load Cloudflare Turnstile (the form's bot check) only when the form is about to be used.
+  (function () {
+    var loaded = false;
+    function load() {
+      if (loaded) return; loaded = true;
+      var sc = document.createElement('script');
+      sc.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js'; sc.async = true;
+      document.head.appendChild(sc);
+    }
+    var target = document.getElementById('feedback');
+    if ('IntersectionObserver' in window) {
+      var tio = new IntersectionObserver(function (es) { if (es.some(function (e) { return e.isIntersecting; })) { load(); tio.disconnect(); } }, { rootMargin: '600px 0px' });
+      tio.observe(target);
+    } else { load(); }
+    target.addEventListener('focusin', load);
+    if (location.hash === '#feedback') load();
+  })();
+
+  // Feedback form: posts to the Cloudflare Worker (cloudflare/forms-worker), which checks Turnstile and emails it.
+  var form = document.getElementById('feedback-form');
+  var done = document.getElementById('feedback-done');
+  var alertBox = form.querySelector('.form-alert');
+  var btn = form.querySelector('button[type=submit]');
+  var btnLabel = btn.querySelector('.btn-label');
+
+  function showAlert(msg) { alertBox.textContent = msg; alertBox.hidden = false; }
+  function setSending(on) {
+    btn.disabled = on; btn.classList.toggle('sending', on);
+    btnLabel.textContent = on ? M.sending : M.send;
+  }
+
+  form.addEventListener('input', function (e) {
+    if (e.target.validity && e.target.validity.valid) e.target.removeAttribute('aria-invalid');
+  });
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    alertBox.hidden = true;
+    // Required fields, plus the optional email when one was typed.
+    var invalid = Array.prototype.filter.call(form.querySelectorAll('[required], input[type=email]'), function (el) {
+      var bad = !el.checkValidity();
+      if (bad) el.setAttribute('aria-invalid', 'true'); else el.removeAttribute('aria-invalid');
+      return bad;
+    });
+    if (invalid.length) {
+      showAlert(M.invalid);
+      invalid[0].focus();
+      return;
+    }
+    // Turnstile adds this hidden field once the visitor passes the check.
+    var tsField = form.querySelector('[name="cf-turnstile-response"]');
+    if (!tsField || !tsField.value) {
+      showAlert(M.turnstile);
+      return;
+    }
+    var name = form.elements.namedItem('name').value.trim();
+    var email = form.elements.namedItem('email').value.trim();
+    setSending(true);
+    fetch(form.action, { method: 'POST', body: new FormData(form), headers: { Accept: 'application/json' } })
+      .then(function (r) { return r.json().catch(function () { return {}; }).then(function (d) { return { ok: r.ok, d: d }; }); })
+      .then(function (res) {
+        if (!res.ok || String(res.d.success) !== 'true') throw new Error(res.d.message || 'Request failed');
+        form.reset();
+        var msg = name ? M.thanksName.replace('{name}', name.split(' ')[0]) : M.thanks;
+        if (email) msg += ' ' + M.reply.replace('{email}', email);
+        document.getElementById('done-msg').textContent = msg;
+        form.hidden = true;
+        done.hidden = false;
+        done.focus();
+      })
+      .catch(function (err) {
+        // The Worker's own verification messages are English; show ours in the page's language.
+        var vmsg = /verification/i.test(err && err.message);
+        showAlert(vmsg ? (document.documentElement.lang === 'en' ? err.message : M.turnstile) : M.failed);
+      })
+      .finally(function () {
+        setSending(false);
+        // Tokens are single-use: get a fresh one for the next attempt.
+        if (window.turnstile) turnstile.reset(form.querySelector('.cf-turnstile'));
+      });
+  });
+
+  document.getElementById('feedback-again').addEventListener('click', function () {
+    done.hidden = true;
+    form.hidden = false;
+    form.querySelector('select').focus();
+  });
+</script>
+<script src="/assets/lang.js" defer></script>
+<script src="/assets/music.js" defer></script>
+</body>
+</html>

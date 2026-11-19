@@ -1,0 +1,992 @@
+<!doctype html>
+<html lang="te">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Wellness Pal: iPhone &amp; Android కోసం AI వెల్‌నెస్ కోచ్ యాప్</title>
+  <meta name="description" content="AI Wellness Pal అనేది iPhone మరియు Android కోసం ఉచిత AI వెల్‌నెస్ కోచ్ యాప్. 30 సెకన్ల రోజువారీ చెక్-ఇన్ మీ మూడ్, నిద్ర, పోషణ, అలవాట్ల కోసం వ్యక్తిగత ప్రణాళికగా మారుతుంది.">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+  <meta name="author" content="Viraj Dhanushka">
+  <meta name="theme-color" content="#0d0f1c">
+  <link rel="canonical" href="https://aiwellnesspal.com/te/">
+  <link rel="alternate" hreflang="en" href="https://aiwellnesspal.com/">
+  <link rel="alternate" hreflang="ar" href="https://aiwellnesspal.com/ar/">
+  <link rel="alternate" hreflang="bn" href="https://aiwellnesspal.com/bn/">
+  <link rel="alternate" hreflang="de" href="https://aiwellnesspal.com/de/">
+  <link rel="alternate" hreflang="es" href="https://aiwellnesspal.com/es/">
+  <link rel="alternate" hreflang="fr" href="https://aiwellnesspal.com/fr/">
+  <link rel="alternate" hreflang="hi" href="https://aiwellnesspal.com/hi/">
+  <link rel="alternate" hreflang="id" href="https://aiwellnesspal.com/id/">
+  <link rel="alternate" hreflang="it" href="https://aiwellnesspal.com/it/">
+  <link rel="alternate" hreflang="ja" href="https://aiwellnesspal.com/ja/">
+  <link rel="alternate" hreflang="ko" href="https://aiwellnesspal.com/ko/">
+  <link rel="alternate" hreflang="mr" href="https://aiwellnesspal.com/mr/">
+  <link rel="alternate" hreflang="nl" href="https://aiwellnesspal.com/nl/">
+  <link rel="alternate" hreflang="pl" href="https://aiwellnesspal.com/pl/">
+  <link rel="alternate" hreflang="pt" href="https://aiwellnesspal.com/pt/">
+  <link rel="alternate" hreflang="ro" href="https://aiwellnesspal.com/ro/">
+  <link rel="alternate" hreflang="ru" href="https://aiwellnesspal.com/ru/">
+  <link rel="alternate" hreflang="ta" href="https://aiwellnesspal.com/ta/">
+  <link rel="alternate" hreflang="te" href="https://aiwellnesspal.com/te/">
+  <link rel="alternate" hreflang="th" href="https://aiwellnesspal.com/th/">
+  <link rel="alternate" hreflang="tr" href="https://aiwellnesspal.com/tr/">
+  <link rel="alternate" hreflang="uk" href="https://aiwellnesspal.com/uk/">
+  <link rel="alternate" hreflang="vi" href="https://aiwellnesspal.com/vi/">
+  <link rel="alternate" hreflang="x-default" href="https://aiwellnesspal.com/">
+  <link rel="icon" type="image/png" href="/assets/favicon.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="apple-itunes-app" content="app-id=6816496839">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="AI Wellness Pal">
+  <meta property="og:locale" content="te_IN">
+  <meta property="og:title" content="AI Wellness Pal: మీ వ్యక్తిగత AI వెల్‌నెస్ కోచ్">
+  <meta property="og:description" content="రోజువారీ చెక్-ఇన్‌లు, వ్యక్తిగత ప్రణాళికలు, మార్గదర్శక ఆలోచనలు, మనసు విప్పి మాట్లాడటానికి ఒక AI Wellness Pal. App Store మరియు Google Playలో ఉచితం.">
+  <meta property="og:url" content="https://aiwellnesspal.com/te/">
+  <meta property="og:image" content="https://aiwellnesspal.com/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="AI Wellness Pal యాప్: మెరుగ్గా అనిపించండి, రోజుకో అడుగుతో.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AI Wellness Pal: మీ వ్యక్తిగత AI వెల్‌నెస్ కోచ్">
+  <meta name="twitter:description" content="రోజువారీ చెక్-ఇన్‌లు, వ్యక్తిగత ప్రణాళికలు, మార్గదర్శక ఆలోచనలు, మనసు విప్పి మాట్లాడటానికి ఒక AI Wellness Pal.">
+  <meta name="twitter:image" content="https://aiwellnesspal.com/assets/og-image.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400..800&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400..800&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400..800&display=swap"></noscript>
+  <link rel="preload" as="image" type="image/webp" href="/assets/screens/w/01_02_home-600.webp" imagesrcset="/assets/screens/w/01_02_home-300.webp 300w, /assets/screens/w/01_02_home-600.webp 600w" imagesizes="(max-width: 720px) 200px, (max-width: 960px) 230px, 270px">
+  <noscript><style>.reveal { opacity: 1; transform: none; }</style></noscript>
+  <link rel="stylesheet" href="/landing.css">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://aiwellnesspal.com/#website",
+      "url": "https://aiwellnesspal.com/",
+      "name": "AI Wellness Pal",
+      "alternateName": [
+        "AI Wellness Pal app",
+        "aiwellnesspal.com",
+        "aiwelnesspal.com"
+      ],
+      "inLanguage": [
+        "en",
+        "ar",
+        "bn",
+        "de",
+        "es",
+        "fr",
+        "hi",
+        "id",
+        "it",
+        "ja",
+        "ko",
+        "mr",
+        "nl",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "ta",
+        "te",
+        "th",
+        "tr",
+        "uk",
+        "vi"
+      ],
+      "publisher": {
+        "@id": "https://aiwellnesspal.com/#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://aiwellnesspal.com/#organization",
+      "name": "AI Wellness Pal",
+      "url": "https://aiwellnesspal.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://aiwellnesspal.com/assets/icon.png",
+        "width": 512,
+        "height": 512
+      },
+      "email": "aiwellnesspal@gmail.com",
+      "founder": {
+        "@id": "https://aiwellnesspal.com/#founder"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "email": "aiwellnesspal@gmail.com",
+        "availableLanguage": "en"
+      },
+      "sameAs": [
+        "https://apps.apple.com/us/app/ai-wellness-pal/id6816496839",
+        "https://play.google.com/store/apps/details?id=com.aiwellnesspal.app"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://aiwellnesspal.com/#founder",
+      "name": "Viraj Dhanushka",
+      "jobTitle": "Founder and developer",
+      "worksFor": {
+        "@id": "https://aiwellnesspal.com/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://aiwellnesspal.com/te/#webpage",
+      "url": "https://aiwellnesspal.com/te/",
+      "name": "AI Wellness Pal: iPhone & Android కోసం AI వెల్‌నెస్ కోచ్ యాప్",
+      "description": "AI Wellness Pal అనేది iPhone మరియు Android కోసం ఉచిత AI వెల్‌నెస్ కోచ్ యాప్. 30 సెకన్ల రోజువారీ చెక్-ఇన్ మీ మూడ్, నిద్ర, పోషణ, అలవాట్ల కోసం వ్యక్తిగత ప్రణాళికగా మారుతుంది.",
+      "inLanguage": "te",
+      "isPartOf": {
+        "@id": "https://aiwellnesspal.com/#website"
+      },
+      "about": {
+        "@id": "https://aiwellnesspal.com/#app"
+      },
+      "publisher": {
+        "@id": "https://aiwellnesspal.com/#organization"
+      },
+      "dateModified": "2026-11-19",
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://aiwellnesspal.com/assets/og-image.png"
+      },
+      "translationOfWork": {
+        "@id": "https://aiwellnesspal.com/#webpage"
+      },
+      "mainEntity": {
+        "@id": "https://aiwellnesspal.com/#app"
+      }
+    },
+    {
+      "@type": "MobileApplication",
+      "@id": "https://aiwellnesspal.com/#app",
+      "name": "AI Wellness Pal",
+      "url": "https://aiwellnesspal.com/",
+      "description": "AI Wellness Pal అనేది iPhone మరియు Android కోసం AI వెల్‌నెస్ కోచ్: 30 సెకన్ల రోజువారీ చెక్-ఇన్ మీ మూడ్, నిద్ర, పోషణ, అలవాట్ల కోసం వ్యక్తిగత ప్రణాళికగా మారుతుంది. చాట్ చేయడానికి లేదా మాట్లాడటానికి ఒక AI Wellness Pal, మార్గదర్శక జర్నల్, అలవాటు ట్రాకింగ్, తొమ్మిది వెల్‌నెస్ టూల్స్ (న్యూట్రిషన్ కోచ్, మీల్ ప్లానర్, కేలరీ బడ్జెట్, హైడ్రేషన్ కోచ్, స్లీప్ కోచ్, మెడిటేషన్, పీరియడ్ ట్రాకర్, శరీర బరువు, మైండ్‌ఫుల్ ట్రావెల్) ఉన్నాయి.",
+      "abstract": "మీ AI వెల్‌నెస్ తోడు: మీరు నిజంగా ఎలా ఉన్నారో దాని చుట్టూ అల్లిన రోజువారీ ప్రణాళిక",
+      "image": "https://aiwellnesspal.com/assets/icon.png",
+      "screenshot": [
+        "https://aiwellnesspal.com/assets/screens/01_02_home.jpg",
+        "https://aiwellnesspal.com/assets/screens/01_03_checkin.jpg",
+        "https://aiwellnesspal.com/assets/screens/03_05_pal_chat.jpg",
+        "https://aiwellnesspal.com/assets/screens/10_life_toolkit.jpg",
+        "https://aiwellnesspal.com/assets/screens/13_hydration_coach.jpg",
+        "https://aiwellnesspal.com/assets/screens/11_period_tracker.jpg",
+        "https://aiwellnesspal.com/assets/screens/17_habit_builder.jpg",
+        "https://aiwellnesspal.com/assets/screens/21_reflections.jpg"
+      ],
+      "operatingSystem": "iOS 15.0 or later, Android 8.0 or later",
+      "applicationCategory": "HealthApplication",
+      "applicationSubCategory": "Wellness",
+      "featureList": [
+        "రోజువారీ చెక్-ఇన్ మరియు వ్యక్తిగత నేటి ప్రణాళిక",
+        "AI Wellness Pal చాట్ మరియు రియల్-టైమ్ వాయిస్ సంభాషణలు (లైవ్ చాట్ పాల్)",
+        "AI మార్గదర్శక జర్నల్ మరియు ఆలోచనలు",
+        "AI న్యూట్రిషన్ కోచ్: ఫోటో, వివరణ లేదా బార్‌కోడ్‌తో భోజనాన్ని నమోదు చేయండి",
+        "AI మీల్ ప్లానర్",
+        "కేలరీ బడ్జెట్ (ఆహారం మరియు వ్యాయామం)",
+        "రోజువారీ నీటి లక్ష్యంతో హైడ్రేషన్ కోచ్",
+        "Apple Health లేదా Health Connect వాడే స్లీప్ కోచ్",
+        "మెడిటేషన్ పాల్: శ్వాస వ్యాయామాలు, బాడీ స్కాన్‌లు, ఒత్తిడి ఉపశమనం",
+        "చక్ర అంచనాలతో పీరియడ్ ట్రాకర్",
+        "శరీర బరువు మరియు BMI ట్రాకర్",
+        "అలవాట్ల బిల్డర్, ఛాలెంజ్‌లు, వరుసలు, రిమైండర్‌లు",
+        "iPhone మరియు Android కోసం హోమ్ స్క్రీన్ విడ్జెట్‌లు"
+      ],
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Free",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        {
+          "@type": "Offer",
+          "name": "Premium Monthly (US App Store)",
+          "price": "14.99",
+          "priceCurrency": "USD",
+          "description": "Auto-renewing subscription with a 7-day free trial."
+        },
+        {
+          "@type": "Offer",
+          "name": "Premium Yearly (US App Store)",
+          "price": "89.99",
+          "priceCurrency": "USD",
+          "description": "Auto-renewing subscription with a 7-day free trial."
+        }
+      ],
+      "isAccessibleForFree": true,
+      "inLanguage": [
+        "en",
+        "ar",
+        "bn",
+        "de",
+        "es",
+        "fr",
+        "hi",
+        "id",
+        "it",
+        "ja",
+        "ko",
+        "mr",
+        "nl",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "ta",
+        "te",
+        "th",
+        "tr",
+        "uk",
+        "vi"
+      ],
+      "datePublished": "2026-10-05",
+      "installUrl": [
+        "https://apps.apple.com/us/app/ai-wellness-pal/id6816496839",
+        "https://play.google.com/store/apps/details?id=com.aiwellnesspal.app"
+      ],
+      "downloadUrl": [
+        "https://apps.apple.com/us/app/ai-wellness-pal/id6816496839",
+        "https://play.google.com/store/apps/details?id=com.aiwellnesspal.app"
+      ],
+      "sameAs": [
+        "https://apps.apple.com/us/app/ai-wellness-pal/id6816496839",
+        "https://play.google.com/store/apps/details?id=com.aiwellnesspal.app"
+      ],
+      "author": {
+        "@id": "https://aiwellnesspal.com/#founder"
+      },
+      "publisher": {
+        "@id": "https://aiwellnesspal.com/#organization"
+      },
+      "softwareHelp": {
+        "@type": "WebPage",
+        "url": "https://aiwellnesspal.com/te/faq/"
+      },
+      "video": {
+        "@id": "https://aiwellnesspal.com/#demo-video"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://aiwellnesspal.com/#demo-video",
+      "name": "AI Wellness Pal – Complete Walkthrough",
+      "description": "A complete walkthrough of AI Wellness Pal: daily check-ins, personalized plans, the Wellness Pal chat, the Life Toolkit and more.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iAscMm_XUPk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/iAscMm_XUPk",
+      "contentUrl": "https://www.youtube.com/watch?v=iAscMm_XUPk",
+      "uploadDate": "2026-11-18T07:46:21-08:00",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://aiwellnesspal.com/te/#faq",
+      "inLanguage": "te",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "AI Wellness Pal అంటే ఏమిటి?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI Wellness Pal అనేది iPhone మరియు Android కోసం ఉచిత AI వెల్‌నెస్ కోచ్ యాప్. ప్రతిరోజూ ఒకే ప్రశ్నకు సమాధానం ఇస్తుంది: నా శ్రేయస్సు కోసం ఇప్పుడు ఏం చేయాలి?\n\nమీరు చిన్న చెక్-ఇన్ చేస్తే, యాప్ నేటి ప్రణాళికను రూపొందిస్తుంది: మీ శక్తి, మూడ్, శరీర కోలుకోలు, మీకు ఉన్న సమయానికి తగ్గ రెండు నుంచి నాలుగు చిన్న, చేయదగిన పనులు. యాప్‌లోని మిగతావన్నీ దీనికి తోడ్పడతాయి: రోజును ట్రాక్ చేసే టూల్స్, మనసు విప్పి మాట్లాడటానికి ఒక వెల్‌నెస్ పాల్, కాలక్రమేణా పెరిగే మీ పురోగతి."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI Wellness Pal ఉచితమా?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "అవును. AI Wellness Palను iPhone మరియు Androidలో ఉచితంగా డౌన్‌లోడ్ చేసి వాడవచ్చు, ప్రకటనలు లేవు. ఉచిత యాప్‌లో రోజువారీ చెక్-ఇన్‌లు, నేటి ప్రణాళిక, AI జర్నల్, అలవాట్లు మరియు ఛాలెంజ్‌లు, హైడ్రేషన్, నిద్ర, పీరియడ్, బరువు ట్రాకింగ్, మెడిటేషన్ మరియు శ్వాస సెషన్‌లు, విడ్జెట్‌లు, రోజుకు 3 వెల్‌నెస్ పాల్ చాట్ సందేశాలు ఉన్నాయి.\n\nఐచ్ఛిక Premium సబ్‌స్క్రిప్షన్ అపరిమిత చాట్, రియల్-టైమ్ వాయిస్ సంభాషణలు, AI ఆహార విశ్లేషణ, AI భోజన ప్రణాళికలు, టూల్‌కిట్‌లోని ఇతర AI కోచింగ్‌ను జోడిస్తుంది. ఉచితం మరియు Premiumను పోల్చండి."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI Wellness Pal Premium ఖరీదు ఎంత?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "US App Storeలో Premium నెలకు $14.99 లేదా సంవత్సరానికి $89.99; రెండు ప్లాన్‌లూ 7 రోజుల ఉచిత ట్రయల్‌తో మొదలవుతాయి. ధరలు దేశం మరియు కరెన్సీని బట్టి మారతాయి; మీరు నిర్ధారించే ముందు App Store లేదా Google Play ఖచ్చితమైన ధరను చూపిస్తాయి. ప్రస్తుత వ్యవధి ముగియడానికి కనీసం 24 గంటల ముందు రద్దు చేయకపోతే సబ్‌స్క్రిప్షన్ ఆటోమేటిక్‌గా పునరుద్ధరించబడుతుంది."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI Wellness Pal iPhone మరియు Androidలో అందుబాటులో ఉందా?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "అవును. దీన్ని App Store (iPhone, iOS 15.0 లేదా తర్వాతిది) లేదా Google Play (Android 8.0 లేదా తర్వాతిది) నుంచి డౌన్‌లోడ్ చేసుకోండి. రెండింటిలోనూ ఒకే ఖాతాతో సైన్ ఇన్ చేస్తే మీ డేటా సింక్ అవుతుంది."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "రోజువారీ చెక్-ఇన్ అంటే ఏమిటి?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "మూడు త్వరిత దశలు: మీ శక్తి (1–5), మీ మూడ్, మీ శరీరం ఎలా అనిపిస్తోంది మరియు ఈ రోజు మీకు ఉన్న సమయం. ఏ దశనైనా దాటవేయవచ్చు; మీరు ఇచ్చినదాన్ని బట్టే ప్రణాళిక ఉంటుంది. చెక్-ఇన్ చేసిన కొన్ని సెకన్లలో నేటి ప్రణాళిక సిద్ధమవుతుంది. టైప్ చేయడం కంటే మాట్లాడటం ఇష్టమైతే, “నా చెక్-ఇన్ మొదలుపెట్టు” అని మీ వెల్‌నెస్ పాల్‌ను అడగవచ్చు."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI Wellness Pal వైద్య సలహా ఇస్తుందా?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "లేదు. AI Wellness Pal సాధారణ వెల్‌నెస్ సమాచారాన్ని, ప్రోత్సాహాన్ని అందిస్తుంది. ఇది వైద్య పరికరం కాదు; వ్యాధిని నిర్ధారించదు, చికిత్స చేయదు, వైద్యుడికి, థెరపిస్ట్‌కు లేదా ఇతర అర్హత గల నిపుణులకు ప్రత్యామ్నాయం కాదు. AI సమాధానాలు, కేలరీ అంచనాలు, చక్ర అంచనాలు తప్పు కావచ్చు, కాబట్టి ఏ ఆరోగ్య ఆందోళన గురించైనా ఆరోగ్య నిపుణులతో మాట్లాడండి.\n\nమీరు సంక్షోభంలో ఉంటే లేదా మిమ్మల్ని మీరు హాని చేసుకోవాలని అనుకుంటే, వెంటనే మీ స్థానిక అత్యవసర నంబర్‌ను సంప్రదించండి. USలో 988కు కాల్ లేదా టెక్స్ట్ చేయండి. UKలో 111కు లేదా Samaritansను 116 123లో సంప్రదించండి. ఇతర చోట్ల findahelpline.comలో హెల్ప్‌లైన్‌ను కనుగొనండి."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI Wellness Pal ఏ AIని వాడుతుంది?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI ఫీచర్‌లు (వెల్‌నెస్ పాల్ చాట్ మరియు వాయిస్, జర్నల్ అంతర్దృష్టులు, రోజువారీ ప్రణాళికలు, నిద్ర అంతర్దృష్టులు, పోషకాహార విశ్లేషణ) Firebase AI Logic ద్వారా Google Gemini మోడళ్లతో పనిచేస్తాయి. మీ సమాచారం AIకి పంపబడే ముందు, ఏమి షేర్ చేస్తారో యాప్ చూపించి మీ అనుమతిని అడుగుతుంది. AI సమాధానాలు తప్పు కావచ్చు, కాబట్టి వాటిని మార్గదర్శకంగా వాడండి, వాస్తవంగా కాదు."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "నా డేటా ప్రైవేట్‌గా ఉంటుందా? దాన్ని అమ్ముతారా లేదా ప్రకటనలు చూపిస్తారా?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI Wellness Palలో ప్రకటనలు లేవు, మీ డేటాను అమ్మదు, ఇతర కంపెనీల యాప్‌లు లేదా వెబ్‌సైట్‌లలో మిమ్మల్ని ట్రాక్ చేయదు. మీ డేటా మీ స్వంత ప్రైవేట్ స్థలంలో నిల్వ అవుతుంది, ఇతర వినియోగదారులతో పంచబడదు. యాప్‌ను నడిపే సేవా ప్రదాతలతో (నిల్వకు Firebase, AI సమాధానాలకు Google Gemini వంటివి) మాత్రమే డేటా పంచబడుతుంది. వివరాల కోసం గోప్యతా విధానాన్ని చదవండి."
+          }
+        }
+      ]
+    }
+  ]
+}
+  </script>
+</head>
+<body data-music-play="సంగీతం ప్లే చేయండి" data-music-pause="సంగీతాన్ని పాజ్ చేయండి" data-music-play-label="బ్యాక్‌గ్రౌండ్ సంగీతం ప్లే చేయండి" data-music-pause-label="బ్యాక్‌గ్రౌండ్ సంగీతాన్ని పాజ్ చేయండి">
+<div class="glow" aria-hidden="true"><span></span><span></span><span></span></div>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-apple" viewBox="0 0 24 24"><path fill="currentColor" d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><path fill="currentColor" d="M22.018 13.298l-3.919 2.218-3.515-3.493 3.543-3.521 3.891 2.202a1.49 1.49 0 0 1 0 2.594zM1.337.924a1.486 1.486 0 0 0-.112.568v21.017c0 .217.045.419.124.6l11.155-11.087L1.337.924zm12.207 10.065l3.258-3.238L3.45.195a1.466 1.466 0 0 0-.946-.179l11.04 10.973zm0 2.067l-11 10.933c.298.036.612-.016.906-.183l13.324-7.54-3.23-3.21z"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></g></symbol>
+</svg>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="/te/"><picture><source type="image/webp" srcset="/assets/icon-96.webp 1x, /assets/icon-192.webp 2x"><img src="/assets/icon-96.png" alt="" width="34" height="34"></picture>AI Wellness Pal</a>
+    <nav class="nav-links" aria-label="ప్రధాన">
+      <a href="/te/features/">ఫీచర్‌లు</a>
+      <a href="/te/#demo">డెమో</a>
+      <a href="/te/faq/">తరచుగా అడిగే ప్రశ్నలు</a>
+      <a href="/te/about/">గురించి</a>
+      <a href="/te/#support">సపోర్ట్</a>
+    </nav>
+    <details class="lang-pick">
+      <summary aria-label="భాష: తెలుగు"><svg aria-hidden="true"><use href="#i-globe"/></svg><span>TE</span></summary>
+      <ul class="lang-menu"><li><a href="/" hreflang="en" lang="en" data-lang="en">English</a></li><li><a href="/ar/" hreflang="ar" lang="ar" data-lang="ar">العربية</a></li><li><a href="/bn/" hreflang="bn" lang="bn" data-lang="bn">বাংলা</a></li><li><a href="/de/" hreflang="de" lang="de" data-lang="de">Deutsch</a></li><li><a href="/es/" hreflang="es" lang="es" data-lang="es">Español</a></li><li><a href="/fr/" hreflang="fr" lang="fr" data-lang="fr">Français</a></li><li><a href="/hi/" hreflang="hi" lang="hi" data-lang="hi">हिन्दी</a></li><li><a href="/id/" hreflang="id" lang="id" data-lang="id">Bahasa Indonesia</a></li><li><a href="/it/" hreflang="it" lang="it" data-lang="it">Italiano</a></li><li><a href="/ja/" hreflang="ja" lang="ja" data-lang="ja">日本語</a></li><li><a href="/ko/" hreflang="ko" lang="ko" data-lang="ko">한국어</a></li><li><a href="/mr/" hreflang="mr" lang="mr" data-lang="mr">मराठी</a></li><li><a href="/nl/" hreflang="nl" lang="nl" data-lang="nl">Nederlands</a></li><li><a href="/pl/" hreflang="pl" lang="pl" data-lang="pl">Polski</a></li><li><a href="/pt/" hreflang="pt" lang="pt" data-lang="pt">Português</a></li><li><a href="/ro/" hreflang="ro" lang="ro" data-lang="ro">Română</a></li><li><a href="/ru/" hreflang="ru" lang="ru" data-lang="ru">Русский</a></li><li><a href="/ta/" hreflang="ta" lang="ta" data-lang="ta">தமிழ்</a></li><li><a href="/te/" hreflang="te" lang="te" data-lang="te" aria-current="true">తెలుగు</a></li><li><a href="/th/" hreflang="th" lang="th" data-lang="th">ไทย</a></li><li><a href="/tr/" hreflang="tr" lang="tr" data-lang="tr">Türkçe</a></li><li><a href="/uk/" hreflang="uk" lang="uk" data-lang="uk">Українська</a></li><li><a href="/vi/" hreflang="vi" lang="vi" data-lang="vi">Tiếng Việt</a></li></ul>
+    </details>
+    <a class="btn btn-sm btn-grad" id="get-app" href="https://apps.apple.com/us/app/ai-wellness-pal/id6816496839">యాప్‌ను పొందండి</a>
+  </div>
+</header>
+
+<main id="top">
+  <!-- Hero -->
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <span class="pill"><span class="dot"></span>ఇప్పుడు App Store మరియు Google Playలో</span>
+        <h1><span class="h1-kicker">AI Wellness Pal · AI వెల్‌నెస్ కోచ్ యాప్</span>మెరుగ్గా అనిపించండి,<br><span class="grad-text">రోజుకో అడుగుతో.</span></h1>
+        <p class="lead"><strong>AI Wellness Pal</strong> అనేది iPhone మరియు Android కోసం ఉచిత AI వెల్‌నెస్ కోచ్. 30 సెకన్ల రోజువారీ చెక్-ఇన్ మీ మూడ్, నిద్ర, పోషణ, అలవాట్ల కోసం వ్యక్తిగత ప్రణాళికగా మారుతుంది. అవసరమైనప్పుడల్లా మనసు విప్పి మాట్లాడటానికి ఒక AI Wellness Pal తోడుంటుంది.</p>
+        <div class="cta">
+          <a class="btn btn-store" href="https://apps.apple.com/us/app/ai-wellness-pal/id6816496839">
+            <svg aria-hidden="true"><use href="#i-apple"/></svg>
+            <span class="lbl"><small>డౌన్‌లోడ్ చేయండి:</small><strong>App Store</strong></span>
+          </a>
+          <a class="btn btn-store" href="https://play.google.com/store/apps/details?id=com.aiwellnesspal.app">
+            <svg aria-hidden="true"><use href="#i-play"/></svg>
+            <span class="lbl"><small>పొందండి:</small><strong>Google Play</strong></span>
+          </a>
+        </div>
+        <div class="hero-meta">
+          <span><svg><use href="#i-check"/></svg>ఉచిత డౌన్‌లోడ్</span>
+          <span><svg><use href="#i-check"/></svg>ప్రకటనలు లేవు, డేటా అమ్మకం లేదు</span>
+          <span><svg><use href="#i-check"/></svg>మీ డేటాను ఎప్పుడైనా తొలగించవచ్చు</span>
+        </div>
+      </div>
+      <div class="phones" aria-hidden="true">
+        <div class="phone back"><picture><source type="image/webp" srcset="/assets/screens/w/03_05_pal_chat-300.webp 300w, /assets/screens/w/03_05_pal_chat-600.webp 600w" sizes="(max-width: 720px) 200px, (max-width: 960px) 230px, 270px"><img src="/assets/screens/03_05_pal_chat.jpg" alt="" width="600" height="1300" decoding="async"></picture></div>
+        <div class="phone front"><picture><source type="image/webp" srcset="/assets/screens/w/01_02_home-300.webp 300w, /assets/screens/w/01_02_home-600.webp 600w" sizes="(max-width: 720px) 200px, (max-width: 960px) 230px, 270px"><img src="/assets/screens/01_02_home.jpg" alt="" width="600" height="1300" fetchpriority="high"></picture></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section id="how" style="padding-top:40px">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">ఇది ఎలా పనిచేస్తుంది</span>
+        <h2>ఒక చెక్-ఇన్. <span class="grad-text">ఈ రోజుకు సరిపోయే ప్రణాళిక.</span></h2>
+        <p>చాలా వెల్‌నెస్ యాప్‌లు అందరికీ ఒకే ప్రణాళికను ఇస్తాయి. AI Wellness Pal ముందుగా మీరు నిజంగా ఎలా ఉన్నారని అడుగుతుంది.</p>
+      </div>
+      <ol class="how reveal">
+        <li><h3>చెక్-ఇన్ చేయండి (30 సెకన్లు)</h3><p>మీ శక్తిని రేట్ చేయండి, మూడ్‌ను ఎంచుకోండి, శరీరం ఎలా అనిపిస్తోందో, ఎంత సమయం ఉందో చెప్పండి. ఇష్టం లేనిదాన్ని దాటవేయవచ్చు.</p></li>
+        <li><h3>నేటి ప్రణాళికను పొందండి</h3><p>మీ సమాధానాలకు తగ్గ రెండు నుంచి నాలుగు చిన్న, చేయదగిన పనులు. పదిహేను నిమిషాలే ఉన్న అలసిన రోజుకు, ఒక గంట ఉన్న విశ్రాంతి పొందిన రోజుకు పూర్తిగా భిన్నమైన ప్రణాళిక వస్తుంది.</p></li>
+        <li><h3>మీ పాల్‌తో కొనసాగించండి</h3><p>పనులను టిక్ చేయండి, నీరు, భోజనం, నిద్ర, అలవాట్లను ట్రాక్ చేయండి, అవసరమైనప్పుడు మీ AI Wellness Palతో మనసు విప్పి మాట్లాడండి.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Demo video -->
+  <section id="demo">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">పనిచేస్తుండగా చూడండి</span>
+        <h2><span class="grad-text">డెమో</span> చూడండి</h2>
+        <p>యాప్ పూర్తి పరిచయం: చెక్-ఇన్‌లు, రోజువారీ ప్రణాళికలు, వెల్‌నెస్ పాల్ చాట్, టూల్‌కిట్ ఇంకా మరెన్నో.</p>
+      </div>
+      <div class="video reveal" id="video">
+        <button type="button" aria-label="AI Wellness Pal పరిచయ వీడియోను ప్లే చేయండి">
+          <img src="https://i.ytimg.com/vi/iAscMm_XUPk/hqdefault.jpg" alt="" width="480" height="360" loading="lazy" decoding="async">
+          <span class="play"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M7 4.5v15l12.5-7.5z"/></svg></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">అన్నీ ఒకే చోట</span>
+        <h2>మీ మొత్తం శ్రేయస్సు, <span class="grad-text">సున్నితంగా నడిపించబడుతుంది</span></h2>
+        <p>మీ శక్తి, సమయం, రోజుకు సరిపోయే చిన్న, చేయదగిన పనులు.</p>
+      </div>
+      <div class="grid">
+        <a class="card reveal" href="/te/features/ai-wellness-coach/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></div>
+          <h3>రోజువారీ చెక్-ఇన్‌లు</h3>
+          <p>శక్తి, మూడ్, కోలుకోలును సెకన్లలో నమోదు చేయండి. మీ సమాధానాలు రోజుకు వ్యక్తిగత ప్రణాళికను రూపొందిస్తాయి.</p>
+          <span class="more">మరింత తెలుసుకోండి →</span>
+        </a>
+        <a class="card reveal" href="/te/features/ai-wellness-chat/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg></div>
+          <h3>మీ వెల్‌నెస్ పాల్</h3>
+          <p>ఒత్తిడి, ప్రేరణ, అలవాట్ల గురించి చాట్ చేయండి. మీ చెక్-ఇన్‌లు, జర్నల్ నుంచి నేర్చుకుని మీ పాల్ సరైన మార్గదర్శకత్వం ఇస్తుంది.</p>
+          <span class="more">మరింత తెలుసుకోండి →</span>
+        </a>
+        <a class="card reveal" href="/te/features/ai-journal/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5V5a2 2 0 0 1 2-2h12v18H6a2 2 0 0 1-2-1.5z"/><path d="M8 7h6M8 11h6"/></svg></div>
+          <h3>మార్గదర్శక ఆలోచనలు</h3>
+          <p>ఆలోచింపజేసే ప్రశ్నలతో ప్రైవేట్ జర్నల్. నమూనాలను గుర్తించి, మీకు నిజంగా ఏది మెరుగ్గా అనిపించేలా చేస్తుందో చూడండి.</p>
+          <span class="more">మరింత తెలుసుకోండి →</span>
+        </a>
+      </div>
+
+      <div class="toolkit-head reveal">
+        <span class="eyebrow">లైఫ్ టూల్‌కిట్</span>
+        <h3><span class="grad-text">జీవితంలోని ప్రతి భాగానికీ</span> తొమ్మిది టూల్స్</h3>
+        <p>భోజనం, నీరు నుంచి నిద్ర, చక్రాలు, ప్రయాణం వరకు. “మరిన్ని” ట్యాబ్ నుంచి ఏ టూల్‌నైనా తెరవండి, ఇష్టమైన వాటిని హోమ్ స్క్రీన్‌కు పిన్ చేయండి. <a href="/te/features/" style="color:var(--lavender)">అన్ని ఫీచర్‌లను చూడండి →</a></p>
+      </div>
+      <div class="grid toolkit">
+        <a class="card reveal" href="/te/features/ai-nutrition-coach/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9a2 2 0 0 1 2-2h2l1.5-2h7L17 7h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><circle cx="12" cy="13" r="3.5"/></svg></div>
+          <h3>AI న్యూట్రిషన్ కోచ్</h3>
+          <p>ఫోటో, వివరణ లేదా బార్‌కోడ్‌తో భోజనాన్ని నమోదు చేసి, కేలరీలు, మ్యాక్రోల తక్షణ AI అంచనా పొందండి.</p>
+          <span class="more">మరింత తెలుసుకోండి →</span>
+        </a>
+        <a class="card reveal" href="/te/features/ai-meal-planner/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3v8a3 3 0 0 0 6 0V3M7 3v18M17 21V3c-2.5 1-4 3.5-4 7v3h4"/></svg></div>
+          <h3>AI మీల్ ప్లానర్</h3>
+          <p>మీ లక్ష్యం, ఆహార శైలికి తగ్గ ఒక రోజు, ఒక వారం లేదా ఒక నెల భోజనాలు, దానికి తగిన కిరాణా జాబితాతో.</p>
+          <span class="more">మరింత తెలుసుకోండి →</span>
+        </a>
+        <a class="card reveal" href="/te/features/calorie-tracker/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c1 3 4 4.5 4 9a4 4 0 0 1-8 0c0-2 1-3 2-4 0 2 1 3 2 3 0-3-1-5 0-8z"/><path d="M6 15a6 6 0 0 0 12 0"/></svg></div>
+          <h3>AI కేలరీ బడ్జెట్</h3>
+          <p>తీసుకున్నది, వ్యాయామాన్ని కలిపి చూడండి, మీ రోజువారీ శక్తి సమతుల్యత ఎప్పుడూ తెలుస్తుంది.</p>
+          <span class="more">మరింత తెలుసుకోండి →</span>
+        </a>
+        <a class="card reveal" href="/te/features/water-tracker/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/></svg></div>
+          <h3>AI హైడ్రేషన్ కోచ్</h3>
+          <p>తెలివైన రోజువారీ లక్ష్యానికి వ్యతిరేకంగా మీ నీటిని ట్రాక్ చేయండి; త్వరగా జోడించడం, కొనసాగించడానికి హైడ్రేషన్ వరుస ఉన్నాయి.</p>
+          <span class="more">మరింత తెలుసుకోండి →</span>
+        </a>
+        <a class="card reveal" href="/te/features/sleep-tracker/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5z"/></svg></div>
+          <h3>స్లీప్ కోచ్</h3>
+          <p>మీ నిద్రను అర్థం చేసుకోండి: Apple Health లేదా Health Connectను (చదవడానికి మాత్రమే) కనెక్ట్ చేసి నిద్ర స్కోర్‌లు, దశలు, కోలుకోలు అంతర్దృష్టులు పొందండి.</p>
+          <span class="more">మరింత తెలుసుకోండి →</span>
+        </a>
+        <a class="card reveal" href="/te/features/meditation-breathing/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5" r="2"/><path d="M12 8v5M6 20l3-4h6l3 4M5 12l7 1 7-1"/></svg></div>
+          <h3>మెడిటేషన్ పాల్</h3>
+          <p>మార్గదర్శక శ్వాస, బాడీ స్కాన్‌లు, దశలవారీ ఒత్తిడి ఉపశమనంతో శ్వాసించండి, ధ్యానించండి, ప్రశాంతతను కనుగొనండి.</p>
+          <span class="more">మరింత తెలుసుకోండి →</span>
+        </a>
+        <a class="card reveal" href="/te/features/period-tracker/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 5.5-7 10-7 10z"/></svg></div>
+          <h3>పీరియడ్ ట్రాకర్</h3>
+          <p>మీ చక్రాన్ని నమోదు చేయండి, తదుపరి పీరియడ్, సారవంత సమయం అంచనాలను చూడండి, దశ ఆధారిత చిట్కాలు పొందండి.</p>
+          <span class="more">మరింత తెలుసుకోండి →</span>
+        </a>
+        <a class="card reveal" href="/te/features/weight-tracker/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 10a4 4 0 0 1 8 0M12 10l1.5-2"/></svg></div>
+          <h3>శరీర బరువు</h3>
+          <p>స్పష్టమైన ట్రెండ్ చార్ట్, పూర్తి బరువు చరిత్రతో బరువు, BMIని కాలక్రమేణా ట్రాక్ చేయండి.</p>
+          <span class="more">మరింత తెలుసుకోండి →</span>
+        </a>
+        <article class="card reveal">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 16l20-6-2.5-2.5L13 9 8 4 6 5l3 6-4 1.5L3 11l-1 1z"/><path d="M3 20h18"/></svg></div>
+          <h3>మైండ్‌ఫుల్ ట్రావెల్</h3>
+          <p>ప్రతి ప్రయాణానికీ AI వెల్‌నెస్ మార్గదర్శకత్వం, దూరంగా ఉన్నప్పుడూ మీరు బాగుండేలా.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Screenshots -->
+  <section id="screens" aria-labelledby="screens-title" style="padding-top:0">
+    <div class="wrap">
+      <div class="shots-head reveal">
+        <div>
+          <span class="eyebrow">లోపల ఒక చూపు వేయండి</span>
+          <h2 id="screens-title"><span class="grad-text">నిజమైన రోజుల</span> కోసం తయారు చేయబడింది</h2>
+        </div>
+        <div class="shots-nav">
+          <button class="btn btn-icon" type="button" data-dir="-1" aria-label="మునుపటి స్క్రీన్‌షాట్‌లు"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M15 5l-7 7 7 7"/></svg></button>
+          <button class="btn btn-icon" type="button" data-dir="1" aria-label="తదుపరి స్క్రీన్‌షాట్‌లు"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg></button>
+        </div>
+      </div>
+    </div>
+    <div class="shots reveal" tabindex="0" aria-label="యాప్ స్క్రీన్‌షాట్‌లు, పక్కకు స్క్రోల్ చేయండి">
+      <picture><source type="image/webp" srcset="/assets/screens/w/01_00_onboard-300.webp 300w, /assets/screens/w/01_00_onboard-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/01_00_onboard.jpg" alt="ఆన్‌బోర్డింగ్: తక్కువగా ఆలోచించండి, ఈ రోజు అత్యంత ముఖ్యమైన దానిపై దృష్టి పెట్టండి" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/01_01_onboard-300.webp 300w, /assets/screens/w/01_01_onboard-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/01_01_onboard.jpg" alt="ఆన్‌బోర్డింగ్: త్వరిత రోజువారీ చెక్-ఇన్‌లతో మీ శక్తిని తెలుసుకోండి" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/01_03_checkin-300.webp 300w, /assets/screens/w/01_03_checkin-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/01_03_checkin.jpg" alt="ఈ రోజు మీ శక్తి ఎలా ఉందని అడిగే రోజువారీ చెక్-ఇన్" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/05_reminder-300.webp 300w, /assets/screens/w/05_reminder-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/05_reminder.jpg" alt="వెల్‌నెస్ చర్య కోసం రిమైండర్ సమయాన్ని సెట్ చేయడం" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/06_profile-300.webp 300w, /assets/screens/w/06_profile-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/06_profile.jpg" alt="వ్యక్తిగత వివరాలు, ఇష్టమైన వెల్‌నెస్ పద్ధతులతో ప్రొఫైల్" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/07_action_detail-300.webp 300w, /assets/screens/w/07_action_detail-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/07_action_detail.jpg" alt="ఎలా చేయాలో గైడ్‌తో ప్లాంక్ మరియు కోర్ ఛాలెంజ్ చర్య వివరాలు" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/08_add_habit-300.webp 300w, /assets/screens/w/08_add_habit-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/08_add_habit.jpg" alt="తరచుదనం, లక్ష్యంతో సొంత అలవాటును జోడించడం" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/09_habit_formed-300.webp 300w, /assets/screens/w/09_habit_formed-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/09_habit_formed.jpg" alt="అలవాటును ఏర్పరచుకున్నందుకు విజయం అన్‌లాక్ అయిన వేడుక" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/10_life_toolkit-300.webp 300w, /assets/screens/w/10_life_toolkit-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/10_life_toolkit.jpg" alt="పీరియడ్ ట్రాకర్, శరీర బరువు, హైడ్రేషన్, కేలరీ, భోజన ప్రణాళిక టూల్స్‌తో లైఫ్ టూల్‌కిట్" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/11_period_tracker-300.webp 300w, /assets/screens/w/11_period_tracker-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/11_period_tracker.jpg" alt="చక్ర రోజు, అంచనాలు, దశ చిట్కాలతో పీరియడ్ ట్రాకర్" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/12_body_weight-300.webp 300w, /assets/screens/w/12_body_weight-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/12_body_weight.jpg" alt="ట్రెండ్ చార్ట్ మరియు BMIతో శరీర బరువు ట్రాకర్" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/13_hydration_coach-300.webp 300w, /assets/screens/w/13_hydration_coach-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/13_hydration_coach.jpg" alt="రోజువారీ నీటి లక్ష్యం, త్వరగా జోడించడంతో హైడ్రేషన్ కోచ్" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/14_wellness_studio-300.webp 300w, /assets/screens/w/14_wellness_studio-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/14_wellness_studio.jpg" alt="చిన్న శ్వాస వ్యాయామాలతో వెల్‌నెస్ స్టూడియో" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/15_wellness_reads-300.webp 300w, /assets/screens/w/15_wellness_reads-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/15_wellness_reads.jpg" alt="నిద్ర, కదలిక, పోషణ, మానసిక ఆరోగ్యంపై వెల్‌నెస్ రీడ్స్" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/16_wellness_intention-300.webp 300w, /assets/screens/w/16_wellness_intention-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/16_wellness_intention.jpg" alt="కొత్త వెల్‌నెస్ సంకల్పాన్ని సెట్ చేయడం" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/17_habit_builder-300.webp 300w, /assets/screens/w/17_habit_builder-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/17_habit_builder.jpg" alt="ప్రారంభ అలవాట్లు, ఛాలెంజ్‌లతో అలవాట్ల బిల్డర్" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/18_habit_list-300.webp 300w, /assets/screens/w/18_habit_list-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/18_habit_list.jpg" alt="కొనసాగుతున్న అలవాట్ల జాబితాతో అలవాట్ల బిల్డర్" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/19_challenges-300.webp 300w, /assets/screens/w/19_challenges-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/19_challenges.jpg" alt="14 రోజుల నిద్ర దినచర్య వంటి కొనసాగుతున్న వెల్‌నెస్ ఛాలెంజ్‌లు" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/21_reflections-300.webp 300w, /assets/screens/w/21_reflections-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/21_reflections.jpg" alt="లైట్ మోడ్‌లో మార్గదర్శక వెల్‌నెస్ ఆలోచనలు, పిన్ చేసిన సంభాషణలు" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/22_home_light-300.webp 300w, /assets/screens/w/22_home_light-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/22_home_light.jpg" alt="AI అంతర్దృష్టి, పోషణ పురోగతితో లైట్ మోడ్‌లో హోమ్ స్క్రీన్" width="600" height="1300" loading="lazy" decoding="async"></picture>
+    </div>
+  </section>
+
+  <!-- Wellness Garden -->
+  <section id="garden" aria-labelledby="garden-title">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">వెల్నెస్ తోట</span>
+        <h2 id="garden-title">మీ అలవాట్లు <span class="grad-text">ఒక తోటను పెంచుతాయి</span></h2>
+        <p>మీ కోసం మీరు వేసే ప్రతి నిజమైన అడుగూ ఏదో ఒకటి పెరగడానికి సాయపడుతుంది. అలవాట్లను ఏర్పరచుకోవడాన్ని తెరవాలని ఎదురుచూసేలా చేస్తుంది, తప్పిన రోజుకు ఎప్పుడూ శిక్షించదు.</p>
+      </div>
+      <div class="garden-grid reveal">
+        <figure class="garden-shot garden-main"><picture><source type="image/webp" srcset="/assets/screens/w/23_garden-640.webp 640w, /assets/screens/w/23_garden-1280.webp 1280w" sizes="(max-width: 720px) 92vw, 1100px"><img src="/assets/screens/23_garden.jpg" alt="AI Wellness Palలో వెల్నెస్ తోట: పూల కుండీలు, దారిలో ఒక తోటమాలి, నాణేలు, 10 రోజుల లెక్క" width="1280" height="590" loading="lazy" decoding="async"></picture></figure>
+        <figure class="garden-shot"><picture><source type="image/webp" srcset="/assets/screens/w/24_garden_gifts-640.webp 640w, /assets/screens/w/24_garden_gifts-1280.webp 1280w" sizes="(max-width: 720px) 92vw, 540px"><img src="/assets/screens/24_garden_gifts.jpg" alt="తోట బహుమతులు: మీరు వచ్చే ప్రతి రోజుకూ ఒక బహుమతి, ప్రతి రౌండ్ చివర ఒక పెట్టె" width="1280" height="590" loading="lazy" decoding="async"></picture></figure>
+        <figure class="garden-shot"><picture><source type="image/webp" srcset="/assets/screens/w/25_garden_map-640.webp 640w, /assets/screens/w/25_garden_map-1280.webp 1280w" sizes="(max-width: 720px) 92vw, 540px"><img src="/assets/screens/25_garden_map.jpg" alt="పచ్చికబయలు, జెన్ తోట, గ్రీన్‌హౌస్, సముద్రతీరం ఉన్న తోట మ్యాప్; స్థాయి పెరిగే కొద్దీ తెరుచుకుంటాయి" width="1280" height="590" loading="lazy" decoding="async"></picture></figure>
+      </div>
+      <ul class="garden-points reveal">
+        <li><h3>మీరు వచ్చినప్పుడు పెరుగుతుంది</h3><p>మీరు వచ్చే ప్రతి రోజూ మీ తోట కొంచెం పెరుగుతుంది, పెరిగినదంతా అలాగే ఉంచుకుంటుంది. అలవాట్లు మీరు నాటే విత్తనాలు అవుతాయి; పూర్తయిన అలవాట్లు కోసుకోవడానికి పండ్లను పండిస్తాయి.</p></li>
+        <li><h3>ఒత్తిడి లేని వరుసలు</h3><p>ఒక రోజు తప్పిందా? ఏదీ పోదు. మీ స్థాయి పెరుగుతూనే ఉంటుంది; మీరు తిరిగి వచ్చినప్పుడు అన్నీ మీ కోసం ఎదురుచూస్తూ ఉంటాయి. అలసిన రోజున, అలవాటు యొక్క చిన్న రూపం కూడా సమానంగా లెక్కకు వస్తుంది.</p></li>
+        <li><h3>ప్రతిరోజూ తిరిగి రావడానికి ఒక కారణం</h3><p>మీరు వచ్చే ప్రతి రోజుకూ ఒక తోట బహుమతిని తెరవండి, చెక్-ఇన్‌లు, అలవాట్లు, నీటికి నాణేలు సంపాదించండి, వాటిని మొక్కలు, అలంకరణలపై ఖర్చు చేయండి.</p></li>
+        <li><h3>కనుగొనడానికి కొత్తది ఏదో ఒకటి</h3><p>మీ తోడులను అలంకరించండి, తోట అతిథులను కలవండి, ప్రతి చెక్-ఇన్‌తో ఒక ప్రైవేట్ మూడ్ పువ్వును నాటండి, స్థాయి పెరిగే కొద్దీ గ్రీన్‌హౌస్, సముద్రతీరం వంటి కొత్త ప్రదేశాలను అన్‌లాక్ చేయండి.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Free vs Premium -->
+  <section id="pricing">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">ధరలు</span>
+        <h2>వాడటానికి ఉచితం. <span class="grad-text">మరింత కావాలంటే Premium.</span></h2>
+        <p>ప్రధాన యాప్ iPhone మరియు Androidలో ఉచితం, ప్రకటనలు లేవు. Premium అపరిమిత AI మరియు వాయిస్‌ను జోడిస్తుంది.</p>
+      </div>
+      <div class="pricing reveal">
+        <div class="plan">
+          <h3>ఉచితం</h3>
+          <p class="price">$0, ప్రకటనలు లేవు</p>
+          <ul>
+            <li><strong>రోజువారీ చెక్-ఇన్‌లు</strong> మరియు వ్యక్తిగత నేటి ప్రణాళిక</li>
+            <li>మార్గదర్శక ఆలోచనలతో ఒక <strong>AI జర్నల్</strong></li>
+            <li>రోజుకు <strong>3 వెల్‌నెస్ పాల్ సందేశాలు</strong></li>
+            <li>అలవాట్లు, ఛాలెంజ్‌లు, రిమైండర్‌లు, వరుసలు</li>
+            <li>హైడ్రేషన్, నిద్ర, పీరియడ్, బరువు ట్రాకింగ్, కేలరీ బడ్జెట్ కూడా</li>
+            <li>మెడిటేషన్, శ్వాస, బాడీ స్కాన్‌లు, అన్ని థీమ్‌లు</li>
+            <li>హోమ్ స్క్రీన్ విడ్జెట్‌లు</li>
+          </ul>
+        </div>
+        <div class="plan premium">
+          <h3>Premium</h3>
+          <p class="price">7 రోజుల ఉచిత ట్రయల్, ఆ తర్వాత నెలవారీ లేదా వార్షికం</p>
+          <ul>
+            <li><strong>అపరిమిత</strong> వెల్‌నెస్ పాల్ చాట్</li>
+            <li><strong>లైవ్ చాట్ పాల్</strong>: రియల్-టైమ్ వాయిస్ సంభాషణలు</li>
+            <li>ఫోటో, వివరణ లేదా బార్‌కోడ్ నుంచి <strong>AI ఆహార విశ్లేషణ</strong>, అలాగే <strong>AI భోజన ప్రణాళికలు</strong></li>
+            <li>AI నిద్ర, హైడ్రేషన్, కేలరీ అంతర్దృష్టులు, వాతావరణానికి తగ్గ నీటి లక్ష్యాలు</li>
+            <li>మీ ఆలోచనలను “చర్చించండి”, మీ సంకల్పాల కోసం AI దశలు</li>
+            <li>పూర్తి వెల్‌నెస్ స్టూడియో లైబ్రరీ</li>
+          </ul>
+        </div>
+      </div>
+      <p class="fine">US App Storeలో Premium నెలకు $14.99 లేదా సంవత్సరానికి $89.99. ధరలు దేశాన్ని బట్టి మారతాయి, మీరు సబ్‌స్క్రైబ్ చేసే ముందు App Store లేదా Google Playలో చూపబడతాయి. మీ స్టోర్ సబ్‌స్క్రిప్షన్‌లలో ఎప్పుడైనా రద్దు చేయవచ్చు.</p>
+    </div>
+  </section>
+
+  <!-- FAQ (from tools/site_content.py) -->
+  <section id="faq">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">తరచుగా అడిగే ప్రశ్నలు</span>
+        <h2>ప్రశ్నలు, <span class="grad-text">సమాధానాలు</span></h2>
+      </div>
+      <div class="faq">
+      <details>
+        <summary>AI Wellness Pal అంటే ఏమిటి?</summary>
+        <div class="a"><p>AI Wellness Pal అనేది iPhone మరియు Android కోసం ఉచిత AI వెల్‌నెస్ కోచ్ యాప్. ప్రతిరోజూ ఒకే ప్రశ్నకు సమాధానం ఇస్తుంది: నా శ్రేయస్సు కోసం ఇప్పుడు ఏం చేయాలి?</p><p>మీరు చిన్న చెక్-ఇన్ చేస్తే, యాప్ నేటి ప్రణాళికను రూపొందిస్తుంది: మీ శక్తి, మూడ్, శరీర కోలుకోలు, మీకు ఉన్న సమయానికి తగ్గ రెండు నుంచి నాలుగు చిన్న, చేయదగిన పనులు. యాప్‌లోని మిగతావన్నీ దీనికి తోడ్పడతాయి: రోజును ట్రాక్ చేసే టూల్స్, మనసు విప్పి మాట్లాడటానికి ఒక వెల్‌నెస్ పాల్, కాలక్రమేణా పెరిగే మీ పురోగతి.</p></div>
+      </details>
+      <details>
+        <summary>AI Wellness Pal ఉచితమా?</summary>
+        <div class="a"><p>అవును. AI Wellness Palను iPhone మరియు Androidలో ఉచితంగా డౌన్‌లోడ్ చేసి వాడవచ్చు, ప్రకటనలు లేవు. ఉచిత యాప్‌లో రోజువారీ చెక్-ఇన్‌లు, నేటి ప్రణాళిక, AI జర్నల్, అలవాట్లు మరియు ఛాలెంజ్‌లు, హైడ్రేషన్, నిద్ర, పీరియడ్, బరువు ట్రాకింగ్, మెడిటేషన్ మరియు శ్వాస సెషన్‌లు, విడ్జెట్‌లు, రోజుకు 3 వెల్‌నెస్ పాల్ చాట్ సందేశాలు ఉన్నాయి.</p><p>ఐచ్ఛిక Premium సబ్‌స్క్రిప్షన్ అపరిమిత చాట్, రియల్-టైమ్ వాయిస్ సంభాషణలు, AI ఆహార విశ్లేషణ, AI భోజన ప్రణాళికలు, టూల్‌కిట్‌లోని ఇతర AI కోచింగ్‌ను జోడిస్తుంది. <a href="/te/#pricing">ఉచితం మరియు Premiumను పోల్చండి</a>.</p></div>
+      </details>
+      <details>
+        <summary>AI Wellness Pal Premium ఖరీదు ఎంత?</summary>
+        <div class="a"><p>US App Storeలో Premium నెలకు $14.99 లేదా సంవత్సరానికి $89.99; రెండు ప్లాన్‌లూ 7 రోజుల ఉచిత ట్రయల్‌తో మొదలవుతాయి. ధరలు దేశం మరియు కరెన్సీని బట్టి మారతాయి; మీరు నిర్ధారించే ముందు App Store లేదా Google Play ఖచ్చితమైన ధరను చూపిస్తాయి. ప్రస్తుత వ్యవధి ముగియడానికి కనీసం 24 గంటల ముందు రద్దు చేయకపోతే సబ్‌స్క్రిప్షన్ ఆటోమేటిక్‌గా పునరుద్ధరించబడుతుంది.</p></div>
+      </details>
+      <details>
+        <summary>AI Wellness Pal iPhone మరియు Androidలో అందుబాటులో ఉందా?</summary>
+        <div class="a"><p>అవును. దీన్ని <a href="https://apps.apple.com/us/app/ai-wellness-pal/id6816496839">App Store</a> (iPhone, iOS 15.0 లేదా తర్వాతిది) లేదా <a href="https://play.google.com/store/apps/details?id=com.aiwellnesspal.app">Google Play</a> (Android 8.0 లేదా తర్వాతిది) నుంచి డౌన్‌లోడ్ చేసుకోండి. రెండింటిలోనూ ఒకే ఖాతాతో సైన్ ఇన్ చేస్తే మీ డేటా సింక్ అవుతుంది.</p></div>
+      </details>
+      <details>
+        <summary>రోజువారీ చెక్-ఇన్ అంటే ఏమిటి?</summary>
+        <div class="a"><p>మూడు త్వరిత దశలు: మీ శక్తి (1–5), మీ మూడ్, మీ శరీరం ఎలా అనిపిస్తోంది మరియు ఈ రోజు మీకు ఉన్న సమయం. ఏ దశనైనా దాటవేయవచ్చు; మీరు ఇచ్చినదాన్ని బట్టే ప్రణాళిక ఉంటుంది. చెక్-ఇన్ చేసిన కొన్ని సెకన్లలో నేటి ప్రణాళిక సిద్ధమవుతుంది. టైప్ చేయడం కంటే మాట్లాడటం ఇష్టమైతే, “నా చెక్-ఇన్ మొదలుపెట్టు” అని మీ వెల్‌నెస్ పాల్‌ను అడగవచ్చు.</p></div>
+      </details>
+      <details>
+        <summary>AI Wellness Pal వైద్య సలహా ఇస్తుందా?</summary>
+        <div class="a"><p>లేదు. AI Wellness Pal సాధారణ వెల్‌నెస్ సమాచారాన్ని, ప్రోత్సాహాన్ని అందిస్తుంది. ఇది వైద్య పరికరం కాదు; వ్యాధిని నిర్ధారించదు, చికిత్స చేయదు, వైద్యుడికి, థెరపిస్ట్‌కు లేదా ఇతర అర్హత గల నిపుణులకు ప్రత్యామ్నాయం కాదు. AI సమాధానాలు, కేలరీ అంచనాలు, చక్ర అంచనాలు తప్పు కావచ్చు, కాబట్టి ఏ ఆరోగ్య ఆందోళన గురించైనా ఆరోగ్య నిపుణులతో మాట్లాడండి.</p><p>మీరు సంక్షోభంలో ఉంటే లేదా మిమ్మల్ని మీరు హాని చేసుకోవాలని అనుకుంటే, వెంటనే మీ స్థానిక అత్యవసర నంబర్‌ను సంప్రదించండి. USలో 988కు కాల్ లేదా టెక్స్ట్ చేయండి. UKలో 111కు లేదా Samaritansను 116 123లో సంప్రదించండి. ఇతర చోట్ల findahelpline.comలో హెల్ప్‌లైన్‌ను కనుగొనండి.</p></div>
+      </details>
+      <details>
+        <summary>AI Wellness Pal ఏ AIని వాడుతుంది?</summary>
+        <div class="a"><p>AI ఫీచర్‌లు (వెల్‌నెస్ పాల్ చాట్ మరియు వాయిస్, జర్నల్ అంతర్దృష్టులు, రోజువారీ ప్రణాళికలు, నిద్ర అంతర్దృష్టులు, పోషకాహార విశ్లేషణ) Firebase AI Logic ద్వారా Google Gemini మోడళ్లతో పనిచేస్తాయి. మీ సమాచారం AIకి పంపబడే ముందు, ఏమి షేర్ చేస్తారో యాప్ చూపించి మీ అనుమతిని అడుగుతుంది. AI సమాధానాలు తప్పు కావచ్చు, కాబట్టి వాటిని మార్గదర్శకంగా వాడండి, వాస్తవంగా కాదు.</p></div>
+      </details>
+      <details>
+        <summary>నా డేటా ప్రైవేట్‌గా ఉంటుందా? దాన్ని అమ్ముతారా లేదా ప్రకటనలు చూపిస్తారా?</summary>
+        <div class="a"><p>AI Wellness Palలో ప్రకటనలు లేవు, మీ డేటాను అమ్మదు, ఇతర కంపెనీల యాప్‌లు లేదా వెబ్‌సైట్‌లలో మిమ్మల్ని ట్రాక్ చేయదు. మీ డేటా మీ స్వంత ప్రైవేట్ స్థలంలో నిల్వ అవుతుంది, ఇతర వినియోగదారులతో పంచబడదు. యాప్‌ను నడిపే సేవా ప్రదాతలతో (నిల్వకు Firebase, AI సమాధానాలకు Google Gemini వంటివి) మాత్రమే డేటా పంచబడుతుంది. వివరాల కోసం <a href="/privacy.html">గోప్యతా విధానాన్ని</a> చదవండి.</p></div>
+      </details>
+      </div>
+      <p class="fine"><a href="/te/faq/" style="color:var(--lavender)">అన్ని ప్రశ్నలను చూడండి →</a></p>
+    </div>
+  </section>
+
+  <!-- Feedback -->
+  <section id="feedback">
+    <div class="wrap">
+      <div class="feedback-card reveal">
+        <div>
+          <span class="eyebrow">అభిప్రాయం</span>
+          <h2><span class="grad-text">తర్వాత ఏమిటో</span> రూపొందించడంలో సాయపడండి</h2>
+          <p>ఏదైనా నచ్చిందా, ఏదైనా లోపించిందా, లేదా బగ్ కనిపించిందా? మాకు చెప్పండి. ప్రతి సందేశాన్నీ చదువుతాము, మీ ఆలోచనలు తదుపరి అప్‌డేట్‌ను రూపొందిస్తాయి.</p>
+          <ol class="steps">
+            <li><strong>మీ ఆలోచనలను పంచుకోండి</strong>ఆలోచనలు, బగ్‌లు, ప్రశంసలు: అన్నీ సాయపడతాయి.</li>
+            <li><strong>సమాధానం కావాలంటే మీ ఇమెయిల్ ఇవ్వండి</strong>ఇది ఐచ్ఛికం, మీకు సమాధానం ఇవ్వడానికి మాత్రమే వాడతాము.</li>
+            <li><strong>యాప్ నచ్చిందా?</strong>ఒక చిన్న రివ్యూ ఇతరులు దీన్ని కనుగొనడానికి సాయపడుతుంది: <a href="https://apps.apple.com/us/app/ai-wellness-pal/id6816496839?action=write-review">App Store</a> · <a href="https://play.google.com/store/apps/details?id=com.aiwellnesspal.app&amp;showAllReviews=true">Google Play</a></li>
+          </ol>
+        </div>
+        <div class="request-wrap">
+        <form class="request" id="feedback-form" action="https://api.aiwellnesspal.com/submit?form=feedback" method="POST" novalidate>
+          <input class="hp" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <div class="field">
+            <label for="f-type">ఎలాంటి అభిప్రాయం?</label>
+            <select id="f-type" name="type" required>
+              <option value="">ఒకటి ఎంచుకోండి</option>
+              <option value="Idea or feature request">ఆలోచన లేదా ఫీచర్ అభ్యర్థన</option>
+              <option value="Something isn&#x27;t working">ఏదో సరిగా పనిచేయడం లేదు</option>
+              <option value="Something I love">నాకు నచ్చినది</option>
+              <option value="Other">ఇతర</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="f-platform">ఏ పరికరం? <span class="hint">(ఐచ్ఛికం)</span></label>
+            <select id="f-platform" name="platform">
+              <option value="">ఒకటి ఎంచుకోండి</option>
+              <option>iPhone</option>
+              <option>Android</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="f-note">మీ అభిప్రాయం</label>
+            <textarea id="f-note" name="message" required></textarea>
+          </div>
+          <div class="field">
+            <label for="f-name">పేరు <span class="hint">(ఐచ్ఛికం)</span></label>
+            <input id="f-name" name="name" type="text" autocomplete="name">
+          </div>
+          <div class="field">
+            <label for="f-email">ఇమెయిల్ <span class="hint">(ఐచ్ఛికం, సమాధానం కావాలంటే)</span></label>
+            <input id="f-email" name="email" type="email" autocomplete="email" placeholder="you@example.com">
+          </div>
+          <div class="cf-turnstile" data-sitekey="0x4AAAAAAFeATWxgyA2X7qGo" data-theme="dark" data-size="flexible"></div>
+          <div class="form-alert" role="alert" hidden></div>
+          <button class="btn btn-grad" type="submit"><span class="spinner" aria-hidden="true"></span><span class="btn-label">అభిప్రాయం పంపండి</span></button>
+        </form>
+        <div class="request-done" id="feedback-done" tabindex="-1" hidden>
+          <div class="done-icon"><svg viewBox="0 0 24 24"><use href="#i-check"/></svg></div>
+          <h3>ధన్యవాదాలు!</h3>
+          <p id="done-msg">ధన్యవాదాలు. మీ అభిప్రాయం పంపబడింది.</p>
+          <button class="btn" type="button" id="feedback-again">మరింత అభిప్రాయం పంపండి</button>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Support (App Store Connect support URL points to this page) -->
+  <section id="support">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">సపోర్ట్</span>
+        <h2><span class="grad-text">సాయం</span> చేయడానికి ఇక్కడ ఉన్నాము</h2>
+        <p>సాయం కావాలా, బగ్ కనిపించిందా, లేదా ప్రశ్న ఉందా? <a class="grad-text" href="mailto:aiwellnesspal@gmail.com?subject=AI%20Wellness%20Pal%20support">aiwellnesspal@gmail.com</a>కు ఇమెయిల్ చేయండి, మేము సమాధానం ఇస్తాము. మీరు <a class="grad-text" href="https://github.com/viraj-dhanushka/AIWellnessPal/issues">GitHubలో బగ్‌ను నివేదించవచ్చు</a> కూడా.</p>
+      </div>
+      <div class="support-grid">
+        <article class="card reveal">
+          <h3>మీ ఖాతాను తొలగించండి</h3>
+          <p>యాప్‌లో <strong>సెట్టింగ్‌లు → ఖాతాను తొలగించండి</strong>కు వెళ్లండి. ఇది మీ ఖాతాను, మీ డేటా అంతటినీ శాశ్వతంగా తొలగిస్తుంది. ఇప్పుడు యాప్ లేదా? <a href="/delete-account.html">వెబ్‌లో తొలగింపును అభ్యర్థించండి</a>.</p>
+        </article>
+        <article class="card reveal">
+          <h3>Premiumను నిర్వహించండి లేదా రద్దు చేయండి</h3>
+          <p>iPhoneలో <strong>Settings → మీ పేరు → Subscriptions → AI Wellness Pal</strong>కు వెళ్లండి. Androidలో Google Play → <strong>Payments &amp; subscriptions → Subscriptions</strong> తెరవండి. కొత్త పరికరంలో Premiumను పునరుద్ధరించడానికి, యాప్‌లో <strong>కొనుగోళ్లను పునరుద్ధరించండి</strong> వాడండి.</p>
+        </article>
+        <article class="card reveal">
+          <h3>నిద్ర డేటాను కనెక్ట్ చేయండి లేదా డిస్‌కనెక్ట్ చేయండి</h3>
+          <p>iPhoneలో <strong>Settings → Health → Data Access &amp; Devices → AI Wellness Pal</strong>కు వెళ్లండి. Androidలో <strong>Health Connect → App permissions → AI Wellness Pal</strong> తెరవండి.</p>
+        </article>
+        <article class="card reveal">
+          <h3>వైద్య సలహా కాదు</h3>
+          <p>AI Wellness Pal సాధారణ వెల్‌నెస్ సమాచారాన్ని అందిస్తుంది, ఇది వృత్తిపరమైన వైద్య సలహాకు ప్రత్యామ్నాయం కాదు. మీరు సంక్షోభంలో ఉంటే లేదా వైద్య అత్యవసర పరిస్థితి ఉంటే, వెంటనే మీ స్థానిక అత్యవసర నంబర్‌ను సంప్రదించండి.</p>
+        </article>
+      </div>
+      <p class="notice">మా <a href="/privacy.html">గోప్యతా విధానాన్ని</a> మరియు <a href="/terms.html">వినియోగ నిబంధనలను</a> చదవండి. మా గోప్యతా విధానం, వినియోగ నిబంధనలు ఇంగ్లీష్‌లో అందుబాటులో ఉన్నాయి.</p>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <div class="final reveal">
+    <picture><source type="image/webp" srcset="/assets/icon-192.webp"><img src="/assets/icon-192.png" alt="AI Wellness Pal యాప్ ఐకాన్" width="88" height="88" loading="lazy"></picture>
+    <h2><span class="grad-text">ఈ రోజే</span> మెరుగ్గా అనిపించడం మొదలుపెట్టండి</h2>
+    <p>iPhone మరియు Androidలో ఉచితం.</p>
+    <div class="cta">
+      <a class="btn btn-store" href="https://apps.apple.com/us/app/ai-wellness-pal/id6816496839">
+        <svg aria-hidden="true"><use href="#i-apple"/></svg>
+        <span class="lbl"><small>డౌన్‌లోడ్ చేయండి:</small><strong>App Store</strong></span>
+      </a>
+      <a class="btn btn-store" href="https://play.google.com/store/apps/details?id=com.aiwellnesspal.app">
+        <svg aria-hidden="true"><use href="#i-play"/></svg>
+        <span class="lbl"><small>పొందండి:</small><strong>Google Play</strong></span>
+      </a>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap foot-grid">
+    <div>
+      <a class="brand" href="/te/"><picture><source type="image/webp" srcset="/assets/icon-96.webp 1x, /assets/icon-192.webp 2x"><img src="/assets/icon-96.png" alt="" width="34" height="34"></picture>AI Wellness Pal</a>
+      <p>మీ AI వెల్‌నెస్ తోడు: మీరు నిజంగా ఎలా ఉన్నారో దాని చుట్టూ అల్లిన రోజువారీ ప్రణాళిక. iPhone మరియు Androidలో ఉచితం.</p>
+      <p class="foot-stores"><a href="https://apps.apple.com/us/app/ai-wellness-pal/id6816496839">App Store</a> · <a href="https://play.google.com/store/apps/details?id=com.aiwellnesspal.app">Google Play</a></p>
+    </div>
+    <nav aria-label="ఫీచర్‌లు">
+      <p class="foot-h">ఫీచర్‌లు</p>
+        <a href="/te/features/ai-wellness-coach/">రోజువారీ చెక్-ఇన్ &amp; ప్రణాళిక</a>
+        <a href="/te/features/ai-wellness-chat/">వెల్‌నెస్ పాల్ AI చాట్</a>
+        <a href="/te/features/ai-journal/">AI జర్నల్ &amp; ఆలోచనలు</a>
+        <a href="/te/features/ai-nutrition-coach/">AI న్యూట్రిషన్ కోచ్</a>
+        <a href="/te/features/ai-meal-planner/">AI మీల్ ప్లానర్</a>
+        <a href="/te/features/calorie-tracker/">కేలరీ బడ్జెట్</a>
+        <a href="/te/features/water-tracker/">నీటి ట్రాకర్</a>
+        <a href="/te/features/sleep-tracker/">స్లీప్ కోచ్</a>
+        <a href="/te/features/meditation-breathing/">మెడిటేషన్ &amp; శ్వాస</a>
+        <a href="/te/features/period-tracker/">పీరియడ్ ట్రాకర్</a>
+        <a href="/te/features/weight-tracker/">బరువు &amp; BMI ట్రాకర్</a>
+        <a href="/te/features/habit-tracker/">అలవాట్లు &amp; ఛాలెంజ్‌లు</a>
+        <a href="/te/features/home-screen-widgets/">హోమ్ స్క్రీన్ విడ్జెట్‌లు</a>
+    </nav>
+    <nav aria-label="వనరులు">
+      <p class="foot-h">వనరులు</p>
+      <a href="/te/features/">అన్ని ఫీచర్‌లు</a>
+      <a href="/te/faq/">తరచుగా అడిగే ప్రశ్నలు</a>
+      <a href="/te/about/">గురించి</a>
+      <a href="/te/#demo">డెమో వీడియో</a>
+      <a href="/te/#support">సపోర్ట్</a>
+      <a href="/te/#feedback">అభిప్రాయం పంపండి</a>
+    </nav>
+    <nav aria-label="చట్టపరమైనవి">
+      <p class="foot-h">చట్టపరమైనవి</p>
+      <a href="/privacy.html" hreflang="en">గోప్యతా విధానం</a>
+      <a href="/terms.html" hreflang="en">వినియోగ నిబంధనలు</a>
+      <a href="/delete-account.html" hreflang="en">మీ ఖాతాను తొలగించండి</a>
+      <p class="foot-note">మా గోప్యతా విధానం, వినియోగ నిబంధనలు ఇంగ్లీష్‌లో అందుబాటులో ఉన్నాయి.</p>
+    </nav>
+  </div>
+  <nav class="wrap foot-langs" aria-label="భాష">
+    <p class="foot-h">భాష</p>
+    <ul><li><a href="/" hreflang="en" lang="en" data-lang="en">English</a></li><li><a href="/ar/" hreflang="ar" lang="ar" data-lang="ar">العربية</a></li><li><a href="/bn/" hreflang="bn" lang="bn" data-lang="bn">বাংলা</a></li><li><a href="/de/" hreflang="de" lang="de" data-lang="de">Deutsch</a></li><li><a href="/es/" hreflang="es" lang="es" data-lang="es">Español</a></li><li><a href="/fr/" hreflang="fr" lang="fr" data-lang="fr">Français</a></li><li><a href="/hi/" hreflang="hi" lang="hi" data-lang="hi">हिन्दी</a></li><li><a href="/id/" hreflang="id" lang="id" data-lang="id">Bahasa Indonesia</a></li><li><a href="/it/" hreflang="it" lang="it" data-lang="it">Italiano</a></li><li><a href="/ja/" hreflang="ja" lang="ja" data-lang="ja">日本語</a></li><li><a href="/ko/" hreflang="ko" lang="ko" data-lang="ko">한국어</a></li><li><a href="/mr/" hreflang="mr" lang="mr" data-lang="mr">मराठी</a></li><li><a href="/nl/" hreflang="nl" lang="nl" data-lang="nl">Nederlands</a></li><li><a href="/pl/" hreflang="pl" lang="pl" data-lang="pl">Polski</a></li><li><a href="/pt/" hreflang="pt" lang="pt" data-lang="pt">Português</a></li><li><a href="/ro/" hreflang="ro" lang="ro" data-lang="ro">Română</a></li><li><a href="/ru/" hreflang="ru" lang="ru" data-lang="ru">Русский</a></li><li><a href="/ta/" hreflang="ta" lang="ta" data-lang="ta">தமிழ்</a></li><li><a href="/te/" hreflang="te" lang="te" data-lang="te" aria-current="true">తెలుగు</a></li><li><a href="/th/" hreflang="th" lang="th" data-lang="th">ไทย</a></li><li><a href="/tr/" hreflang="tr" lang="tr" data-lang="tr">Türkçe</a></li><li><a href="/uk/" hreflang="uk" lang="uk" data-lang="uk">Українська</a></li><li><a href="/vi/" hreflang="vi" lang="vi" data-lang="vi">Tiếng Việt</a></li></ul>
+  </nav>
+  <div class="wrap foot-bottom">
+    <span>© 2026 Viraj Dhanushka</span>
+    <span>వైద్య సలహా కాదు. AI Wellness Pal సాధారణ వెల్‌నెస్ సమాచారాన్ని అందిస్తుంది.</span>
+  </div>
+</footer>
+
+<script>
+  var M = {"sending": "పంపుతోంది…", "send": "అభిప్రాయం పంపండి", "invalid": "దయచేసి అభిప్రాయ రకాన్ని ఎంచుకుని మీ సందేశాన్ని రాయండి. ఇమెయిల్ జోడిస్తే, అది సరైనదో కాదో చూసుకోండి.", "turnstile": "దయచేసి బటన్ పైన ఉన్న ధృవీకరణను పూర్తి చేయండి.", "failed": "క్షమించండి, మీ అభిప్రాయాన్ని పంపలేకపోయాము. దయచేసి మీ కనెక్షన్‌ను చూసుకుని మళ్లీ ప్రయత్నించండి.", "thanks": "ధన్యవాదాలు. మీ అభిప్రాయం పంపబడింది.", "thanksName": "ధన్యవాదాలు, {name}. మీ అభిప్రాయం పంపబడింది.", "reply": "మేము {email}కు సమాధానం ఇస్తాము.", "video": "AI Wellness Pal పూర్తి పరిచయ వీడియో"};
+
+  // Load the YouTube player only when someone presses play (faster page, no tracking until then).
+  document.querySelector('#video button').addEventListener('click', function () {
+    var f = document.createElement('iframe');
+    f.src = 'https://www.youtube-nocookie.com/embed/iAscMm_XUPk?autoplay=1&rel=0&modestbranding=1&playsinline=1&hl=' + document.documentElement.lang;
+    f.title = M.video;
+    f.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+    f.allowFullscreen = true;
+    f.referrerPolicy = 'strict-origin-when-cross-origin';
+    this.replaceWith(f);
+  });
+
+  // Fade sections in as they scroll into view.
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach(function (el) { io.observe(el); });
+  } else {
+    document.querySelectorAll('.reveal').forEach(function (el) { el.classList.add('in'); });
+  }
+
+  // Screenshot gallery arrows: scroll by roughly one screen's worth of images (mirrored for right-to-left).
+  (function () {
+    var strip = document.querySelector('.shots');
+    var btns = document.querySelectorAll('.shots-nav button');
+    var rtl = document.documentElement.dir === 'rtl' ? -1 : 1;
+    function update() {
+      var pos = Math.abs(strip.scrollLeft);
+      btns[0].disabled = pos <= 4;
+      btns[1].disabled = pos + strip.clientWidth >= strip.scrollWidth - 4;
+    }
+    btns.forEach(function (b) {
+      b.addEventListener('click', function () {
+        strip.scrollBy({ left: rtl * Number(b.dataset.dir) * strip.clientWidth * 0.8, behavior: 'smooth' });
+      });
+    });
+    strip.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+    requestAnimationFrame(update);
+  })();
+
+  // "Get the app" goes to Google Play on Android, the App Store elsewhere.
+  if (/android/i.test(navigator.userAgent)) {
+    document.getElementById('get-app').href = 'https://play.google.com/store/apps/details?id=com.aiwellnesspal.app';
+  }
+
+  // Load Cloudflare Turnstile (the form's bot check) only when the form is about to be used.
+  (function () {
+    var loaded = false;
+    function load() {
+      if (loaded) return; loaded = true;
+      var sc = document.createElement('script');
+      sc.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js'; sc.async = true;
+      document.head.appendChild(sc);
+    }
+    var target = document.getElementById('feedback');
+    if ('IntersectionObserver' in window) {
+      var tio = new IntersectionObserver(function (es) { if (es.some(function (e) { return e.isIntersecting; })) { load(); tio.disconnect(); } }, { rootMargin: '600px 0px' });
+      tio.observe(target);
+    } else { load(); }
+    target.addEventListener('focusin', load);
+    if (location.hash === '#feedback') load();
+  })();
+
+  // Feedback form: posts to the Cloudflare Worker (cloudflare/forms-worker), which checks Turnstile and emails it.
+  var form = document.getElementById('feedback-form');
+  var done = document.getElementById('feedback-done');
+  var alertBox = form.querySelector('.form-alert');
+  var btn = form.querySelector('button[type=submit]');
+  var btnLabel = btn.querySelector('.btn-label');
+
+  function showAlert(msg) { alertBox.textContent = msg; alertBox.hidden = false; }
+  function setSending(on) {
+    btn.disabled = on; btn.classList.toggle('sending', on);
+    btnLabel.textContent = on ? M.sending : M.send;
+  }
+
+  form.addEventListener('input', function (e) {
+    if (e.target.validity && e.target.validity.valid) e.target.removeAttribute('aria-invalid');
+  });
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    alertBox.hidden = true;
+    // Required fields, plus the optional email when one was typed.
+    var invalid = Array.prototype.filter.call(form.querySelectorAll('[required], input[type=email]'), function (el) {
+      var bad = !el.checkValidity();
+      if (bad) el.setAttribute('aria-invalid', 'true'); else el.removeAttribute('aria-invalid');
+      return bad;
+    });
+    if (invalid.length) {
+      showAlert(M.invalid);
+      invalid[0].focus();
+      return;
+    }
+    // Turnstile adds this hidden field once the visitor passes the check.
+    var tsField = form.querySelector('[name="cf-turnstile-response"]');
+    if (!tsField || !tsField.value) {
+      showAlert(M.turnstile);
+      return;
+    }
+    var name = form.elements.namedItem('name').value.trim();
+    var email = form.elements.namedItem('email').value.trim();
+    setSending(true);
+    fetch(form.action, { method: 'POST', body: new FormData(form), headers: { Accept: 'application/json' } })
+      .then(function (r) { return r.json().catch(function () { return {}; }).then(function (d) { return { ok: r.ok, d: d }; }); })
+      .then(function (res) {
+        if (!res.ok || String(res.d.success) !== 'true') throw new Error(res.d.message || 'Request failed');
+        form.reset();
+        var msg = name ? M.thanksName.replace('{name}', name.split(' ')[0]) : M.thanks;
+        if (email) msg += ' ' + M.reply.replace('{email}', email);
+        document.getElementById('done-msg').textContent = msg;
+        form.hidden = true;
+        done.hidden = false;
+        done.focus();
+      })
+      .catch(function (err) {
+        // The Worker's own verification messages are English; show ours in the page's language.
+        var vmsg = /verification/i.test(err && err.message);
+        showAlert(vmsg ? (document.documentElement.lang === 'en' ? err.message : M.turnstile) : M.failed);
+      })
+      .finally(function () {
+        setSending(false);
+        // Tokens are single-use: get a fresh one for the next attempt.
+        if (window.turnstile) turnstile.reset(form.querySelector('.cf-turnstile'));
+      });
+  });
+
+  document.getElementById('feedback-again').addEventListener('click', function () {
+    done.hidden = true;
+    form.hidden = false;
+    form.querySelector('select').focus();
+  });
+</script>
+<script src="/assets/lang.js" defer></script>
+<script src="/assets/music.js" defer></script>
+</body>
+</html>

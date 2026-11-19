@@ -1,0 +1,992 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Wellness Pal: iPhone ve Android için yapay zekâ iyi oluş koçu uygulaması</title>
+  <meta name="description" content="AI Wellness Pal, iPhone ve Android için ücretsiz bir yapay zekâ iyi oluş koçu uygulamasıdır. 30 saniyelik günlük durum kontrolü; ruh hali, uyku, beslenme ve alışkanlıklar için kişiye özel bir plana dönüşür.">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+  <meta name="author" content="Viraj Dhanushka">
+  <meta name="theme-color" content="#0d0f1c">
+  <link rel="canonical" href="https://aiwellnesspal.com/tr/">
+  <link rel="alternate" hreflang="en" href="https://aiwellnesspal.com/">
+  <link rel="alternate" hreflang="ar" href="https://aiwellnesspal.com/ar/">
+  <link rel="alternate" hreflang="bn" href="https://aiwellnesspal.com/bn/">
+  <link rel="alternate" hreflang="de" href="https://aiwellnesspal.com/de/">
+  <link rel="alternate" hreflang="es" href="https://aiwellnesspal.com/es/">
+  <link rel="alternate" hreflang="fr" href="https://aiwellnesspal.com/fr/">
+  <link rel="alternate" hreflang="hi" href="https://aiwellnesspal.com/hi/">
+  <link rel="alternate" hreflang="id" href="https://aiwellnesspal.com/id/">
+  <link rel="alternate" hreflang="it" href="https://aiwellnesspal.com/it/">
+  <link rel="alternate" hreflang="ja" href="https://aiwellnesspal.com/ja/">
+  <link rel="alternate" hreflang="ko" href="https://aiwellnesspal.com/ko/">
+  <link rel="alternate" hreflang="mr" href="https://aiwellnesspal.com/mr/">
+  <link rel="alternate" hreflang="nl" href="https://aiwellnesspal.com/nl/">
+  <link rel="alternate" hreflang="pl" href="https://aiwellnesspal.com/pl/">
+  <link rel="alternate" hreflang="pt" href="https://aiwellnesspal.com/pt/">
+  <link rel="alternate" hreflang="ro" href="https://aiwellnesspal.com/ro/">
+  <link rel="alternate" hreflang="ru" href="https://aiwellnesspal.com/ru/">
+  <link rel="alternate" hreflang="ta" href="https://aiwellnesspal.com/ta/">
+  <link rel="alternate" hreflang="te" href="https://aiwellnesspal.com/te/">
+  <link rel="alternate" hreflang="th" href="https://aiwellnesspal.com/th/">
+  <link rel="alternate" hreflang="tr" href="https://aiwellnesspal.com/tr/">
+  <link rel="alternate" hreflang="uk" href="https://aiwellnesspal.com/uk/">
+  <link rel="alternate" hreflang="vi" href="https://aiwellnesspal.com/vi/">
+  <link rel="alternate" hreflang="x-default" href="https://aiwellnesspal.com/">
+  <link rel="icon" type="image/png" href="/assets/favicon.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="apple-itunes-app" content="app-id=6816496839">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="AI Wellness Pal">
+  <meta property="og:locale" content="tr_TR">
+  <meta property="og:title" content="AI Wellness Pal: kişisel yapay zekâ iyi oluş koçun">
+  <meta property="og:description" content="Günlük durum kontrolleri, kişiye özel planlar, rehberli değerlendirmeler ve her şeyi konuşabileceğin bir AI Wellness Pal. App Store ve Google Play&#x27;de ücretsiz.">
+  <meta property="og:url" content="https://aiwellnesspal.com/tr/">
+  <meta property="og:image" content="https://aiwellnesspal.com/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="AI Wellness Pal uygulaması: Daha iyi hisset, her gün biraz daha.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AI Wellness Pal: kişisel yapay zekâ iyi oluş koçun">
+  <meta name="twitter:description" content="Günlük durum kontrolleri, kişiye özel planlar, rehberli değerlendirmeler ve her şeyi konuşabileceğin bir AI Wellness Pal.">
+  <meta name="twitter:image" content="https://aiwellnesspal.com/assets/og-image.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400..800&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400..800&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400..800&display=swap"></noscript>
+  <link rel="preload" as="image" type="image/webp" href="/assets/screens/w/01_02_home-600.webp" imagesrcset="/assets/screens/w/01_02_home-300.webp 300w, /assets/screens/w/01_02_home-600.webp 600w" imagesizes="(max-width: 720px) 200px, (max-width: 960px) 230px, 270px">
+  <noscript><style>.reveal { opacity: 1; transform: none; }</style></noscript>
+  <link rel="stylesheet" href="/landing.css">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://aiwellnesspal.com/#website",
+      "url": "https://aiwellnesspal.com/",
+      "name": "AI Wellness Pal",
+      "alternateName": [
+        "AI Wellness Pal app",
+        "aiwellnesspal.com",
+        "aiwelnesspal.com"
+      ],
+      "inLanguage": [
+        "en",
+        "ar",
+        "bn",
+        "de",
+        "es",
+        "fr",
+        "hi",
+        "id",
+        "it",
+        "ja",
+        "ko",
+        "mr",
+        "nl",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "ta",
+        "te",
+        "th",
+        "tr",
+        "uk",
+        "vi"
+      ],
+      "publisher": {
+        "@id": "https://aiwellnesspal.com/#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://aiwellnesspal.com/#organization",
+      "name": "AI Wellness Pal",
+      "url": "https://aiwellnesspal.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://aiwellnesspal.com/assets/icon.png",
+        "width": 512,
+        "height": 512
+      },
+      "email": "aiwellnesspal@gmail.com",
+      "founder": {
+        "@id": "https://aiwellnesspal.com/#founder"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "email": "aiwellnesspal@gmail.com",
+        "availableLanguage": "en"
+      },
+      "sameAs": [
+        "https://apps.apple.com/us/app/ai-wellness-pal/id6816496839",
+        "https://play.google.com/store/apps/details?id=com.aiwellnesspal.app"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://aiwellnesspal.com/#founder",
+      "name": "Viraj Dhanushka",
+      "jobTitle": "Founder and developer",
+      "worksFor": {
+        "@id": "https://aiwellnesspal.com/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://aiwellnesspal.com/tr/#webpage",
+      "url": "https://aiwellnesspal.com/tr/",
+      "name": "AI Wellness Pal: iPhone ve Android için yapay zekâ iyi oluş koçu uygulaması",
+      "description": "AI Wellness Pal, iPhone ve Android için ücretsiz bir yapay zekâ iyi oluş koçu uygulamasıdır. 30 saniyelik günlük durum kontrolü; ruh hali, uyku, beslenme ve alışkanlıklar için kişiye özel bir plana dönüşür.",
+      "inLanguage": "tr",
+      "isPartOf": {
+        "@id": "https://aiwellnesspal.com/#website"
+      },
+      "about": {
+        "@id": "https://aiwellnesspal.com/#app"
+      },
+      "publisher": {
+        "@id": "https://aiwellnesspal.com/#organization"
+      },
+      "dateModified": "2026-11-19",
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://aiwellnesspal.com/assets/og-image.png"
+      },
+      "translationOfWork": {
+        "@id": "https://aiwellnesspal.com/#webpage"
+      },
+      "mainEntity": {
+        "@id": "https://aiwellnesspal.com/#app"
+      }
+    },
+    {
+      "@type": "MobileApplication",
+      "@id": "https://aiwellnesspal.com/#app",
+      "name": "AI Wellness Pal",
+      "url": "https://aiwellnesspal.com/",
+      "description": "AI Wellness Pal, iPhone ve Android için bir yapay zekâ iyi oluş koçudur: 30 saniyelik günlük durum kontrolü; ruh hali, uyku, beslenme ve alışkanlıklar için kişiye özel bir plana dönüşür. Sohbet edebileceğin ya da konuşabileceğin bir AI Wellness Pal, rehberli günlük, alışkanlık takibi ve dokuz iyi oluş aracı da var (beslenme koçu, yemek planlayıcı, kalori bütçesi, su koçu, uyku koçu, meditasyon, regl takibi, vücut ağırlığı ve farkındalıklı seyahat).",
+      "abstract": "Yapay zekâ iyi oluş arkadaşın: gerçekte nasıl hissettiğine göre hazırlanan günlük plan",
+      "image": "https://aiwellnesspal.com/assets/icon.png",
+      "screenshot": [
+        "https://aiwellnesspal.com/assets/screens/01_02_home.jpg",
+        "https://aiwellnesspal.com/assets/screens/01_03_checkin.jpg",
+        "https://aiwellnesspal.com/assets/screens/03_05_pal_chat.jpg",
+        "https://aiwellnesspal.com/assets/screens/10_life_toolkit.jpg",
+        "https://aiwellnesspal.com/assets/screens/13_hydration_coach.jpg",
+        "https://aiwellnesspal.com/assets/screens/11_period_tracker.jpg",
+        "https://aiwellnesspal.com/assets/screens/17_habit_builder.jpg",
+        "https://aiwellnesspal.com/assets/screens/21_reflections.jpg"
+      ],
+      "operatingSystem": "iOS 15.0 or later, Android 8.0 or later",
+      "applicationCategory": "HealthApplication",
+      "applicationSubCategory": "Wellness",
+      "featureList": [
+        "Günlük durum kontrolü ve kişiye özel Bugünün Planı",
+        "AI Wellness Pal sohbeti ve gerçek zamanlı sesli konuşmalar (Canlı Sohbet Pal)",
+        "Yapay zekâ rehberli günlük ve değerlendirmeler",
+        "Yapay Zekâ Beslenme Koçu: öğünleri fotoğraf, açıklama veya barkodla kaydet",
+        "AI Yemek Planlayıcı",
+        "Kalori Bütçesi (yemek ve egzersiz)",
+        "Günlük su hedefli Su Koçu",
+        "Apple Health veya Health Connect kullanan Uyku Koçu",
+        "Meditasyon Pal: nefes egzersizleri, beden taramaları ve stres azaltma",
+        "Döngü tahminli regl takibi",
+        "Vücut ağırlığı ve VKİ takibi",
+        "Alışkanlık oluşturucu, meydan okumalar, seriler ve hatırlatıcılar",
+        "iPhone ve Android için ana ekran widget'ları"
+      ],
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Free",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        {
+          "@type": "Offer",
+          "name": "Premium Monthly (US App Store)",
+          "price": "14.99",
+          "priceCurrency": "USD",
+          "description": "Auto-renewing subscription with a 7-day free trial."
+        },
+        {
+          "@type": "Offer",
+          "name": "Premium Yearly (US App Store)",
+          "price": "89.99",
+          "priceCurrency": "USD",
+          "description": "Auto-renewing subscription with a 7-day free trial."
+        }
+      ],
+      "isAccessibleForFree": true,
+      "inLanguage": [
+        "en",
+        "ar",
+        "bn",
+        "de",
+        "es",
+        "fr",
+        "hi",
+        "id",
+        "it",
+        "ja",
+        "ko",
+        "mr",
+        "nl",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "ta",
+        "te",
+        "th",
+        "tr",
+        "uk",
+        "vi"
+      ],
+      "datePublished": "2026-10-05",
+      "installUrl": [
+        "https://apps.apple.com/us/app/ai-wellness-pal/id6816496839",
+        "https://play.google.com/store/apps/details?id=com.aiwellnesspal.app"
+      ],
+      "downloadUrl": [
+        "https://apps.apple.com/us/app/ai-wellness-pal/id6816496839",
+        "https://play.google.com/store/apps/details?id=com.aiwellnesspal.app"
+      ],
+      "sameAs": [
+        "https://apps.apple.com/us/app/ai-wellness-pal/id6816496839",
+        "https://play.google.com/store/apps/details?id=com.aiwellnesspal.app"
+      ],
+      "author": {
+        "@id": "https://aiwellnesspal.com/#founder"
+      },
+      "publisher": {
+        "@id": "https://aiwellnesspal.com/#organization"
+      },
+      "softwareHelp": {
+        "@type": "WebPage",
+        "url": "https://aiwellnesspal.com/tr/faq/"
+      },
+      "video": {
+        "@id": "https://aiwellnesspal.com/#demo-video"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://aiwellnesspal.com/#demo-video",
+      "name": "AI Wellness Pal – Complete Walkthrough",
+      "description": "A complete walkthrough of AI Wellness Pal: daily check-ins, personalized plans, the Wellness Pal chat, the Life Toolkit and more.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iAscMm_XUPk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/iAscMm_XUPk",
+      "contentUrl": "https://www.youtube.com/watch?v=iAscMm_XUPk",
+      "uploadDate": "2026-11-18T07:46:21-08:00",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://aiwellnesspal.com/tr/#faq",
+      "inLanguage": "tr",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "AI Wellness Pal nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI Wellness Pal, iPhone ve Android için ücretsiz bir yapay zekâ iyi oluş koçu uygulamasıdır. Her gün tek bir soruyu yanıtlar: şu an iyi oluşum için ne yapmalıyım?\n\nKısa bir durum kontrolü yaparsın ve uygulama Bugünün Planı'nı hazırlar: enerjine, ruh haline, bedeninin toparlanmasına ve gerçekte ne kadar vaktin olduğuna göre şekillenen iki ila dört küçük, yapılabilir adım. Uygulamadaki diğer her şey bunu destekler: günü takip eden araçlar, her şeyi birlikte konuşabileceğin bir Wellness Pal ve zamanla biriktiğini görebileceğin ilerleme."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI Wellness Pal ücretsiz mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet. AI Wellness Pal, iPhone ve Android'de reklamsız olarak ücretsiz indirilip kullanılabilir. Ücretsiz uygulamada günlük durum kontrolleri ve Bugünün Planı, yapay zekâ günlüğü, alışkanlıklar ve meydan okumalar, su, uyku, regl ve kilo takibi, meditasyon ve nefes seansları, widget'lar ve günde 3 Wellness Pal sohbet mesajı yer alır.\n\nİsteğe bağlı Premium aboneliği; sınırsız sohbet, gerçek zamanlı sesli konuşmalar, yapay zekâ yemek analizi, yapay zekâ yemek planları ve araç kutusundaki diğer yapay zekâ koçluğunu ekler. Ücretsiz ve Premium'u karşılaştır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI Wellness Pal Premium ne kadar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ABD App Store'da Premium ayda $14.99 veya yılda $89.99'dır ve her iki plan da 7 günlük ücretsiz deneme ile başlar. Fiyatlar ülkeye ve para birimine göre değişir; tam fiyatı onaylamadan önce App Store veya Google Play gösterir. Abonelik, mevcut dönemin bitiminden en az 24 saat önce iptal etmezsen otomatik olarak yenilenir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI Wellness Pal iPhone ve Android'de var mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet. App Store'dan (iPhone, iOS 15.0 veya üzeri) ya da Google Play'den (Android 8.0 veya üzeri) indirebilirsin. İkisinde de aynı hesapla giriş yaparsan verilerin eşitlenir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Günlük durum kontrolü nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Üç hızlı adım: enerjin (1–5), ruh halin ve bedeninin nasıl hissettiği ile bugün sahip olduğun zaman. Dilediğin adımı atlayabilirsin, plan verdiğin bilgileri kullanır. Durum kontrolünü yaptıktan sonra Bugünün Planı birkaç saniye içinde hazırlanır. Dokunmak yerine konuşmayı tercih edersen Wellness Pal'ından “durum kontrolümü başlat” da diyebilirsin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI Wellness Pal tıbbi tavsiye midir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hayır. AI Wellness Pal genel iyi oluş bilgisi ve cesaret sunar. Tıbbi bir cihaz değildir; tanı koymaz, tedavi etmez ve bir doktorun, terapistin ya da başka bir nitelikli uzmanın yerini tutmaz. Yapay zekâ yanıtları, kalori tahminleri ve döngü tahminleri yanlış olabilir; bu yüzden herhangi bir sağlık sorununu bir sağlık uzmanıyla konuş.\n\nKriz yaşıyorsan veya kendine zarar vermeyi düşünüyorsan hemen yerel acil durum numaranı ara. ABD'de 988'i ara veya mesaj gönder. Birleşik Krallık'ta 111'i ya da Samaritans'ı 116 123'ten ara. Başka yerlerde findahelpline.com adresinden bir yardım hattı bulabilirsin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI Wellness Pal hangi yapay zekâyı kullanıyor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yapay zekâ özellikleri (Wellness Pal sohbeti ve sesi, günlük içgörüleri, günlük planlar, uyku içgörüleri ve beslenme analizi), Firebase AI Logic üzerinden Google'ın Gemini modelleriyle çalışır. Bilgilerinden herhangi biri yapay zekâya gönderilmeden önce uygulama neyin paylaşılacağını gösterir ve iznini ister. Yapay zekâ yanıtları hatalı olabilir; bu yüzden onları gerçek değil, yol gösterici olarak kullan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Verilerim gizli mi? Satıyor musunuz veya reklam gösteriyor musunuz?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI Wellness Pal'da reklam yoktur, verilerini satmaz ve seni diğer şirketlerin uygulamalarında veya web sitelerinde izlemez. Verilerin kendi özel alanında saklanır ve diğer kullanıcılarla paylaşılmaz. Veriler yalnızca uygulamayı çalıştıran hizmet sağlayıcılarla paylaşılır (depolama için Firebase ve yapay zekâ yanıtları için Google Gemini gibi). Ayrıntılar için Gizlilik Politikası'nı oku."
+          }
+        }
+      ]
+    }
+  ]
+}
+  </script>
+</head>
+<body data-music-play="Müziği çal" data-music-pause="Müziği duraklat" data-music-play-label="Arka plan müziğini çal" data-music-pause-label="Arka plan müziğini duraklat">
+<div class="glow" aria-hidden="true"><span></span><span></span><span></span></div>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-apple" viewBox="0 0 24 24"><path fill="currentColor" d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><path fill="currentColor" d="M22.018 13.298l-3.919 2.218-3.515-3.493 3.543-3.521 3.891 2.202a1.49 1.49 0 0 1 0 2.594zM1.337.924a1.486 1.486 0 0 0-.112.568v21.017c0 .217.045.419.124.6l11.155-11.087L1.337.924zm12.207 10.065l3.258-3.238L3.45.195a1.466 1.466 0 0 0-.946-.179l11.04 10.973zm0 2.067l-11 10.933c.298.036.612-.016.906-.183l13.324-7.54-3.23-3.21z"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></g></symbol>
+</svg>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="/tr/"><picture><source type="image/webp" srcset="/assets/icon-96.webp 1x, /assets/icon-192.webp 2x"><img src="/assets/icon-96.png" alt="" width="34" height="34"></picture>AI Wellness Pal</a>
+    <nav class="nav-links" aria-label="Ana">
+      <a href="/tr/features/">Özellikler</a>
+      <a href="/tr/#demo">Demo</a>
+      <a href="/tr/faq/">SSS</a>
+      <a href="/tr/about/">Hakkında</a>
+      <a href="/tr/#support">Destek</a>
+    </nav>
+    <details class="lang-pick">
+      <summary aria-label="Dil: Türkçe"><svg aria-hidden="true"><use href="#i-globe"/></svg><span>TR</span></summary>
+      <ul class="lang-menu"><li><a href="/" hreflang="en" lang="en" data-lang="en">English</a></li><li><a href="/ar/" hreflang="ar" lang="ar" data-lang="ar">العربية</a></li><li><a href="/bn/" hreflang="bn" lang="bn" data-lang="bn">বাংলা</a></li><li><a href="/de/" hreflang="de" lang="de" data-lang="de">Deutsch</a></li><li><a href="/es/" hreflang="es" lang="es" data-lang="es">Español</a></li><li><a href="/fr/" hreflang="fr" lang="fr" data-lang="fr">Français</a></li><li><a href="/hi/" hreflang="hi" lang="hi" data-lang="hi">हिन्दी</a></li><li><a href="/id/" hreflang="id" lang="id" data-lang="id">Bahasa Indonesia</a></li><li><a href="/it/" hreflang="it" lang="it" data-lang="it">Italiano</a></li><li><a href="/ja/" hreflang="ja" lang="ja" data-lang="ja">日本語</a></li><li><a href="/ko/" hreflang="ko" lang="ko" data-lang="ko">한국어</a></li><li><a href="/mr/" hreflang="mr" lang="mr" data-lang="mr">मराठी</a></li><li><a href="/nl/" hreflang="nl" lang="nl" data-lang="nl">Nederlands</a></li><li><a href="/pl/" hreflang="pl" lang="pl" data-lang="pl">Polski</a></li><li><a href="/pt/" hreflang="pt" lang="pt" data-lang="pt">Português</a></li><li><a href="/ro/" hreflang="ro" lang="ro" data-lang="ro">Română</a></li><li><a href="/ru/" hreflang="ru" lang="ru" data-lang="ru">Русский</a></li><li><a href="/ta/" hreflang="ta" lang="ta" data-lang="ta">தமிழ்</a></li><li><a href="/te/" hreflang="te" lang="te" data-lang="te">తెలుగు</a></li><li><a href="/th/" hreflang="th" lang="th" data-lang="th">ไทย</a></li><li><a href="/tr/" hreflang="tr" lang="tr" data-lang="tr" aria-current="true">Türkçe</a></li><li><a href="/uk/" hreflang="uk" lang="uk" data-lang="uk">Українська</a></li><li><a href="/vi/" hreflang="vi" lang="vi" data-lang="vi">Tiếng Việt</a></li></ul>
+    </details>
+    <a class="btn btn-sm btn-grad" id="get-app" href="https://apps.apple.com/us/app/ai-wellness-pal/id6816496839">Uygulamayı edin</a>
+  </div>
+</header>
+
+<main id="top">
+  <!-- Hero -->
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <span class="pill"><span class="dot"></span>Artık App Store ve Google Play'de</span>
+        <h1><span class="h1-kicker">AI Wellness Pal · yapay zekâ iyi oluş koçu uygulaması</span>Daha iyi hisset,<br><span class="grad-text">her gün biraz daha.</span></h1>
+        <p class="lead"><strong>AI Wellness Pal</strong>, iPhone ve Android için ücretsiz bir yapay zekâ iyi oluş koçudur. 30 saniyelik günlük durum kontrolü; ruh hali, uyku, beslenme ve alışkanlıklar için kişiye özel bir plana dönüşür — ihtiyaç duyduğunda her şeyi konuşabileceğin bir AI Wellness Pal ile birlikte.</p>
+        <div class="cta">
+          <a class="btn btn-store" href="https://apps.apple.com/us/app/ai-wellness-pal/id6816496839">
+            <svg aria-hidden="true"><use href="#i-apple"/></svg>
+            <span class="lbl"><small>İndir:</small><strong>App Store</strong></span>
+          </a>
+          <a class="btn btn-store" href="https://play.google.com/store/apps/details?id=com.aiwellnesspal.app">
+            <svg aria-hidden="true"><use href="#i-play"/></svg>
+            <span class="lbl"><small>İndir:</small><strong>Google Play</strong></span>
+          </a>
+        </div>
+        <div class="hero-meta">
+          <span><svg><use href="#i-check"/></svg>Ücretsiz indir</span>
+          <span><svg><use href="#i-check"/></svg>Reklam yok, veri satışı yok</span>
+          <span><svg><use href="#i-check"/></svg>Verilerini istediğin zaman sil</span>
+        </div>
+      </div>
+      <div class="phones" aria-hidden="true">
+        <div class="phone back"><picture><source type="image/webp" srcset="/assets/screens/w/03_05_pal_chat-300.webp 300w, /assets/screens/w/03_05_pal_chat-600.webp 600w" sizes="(max-width: 720px) 200px, (max-width: 960px) 230px, 270px"><img src="/assets/screens/03_05_pal_chat.jpg" alt="" width="600" height="1300" decoding="async"></picture></div>
+        <div class="phone front"><picture><source type="image/webp" srcset="/assets/screens/w/01_02_home-300.webp 300w, /assets/screens/w/01_02_home-600.webp 600w" sizes="(max-width: 720px) 200px, (max-width: 960px) 230px, 270px"><img src="/assets/screens/01_02_home.jpg" alt="" width="600" height="1300" fetchpriority="high"></picture></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section id="how" style="padding-top:40px">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">Nasıl çalışır</span>
+        <h2>Tek bir durum kontrolü. <span class="grad-text">Bugüne uyan bir plan.</span></h2>
+        <p>Çoğu iyi oluş uygulaması sana herkesle aynı planı verir. AI Wellness Pal önce gerçekte nasıl olduğunu sorar.</p>
+      </div>
+      <ol class="how reveal">
+        <li><h3>Durum kontrolü (30 saniye)</h3><p>Enerjini puanla, ruh halini seç; bedeninin nasıl hissettiğini ve ne kadar vaktin olduğunu söyle. Dilediğini atlayabilirsin.</p></li>
+        <li><h3>Bugünün Planı'nı al</h3><p>Cevaplarına göre şekillenen iki ila dört küçük, yapılabilir adım. Bitkin ve sadece on beş dakikan mı var? Dinlenmiş ve bir saatin olduğu güne göre çok farklı bir gün çıkar.</p></li>
+        <li><h3>Pal'ınla birlikte devam et</h3><p>Adımları işaretle; su, öğün, uyku ve alışkanlıklarını takip et, gerektiğinde AI Wellness Pal'ınla her şeyi konuş.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Demo video -->
+  <section id="demo">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">Çalışırken gör</span>
+        <h2><span class="grad-text">Demoyu</span> izle</h2>
+        <p>Uygulamanın eksiksiz tanıtımı: durum kontrolleri, günlük planlar, Wellness Pal sohbeti, araç kutusu ve daha fazlası.</p>
+      </div>
+      <div class="video reveal" id="video">
+        <button type="button" aria-label="AI Wellness Pal tanıtım videosunu oynat">
+          <img src="https://i.ytimg.com/vi/iAscMm_XUPk/hqdefault.jpg" alt="" width="480" height="360" loading="lazy" decoding="async">
+          <span class="play"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M7 4.5v15l12.5-7.5z"/></svg></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">Her şey tek yerde</span>
+        <h2>Tüm iyi oluşun, <span class="grad-text">nazikçe yönlendirilir</span></h2>
+        <p>Enerjine, zamanına ve gününe uyan küçük, yapılabilir adımlar.</p>
+      </div>
+      <div class="grid">
+        <a class="card reveal" href="/tr/features/ai-wellness-coach/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></div>
+          <h3>Günlük durum kontrolleri</h3>
+          <p>Enerjini, ruh halini ve toparlanmanı saniyeler içinde kaydet. Cevapların günün kişiye özel planını şekillendirir.</p>
+          <span class="more">Daha fazla bilgi →</span>
+        </a>
+        <a class="card reveal" href="/tr/features/ai-wellness-chat/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg></div>
+          <h3>Wellness Pal'ın</h3>
+          <p>Stres, motivasyon veya alışkanlıklar hakkında sohbet et. Pal'ın, durum kontrollerinden ve günlüğünden öğrenerek sana uygun rehberlik sunar.</p>
+          <span class="more">Daha fazla bilgi →</span>
+        </a>
+        <a class="card reveal" href="/tr/features/ai-journal/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5V5a2 2 0 0 1 2-2h12v18H6a2 2 0 0 1-2-1.5z"/><path d="M8 7h6M8 11h6"/></svg></div>
+          <h3>Rehberli değerlendirmeler</h3>
+          <p>Düşündüren sorularla özel bir günlük. Örüntüleri fark et, sana gerçekten ne iyi geldiğini gör.</p>
+          <span class="more">Daha fazla bilgi →</span>
+        </a>
+      </div>
+
+      <div class="toolkit-head reveal">
+        <span class="eyebrow">Yaşam Araç Kutusu</span>
+        <h3><span class="grad-text">Hayatın her alanı</span> için dokuz araç</h3>
+        <p>Öğünlerden ve sudan uykuya, döngülere ve seyahate kadar. Herhangi bir aracı Daha Fazla sekmesinden aç, favorilerini ana ekranına sabitle. <a href="/tr/features/" style="color:var(--lavender)">Tüm özellikleri gör →</a></p>
+      </div>
+      <div class="grid toolkit">
+        <a class="card reveal" href="/tr/features/ai-nutrition-coach/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9a2 2 0 0 1 2-2h2l1.5-2h7L17 7h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><circle cx="12" cy="13" r="3.5"/></svg></div>
+          <h3>Yapay Zekâ Beslenme Koçu</h3>
+          <p>Öğünleri fotoğraf, açıklama veya barkodla kaydet ve kalori ile makroların anında yapay zekâ tahminini al.</p>
+          <span class="more">Daha fazla bilgi →</span>
+        </a>
+        <a class="card reveal" href="/tr/features/ai-meal-planner/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3v8a3 3 0 0 0 6 0V3M7 3v18M17 21V3c-2.5 1-4 3.5-4 7v3h4"/></svg></div>
+          <h3>AI Yemek Planlayıcı</h3>
+          <p>Hedefine ve beslenme tarzına göre hazırlanmış bir günlük, haftalık veya aylık öğün planı ve ona uygun alışveriş listesi.</p>
+          <span class="more">Daha fazla bilgi →</span>
+        </a>
+        <a class="card reveal" href="/tr/features/calorie-tracker/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c1 3 4 4.5 4 9a4 4 0 0 1-8 0c0-2 1-3 2-4 0 2 1 3 2 3 0-3-1-5 0-8z"/><path d="M6 15a6 6 0 0 0 12 0"/></svg></div>
+          <h3>Yapay Zekâ Kalori Bütçesi</h3>
+          <p>Aldığın kaloriyi ve egzersizi birlikte gör; günlük enerji dengeni her zaman bil.</p>
+          <span class="more">Daha fazla bilgi →</span>
+        </a>
+        <a class="card reveal" href="/tr/features/water-tracker/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/></svg></div>
+          <h3>Yapay Zekâ Su Koçu</h3>
+          <p>Suyunu akıllı bir günlük hedefe göre takip et; hızlı ekleme ve devam etmeni sağlayan bir su serisiyle.</p>
+          <span class="more">Daha fazla bilgi →</span>
+        </a>
+        <a class="card reveal" href="/tr/features/sleep-tracker/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5z"/></svg></div>
+          <h3>Uyku Koçu</h3>
+          <p>Uykunu anla: uyku puanları, evreler ve toparlanma içgörüleri için Apple Health veya Health Connect'i (salt okunur) bağla.</p>
+          <span class="more">Daha fazla bilgi →</span>
+        </a>
+        <a class="card reveal" href="/tr/features/meditation-breathing/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5" r="2"/><path d="M12 8v5M6 20l3-4h6l3 4M5 12l7 1 7-1"/></svg></div>
+          <h3>Meditasyon Pal</h3>
+          <p>Rehberli nefes, beden taramaları ve adım adım stres azaltmayla nefes al, meditasyon yap ve sakinliğini bul.</p>
+          <span class="more">Daha fazla bilgi →</span>
+        </a>
+        <a class="card reveal" href="/tr/features/period-tracker/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 5.5-7 10-7 10z"/></svg></div>
+          <h3>Regl Takibi</h3>
+          <p>Döngünü kaydet, sonraki reglin ve verimli dönemin için tahminleri gör, evreye göre ipuçları al.</p>
+          <span class="more">Daha fazla bilgi →</span>
+        </a>
+        <a class="card reveal" href="/tr/features/weight-tracker/">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 10a4 4 0 0 1 8 0M12 10l1.5-2"/></svg></div>
+          <h3>Vücut Ağırlığı</h3>
+          <p>Kilonu ve VKİ'ni zaman içinde net bir trend grafiği ve tüm tartı geçmişinle takip et.</p>
+          <span class="more">Daha fazla bilgi →</span>
+        </a>
+        <article class="card reveal">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 16l20-6-2.5-2.5L13 9 8 4 6 5l3 6-4 1.5L3 11l-1 1z"/><path d="M3 20h18"/></svg></div>
+          <h3>Farkındalıklı Seyahat</h3>
+          <p>Her yolculuk için yapay zekâ iyi oluş rehberliği; evden uzaktayken de iyi hissetmeye devam et.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Screenshots -->
+  <section id="screens" aria-labelledby="screens-title" style="padding-top:0">
+    <div class="wrap">
+      <div class="shots-head reveal">
+        <div>
+          <span class="eyebrow">İçine bir göz at</span>
+          <h2 id="screens-title"><span class="grad-text">Gerçek günler</span> için tasarlandı</h2>
+        </div>
+        <div class="shots-nav">
+          <button class="btn btn-icon" type="button" data-dir="-1" aria-label="Önceki ekran görüntüleri"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M15 5l-7 7 7 7"/></svg></button>
+          <button class="btn btn-icon" type="button" data-dir="1" aria-label="Sonraki ekran görüntüleri"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg></button>
+        </div>
+      </div>
+    </div>
+    <div class="shots reveal" tabindex="0" aria-label="Uygulama ekran görüntüleri, yana kaydır">
+      <picture><source type="image/webp" srcset="/assets/screens/w/01_00_onboard-300.webp 300w, /assets/screens/w/01_00_onboard-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/01_00_onboard.jpg" alt="Başlangıç: daha az kafa yor, bugün en önemli olana odaklan" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/01_01_onboard-300.webp 300w, /assets/screens/w/01_01_onboard-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/01_01_onboard.jpg" alt="Başlangıç: hızlı günlük durum kontrolleriyle enerjini tanı" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/01_03_checkin-300.webp 300w, /assets/screens/w/01_03_checkin-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/01_03_checkin.jpg" alt="Bugün enerjinin nasıl olduğunu soran günlük durum kontrolü" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/05_reminder-300.webp 300w, /assets/screens/w/05_reminder-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/05_reminder.jpg" alt="Bir iyi oluş adımı için hatırlatıcı saati ayarlama" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/06_profile-300.webp 300w, /assets/screens/w/06_profile-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/06_profile.jpg" alt="Kişisel bilgiler ve tercih edilen iyi oluş yöntemleriyle profil" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/07_action_detail-300.webp 300w, /assets/screens/w/07_action_detail-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/07_action_detail.jpg" alt="Nasıl yapılır rehberiyle plank ve karın-bel bölgesi meydan okuması adım ayrıntıları" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/08_add_habit-300.webp 300w, /assets/screens/w/08_add_habit-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/08_add_habit.jpg" alt="Sıklık ve hedefle özel alışkanlık ekleme" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/09_habit_formed-300.webp 300w, /assets/screens/w/09_habit_formed-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/09_habit_formed.jpg" alt="Alışkanlık edinme için başarı kilidi açıldı kutlaması" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/10_life_toolkit-300.webp 300w, /assets/screens/w/10_life_toolkit-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/10_life_toolkit.jpg" alt="Regl takibi, vücut ağırlığı, su, kalori ve yemek planlama araçlarıyla Yaşam Araç Kutusu" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/11_period_tracker-300.webp 300w, /assets/screens/w/11_period_tracker-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/11_period_tracker.jpg" alt="Döngü günü, tahminler ve evre ipuçlarıyla regl takibi" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/12_body_weight-300.webp 300w, /assets/screens/w/12_body_weight-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/12_body_weight.jpg" alt="Trend grafiği ve VKİ ile vücut ağırlığı takibi" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/13_hydration_coach-300.webp 300w, /assets/screens/w/13_hydration_coach-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/13_hydration_coach.jpg" alt="Günlük su hedefi ve hızlı ekleme ile Su Koçu" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/14_wellness_studio-300.webp 300w, /assets/screens/w/14_wellness_studio-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/14_wellness_studio.jpg" alt="Kısa nefes egzersizleriyle Wellness Stüdyosu" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/15_wellness_reads-300.webp 300w, /assets/screens/w/15_wellness_reads-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/15_wellness_reads.jpg" alt="Uyku, hareket, beslenme ve ruh sağlığı üzerine Wellness Okumaları" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/16_wellness_intention-300.webp 300w, /assets/screens/w/16_wellness_intention-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/16_wellness_intention.jpg" alt="Yeni bir iyi oluş niyeti belirleme" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/17_habit_builder-300.webp 300w, /assets/screens/w/17_habit_builder-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/17_habit_builder.jpg" alt="Başlangıç alışkanlıkları ve meydan okumalarla Alışkanlık Oluşturucu" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/18_habit_list-300.webp 300w, /assets/screens/w/18_habit_list-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/18_habit_list.jpg" alt="Aktif alışkanlıkların Alışkanlık Oluşturucu listesi" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/19_challenges-300.webp 300w, /assets/screens/w/19_challenges-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/19_challenges.jpg" alt="Devam eden iyi oluş meydan okumaları, örneğin 14 günlük uyku rutini" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/21_reflections-300.webp 300w, /assets/screens/w/21_reflections-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/21_reflections.jpg" alt="Açık temada rehberli iyi oluş değerlendirmeleri ve sabitlenmiş sohbetler" width="600" height="1300" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/webp" srcset="/assets/screens/w/22_home_light-300.webp 300w, /assets/screens/w/22_home_light-600.webp 600w" sizes="(max-width: 720px) 190px, 230px"><img src="/assets/screens/22_home_light.jpg" alt="Açık temada yapay zekâ içgörüsü ve beslenme ilerlemesiyle ana ekran" width="600" height="1300" loading="lazy" decoding="async"></picture>
+    </div>
+  </section>
+
+  <!-- Wellness Garden -->
+  <section id="garden" aria-labelledby="garden-title">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">Esenlik Bahçesi</span>
+        <h2 id="garden-title">Alışkanlıkların <span class="grad-text">bir bahçe</span> yetiştirir</h2>
+        <p>Kendin için attığın her gerçek adım bir şeyin büyümesine yardım eder. Alışkanlık edinmeyi açmayı dört gözle beklediğin bir şeye dönüştürür ve kaçırdığın bir günde seni asla cezalandırmaz.</p>
+      </div>
+      <div class="garden-grid reveal">
+        <figure class="garden-shot garden-main"><picture><source type="image/webp" srcset="/assets/screens/w/23_garden-640.webp 640w, /assets/screens/w/23_garden-1280.webp 1280w" sizes="(max-width: 720px) 92vw, 1100px"><img src="/assets/screens/23_garden.jpg" alt="AI Wellness Pal&#x27;daki Esenlik Bahçesi: çiçek saksıları, patikada bir bahçıvan, jetonlar ve 10 günlük sayaç" width="1280" height="590" loading="lazy" decoding="async"></picture></figure>
+        <figure class="garden-shot"><picture><source type="image/webp" srcset="/assets/screens/w/24_garden_gifts-640.webp 640w, /assets/screens/w/24_garden_gifts-1280.webp 1280w" sizes="(max-width: 720px) 92vw, 540px"><img src="/assets/screens/24_garden_gifts.jpg" alt="Bahçe hediyeleri: geldiğin her gün için bir hediye, her turun sonunda bir sandık" width="1280" height="590" loading="lazy" decoding="async"></picture></figure>
+        <figure class="garden-shot"><picture><source type="image/webp" srcset="/assets/screens/w/25_garden_map-640.webp 640w, /assets/screens/w/25_garden_map-1280.webp 1280w" sizes="(max-width: 720px) 92vw, 540px"><img src="/assets/screens/25_garden_map.jpg" alt="Seviye atladıkça açılan Çayır, Zen bahçesi, Sera ve Sahil yerleriyle bahçe haritası" width="1280" height="590" loading="lazy" decoding="async"></picture></figure>
+      </div>
+      <ul class="garden-points reveal">
+        <li><h3>Geldikçe büyür</h3><p>Bahçen geldiğin her gün biraz büyür ve büyüttüğü her şeyi korur. Alışkanlıklar ektiğin tohumlara, tamamlanan alışkanlıklar toplayacağın meyvelere dönüşür.</p></li>
+        <li><h3>Stressiz seriler</h3><p>Bir gün mü kaçırdın? Hiçbir şey kaybolmaz. Seviyen yalnızca yükselir ve döndüğünde her şey seni bekler. Yorgun bir günde alışkanlığın küçük hâli de aynı sayılır.</p></li>
+        <li><h3>Geri dönmek için günlük bir neden</h3><p>Geldiğin her gün için bir bahçe hediyesi aç, durum kontrolleri, alışkanlıklar ve su için jeton kazan, bunları bitkilere ve süslere harca.</p></li>
+        <li><h3>Keşfedecek yeni bir şeyler</h3><p>Arkadaşlarını giydir, bahçe ziyaretçileriyle tanış, her durum kontrolünde özel bir ruh hali çiçeği dik ve seviye atladıkça Sera ve Sahil gibi yeni yerlerin kilidini aç.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Free vs Premium -->
+  <section id="pricing">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">Fiyatlandırma</span>
+        <h2>Kullanımı ücretsiz. <span class="grad-text">Daha fazlasını istediğinde Premium.</span></h2>
+        <p>Temel uygulama iPhone ve Android'de reklamsız ve ücretsizdir. Premium sınırsız yapay zekâ ve ses ekler.</p>
+      </div>
+      <div class="pricing reveal">
+        <div class="plan">
+          <h3>Ücretsiz</h3>
+          <p class="price">$0, reklam yok</p>
+          <ul>
+            <li><strong>Günlük durum kontrolleri</strong> ve kişiye özel Bugünün Planı</li>
+            <li>Rehberli değerlendirmelerle <strong>yapay zekâ günlüğü</strong></li>
+            <li>Günde <strong>3 Wellness Pal mesajı</strong></li>
+            <li>Alışkanlıklar, meydan okumalar, hatırlatıcılar ve seriler</li>
+            <li>Su, uyku, regl ve kilo takibi, ayrıca kalori bütçesi</li>
+            <li>Meditasyon, nefes ve beden taramaları ve tüm temalar</li>
+            <li>Ana ekran widget'ları</li>
+          </ul>
+        </div>
+        <div class="plan premium">
+          <h3>Premium</h3>
+          <p class="price">7 günlük ücretsiz deneme, sonra aylık veya yıllık</p>
+          <ul>
+            <li><strong>Sınırsız</strong> Wellness Pal sohbeti</li>
+            <li><strong>Canlı Sohbet Pal</strong>: gerçek zamanlı sesli konuşmalar</li>
+            <li>Fotoğraf, açıklama veya barkoddan <strong>yapay zekâ yemek analizi</strong> ve <strong>yapay zekâ yemek planları</strong></li>
+            <li>Yapay zekâ uyku, su ve kalori içgörüleri ve hava durumuna duyarlı su hedefleri</li>
+            <li>Değerlendirmelerini “Konuş” ve niyetlerin için yapay zekâ adımları</li>
+            <li>Wellness Stüdyosu'nun tüm kütüphanesi</li>
+          </ul>
+        </div>
+      </div>
+      <p class="fine">ABD App Store'da Premium ayda $14.99 veya yılda $89.99'dır. Fiyatlar ülkeye göre değişir ve abone olmadan önce App Store veya Google Play'de gösterilir. Mağaza aboneliklerinden istediğin zaman iptal edebilirsin.</p>
+    </div>
+  </section>
+
+  <!-- FAQ (from tools/site_content.py) -->
+  <section id="faq">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">SSS</span>
+        <h2>Sorular, <span class="grad-text">yanıtlar</span></h2>
+      </div>
+      <div class="faq">
+      <details>
+        <summary>AI Wellness Pal nedir?</summary>
+        <div class="a"><p>AI Wellness Pal, iPhone ve Android için ücretsiz bir yapay zekâ iyi oluş koçu uygulamasıdır. Her gün tek bir soruyu yanıtlar: şu an iyi oluşum için ne yapmalıyım?</p><p>Kısa bir durum kontrolü yaparsın ve uygulama Bugünün Planı'nı hazırlar: enerjine, ruh haline, bedeninin toparlanmasına ve gerçekte ne kadar vaktin olduğuna göre şekillenen iki ila dört küçük, yapılabilir adım. Uygulamadaki diğer her şey bunu destekler: günü takip eden araçlar, her şeyi birlikte konuşabileceğin bir Wellness Pal ve zamanla biriktiğini görebileceğin ilerleme.</p></div>
+      </details>
+      <details>
+        <summary>AI Wellness Pal ücretsiz mi?</summary>
+        <div class="a"><p>Evet. AI Wellness Pal, iPhone ve Android'de reklamsız olarak ücretsiz indirilip kullanılabilir. Ücretsiz uygulamada günlük durum kontrolleri ve Bugünün Planı, yapay zekâ günlüğü, alışkanlıklar ve meydan okumalar, su, uyku, regl ve kilo takibi, meditasyon ve nefes seansları, widget'lar ve günde 3 Wellness Pal sohbet mesajı yer alır.</p><p>İsteğe bağlı Premium aboneliği; sınırsız sohbet, gerçek zamanlı sesli konuşmalar, yapay zekâ yemek analizi, yapay zekâ yemek planları ve araç kutusundaki diğer yapay zekâ koçluğunu ekler. <a href="/tr/#pricing">Ücretsiz ve Premium'u karşılaştır</a>.</p></div>
+      </details>
+      <details>
+        <summary>AI Wellness Pal Premium ne kadar?</summary>
+        <div class="a"><p>ABD App Store'da Premium ayda $14.99 veya yılda $89.99'dır ve her iki plan da 7 günlük ücretsiz deneme ile başlar. Fiyatlar ülkeye ve para birimine göre değişir; tam fiyatı onaylamadan önce App Store veya Google Play gösterir. Abonelik, mevcut dönemin bitiminden en az 24 saat önce iptal etmezsen otomatik olarak yenilenir.</p></div>
+      </details>
+      <details>
+        <summary>AI Wellness Pal iPhone ve Android&#x27;de var mı?</summary>
+        <div class="a"><p>Evet. <a href="https://apps.apple.com/us/app/ai-wellness-pal/id6816496839">App Store</a>'dan (iPhone, iOS 15.0 veya üzeri) ya da <a href="https://play.google.com/store/apps/details?id=com.aiwellnesspal.app">Google Play</a>'den (Android 8.0 veya üzeri) indirebilirsin. İkisinde de aynı hesapla giriş yaparsan verilerin eşitlenir.</p></div>
+      </details>
+      <details>
+        <summary>Günlük durum kontrolü nedir?</summary>
+        <div class="a"><p>Üç hızlı adım: enerjin (1–5), ruh halin ve bedeninin nasıl hissettiği ile bugün sahip olduğun zaman. Dilediğin adımı atlayabilirsin, plan verdiğin bilgileri kullanır. Durum kontrolünü yaptıktan sonra Bugünün Planı birkaç saniye içinde hazırlanır. Dokunmak yerine konuşmayı tercih edersen Wellness Pal'ından “durum kontrolümü başlat” da diyebilirsin.</p></div>
+      </details>
+      <details>
+        <summary>AI Wellness Pal tıbbi tavsiye midir?</summary>
+        <div class="a"><p>Hayır. AI Wellness Pal genel iyi oluş bilgisi ve cesaret sunar. Tıbbi bir cihaz değildir; tanı koymaz, tedavi etmez ve bir doktorun, terapistin ya da başka bir nitelikli uzmanın yerini tutmaz. Yapay zekâ yanıtları, kalori tahminleri ve döngü tahminleri yanlış olabilir; bu yüzden herhangi bir sağlık sorununu bir sağlık uzmanıyla konuş.</p><p>Kriz yaşıyorsan veya kendine zarar vermeyi düşünüyorsan hemen yerel acil durum numaranı ara. ABD'de 988'i ara veya mesaj gönder. Birleşik Krallık'ta 111'i ya da Samaritans'ı 116 123'ten ara. Başka yerlerde findahelpline.com adresinden bir yardım hattı bulabilirsin.</p></div>
+      </details>
+      <details>
+        <summary>AI Wellness Pal hangi yapay zekâyı kullanıyor?</summary>
+        <div class="a"><p>Yapay zekâ özellikleri (Wellness Pal sohbeti ve sesi, günlük içgörüleri, günlük planlar, uyku içgörüleri ve beslenme analizi), Firebase AI Logic üzerinden Google'ın Gemini modelleriyle çalışır. Bilgilerinden herhangi biri yapay zekâya gönderilmeden önce uygulama neyin paylaşılacağını gösterir ve iznini ister. Yapay zekâ yanıtları hatalı olabilir; bu yüzden onları gerçek değil, yol gösterici olarak kullan.</p></div>
+      </details>
+      <details>
+        <summary>Verilerim gizli mi? Satıyor musunuz veya reklam gösteriyor musunuz?</summary>
+        <div class="a"><p>AI Wellness Pal'da reklam yoktur, verilerini satmaz ve seni diğer şirketlerin uygulamalarında veya web sitelerinde izlemez. Verilerin kendi özel alanında saklanır ve diğer kullanıcılarla paylaşılmaz. Veriler yalnızca uygulamayı çalıştıran hizmet sağlayıcılarla paylaşılır (depolama için Firebase ve yapay zekâ yanıtları için Google Gemini gibi). Ayrıntılar için <a href="/privacy.html">Gizlilik Politikası</a>'nı oku.</p></div>
+      </details>
+      </div>
+      <p class="fine"><a href="/tr/faq/" style="color:var(--lavender)">Tüm soruları gör →</a></p>
+    </div>
+  </section>
+
+  <!-- Feedback -->
+  <section id="feedback">
+    <div class="wrap">
+      <div class="feedback-card reveal">
+        <div>
+          <span class="eyebrow">Geri bildirim</span>
+          <h2><span class="grad-text">Sıradakini</span> şekillendirmeye yardım et</h2>
+          <p>Bir şeyi çok mu sevdin, bir şey mi eksik ya da bir hata mı buldun? Bize söyle. Her mesaj okunur ve fikirlerin bir sonraki güncellemeyi şekillendirir.</p>
+          <ol class="steps">
+            <li><strong>Düşüncelerini paylaş</strong>Fikirler, hatalar, övgüler: hepsi işe yarar.</li>
+            <li><strong>Yanıt istersen e-postanı bırak</strong>İsteğe bağlıdır ve yalnızca sana yanıt vermek için kullanılır.</li>
+            <li><strong>Uygulamayı beğeniyor musun?</strong>Kısa bir yorum başkalarının uygulamayı bulmasına yardım eder: <a href="https://apps.apple.com/us/app/ai-wellness-pal/id6816496839?action=write-review">App Store</a> · <a href="https://play.google.com/store/apps/details?id=com.aiwellnesspal.app&amp;showAllReviews=true">Google Play</a></li>
+          </ol>
+        </div>
+        <div class="request-wrap">
+        <form class="request" id="feedback-form" action="https://api.aiwellnesspal.com/submit?form=feedback" method="POST" novalidate>
+          <input class="hp" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <div class="field">
+            <label for="f-type">Ne tür bir geri bildirim?</label>
+            <select id="f-type" name="type" required>
+              <option value="">Birini seç</option>
+              <option value="Idea or feature request">Fikir veya özellik isteği</option>
+              <option value="Something isn&#x27;t working">Bir şey çalışmıyor</option>
+              <option value="Something I love">Çok sevdiğim bir şey</option>
+              <option value="Other">Diğer</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="f-platform">Hangi cihaz? <span class="hint">(isteğe bağlı)</span></label>
+            <select id="f-platform" name="platform">
+              <option value="">Birini seç</option>
+              <option>iPhone</option>
+              <option>Android</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="f-note">Geri bildirimin</label>
+            <textarea id="f-note" name="message" required></textarea>
+          </div>
+          <div class="field">
+            <label for="f-name">Ad <span class="hint">(isteğe bağlı)</span></label>
+            <input id="f-name" name="name" type="text" autocomplete="name">
+          </div>
+          <div class="field">
+            <label for="f-email">E-posta <span class="hint">(isteğe bağlı, yanıt istersen)</span></label>
+            <input id="f-email" name="email" type="email" autocomplete="email" placeholder="you@example.com">
+          </div>
+          <div class="cf-turnstile" data-sitekey="0x4AAAAAAFeATWxgyA2X7qGo" data-theme="dark" data-size="flexible"></div>
+          <div class="form-alert" role="alert" hidden></div>
+          <button class="btn btn-grad" type="submit"><span class="spinner" aria-hidden="true"></span><span class="btn-label">Geri bildirim gönder</span></button>
+        </form>
+        <div class="request-done" id="feedback-done" tabindex="-1" hidden>
+          <div class="done-icon"><svg viewBox="0 0 24 24"><use href="#i-check"/></svg></div>
+          <h3>Teşekkürler!</h3>
+          <p id="done-msg">Teşekkürler. Geri bildirimin gönderildi.</p>
+          <button class="btn" type="button" id="feedback-again">Daha fazla geri bildirim gönder</button>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Support (App Store Connect support URL points to this page) -->
+  <section id="support">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">Destek</span>
+        <h2><span class="grad-text">Yardım</span> için buradayız</h2>
+        <p>Yardıma mı ihtiyacın var, bir hata mı buldun ya da bir sorun mu var? <a class="grad-text" href="mailto:aiwellnesspal@gmail.com?subject=AI%20Wellness%20Pal%20support">aiwellnesspal@gmail.com</a> adresine e-posta gönder, sana dönelim. Ayrıca <a class="grad-text" href="https://github.com/viraj-dhanushka/AIWellnessPal/issues">GitHub'da hata bildirebilirsin</a>.</p>
+      </div>
+      <div class="support-grid">
+        <article class="card reveal">
+          <h3>Hesabını sil</h3>
+          <p>Uygulamada <strong>Ayarlar → Hesabı Sil</strong>'e git. Bu işlem hesabını ve tüm verilerini kalıcı olarak siler. Artık uygulaman yok mu? <a href="/delete-account.html">Web'den silme talebinde bulun</a>.</p>
+        </article>
+        <article class="card reveal">
+          <h3>Premium'u yönet veya iptal et</h3>
+          <p>iPhone'da <strong>Ayarlar → adın → Abonelikler → AI Wellness Pal</strong>'a git. Android'de Google Play → <strong>Ödemeler ve abonelikler → Abonelikler</strong>'i aç. Premium'u yeni bir cihazda geri yüklemek için uygulamada <strong>Satın Alımları Geri Yükle</strong>'yi kullan.</p>
+        </article>
+        <article class="card reveal">
+          <h3>Uyku verilerini bağla veya bağlantıyı kes</h3>
+          <p>iPhone'da <strong>Ayarlar → Sağlık → Veri Erişimi ve Cihazlar → AI Wellness Pal</strong>'a git. Android'de <strong>Health Connect → Uygulama izinleri → AI Wellness Pal</strong>'ı aç.</p>
+        </article>
+        <article class="card reveal">
+          <h3>Tıbbi tavsiye değildir</h3>
+          <p>AI Wellness Pal genel iyi oluş bilgisi sunar ve profesyonel tıbbi tavsiyenin yerini tutmaz. Kriz yaşıyorsan veya tıbbi bir acil durumun varsa hemen yerel acil durum numaranı ara.</p>
+        </article>
+      </div>
+      <p class="notice"><a href="/privacy.html">Gizlilik Politikamızı</a> ve <a href="/terms.html">Kullanım Koşullarımızı</a> oku. Gizlilik Politikamız ve Kullanım Koşullarımız İngilizce olarak mevcuttur.</p>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <div class="final reveal">
+    <picture><source type="image/webp" srcset="/assets/icon-192.webp"><img src="/assets/icon-192.png" alt="AI Wellness Pal uygulama simgesi" width="88" height="88" loading="lazy"></picture>
+    <h2>Daha iyi hissetmeye <span class="grad-text">bugün</span> başla</h2>
+    <p>iPhone ve Android'de ücretsiz.</p>
+    <div class="cta">
+      <a class="btn btn-store" href="https://apps.apple.com/us/app/ai-wellness-pal/id6816496839">
+        <svg aria-hidden="true"><use href="#i-apple"/></svg>
+        <span class="lbl"><small>İndir:</small><strong>App Store</strong></span>
+      </a>
+      <a class="btn btn-store" href="https://play.google.com/store/apps/details?id=com.aiwellnesspal.app">
+        <svg aria-hidden="true"><use href="#i-play"/></svg>
+        <span class="lbl"><small>İndir:</small><strong>Google Play</strong></span>
+      </a>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap foot-grid">
+    <div>
+      <a class="brand" href="/tr/"><picture><source type="image/webp" srcset="/assets/icon-96.webp 1x, /assets/icon-192.webp 2x"><img src="/assets/icon-96.png" alt="" width="34" height="34"></picture>AI Wellness Pal</a>
+      <p>Yapay zekâ iyi oluş arkadaşın: gerçekte nasıl hissettiğine göre hazırlanan günlük plan. iPhone ve Android'de ücretsiz.</p>
+      <p class="foot-stores"><a href="https://apps.apple.com/us/app/ai-wellness-pal/id6816496839">App Store</a> · <a href="https://play.google.com/store/apps/details?id=com.aiwellnesspal.app">Google Play</a></p>
+    </div>
+    <nav aria-label="Özellikler">
+      <p class="foot-h">Özellikler</p>
+        <a href="/tr/features/ai-wellness-coach/">Günlük durum kontrolü ve plan</a>
+        <a href="/tr/features/ai-wellness-chat/">Wellness Pal yapay zekâ sohbeti</a>
+        <a href="/tr/features/ai-journal/">Yapay zekâ günlüğü ve değerlendirmeler</a>
+        <a href="/tr/features/ai-nutrition-coach/">Yapay zekâ beslenme koçu</a>
+        <a href="/tr/features/ai-meal-planner/">Yapay zekâ yemek planlayıcı</a>
+        <a href="/tr/features/calorie-tracker/">Kalori bütçesi</a>
+        <a href="/tr/features/water-tracker/">Su takibi</a>
+        <a href="/tr/features/sleep-tracker/">Uyku koçu</a>
+        <a href="/tr/features/meditation-breathing/">Meditasyon ve nefes</a>
+        <a href="/tr/features/period-tracker/">Regl takibi</a>
+        <a href="/tr/features/weight-tracker/">Kilo ve VKİ takibi</a>
+        <a href="/tr/features/habit-tracker/">Alışkanlıklar ve meydan okumalar</a>
+        <a href="/tr/features/home-screen-widgets/">Ana ekran widget&#x27;ları</a>
+    </nav>
+    <nav aria-label="Kaynaklar">
+      <p class="foot-h">Kaynaklar</p>
+      <a href="/tr/features/">Tüm özellikler</a>
+      <a href="/tr/faq/">SSS</a>
+      <a href="/tr/about/">Hakkında</a>
+      <a href="/tr/#demo">Demo videosu</a>
+      <a href="/tr/#support">Destek</a>
+      <a href="/tr/#feedback">Geri bildirim gönder</a>
+    </nav>
+    <nav aria-label="Yasal">
+      <p class="foot-h">Yasal</p>
+      <a href="/privacy.html" hreflang="en">Gizlilik Politikası</a>
+      <a href="/terms.html" hreflang="en">Kullanım Koşulları</a>
+      <a href="/delete-account.html" hreflang="en">Hesabını sil</a>
+      <p class="foot-note">Gizlilik Politikamız ve Kullanım Koşullarımız İngilizce olarak mevcuttur.</p>
+    </nav>
+  </div>
+  <nav class="wrap foot-langs" aria-label="Dil">
+    <p class="foot-h">Dil</p>
+    <ul><li><a href="/" hreflang="en" lang="en" data-lang="en">English</a></li><li><a href="/ar/" hreflang="ar" lang="ar" data-lang="ar">العربية</a></li><li><a href="/bn/" hreflang="bn" lang="bn" data-lang="bn">বাংলা</a></li><li><a href="/de/" hreflang="de" lang="de" data-lang="de">Deutsch</a></li><li><a href="/es/" hreflang="es" lang="es" data-lang="es">Español</a></li><li><a href="/fr/" hreflang="fr" lang="fr" data-lang="fr">Français</a></li><li><a href="/hi/" hreflang="hi" lang="hi" data-lang="hi">हिन्दी</a></li><li><a href="/id/" hreflang="id" lang="id" data-lang="id">Bahasa Indonesia</a></li><li><a href="/it/" hreflang="it" lang="it" data-lang="it">Italiano</a></li><li><a href="/ja/" hreflang="ja" lang="ja" data-lang="ja">日本語</a></li><li><a href="/ko/" hreflang="ko" lang="ko" data-lang="ko">한국어</a></li><li><a href="/mr/" hreflang="mr" lang="mr" data-lang="mr">मराठी</a></li><li><a href="/nl/" hreflang="nl" lang="nl" data-lang="nl">Nederlands</a></li><li><a href="/pl/" hreflang="pl" lang="pl" data-lang="pl">Polski</a></li><li><a href="/pt/" hreflang="pt" lang="pt" data-lang="pt">Português</a></li><li><a href="/ro/" hreflang="ro" lang="ro" data-lang="ro">Română</a></li><li><a href="/ru/" hreflang="ru" lang="ru" data-lang="ru">Русский</a></li><li><a href="/ta/" hreflang="ta" lang="ta" data-lang="ta">தமிழ்</a></li><li><a href="/te/" hreflang="te" lang="te" data-lang="te">తెలుగు</a></li><li><a href="/th/" hreflang="th" lang="th" data-lang="th">ไทย</a></li><li><a href="/tr/" hreflang="tr" lang="tr" data-lang="tr" aria-current="true">Türkçe</a></li><li><a href="/uk/" hreflang="uk" lang="uk" data-lang="uk">Українська</a></li><li><a href="/vi/" hreflang="vi" lang="vi" data-lang="vi">Tiếng Việt</a></li></ul>
+  </nav>
+  <div class="wrap foot-bottom">
+    <span>© 2026 Viraj Dhanushka</span>
+    <span>Tıbbi tavsiye değildir. AI Wellness Pal genel iyi oluş bilgisi sunar.</span>
+  </div>
+</footer>
+
+<script>
+  var M = {"sending": "Gönderiliyor…", "send": "Geri bildirim gönder", "invalid": "Lütfen bir geri bildirim türü seç ve mesajını yaz. E-posta eklersen geçerli olduğundan emin ol.", "turnstile": "Lütfen düğmenin üstündeki doğrulama adımını tamamla.", "failed": "Üzgünüz, geri bildirimini gönderemedik. Lütfen bağlantını kontrol edip tekrar dene.", "thanks": "Teşekkürler. Geri bildirimin gönderildi.", "thanksName": "Teşekkürler {name}. Geri bildirimin gönderildi.", "reply": "{email} adresine yanıt vereceğiz.", "video": "AI Wellness Pal'ın eksiksiz tanıtımı"};
+
+  // Load the YouTube player only when someone presses play (faster page, no tracking until then).
+  document.querySelector('#video button').addEventListener('click', function () {
+    var f = document.createElement('iframe');
+    f.src = 'https://www.youtube-nocookie.com/embed/iAscMm_XUPk?autoplay=1&rel=0&modestbranding=1&playsinline=1&hl=' + document.documentElement.lang;
+    f.title = M.video;
+    f.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+    f.allowFullscreen = true;
+    f.referrerPolicy = 'strict-origin-when-cross-origin';
+    this.replaceWith(f);
+  });
+
+  // Fade sections in as they scroll into view.
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach(function (el) { io.observe(el); });
+  } else {
+    document.querySelectorAll('.reveal').forEach(function (el) { el.classList.add('in'); });
+  }
+
+  // Screenshot gallery arrows: scroll by roughly one screen's worth of images (mirrored for right-to-left).
+  (function () {
+    var strip = document.querySelector('.shots');
+    var btns = document.querySelectorAll('.shots-nav button');
+    var rtl = document.documentElement.dir === 'rtl' ? -1 : 1;
+    function update() {
+      var pos = Math.abs(strip.scrollLeft);
+      btns[0].disabled = pos <= 4;
+      btns[1].disabled = pos + strip.clientWidth >= strip.scrollWidth - 4;
+    }
+    btns.forEach(function (b) {
+      b.addEventListener('click', function () {
+        strip.scrollBy({ left: rtl * Number(b.dataset.dir) * strip.clientWidth * 0.8, behavior: 'smooth' });
+      });
+    });
+    strip.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+    requestAnimationFrame(update);
+  })();
+
+  // "Get the app" goes to Google Play on Android, the App Store elsewhere.
+  if (/android/i.test(navigator.userAgent)) {
+    document.getElementById('get-app').href = 'https://play.google.com/store/apps/details?id=com.aiwellnesspal.app';
+  }
+
+  // Load Cloudflare Turnstile (the form's bot check) only when the form is about to be used.
+  (function () {
+    var loaded = false;
+    function load() {
+      if (loaded) return; loaded = true;
+      var sc = document.createElement('script');
+      sc.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js'; sc.async = true;
+      document.head.appendChild(sc);
+    }
+    var target = document.getElementById('feedback');
+    if ('IntersectionObserver' in window) {
+      var tio = new IntersectionObserver(function (es) { if (es.some(function (e) { return e.isIntersecting; })) { load(); tio.disconnect(); } }, { rootMargin: '600px 0px' });
+      tio.observe(target);
+    } else { load(); }
+    target.addEventListener('focusin', load);
+    if (location.hash === '#feedback') load();
+  })();
+
+  // Feedback form: posts to the Cloudflare Worker (cloudflare/forms-worker), which checks Turnstile and emails it.
+  var form = document.getElementById('feedback-form');
+  var done = document.getElementById('feedback-done');
+  var alertBox = form.querySelector('.form-alert');
+  var btn = form.querySelector('button[type=submit]');
+  var btnLabel = btn.querySelector('.btn-label');
+
+  function showAlert(msg) { alertBox.textContent = msg; alertBox.hidden = false; }
+  function setSending(on) {
+    btn.disabled = on; btn.classList.toggle('sending', on);
+    btnLabel.textContent = on ? M.sending : M.send;
+  }
+
+  form.addEventListener('input', function (e) {
+    if (e.target.validity && e.target.validity.valid) e.target.removeAttribute('aria-invalid');
+  });
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    alertBox.hidden = true;
+    // Required fields, plus the optional email when one was typed.
+    var invalid = Array.prototype.filter.call(form.querySelectorAll('[required], input[type=email]'), function (el) {
+      var bad = !el.checkValidity();
+      if (bad) el.setAttribute('aria-invalid', 'true'); else el.removeAttribute('aria-invalid');
+      return bad;
+    });
+    if (invalid.length) {
+      showAlert(M.invalid);
+      invalid[0].focus();
+      return;
+    }
+    // Turnstile adds this hidden field once the visitor passes the check.
+    var tsField = form.querySelector('[name="cf-turnstile-response"]');
+    if (!tsField || !tsField.value) {
+      showAlert(M.turnstile);
+      return;
+    }
+    var name = form.elements.namedItem('name').value.trim();
+    var email = form.elements.namedItem('email').value.trim();
+    setSending(true);
+    fetch(form.action, { method: 'POST', body: new FormData(form), headers: { Accept: 'application/json' } })
+      .then(function (r) { return r.json().catch(function () { return {}; }).then(function (d) { return { ok: r.ok, d: d }; }); })
+      .then(function (res) {
+        if (!res.ok || String(res.d.success) !== 'true') throw new Error(res.d.message || 'Request failed');
+        form.reset();
+        var msg = name ? M.thanksName.replace('{name}', name.split(' ')[0]) : M.thanks;
+        if (email) msg += ' ' + M.reply.replace('{email}', email);
+        document.getElementById('done-msg').textContent = msg;
+        form.hidden = true;
+        done.hidden = false;
+        done.focus();
+      })
+      .catch(function (err) {
+        // The Worker's own verification messages are English; show ours in the page's language.
+        var vmsg = /verification/i.test(err && err.message);
+        showAlert(vmsg ? (document.documentElement.lang === 'en' ? err.message : M.turnstile) : M.failed);
+      })
+      .finally(function () {
+        setSending(false);
+        // Tokens are single-use: get a fresh one for the next attempt.
+        if (window.turnstile) turnstile.reset(form.querySelector('.cf-turnstile'));
+      });
+  });
+
+  document.getElementById('feedback-again').addEventListener('click', function () {
+    done.hidden = true;
+    form.hidden = false;
+    form.querySelector('select').focus();
+  });
+</script>
+<script src="/assets/lang.js" defer></script>
+<script src="/assets/music.js" defer></script>
+</body>
+</html>

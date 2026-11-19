@@ -15,7 +15,7 @@ Website: https://aiwellnesspal.com/
 - AI: Google Gemini models via Firebase AI Logic, with permission asked before personal information is sent
 - Health data: Reads sleep only, from Apple Health (iPhone) or Health Connect (Android), with permission. Never writes health data.
 - Privacy: No ads, no data selling, no cross-app tracking. Delete your account and data anytime.
-- Language: English
+- Languages: 23 languages, chosen in Settings → Language
 - Age: For adults 18 and over
 - Developer: Viraj Dhanushka, independent developer
 - Contact: aiwellnesspal@gmail.com
@@ -639,7 +639,7 @@ Q: Who makes AI Wellness Pal?
 A: AI Wellness Pal is built by Viraj Dhanushka, an independent developer. It launched on the App Store in October 2026 and on Google Play the same month. More about the app.
 
 Q: What language is AI Wellness Pal in?
-A: The app is in English. With Live Chat Pal you can speak in other languages, and turn on “Always speak English” if you want replies in English whatever language you use.
+A: AI Wellness Pal is available in 23 languages, including English, Spanish, French, German, Portuguese, Arabic, Hindi, Japanese and Korean. Choose yours in Settings → Language; the app, AI replies and Live Chat Pal all switch to it. With Live Chat Pal you can also turn on “Always speak English” if you want replies in English whatever language you speak.
 
 Q: Who is AI Wellness Pal for?
 A: Adults (18+) who want a simple daily routine for their wellbeing: people who feel scattered by too many apps, want small steps that fit their real energy and time, and like having someone to talk things through with. It’s general wellness support, not a treatment for any condition.
